@@ -198,22 +198,41 @@ class CompatibilityBrowser(QMainWindow):
         q = self.settings_search.text().strip().lower() if hasattr(self, "settings_search") else ""
         self.settings_list.blockSignals(True)
         self.settings_list.clear()
-        for t in self._all_tags:
-            if q and q not in t.lower():
+        # Iterate by category and add a non-checkable header per category
+        for cat in sorted(self._all_tags_by_category.keys()):
+            tags = self._all_tags_by_category[cat]
+            # Apply text filter within category
+            filtered = [t for t in tags if (q in t.lower())] if q else list(tags)
+            if not filtered:
                 continue
-            item = QListWidgetItem(t)
-            item.setFlags(item.flags() | Qt.ItemIsUserCheckable)
-            # Checked if it's a start tag or previously manually unlocked
-            checked = (t in self._unlocked) or (t in self._manual_unlocked)
-            item.setCheckState(Qt.Checked if checked else Qt.Unchecked)
-            self.settings_list.addItem(item)
+            # Header
+            header = QListWidgetItem(cat)
+            f = header.font()
+            f.setBold(True)
+            header.setFont(f)
+            header.setFlags(Qt.ItemIsEnabled)  # non-selectable, non-checkable header
+            self.settings_list.addItem(header)
+            # Items under header
+            for t in filtered:
+                item = QListWidgetItem(f"  {t}")  # indent for visual hierarchy
+                # Make checkable
+                item.setFlags((item.flags() | Qt.ItemIsUserCheckable) & ~Qt.ItemIsSelectable)
+                # Checked if it's a start tag or previously manually unlocked
+                checked = (t in self._unlocked) or (t in self._manual_unlocked)
+                item.setCheckState(Qt.Checked if checked else Qt.Unchecked)
+                # Store the real tag id for handling (strip indent later)
+                item.setData(Qt.UserRole, t)
+                self.settings_list.addItem(item)
         self.settings_list.blockSignals(False)
 
     def _on_settings_filter_changed(self, text: str) -> None:
         self._refresh_settings_list()
 
     def _on_settings_item_changed(self, item: QListWidgetItem) -> None:
-        tag = item.text()
+        # Ignore headers (not user-checkable)
+        if not (item.flags() & Qt.ItemIsUserCheckable):
+            return
+        tag = item.data(Qt.UserRole) or item.text().strip()
         if item.checkState() == Qt.Checked and tag not in self._unlocked:
             self._manual_unlocked.add(tag)
         elif item.checkState() == Qt.Unchecked and tag in self._manual_unlocked:
