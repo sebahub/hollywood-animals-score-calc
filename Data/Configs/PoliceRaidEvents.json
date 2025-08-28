@@ -1,0 +1,358 @@
+{
+  "1_raid_PAVILION_INTERVENTION": {
+    "group": "",
+    "studioCondition": [
+      {
+        "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+        "intValue": 0,
+        "id": "WORKSHOP",
+        "type": 3
+      }
+    ],
+    "characterCondition": {
+      "DIRECTOR1": "(DIRECTOR1:DIRECTOR) AND (DIRECTOR1: NOT_BUSY) AND (DIRECTOR1:AVAILABLE)"
+    },
+    "probability": "0.000",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "DIRECTOR1",
+        "value": "INHOSPITAL",
+        "triggerType": 57,
+        "buffType": 1,
+        "duration": 90,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "1_raid_PAVILION_INTERVENTION"
+  },
+  "2_raid_BEING_LATE": {
+    "group": "",
+    "studioCondition": [],
+    "characterCondition": {
+      "TARGET1": "(TARGET1:ACTOR) AND (TARGET1: NOT_BUSY) AND (TARGET1:AVAILABLE) AND (TARGET1:MALE)"
+    },
+    "probability": "0.330",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "TARGET1",
+        "value": "INHOSPITAL",
+        "triggerType": 57,
+        "buffType": 1,
+        "duration": 120,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": true,
+    "id": "2_raid_BEING_LATE"
+  },
+  "3_raid_DRUNK_DRIVING": {
+    "group": "",
+    "studioCondition": [],
+    "characterCondition": {
+      "ACTOR1": "(ACTOR1:ACTOR) AND (ACTOR1: NOT_BUSY) AND (ACTOR1:ALCOHOLIC) AND (ACTOR1:AVAILABLE) AND (ACTOR1:MALE)"
+    },
+    "probability": "0.000",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "ACTOR1",
+        "value": "IMPRISONED",
+        "triggerType": 57,
+        "buffType": 1,
+        "duration": 90,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "3_raid_DRUNK_DRIVING"
+  },
+  "4_raid_WRONG_PARKING": {
+    "group": "",
+    "studioCondition": [],
+    "characterCondition": {
+      "ACTOR1": "(ACTOR1:ACTOR) AND (ACTOR1: NOT_BUSY) AND (ACTOR1:HOTHEADED) AND (ACTOR1:AVAILABLE) AND (ACTOR1:MALE)"
+    },
+    "probability": "0.000",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "ACTOR1",
+        "value": "-0.4",
+        "triggerType": 10,
+        "buffType": 3,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "4_raid_WRONG_PARKING"
+  },
+  "5_raid_CLOSED_SAFE": {
+    "group": "",
+    "studioCondition": [],
+    "characterCondition": {
+      "LIEUT1": "(LIEUT1:LIEUTTECH) AND (LIEUT1:AVAILABLE) AND (LIEUT1:MALE)"
+    },
+    "probability": "0.330",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "LIEUT1",
+        "value": "-0.5",
+        "triggerType": 10,
+        "buffType": 3,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "5_raid_CLOSED_SAFE"
+  },
+  "6_raid_PUNCTURED_WHEELS": {
+    "group": "",
+    "studioCondition": [],
+    "characterCondition": {
+      "TARGET1": "(TARGET1:MOVIE_TALENT) AND (TARGET1: NOT_BUSY) AND (TARGET1:AVAILABLE) AND (TARGET1:MALE)"
+    },
+    "probability": "0.000",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "TARGET1",
+        "value": "INHOSPITAL",
+        "triggerType": 57,
+        "buffType": 1,
+        "duration": 90,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "6_raid_PUNCTURED_WHEELS"
+  },
+  "7_raid_COWBOY_ATTACK": {
+    "group": "",
+    "studioCondition": [],
+    "characterCondition": {
+      "ACTOR1": "(ACTOR1:ACTOR) AND (ACTOR1: NOT_BUSY) AND (ACTOR1:AVAILABLE) AND (ACTOR1: MALE)"
+    },
+    "probability": "0.330",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "ACTOR1",
+        "value": "INHOSPITAL",
+        "triggerType": 57,
+        "buffType": 1,
+        "duration": 60,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": true,
+    "id": "7_raid_COWBOY_ATTACK"
+  },
+  "8_raid_SIRENS_HEARTATTACK": {
+    "group": "",
+    "studioCondition": [],
+    "characterCondition": {
+      "DIRECTOR1": "(DIRECTOR1:DIRECTOR) AND (DIRECTOR1: OLD) AND (DIRECTOR1:AVAILABLE) AND (DIRECTOR1: MALE)"
+    },
+    "probability": "0.330",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "DIRECTOR1",
+        "value": "DEAD",
+        "triggerType": 57,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "8_raid_SIRENS_HEARTATTACK"
+  },
+  "9_raid_SQUISHY_COP": {
+    "group": "",
+    "studioCondition": [],
+    "characterCondition": {
+      "LIEUT1": "(LIEUT1:LIEUTENANT) AND (LIEUT1:AVAILABLE) AND (LIEUT1 : MALE)"
+    },
+    "probability": "0.330",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "LIEUT1",
+        "value": "-0.5",
+        "triggerType": 10,
+        "buffType": 3,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "9_raid_SQUISHY_COP"
+  },
+  "10_raid_CONFISCATED_PROPS": {
+    "group": "",
+    "studioCondition": [
+      {
+        "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+        "intValue": 0,
+        "id": "WORKSHOP",
+        "type": 3
+      }
+    ],
+    "characterCondition": {},
+    "probability": "0.000",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "ALL_HIRED",
+        "value": "-0.02",
+        "triggerType": 10,
+        "buffType": 3,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "10_raid_CONFISCATED_PROPS"
+  },
+  "11_raid_OVERHEAD_BURNING": {
+    "group": "",
+    "studioCondition": [
+      {
+        "type": 16
+      }
+    ],
+    "characterCondition": {
+      "LIEUT1": "(LIEUT1:LIEUTESCORT) AND (LIEUT1:AVAILABLE) AND (LIEUT1: MALE)"
+    },
+    "probability": "0.330",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "LIEUT1",
+        "value": "DEAD",
+        "triggerType": 57,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "11_raid_OVERHEAD_BURNING"
+  },
+  "12_raid_INTERROGATION_DEATH": {
+    "group": "",
+    "studioCondition": [
+      {
+        "type": 16
+      }
+    ],
+    "characterCondition": {
+      "LIEUT1": "(LIEUT1:LIEUTESCORT) AND (LIEUT1:AVAILABLE) AND (LIEUT1: MALE)"
+    },
+    "probability": "0.330",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "LIEUT1",
+        "value": "DEAD",
+        "triggerType": 57,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "12_raid_INTERROGATION_DEATH"
+  },
+  "13_raid_RAIDHATTACK": {
+    "group": "",
+    "studioCondition": [],
+    "characterCondition": {
+      "LIEUT1": "(LIEUT1:LIEUTENANT) AND (LIEUT1: OLD) AND (LIEUT1:AVAILABLE) AND (LIEUT1: MALE)"
+    },
+    "probability": "0.330",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "LIEUT1",
+        "value": "DEAD",
+        "triggerType": 57,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "13_raid_RAIDHATTACK"
+  },
+  "14_raid_CASH_DESTRUCTION": {
+    "group": "",
+    "studioCondition": [
+      {
+        "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+        "intValue": 4000,
+        "type": 10
+      }
+    ],
+    "characterCondition": {
+      "CPT1": "(CPT1:CPTFINANCIER) AND (CPT1:AVAILABLE) AND (CPT1:MALE0"
+    },
+    "probability": "0.000",
+    "isPositive": false,
+    "triggers": [
+      {
+        "name": "ADD_CASH",
+        "value": "-4000",
+        "triggerType": 30,
+        "buffType": 3,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "14_raid_CASH_DESTRUCTION"
+  },
+  "15_raid_FIRST_AUTOGRAPH": {
+    "group": "",
+    "studioCondition": [],
+    "characterCondition": {
+      "ACTOR1": "(ACTOR1:ACTOR) AND (ACTOR1:NOT_BUSY) AND (ACTOR1:ART_STATUS:0) AND (ACTOR1:COM_STATUS:0) AND (ACTOR1:AVAILABLE) AND (ACTOR1:MALE)"
+    },
+    "probability": "0.330",
+    "isPositive": true,
+    "triggers": [
+      {
+        "name": "ACTOR1",
+        "value": "0.3",
+        "triggerType": 10,
+        "buffType": 2,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "forceFirstTime": false,
+    "id": "15_raid_FIRST_AUTOGRAPH"
+  }
+}

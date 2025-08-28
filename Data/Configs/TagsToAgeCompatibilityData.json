@@ -1,0 +1,746 @@
+{
+  "PROTAGONIST_COWBOY": {
+    "tagId": "PROTAGONIST_COWBOY",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_BOUNTY_HUNTER": {
+    "tagId": "PROTAGONIST_BOUNTY_HUNTER",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_WHITE_COLLAR": {
+    "tagId": "PROTAGONIST_WHITE_COLLAR",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_WORKING_MAN": {
+    "tagId": "PROTAGONIST_WORKING_MAN",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_SOLDIER": {
+    "tagId": "PROTAGONIST_SOLDIER",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_DETECTIVE": {
+    "tagId": "PROTAGONIST_DETECTIVE",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_COP": {
+    "tagId": "PROTAGONIST_COP",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_SHERIFF": {
+    "tagId": "PROTAGONIST_SHERIFF",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_SECRET_AGENT": {
+    "tagId": "PROTAGONIST_SECRET_AGENT",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_OUTCAST": {
+    "tagId": "PROTAGONIST_OUTCAST",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_WAR_VETERAN": {
+    "tagId": "PROTAGONIST_WAR_VETERAN",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_BUTLER": {
+    "tagId": "SUPPORTINGCHARACTER_BUTLER",
+    "ageCompatibility": [
+      "1.000",
+      "2.000",
+      "3.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_LOVE_INTEREST": {
+    "tagId": "SUPPORTINGCHARACTER_LOVE_INTEREST",
+    "ageCompatibility": [
+      "3.000",
+      "2.000",
+      "1.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_SIDEKICK": {
+    "tagId": "SUPPORTINGCHARACTER_SIDEKICK",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_MENTOR": {
+    "tagId": "SUPPORTINGCHARACTER_MENTOR",
+    "ageCompatibility": [
+      "1.000",
+      "2.000",
+      "3.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_ANGRY_BOSS": {
+    "tagId": "SUPPORTINGCHARACTER_ANGRY_BOSS",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_SHERIFF": {
+    "tagId": "SUPPORTINGCHARACTER_SHERIFF",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_CRIMINAL_MASTERMIND": {
+    "tagId": "ANTAGONIST_CRIMINAL_MASTERMIND",
+    "ageCompatibility": [
+      "1.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_MURDERER": {
+    "tagId": "ANTAGONIST_MURDERER",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_EVIL_MONSTER": {
+    "tagId": "ANTAGONIST_EVIL_MONSTER",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_ALIEN": {
+    "tagId": "ANTAGONIST_ALIEN",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_CORRUPTED_OFFICIAL": {
+    "tagId": "ANTAGONIST_CORRUPTED_OFFICIAL",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_CITY_MOUSE": {
+    "tagId": "PROTAGONIST_CITY_MOUSE",
+    "ageCompatibility": [
+      "3.000",
+      "2.000",
+      "1.000"
+    ]
+  },
+  "PROTAGONIST_FARM_GIRL": {
+    "tagId": "PROTAGONIST_FARM_GIRL",
+    "ageCompatibility": [
+      "3.000",
+      "2.000",
+      "1.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_FEMME_FATALE": {
+    "tagId": "SUPPORTINGCHARACTER_FEMME_FATALE",
+    "ageCompatibility": [
+      "3.000",
+      "2.000",
+      "1.000"
+    ]
+  },
+  "ANTAGONIST_EVIL_SORCERER": {
+    "tagId": "ANTAGONIST_EVIL_SORCERER",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_EVIL_WITCH": {
+    "tagId": "ANTAGONIST_EVIL_WITCH",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_WARRIOR": {
+    "tagId": "PROTAGONIST_WARRIOR",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_KNIGHT": {
+    "tagId": "PROTAGONIST_KNIGHT",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_PIRATE": {
+    "tagId": "PROTAGONIST_PIRATE",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_JOURNALIST": {
+    "tagId": "PROTAGONIST_JOURNALIST",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_SOUTHERN_BELLE": {
+    "tagId": "PROTAGONIST_SOUTHERN_BELLE",
+    "ageCompatibility": [
+      "3.000",
+      "2.000",
+      "1.000"
+    ]
+  },
+  "PROTAGONIST_ATTORNEY": {
+    "tagId": "PROTAGONIST_ATTORNEY",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_PILOT": {
+    "tagId": "PROTAGONIST_PILOT",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_SAILOR": {
+    "tagId": "PROTAGONIST_SAILOR",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_STRICT_PARENT": {
+    "tagId": "SUPPORTINGCHARACTER_STRICT_PARENT",
+    "ageCompatibility": [
+      "1.000",
+      "2.000",
+      "3.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_STEPPARENT": {
+    "tagId": "SUPPORTINGCHARACTER_STEPPARENT",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_STEPCHILD": {
+    "tagId": "SUPPORTINGCHARACTER_STEPCHILD",
+    "ageCompatibility": [
+      "3.000",
+      "2.000",
+      "1.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_WIZARD": {
+    "tagId": "SUPPORTINGCHARACTER_WIZARD",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_MAD_SCIENTIST": {
+    "tagId": "ANTAGONIST_MAD_SCIENTIST",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_VAMPIRE": {
+    "tagId": "ANTAGONIST_VAMPIRE",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_BANDIT": {
+    "tagId": "ANTAGONIST_BANDIT",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_SPIRITED_YOUNG_LADY": {
+    "tagId": "PROTAGONIST_SPIRITED_YOUNG_LADY",
+    "ageCompatibility": [
+      "3.000",
+      "1.000",
+      "1.000"
+    ]
+  },
+  "PROTAGONIST_CLUMSY_OAF": {
+    "tagId": "PROTAGONIST_CLUMSY_OAF",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_DARING_ADVENTURER": {
+    "tagId": "PROTAGONIST_DARING_ADVENTURER",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_HOPELESS_ROMANTIC": {
+    "tagId": "PROTAGONIST_HOPELESS_ROMANTIC",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_DAMSEL_IN_DISTRESS": {
+    "tagId": "SUPPORTINGCHARACTER_DAMSEL_IN_DISTRESS",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_RIVAL": {
+    "tagId": "SUPPORTINGCHARACTER_RIVAL",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_TRIBAL_CHIEF": {
+    "tagId": "ANTAGONIST_TRIBAL_CHIEF",
+    "ageCompatibility": [
+      "1.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_LOVEABLE_ROGUE": {
+    "tagId": "PROTAGONIST_LOVEABLE_ROGUE",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_ACCIDENTAL_HERO": {
+    "tagId": "PROTAGONIST_ACCIDENTAL_HERO",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_BROTHERS_IN_ARMS": {
+    "tagId": "PROTAGONIST_BROTHERS_IN_ARMS",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_WAR_WIDOW": {
+    "tagId": "PROTAGONIST_WAR_WIDOW",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_PARENT_FIGURE": {
+    "tagId": "SUPPORTINGCHARACTER_PARENT_FIGURE",
+    "ageCompatibility": [
+      "1.000",
+      "2.000",
+      "2.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_BROTHER_IN_ARMS": {
+    "tagId": "SUPPORTINGCHARACTER_BROTHER_IN_ARMS",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_ANNOYING_SUITOR": {
+    "tagId": "SUPPORTINGCHARACTER_ANNOYING_SUITOR",
+    "ageCompatibility": [
+      "2.000",
+      "2.000",
+      "2.000"
+    ]
+  },
+  "ANTAGONIST_PIRATE": {
+    "tagId": "ANTAGONIST_PIRATE",
+    "ageCompatibility": [
+      "2.000",
+      "2.000",
+      "2.000"
+    ]
+  },
+  "ANTAGONIST_HEARTLESS_BUREAUCRAT": {
+    "tagId": "ANTAGONIST_HEARTLESS_BUREAUCRAT",
+    "ageCompatibility": [
+      "1.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_WAR_CRIMINAL": {
+    "tagId": "ANTAGONIST_WAR_CRIMINAL",
+    "ageCompatibility": [
+      "2.000",
+      "2.000",
+      "2.000"
+    ]
+  },
+  "ANTAGONIST_SERIAL_KILLER": {
+    "tagId": "ANTAGONIST_SERIAL_KILLER",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "ANTAGONIST_CORRUPT_OFFICIAL": {
+    "tagId": "ANTAGONIST_CORRUPT_OFFICIAL",
+    "ageCompatibility": [
+      "1.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_TOXIC_VIGILANTE": {
+    "tagId": "PROTAGONIST_TOXIC_VIGILANTE",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_SHERIFFS_CONJOINED_TWINS": {
+    "tagId": "PROTAGONIST_SHERIFFS_CONJOINED_TWINS",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_СORNLIMBED_ROMANTIC": {
+    "tagId": "PROTAGONIST_СORNLIMBED_ROMANTIC",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "PROTAGONIST_PARENT_IN_INVISIBLE_CLOTHES": {
+    "tagId": "PROTAGONIST_PARENT_IN_INVISIBLE_CLOTHES",
+    "ageCompatibility": [
+      "1.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_VAMPIRE_SHIT-SUCKER": {
+    "tagId": "PROTAGONIST_VAMPIRE_SHIT-SUCKER",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_GIRL_WITH_A_SWEARING_VAGINA_WITH_TURRET_SYNDROME": {
+    "tagId": "PROTAGONIST_GIRL_WITH_A_SWEARING_VAGINA_WITH_TURRET_SYNDROME",
+    "ageCompatibility": [
+      "3.000",
+      "2.000",
+      "1.000"
+    ]
+  },
+  "PROTAGONIST_LOVELACE_WITH_POISONOUS_BALLS": {
+    "tagId": "PROTAGONIST_LOVELACE_WITH_POISONOUS_BALLS",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "ANTAGONIST_TOASTER_KILLER": {
+    "tagId": "ANTAGONIST_TOASTER_KILLER",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_ROBOT_RAPIST": {
+    "tagId": "ANTAGONIST_ROBOT_RAPIST",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_ROBBER_WITH_A_HUNDRED_DICKS": {
+    "tagId": "ANTAGONIST_ROBBER_WITH_A_HUNDRED_DICKS",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_SCHOOLGIRL_POSSESSED_DEMON": {
+    "tagId": "ANTAGONIST_SCHOOLGIRL_POSSESSED_DEMON",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_HEADLESS_MIDGETS_HYPNOTISTS": {
+    "tagId": "ANTAGONIST_HEADLESS_MIDGETS_HYPNOTISTS",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_WOMENS_BOOK_CLUB_OF_CANNIBALS": {
+    "tagId": "ANTAGONIST_WOMENS_BOOK_CLUB_OF_CANNIBALS",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_WAYWARD_SOUL": {
+    "tagId": "PROTAGONIST_WAYWARD_SOUL",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_CRIMINAL_GANG": {
+    "tagId": "ANTAGONIST_CRIMINAL_GANG",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_ANCIENT_EVIL": {
+    "tagId": "ANTAGONIST_ANCIENT_EVIL",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_ROBOT": {
+    "tagId": "ANTAGONIST_ROBOT",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_REBELS": {
+    "tagId": "ANTAGONIST_REBELS",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_ENEMY_ARMY": {
+    "tagId": "ANTAGONIST_ENEMY_ARMY",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_BARBARIAN_TRIBE": {
+    "tagId": "ANTAGONIST_BARBARIAN_TRIBE",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_RETIRED_LEGEND": {
+    "tagId": "PROTAGONIST_RETIRED_LEGEND",
+    "ageCompatibility": [
+      "1.000",
+      "2.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_CHARISMATIC_CRIMINAL": {
+    "tagId": "PROTAGONIST_CHARISMATIC_CRIMINAL",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "PROTAGONIST_AMBITIOUS_WOMAN": {
+    "tagId": "PROTAGONIST_AMBITIOUS_WOMAN",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "2.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_CONCERNED_WIFE": {
+    "tagId": "SUPPORTINGCHARACTER_CONCERNED_WIFE",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_KEY_WITNESS": {
+    "tagId": "SUPPORTINGCHARACTER_KEY_WITNESS",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_VILLAINS_RIGHT_HAND": {
+    "tagId": "SUPPORTINGCHARACTER_VILLAINS_RIGHT_HAND",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "SUPPORTINGCHARACTER_PATRIARCH": {
+    "tagId": "SUPPORTINGCHARACTER_PATRIARCH",
+    "ageCompatibility": [
+      "1.000",
+      "2.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_OLD_FRIEND_ENEMY": {
+    "tagId": "ANTAGONIST_OLD_FRIEND_ENEMY",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_ENEMY_FROM_THE_PAST": {
+    "tagId": "ANTAGONIST_ENEMY_FROM_THE_PAST",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_RULE_ENFORCER": {
+    "tagId": "ANTAGONIST_RULE_ENFORCER",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_TYRANT": {
+    "tagId": "ANTAGONIST_TYRANT",
+    "ageCompatibility": [
+      "3.000",
+      "3.000",
+      "3.000"
+    ]
+  },
+  "ANTAGONIST_PATRIARCH": {
+    "tagId": "ANTAGONIST_PATRIARCH",
+    "ageCompatibility": [
+      "2.000",
+      "3.000",
+      "3.000"
+    ]
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "headerLineIndexes": [
+    0,
+    4,
+    8,
+    12,
+    16
+  ],
+  "eventLines": [
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ACTOR1",
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ACTOR1",
+      "imageID": "char_10_STUBBORN_GAMBLER",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "NEXT_EVENT",
+          "value": "5",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "WAIT_DAYS",
+          "value": "30",
+          "triggerType": 8,
+          "buffType": 1,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        },
+        {
+          "name": "",
+          "value": "-2000",
+          "triggerType": 28,
+          "buffType": 3,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 2000,
+          "type": 9
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ACTOR1",
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ACTOR1",
+      "imageID": "char_10_STUBBORN_GAMBLER",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "NEXT_EVENT",
+          "value": "5",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "WAIT_DAYS",
+          "value": "30",
+          "triggerType": 8,
+          "buffType": 1,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        },
+        {
+          "name": "",
+          "value": "-3000",
+          "triggerType": 28,
+          "buffType": 3,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 3000,
+          "type": 9
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ACTOR1",
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ACTOR1",
+      "imageID": "char_10_STUBBORN_GAMBLER",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "NEXT_EVENT",
+          "value": "5",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "WAIT_DAYS",
+          "value": "30",
+          "triggerType": 8,
+          "buffType": 1,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        },
+        {
+          "name": "",
+          "value": "-5000",
+          "triggerType": 28,
+          "buffType": 3,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 5000,
+          "type": 9
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ACTOR1",
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ACTOR1",
+      "imageID": "char_10_STUBBORN_GAMBLER",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "NEXT_EVENT",
+          "value": "5",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "WAIT_DAYS",
+          "value": "30",
+          "triggerType": 8,
+          "buffType": 1,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        },
+        {
+          "name": "",
+          "value": "-10000",
+          "triggerType": 28,
+          "buffType": 3,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 10000,
+          "type": 9
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ACTOR1",
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ACTOR1",
+      "imageID": "char_10_STUBBORN_GAMBLER",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "ADD_CASH",
+          "value": "60000",
+          "triggerType": 28,
+          "buffType": 2,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "twitterData": null,
+      "tags": null,
+      "IsSkippableEmpty": false
+    }
+  ],
+  "localTriggerVarsDefinitions": null,
+  "BaseId": "char_10_STUBBORN_GABLER"
+}

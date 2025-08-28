@@ -1,0 +1,144 @@
+{
+  "headerLineIndexes": [
+    0
+  ],
+  "eventLines": [
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 8,
+      "triggers": [
+        {
+          "name": "ITALIAN",
+          "value": "-20",
+          "triggerType": 32,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "NEED_CONFIRMATION",
+          "value": "MoneyConversionPopupView&ID=ITALIAN_CASH#FROM_TYPE=BUDGET#TO_TYPE=CASH#MAX_AMOUNT=50000#EXCHANGE_RATE=1#STEP_FROM=100",
+          "triggerType": 40,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ITALIAN",
+      "imageID": "BACKGROUND_ITALIAN_CASH",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "ITALIAN",
+          "value": "-20",
+          "triggerType": 32,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "ITALIAN",
+      "imageID": "BACKGROUND_ITALIAN_CASH",
+      "relation": "==",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "NEXT_EVENT",
+          "value": "1",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "++",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    }
+  ],
+  "localTriggerVarsDefinitions": null,
+  "BaseId": "ITALIAN_CASH"
+}

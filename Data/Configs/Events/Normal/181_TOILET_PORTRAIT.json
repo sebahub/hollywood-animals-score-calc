@@ -1,0 +1,132 @@
+{
+  "headerLineIndexes": [
+    0
+  ],
+  "eventLines": [
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PRODUCER",
+      "imageID": "181_TOILET_PORTRAIT",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "CHARACTER1",
+          "value": "-0.15",
+          "triggerType": 10,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "PAUSE",
+          "value": "10",
+          "triggerType": 20,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "POLICE",
+          "value": "-5",
+          "triggerType": 32,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": 5,
+          "id": "POLICE",
+          "type": 7
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": -1,
+          "id": "LEGAL_DEFENSE_2",
+          "type": 0
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    }
+  ],
+  "localTriggerVarsDefinitions": null,
+  "BaseId": "181_TOILET_PORTRAIT"
+}

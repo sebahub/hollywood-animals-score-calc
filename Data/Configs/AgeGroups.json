@@ -1,0 +1,50 @@
+{
+  "YOUNG": {
+    "intId": 0,
+    "maleRange": {
+      "x": 18,
+      "y": 39,
+      "magnitude": "42.953",
+      "sqrMagnitude": 1845
+    },
+    "femaleRange": {
+      "x": 18,
+      "y": 34,
+      "magnitude": "38.471",
+      "sqrMagnitude": 1480
+    },
+    "id": "YOUNG"
+  },
+  "MID": {
+    "intId": 1,
+    "maleRange": {
+      "x": 40,
+      "y": 59,
+      "magnitude": "71.281",
+      "sqrMagnitude": 5081
+    },
+    "femaleRange": {
+      "x": 35,
+      "y": 49,
+      "magnitude": "60.216",
+      "sqrMagnitude": 3626
+    },
+    "id": "MID"
+  },
+  "OLD": {
+    "intId": 2,
+    "maleRange": {
+      "x": 60,
+      "y": 2147483647,
+      "magnitude": "60.008",
+      "sqrMagnitude": 3601
+    },
+    "femaleRange": {
+      "x": 50,
+      "y": 2147483647,
+      "magnitude": "50.010",
+      "sqrMagnitude": 2501
+    },
+    "id": "OLD"
+  }
+}

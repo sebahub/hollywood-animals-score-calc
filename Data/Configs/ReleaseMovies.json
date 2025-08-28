@@ -1,0 +1,2088 @@
+[
+  {
+    "result": {
+      "baseline": "0.700",
+      "artValue": "0.750",
+      "commercialValue": "0.900",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.700"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "2.000",
+      "YF": "3.000",
+      "AM": "1.000",
+      "AF": "2.000"
+    },
+    "releaseWeek": -1,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YFC1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YMC1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AFC1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AMC1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YFB1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YMB1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AMB1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AFB1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YFA1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YMA1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AFA1"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AMA1"
+      }
+    ],
+    "id": "Титаник"
+  },
+  {
+    "result": {
+      "baseline": "0.500",
+      "artValue": "0.450",
+      "commercialValue": "0.550",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.500"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "5.000",
+      "YF": "4.000",
+      "AM": "6.000",
+      "AF": "6.000"
+    },
+    "releaseWeek": -2,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      }
+    ],
+    "id": "Время (Old)"
+  },
+  {
+    "result": {
+      "baseline": "0.300",
+      "artValue": "0.300",
+      "commercialValue": "0.350",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.300"
+    },
+    "audienceScores": {
+      "TM": "1.000",
+      "TF": "1.000",
+      "YM": "2.000",
+      "YF": "2.000",
+      "AM": "3.000",
+      "AF": "3.000"
+    },
+    "releaseWeek": -3,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "Рождественское обещание"
+  },
+  {
+    "result": {
+      "baseline": "0.500",
+      "artValue": "0.400",
+      "commercialValue": "0.750",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.500"
+    },
+    "audienceScores": {
+      "TM": "6.000",
+      "TF": "4.000",
+      "YM": "5.000",
+      "YF": "3.000",
+      "AM": "0.000",
+      "AF": "0.000"
+    },
+    "releaseWeek": -4,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TA"
+      }
+    ],
+    "id": "Трансформеры"
+  },
+  {
+    "result": {
+      "baseline": "0.400",
+      "artValue": "0.450",
+      "commercialValue": "0.600",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.400"
+    },
+    "audienceScores": {
+      "TM": "3.000",
+      "TF": "0.000",
+      "YM": "5.000",
+      "YF": "2.000",
+      "AM": "4.000",
+      "AF": "2.000"
+    },
+    "releaseWeek": -4,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      }
+    ],
+    "id": "Никто"
+  },
+  {
+    "result": {
+      "baseline": "0.100",
+      "artValue": "0.050",
+      "commercialValue": "0.150",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.100"
+    },
+    "audienceScores": {
+      "TM": "1.000",
+      "TF": "1.000",
+      "YM": "3.000",
+      "YF": "3.000",
+      "AM": "0.000",
+      "AF": "0.000"
+    },
+    "releaseWeek": -12,
+    "isOur": true,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "НЛО: Не лезь в очко"
+  },
+  {
+    "result": {
+      "baseline": "0.600",
+      "artValue": "0.700",
+      "commercialValue": "0.850",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.600"
+    },
+    "audienceScores": {
+      "TM": "4.000",
+      "TF": "6.000",
+      "YM": "3.000",
+      "YF": "4.000",
+      "AM": "0.000",
+      "AF": "0.000"
+    },
+    "releaseWeek": -6,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TA"
+      }
+    ],
+    "id": "Гарри Поттер"
+  },
+  {
+    "result": {
+      "baseline": "0.500",
+      "artValue": "0.450",
+      "commercialValue": "0.550",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.500"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "5.000",
+      "YF": "4.000",
+      "AM": "6.000",
+      "AF": "6.000"
+    },
+    "releaseWeek": -7,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      }
+    ],
+    "id": "Время (Old) 2"
+  },
+  {
+    "result": {
+      "baseline": "0.500",
+      "artValue": "0.450",
+      "commercialValue": "0.550",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.500"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "5.000",
+      "YF": "4.000",
+      "AM": "6.000",
+      "AF": "6.000"
+    },
+    "releaseWeek": -7,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      }
+    ],
+    "id": "Время (Old) 2: Reborn"
+  },
+  {
+    "result": {
+      "baseline": "0.300",
+      "artValue": "0.300",
+      "commercialValue": "0.350",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.300"
+    },
+    "audienceScores": {
+      "TM": "1.000",
+      "TF": "1.000",
+      "YM": "2.000",
+      "YF": "2.000",
+      "AM": "3.000",
+      "AF": "3.000"
+    },
+    "releaseWeek": -8,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "Рождественское обещание 2"
+  },
+  {
+    "result": {
+      "baseline": "0.300",
+      "artValue": "0.300",
+      "commercialValue": "0.350",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.300"
+    },
+    "audienceScores": {
+      "TM": "1.000",
+      "TF": "1.000",
+      "YM": "2.000",
+      "YF": "2.000",
+      "AM": "3.000",
+      "AF": "3.000"
+    },
+    "releaseWeek": -8,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "Рождественское обещание 2: Reborn"
+  },
+  {
+    "result": {
+      "baseline": "0.600",
+      "artValue": "0.700",
+      "commercialValue": "0.850",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.600"
+    },
+    "audienceScores": {
+      "TM": "4.000",
+      "TF": "6.000",
+      "YM": "3.000",
+      "YF": "4.000",
+      "AM": "0.000",
+      "AF": "0.000"
+    },
+    "releaseWeek": -9,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TA"
+      }
+    ],
+    "id": "Гарри Поттер 2"
+  },
+  {
+    "result": {
+      "baseline": "0.470",
+      "artValue": "0.510",
+      "commercialValue": "0.510",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.470"
+    },
+    "audienceScores": {
+      "TM": "1.000",
+      "TF": "1.000",
+      "YM": "12.000",
+      "YF": "10.000",
+      "AM": "15.000",
+      "AF": "14.000"
+    },
+    "releaseWeek": -10,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TMB0"
+      }
+    ],
+    "id": "После смены"
+  },
+  {
+    "result": {
+      "baseline": "0.800",
+      "artValue": "0.900",
+      "commercialValue": "0.200",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.800"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "0.000",
+      "YF": "5.000",
+      "AM": "6.000",
+      "AF": "5.000"
+    },
+    "releaseWeek": -11,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 16,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TC"
+      }
+    ],
+    "id": "Святые Моторы"
+  },
+  {
+    "result": {
+      "baseline": "0.700",
+      "artValue": "0.750",
+      "commercialValue": "0.900",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.700"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "2.000",
+      "YF": "3.000",
+      "AM": "1.000",
+      "AF": "2.000"
+    },
+    "releaseWeek": -11,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "Титаник 2: Reborn"
+  },
+  {
+    "result": {
+      "baseline": "0.700",
+      "artValue": "0.750",
+      "commercialValue": "0.900",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.700"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "2.000",
+      "YF": "3.000",
+      "AM": "1.000",
+      "AF": "2.000"
+    },
+    "releaseWeek": -13,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "Титаник 2"
+  },
+  {
+    "result": {
+      "baseline": "0.400",
+      "artValue": "0.450",
+      "commercialValue": "0.600",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.400"
+    },
+    "audienceScores": {
+      "TM": "3.000",
+      "TF": "0.000",
+      "YM": "5.000",
+      "YF": "2.000",
+      "AM": "4.000",
+      "AF": "2.000"
+    },
+    "releaseWeek": -14,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      }
+    ],
+    "id": "Никто 2"
+  },
+  {
+    "result": {
+      "baseline": "0.600",
+      "artValue": "0.700",
+      "commercialValue": "0.850",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.600"
+    },
+    "audienceScores": {
+      "TM": "4.000",
+      "TF": "6.000",
+      "YM": "3.000",
+      "YF": "4.000",
+      "AM": "0.000",
+      "AF": "0.000"
+    },
+    "releaseWeek": -16,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TA"
+      }
+    ],
+    "id": "Гарри Поттер 3"
+  },
+  {
+    "result": {
+      "baseline": "0.300",
+      "artValue": "0.300",
+      "commercialValue": "0.350",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.300"
+    },
+    "audienceScores": {
+      "TM": "1.000",
+      "TF": "1.000",
+      "YM": "2.000",
+      "YF": "2.000",
+      "AM": "3.000",
+      "AF": "3.000"
+    },
+    "releaseWeek": -16,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "Рождественское обещание 3"
+  },
+  {
+    "result": {
+      "baseline": "0.100",
+      "artValue": "0.050",
+      "commercialValue": "0.150",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.100"
+    },
+    "audienceScores": {
+      "TM": "1.000",
+      "TF": "1.000",
+      "YM": "3.000",
+      "YF": "3.000",
+      "AM": "0.000",
+      "AF": "0.000"
+    },
+    "releaseWeek": -17,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "НЛО: Не лезь в очко 2"
+  },
+  {
+    "result": {
+      "baseline": "0.500",
+      "artValue": "0.450",
+      "commercialValue": "0.550",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.500"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "5.000",
+      "YF": "4.000",
+      "AM": "6.000",
+      "AF": "6.000"
+    },
+    "releaseWeek": -18,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      }
+    ],
+    "id": "Время (Old) 4"
+  },
+  {
+    "result": {
+      "baseline": "0.300",
+      "artValue": "0.300",
+      "commercialValue": "0.350",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.300"
+    },
+    "audienceScores": {
+      "TM": "1.000",
+      "TF": "1.000",
+      "YM": "2.000",
+      "YF": "2.000",
+      "AM": "3.000",
+      "AF": "3.000"
+    },
+    "releaseWeek": -19,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "Рождественское обещание 4"
+  },
+  {
+    "result": {
+      "baseline": "0.600",
+      "artValue": "0.700",
+      "commercialValue": "0.850",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.600"
+    },
+    "audienceScores": {
+      "TM": "4.000",
+      "TF": "6.000",
+      "YM": "3.000",
+      "YF": "4.000",
+      "AM": "0.000",
+      "AF": "0.000"
+    },
+    "releaseWeek": -19,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TA"
+      }
+    ],
+    "id": "Гарри Поттер 4"
+  },
+  {
+    "result": {
+      "baseline": "0.500",
+      "artValue": "0.400",
+      "commercialValue": "0.750",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.500"
+    },
+    "audienceScores": {
+      "TM": "6.000",
+      "TF": "4.000",
+      "YM": "5.000",
+      "YF": "3.000",
+      "AM": "0.000",
+      "AF": "0.000"
+    },
+    "releaseWeek": -20,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "TA"
+      }
+    ],
+    "id": "Трансформеры 2"
+  },
+  {
+    "result": {
+      "baseline": "0.500",
+      "artValue": "0.450",
+      "commercialValue": "0.550",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.500"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "5.000",
+      "YF": "4.000",
+      "AM": "6.000",
+      "AF": "6.000"
+    },
+    "releaseWeek": -20,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      }
+    ],
+    "id": "Время (Old) 3"
+  },
+  {
+    "result": {
+      "baseline": "0.500",
+      "artValue": "0.450",
+      "commercialValue": "0.550",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.500"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "5.000",
+      "YF": "4.000",
+      "AM": "6.000",
+      "AF": "6.000"
+    },
+    "releaseWeek": -20,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      }
+    ],
+    "id": "Время (Old) 5"
+  },
+  {
+    "result": {
+      "baseline": "0.300",
+      "artValue": "0.300",
+      "commercialValue": "0.350",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.300"
+    },
+    "audienceScores": {
+      "TM": "1.000",
+      "TF": "1.000",
+      "YM": "2.000",
+      "YF": "2.000",
+      "AM": "3.000",
+      "AF": "3.000"
+    },
+    "releaseWeek": -21,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AC"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "Рождественское обещание 5"
+  },
+  {
+    "result": {
+      "baseline": "0.800",
+      "artValue": "0.900",
+      "commercialValue": "0.200",
+      "maxBaseline": "1.000",
+      "maxArtValue": "1.000",
+      "maxCommercialValue": "1.000",
+      "realBaseline": "0.000",
+      "realArtValue": "0.000",
+      "realCommercialValue": "0.000",
+      "budget": "0.000",
+      "staffContractFees": "0.000",
+      "duration": "0.000",
+      "tickCost": "0.000",
+      "actualDuration": "0.000",
+      "freshness": "0.000",
+      "continuity": "0.000",
+      "startDate": "0001-01-01T00:00:00",
+      "endDate": "0001-01-01T00:00:00",
+      "isNotMadeOnStudio": false,
+      "movieSource": 3,
+      "audienceScores": {},
+      "prepBudgetFactor": "1.000",
+      "Baseline": "0.800"
+    },
+    "audienceScores": {
+      "TM": "0.000",
+      "TF": "1.000",
+      "YM": "0.000",
+      "YF": "5.000",
+      "AM": "6.000",
+      "AF": "5.000"
+    },
+    "releaseWeek": -25,
+    "isOur": false,
+    "isOn": true,
+    "ads": [
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AB"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "YA"
+      },
+      {
+        "scoreType": 0,
+        "weeksSpent": 8,
+        "duration": 16,
+        "start": "15-07-2025",
+        "id": "AA"
+      }
+    ],
+    "id": "Святые Моторы 2"
+  }
+]

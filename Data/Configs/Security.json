@@ -1,0 +1,23 @@
+{
+  "SecuritySchoolConfig": {
+    "SuccessProbability": "0.500",
+    "SecuritySchoolDefaultLevel": {
+      "Duration": 120,
+      "LevelIncrease": 1
+    },
+    "SecuritySchoolFastLevel": {
+      "Duration": 60,
+      "LevelIncrease": 1
+    },
+    "SecuritySchoolStrongLevel": {
+      "Duration": 60,
+      "LevelIncrease": 2
+    },
+    "CashCost": 1500,
+    "InfluenceCost": 300
+  },
+  "PoachingFromCompetitorsTrialConfig": {
+    "Probability": "0.500",
+    "CompensationMultiplier": "10.000"
+  }
+}

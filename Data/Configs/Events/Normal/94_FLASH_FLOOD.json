@@ -1,0 +1,170 @@
+{
+  "headerLineIndexes": [
+    0
+  ],
+  "eventLines": [
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PRODUCER",
+      "imageID": "94_FLASH_FLOOD",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "TEAM",
+          "value": "-0.3",
+          "triggerType": 11,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "PAUSE",
+          "value": "5",
+          "triggerType": 20,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "",
+          "value": "-300",
+          "triggerType": 30,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 300,
+          "type": 10
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": -1,
+          "id": "PERK_URGENT_LOCATION_SEARCH",
+          "type": 0
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 1,
+          "type": 17
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    }
+  ],
+  "localTriggerVarsDefinitions": null,
+  "BaseId": "94_FLASH_FLOOD"
+}

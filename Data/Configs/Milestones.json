@@ -1,0 +1,547 @@
+{
+  "POLICY_ENABLE_MILE_7": {
+    "group": "POLICY_ENABLE",
+    "dependencies": [],
+    "source": "DAY",
+    "sourceExtra": [],
+    "condition": "DATE:>=05-01-1933",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_ENABLE_MILE_7",
+    "HasPeriod": false
+  },
+  "POLICY_TRASH_0": {
+    "group": "",
+    "dependencies": [],
+    "source": "POLICY",
+    "sourceExtra": [
+      [
+        "CHOSEN"
+      ]
+    ],
+    "condition": "POLICY_ACTIVE:POLICY_TRASH",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_TRASH_0",
+    "HasPeriod": false
+  },
+  "POLICY_TRASH_1": {
+    "group": "",
+    "dependencies": [
+      "POLICY_TRASH_0"
+    ],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "RELEASE_DAY"
+      ]
+    ],
+    "condition": "(TRASH_TAG) AND (PREQUEL:TRASH_TAG)",
+    "isChain": true,
+    "chainCondition": "SEQUEL",
+    "goalFunc": [
+      [
+        "CHAIN_LENGTH"
+      ]
+    ],
+    "goal": "6.000",
+    "periodDays": 0,
+    "id": "POLICY_TRASH_1",
+    "HasPeriod": false
+  },
+  "POLICY_TRASH_2": {
+    "group": "",
+    "dependencies": [
+      "POLICY_TRASH_1"
+    ],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "STAGE",
+        "ARCHIVED"
+      ]
+    ],
+    "condition": "TRASH_TAG",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [
+      [
+        "MAX",
+        "AUDIENCE"
+      ]
+    ],
+    "goal": "1500000.000",
+    "periodDays": 0,
+    "id": "POLICY_TRASH_2",
+    "HasPeriod": false
+  },
+  "POLICY_TRASH_3": {
+    "group": "",
+    "dependencies": [
+      "POLICY_TRASH_2"
+    ],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "RELEASE_DAY"
+      ]
+    ],
+    "condition": "(TRASH_TAG) AND (POLLUX_ACTOR_MOVIE_CONTRACT)",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_TRASH_3",
+    "HasPeriod": false
+  },
+  "POLICY_MAJOR_0": {
+    "group": "",
+    "dependencies": [],
+    "source": "POLICY",
+    "sourceExtra": [
+      [
+        "CHOSEN"
+      ]
+    ],
+    "condition": "POLICY_ACTIVE:POLICY_MAJOR",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_MAJOR_0",
+    "HasPeriod": false
+  },
+  "POLICY_MAJOR_1": {
+    "group": "",
+    "dependencies": [
+      "POLICY_MAJOR_0"
+    ],
+    "source": "MISC",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "8.000",
+    "periodDays": 0,
+    "id": "POLICY_MAJOR_1",
+    "HasPeriod": false
+  },
+  "POLICY_MAJOR_2": {
+    "group": "",
+    "dependencies": [
+      "POLICY_MAJOR_1"
+    ],
+    "source": "MISC",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "3.000",
+    "periodDays": 0,
+    "id": "POLICY_MAJOR_2",
+    "HasPeriod": false
+  },
+  "POLICY_MAJOR_3": {
+    "group": "",
+    "dependencies": [
+      "POLICY_MAJOR_2"
+    ],
+    "source": "MISC",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "365.000",
+    "periodDays": 0,
+    "id": "POLICY_MAJOR_3",
+    "HasPeriod": false
+  },
+  "POLICY_BOUTIQUE_0": {
+    "group": "",
+    "dependencies": [],
+    "source": "POLICY",
+    "sourceExtra": [
+      [
+        "CHOSEN"
+      ]
+    ],
+    "condition": "POLICY_ACTIVE:POLICY_BOUTIQUE",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_BOUTIQUE_0",
+    "HasPeriod": false
+  },
+  "POLICY_BOUTIQUE_1": {
+    "group": "",
+    "dependencies": [
+      "POLICY_BOUTIQUE_0"
+    ],
+    "source": "MISC",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_BOUTIQUE_1",
+    "HasPeriod": false
+  },
+  "POLICY_BOUTIQUE_2": {
+    "group": "",
+    "dependencies": [
+      "POLICY_BOUTIQUE_1"
+    ],
+    "source": "MISC",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_BOUTIQUE_2",
+    "HasPeriod": false
+  },
+  "POLICY_BOUTIQUE_3": {
+    "group": "",
+    "dependencies": [
+      "POLICY_BOUTIQUE_2"
+    ],
+    "source": "MISC",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_BOUTIQUE_3",
+    "HasPeriod": false
+  },
+  "POLICY_CONVEYOR_0": {
+    "group": "",
+    "dependencies": [],
+    "source": "POLICY",
+    "sourceExtra": [
+      [
+        "CHOSEN"
+      ]
+    ],
+    "condition": "POLICY_ACTIVE:POLICY_CONVEYOR",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_CONVEYOR_0",
+    "HasPeriod": false
+  },
+  "POLICY_CONVEYOR_1": {
+    "group": "",
+    "dependencies": [
+      "POLICY_CONVEYOR_0"
+    ],
+    "source": "",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_CONVEYOR_1",
+    "HasPeriod": false
+  },
+  "POLICY_CONVEYOR_2": {
+    "group": "",
+    "dependencies": [
+      "POLICY_CONVEYOR_1"
+    ],
+    "source": "",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_CONVEYOR_2",
+    "HasPeriod": false
+  },
+  "POLICY_CONVEYOR_3": {
+    "group": "",
+    "dependencies": [
+      "POLICY_CONVEYOR_2"
+    ],
+    "source": "",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_CONVEYOR_3",
+    "HasPeriod": false
+  },
+  "POLICY_AVERAGE_0": {
+    "group": "",
+    "dependencies": [],
+    "source": "POLICY",
+    "sourceExtra": [
+      [
+        "CHOSEN"
+      ]
+    ],
+    "condition": "POLICY_ACTIVE:POLICY_AVERAGE",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_AVERAGE_0",
+    "HasPeriod": false
+  },
+  "POLICY_AVERAGE_1": {
+    "group": "",
+    "dependencies": [
+      "POLICY_AVERAGE_0"
+    ],
+    "source": "",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_AVERAGE_1",
+    "HasPeriod": false
+  },
+  "POLICY_AVERAGE_2": {
+    "group": "",
+    "dependencies": [
+      "POLICY_AVERAGE_1"
+    ],
+    "source": "",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_AVERAGE_2",
+    "HasPeriod": false
+  },
+  "POLICY_AVERAGE_3": {
+    "group": "",
+    "dependencies": [
+      "POLICY_AVERAGE_2"
+    ],
+    "source": "",
+    "sourceExtra": [],
+    "condition": "",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "POLICY_AVERAGE_3",
+    "HasPeriod": false
+  },
+  "HESPRO_QUEST_1": {
+    "group": "",
+    "dependencies": [],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "STAGE",
+        "PRODUCTION"
+      ],
+      [
+        "PROCESS",
+        "TICK"
+      ]
+    ],
+    "condition": "(FILM:HESPRO_STANDART) AND (FILMING_DAYS:>=100)",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "HESPRO_QUEST_1",
+    "HasPeriod": false
+  },
+  "HESPRO_QUEST_2": {
+    "group": "",
+    "dependencies": [],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "STAGE",
+        "PRODUCTION"
+      ],
+      [
+        "PROCESS",
+        "FINISHED"
+      ]
+    ],
+    "condition": "FILM:HESPRO_STANDART",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "5.000",
+    "periodDays": 0,
+    "id": "HESPRO_QUEST_2",
+    "HasPeriod": false
+  },
+  "BLUE_TERM_IRIS_QUEST_1": {
+    "group": "",
+    "dependencies": [],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "STAGE",
+        "PRODUCTION"
+      ],
+      [
+        "PROCESS",
+        "FINISHED"
+      ]
+    ],
+    "condition": "(FILM:BLUE_TERM_IRIS_STANDART) AND (TEAM_SKILL:CINEMATOGRAPHER:>=0.8)",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "BLUE_TERM_IRIS_QUEST_1",
+    "HasPeriod": false
+  },
+  "BLUE_TERM_IRIS_QUEST_2": {
+    "group": "",
+    "dependencies": [],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "STAGE",
+        "PRODUCTION"
+      ],
+      [
+        "PROCESS",
+        "FINISHED"
+      ]
+    ],
+    "condition": "(FILM:BLUE_TERM_IRIS_STANDART) AND (INDOOR_QUALITY:<0)",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "2.000",
+    "periodDays": 0,
+    "id": "BLUE_TERM_IRIS_QUEST_2",
+    "HasPeriod": false
+  },
+  "DUPLER_COMPACT_QUEST_1": {
+    "group": "",
+    "dependencies": [],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "STAGE",
+        "PRODUCTION"
+      ],
+      [
+        "PROCESS",
+        "FINISHED"
+      ]
+    ],
+    "condition": "(FILM:DUPLER_COMPACT_STANDART) AND ( (SETTING:WW2_EUROPE) OR (SETTING:WW2_PACIFIC) OR (SETTING:WW2_AFRICA) )",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "DUPLER_COMPACT_QUEST_1",
+    "HasPeriod": false
+  },
+  "DUPLER_COMPACT_QUEST_2": {
+    "group": "",
+    "dependencies": [],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "RELEASE_DAY"
+      ]
+    ],
+    "condition": "(FILM:DUPLER_COMPACT_STANDART) AND (GENRE:ACTION:>=0.5) AND (COM_SCORE:>=0.5)",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "3.000",
+    "periodDays": 0,
+    "id": "DUPLER_COMPACT_QUEST_2",
+    "HasPeriod": false
+  },
+  "FRAMETONE_QUEST_1": {
+    "group": "",
+    "dependencies": [],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "STAGE",
+        "PRODUCTION"
+      ],
+      [
+        "PROCESS",
+        "FINISHED"
+      ]
+    ],
+    "condition": "(AUDIO:FRAMETONE_STANDART) AND (WORK_HOURS:16:ALWAYS)",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "1.000",
+    "periodDays": 0,
+    "id": "FRAMETONE_QUEST_1",
+    "HasPeriod": false
+  },
+  "FRAMETONE_QUEST_2": {
+    "group": "",
+    "dependencies": [],
+    "source": "MOVIE",
+    "sourceExtra": [
+      [
+        "STAGE",
+        "PRODUCTION"
+      ],
+      [
+        "PROCESS",
+        "FINISHED"
+      ]
+    ],
+    "condition": "(AUDIO:FRAMETONE_STANDART) AND (OUTDOOR_QUALITY:<0)",
+    "isChain": false,
+    "chainCondition": "",
+    "goalFunc": [],
+    "goal": "3.000",
+    "periodDays": 0,
+    "id": "FRAMETONE_QUEST_2",
+    "HasPeriod": false
+  }
+}

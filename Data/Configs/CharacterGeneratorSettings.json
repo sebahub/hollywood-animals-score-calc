@@ -1,0 +1,554 @@
+{
+  "Scriptwriter": {
+    "characterType": 1,
+    "profession": 5,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 19,
+      "to": 19
+    },
+    "fullPoolRange": {
+      "from": 5,
+      "to": 5
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 0
+    },
+    "newPerMonth": "1.162",
+    "weightMultiplier": "10.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.180",
+      "to": "0.350"
+    }
+  },
+  "Director": {
+    "characterType": 1,
+    "profession": 3,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 18,
+      "to": 18
+    },
+    "fullPoolRange": {
+      "from": 9,
+      "to": 9
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 0
+    },
+    "newPerMonth": "0.721",
+    "weightMultiplier": "46.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.180",
+      "to": "0.350"
+    }
+  },
+  "Cinematographer": {
+    "characterType": 1,
+    "profession": 2,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 14,
+      "to": 14
+    },
+    "fullPoolRange": {
+      "from": 7,
+      "to": 7
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 0
+    },
+    "newPerMonth": "0.666",
+    "weightMultiplier": "36.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.180",
+      "to": "0.350"
+    }
+  },
+  "Producer": {
+    "characterType": 1,
+    "profession": 4,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 26,
+      "to": 26
+    },
+    "fullPoolRange": {
+      "from": 9,
+      "to": 9
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 0
+    },
+    "newPerMonth": "0.996",
+    "weightMultiplier": "56.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.180",
+      "to": "0.350"
+    }
+  },
+  "Actor": {
+    "characterType": 1,
+    "profession": 1,
+    "genderMProbability": "0.600",
+    "availableRange": {
+      "from": 55,
+      "to": 55
+    },
+    "fullPoolRange": {
+      "from": 19,
+      "to": 19
+    },
+    "starterFemaleRange": {
+      "from": 2,
+      "to": 2
+    },
+    "newPerMonth": "2.108",
+    "weightMultiplier": "71.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.180",
+      "to": "0.350"
+    }
+  },
+  "Composer": {
+    "characterType": 1,
+    "profession": 7,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 12,
+      "to": 12
+    },
+    "fullPoolRange": {
+      "from": 6,
+      "to": 6
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 0
+    },
+    "newPerMonth": "0.556",
+    "weightMultiplier": "20.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.180",
+      "to": "0.350"
+    }
+  },
+  "FilmEditor": {
+    "characterType": 1,
+    "profession": 6,
+    "genderMProbability": "0.500",
+    "availableRange": {
+      "from": 13,
+      "to": 13
+    },
+    "fullPoolRange": {
+      "from": 7,
+      "to": 7
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 0
+    },
+    "newPerMonth": "0.556",
+    "weightMultiplier": "15.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.180",
+      "to": "0.350"
+    }
+  },
+  "Agent": {
+    "characterType": 3,
+    "profession": 13,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 7,
+      "to": 7
+    },
+    "fullPoolRange": {
+      "from": 7,
+      "to": 7
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 0
+    },
+    "newPerMonth": "0.222",
+    "weightMultiplier": "0.330",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.200",
+      "to": "0.400"
+    }
+  },
+  "LieutScript": {
+    "characterType": 2,
+    "profession": 8,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "LieutPrep": {
+    "characterType": 2,
+    "profession": 9,
+    "genderMProbability": "0.800",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "LieutProd": {
+    "characterType": 2,
+    "profession": 10,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "LieutPost": {
+    "characterType": 2,
+    "profession": 11,
+    "genderMProbability": "0.800",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "LieutRelease": {
+    "characterType": 2,
+    "profession": 12,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "LieutSecurity": {
+    "characterType": 2,
+    "profession": 18,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "LieutProducers": {
+    "characterType": 2,
+    "profession": 17,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "LieutInfrastructure": {
+    "characterType": 2,
+    "profession": 19,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "LieutTech": {
+    "characterType": 2,
+    "profession": 20,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "LieutMuseum": {
+    "characterType": 2,
+    "profession": 21,
+    "genderMProbability": "0.800",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "LieutEscort": {
+    "characterType": 2,
+    "profession": 22,
+    "genderMProbability": "0.800",
+    "availableRange": {
+      "from": 3,
+      "to": 3
+    },
+    "fullPoolRange": {
+      "from": 3,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.100",
+    "weightMultiplier": "0.100",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    }
+  },
+  "CptHR": {
+    "characterType": 4,
+    "profession": 23,
+    "genderMProbability": "0.800",
+    "availableRange": {
+      "from": 3,
+      "to": 4
+    },
+    "fullPoolRange": {
+      "from": 2,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.090",
+    "weightMultiplier": "1.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.200",
+      "to": "0.400"
+    }
+  },
+  "CptLawyer": {
+    "characterType": 4,
+    "profession": 14,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 3,
+      "to": 4
+    },
+    "fullPoolRange": {
+      "from": 2,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.090",
+    "weightMultiplier": "1.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.200",
+      "to": "0.400"
+    }
+  },
+  "CptFinancier": {
+    "characterType": 4,
+    "profession": 15,
+    "genderMProbability": "1.000",
+    "availableRange": {
+      "from": 3,
+      "to": 4
+    },
+    "fullPoolRange": {
+      "from": 2,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.090",
+    "weightMultiplier": "1.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.200",
+      "to": "0.400"
+    }
+  },
+  "CptPR": {
+    "characterType": 4,
+    "profession": 16,
+    "genderMProbability": "0.800",
+    "availableRange": {
+      "from": 3,
+      "to": 4
+    },
+    "fullPoolRange": {
+      "from": 2,
+      "to": 3
+    },
+    "starterFemaleRange": {
+      "from": 0,
+      "to": 1
+    },
+    "newPerMonth": "0.090",
+    "weightMultiplier": "1.000",
+    "starterHires": 0,
+    "hiresSkillRange": {
+      "from": "0.200",
+      "to": "0.400"
+    }
+  }
+}

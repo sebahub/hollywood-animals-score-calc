@@ -1,0 +1,220 @@
+{
+  "headerLineIndexes": [
+    0
+  ],
+  "eventLines": [
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PRODUCER",
+      "imageID": "92_MYSTICAL_HOWL",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "BASELINE",
+          "value": "-0.125",
+          "triggerType": 22,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "ADD_ACTUAL_LOAD",
+          "value": "-0.5",
+          "triggerType": 21,
+          "buffType": 3,
+          "duration": 15,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "TEAM",
+          "value": "-0.2",
+          "triggerType": 10,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "ADD_ACTUAL_LOAD",
+          "value": "-0.2",
+          "triggerType": 21,
+          "buffType": 3,
+          "duration": 15,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "",
+          "value": "-5000",
+          "triggerType": 25,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 5000,
+          "type": 5
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "",
+          "value": "-2000",
+          "triggerType": 30,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 2000,
+          "type": 10
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "SECRET_MYSTICAL_HOWL",
+          "value": "MID",
+          "triggerType": 15,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "type": 13
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "",
+          "value": "-15",
+          "triggerType": 28,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 15,
+          "type": 11
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    }
+  ],
+  "localTriggerVarsDefinitions": null,
+  "BaseId": "92_MYSTICAL_HOWL"
+}

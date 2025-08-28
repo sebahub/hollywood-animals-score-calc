@@ -1,0 +1,221 @@
+{
+  "headerLineIndexes": [
+    0
+  ],
+  "eventLines": [
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PRODUCER",
+      "imageID": "42_NARROW_STREETS",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "BASELINE",
+          "value": "-0.12",
+          "triggerType": 22,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "DIRECTOR1",
+          "value": "-0.35",
+          "triggerType": 11,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "BASELINE",
+          "value": "-0.06",
+          "triggerType": 22,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "ADD_ACTUAL_LOAD",
+          "value": "-0.2",
+          "triggerType": 21,
+          "buffType": 3,
+          "duration": 20,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "3",
+          "value": "20",
+          "triggerType": 48,
+          "buffType": 4,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "",
+          "value": "-5000",
+          "triggerType": 25,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAnd2Int, Assembly-CSharp",
+          "intValue2": 20,
+          "intValue": 3,
+          "id": "3",
+          "type": 14
+        },
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": -1,
+          "id": "WORKSHOP",
+          "type": 3
+        },
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 5000,
+          "type": 5
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "PAUSE",
+          "value": "15",
+          "triggerType": 20,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "",
+          "value": "-10000",
+          "triggerType": 25,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 10000,
+          "type": 5
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "PAUSE",
+          "value": "5",
+          "triggerType": 20,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 1,
+          "type": 17
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    }
+  ],
+  "localTriggerVarsDefinitions": null,
+  "BaseId": "42_NARROW_STREETS"
+}

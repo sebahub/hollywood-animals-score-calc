@@ -1,0 +1,221 @@
+{
+  "headerLineIndexes": [
+    0
+  ],
+  "eventLines": [
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PRODUCER",
+      "imageID": "52_OLD_BONES",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "BASELINE",
+          "value": "-0.12",
+          "triggerType": 22,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "BASELINE",
+          "value": "-0.05",
+          "triggerType": 22,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": -1,
+          "id": "URGENT_DOUBLE_SEARCH",
+          "type": 0
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "ADD_ACTUAL_LOAD",
+          "value": "-0.4",
+          "triggerType": 21,
+          "buffType": 3,
+          "duration": 5,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "",
+          "value": "-2000",
+          "triggerType": 25,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": -1,
+          "id": "PROPS_QLT_2",
+          "type": 0
+        },
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 2000,
+          "type": 5
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "BASELINE",
+          "value": "-0.05",
+          "triggerType": 22,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": -1,
+          "id": "EDITS_ON_GO",
+          "type": 0
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "PAUSE",
+          "value": "10",
+          "triggerType": 20,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "",
+          "value": "-300",
+          "triggerType": 25,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithInt, Assembly-CSharp",
+          "intValue": 300,
+          "type": 5
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    }
+  ],
+  "localTriggerVarsDefinitions": null,
+  "BaseId": "52_OLD_BONES"
+}

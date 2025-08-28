@@ -1,0 +1,317 @@
+{
+  "CINEMAATIQUE": {
+    "onStart": true,
+    "condition": "ART_SCORE:>=0.7",
+    "condition2": "CHAR_FOUND: TARGET",
+    "characterCondition": {
+      "TARGET": "((TARGET: DIRECTOR) OR (TARGET: ACTOR)) AND (ART_STATUS: >= 3)"
+    },
+    "authors": [
+      {
+        "x": 989,
+        "y": 918,
+        "magnitude": "1349.387",
+        "sqrMagnitude": 1820845
+      }
+    ],
+    "starPointsSource": [
+      "ART_SCORE"
+    ],
+    "starPointsRanges": [
+      [
+        "0.730",
+        "0.790",
+        "0.850",
+        "0.930"
+      ]
+    ],
+    "starPointsSourceWeight": "0.500",
+    "behaviours": 0,
+    "date": "9999-12-31T23:59:59.9999999",
+    "id": "CINEMAATIQUE",
+    "IsDisabled": false
+  },
+  "ENTERTAINMENT_WORLD": {
+    "onStart": true,
+    "condition": "COM_SCORE:>=0.5",
+    "condition2": "CHAR_FOUND: TARGET",
+    "characterCondition": {
+      "TARGET": "(TARGET:ACTOR) AND (COM_STATUS: >= 2)"
+    },
+    "authors": [
+      {
+        "x": 962,
+        "y": 990,
+        "magnitude": "1380.414",
+        "sqrMagnitude": 1905544
+      }
+    ],
+    "starPointsSource": [
+      "COM_SCORE"
+    ],
+    "starPointsRanges": [
+      [
+        "0.570",
+        "0.720",
+        "0.820",
+        "0.900"
+      ]
+    ],
+    "starPointsSourceWeight": "0.500",
+    "behaviours": 0,
+    "date": "9999-12-31T23:59:59.9999999",
+    "id": "ENTERTAINMENT_WORLD",
+    "IsDisabled": false
+  },
+  "SOUTHERN_NIGHT": {
+    "onStart": true,
+    "condition": "(GENRE:ROMANCE:>=0.2) OR (GENRE:DRAMA:>=0.5)",
+    "condition2": "CHAR_FOUND: ACTOR",
+    "characterCondition": {
+      "ACTOR": "(ACTOR: ACTOR) AND (ACTOR: OVERALL: ROMANCE) OR ((COM_STATUS: >= 2) AND (AGE:YOUNG) AND (GENDER: MALE))"
+    },
+    "authors": [
+      {
+        "x": 920,
+        "y": 921,
+        "magnitude": "1301.784",
+        "sqrMagnitude": 1694641
+      }
+    ],
+    "starPointsSource": [
+      "GENRE:ROMANCE",
+      "GENRE:DRAMA"
+    ],
+    "starPointsRanges": [
+      [
+        "0.300",
+        "0.550",
+        "0.700",
+        "0.850"
+      ],
+      [
+        "0.550",
+        "0.700",
+        "0.800",
+        "0.900"
+      ]
+    ],
+    "starPointsSourceWeight": "0.500",
+    "behaviours": 0,
+    "date": "9999-12-31T23:59:59.9999999",
+    "id": "SOUTHERN_NIGHT",
+    "IsDisabled": false
+  },
+  "CRIMINAL_STORIES": {
+    "onStart": true,
+    "condition": "GENRE:DETECTIVE:>=0.35",
+    "condition2": "(GENRE:DETECTIVE: >0) AND (CHAR_FOUND: SW) OR (CHAR_FOUND: DIR)",
+    "characterCondition": {
+      "SW": "(SW: SCRIPTWRITER) AND (SW: OVERALL: DETECTIVE)",
+      "DIR": "(DIR: DIRECTOR) AND (DIR: OVERALL: DETECTIVE)"
+    },
+    "authors": [
+      {
+        "x": 991,
+        "y": 919,
+        "magnitude": "1351.533",
+        "sqrMagnitude": 1826642
+      }
+    ],
+    "starPointsSource": [
+      "GENRE:DETECTIVE"
+    ],
+    "starPointsRanges": [
+      [
+        "0.400",
+        "0.550",
+        "0.700",
+        "0.850"
+      ]
+    ],
+    "starPointsSourceWeight": "0.500",
+    "behaviours": 0,
+    "date": "9999-12-31T23:59:59.9999999",
+    "id": "CRIMINAL_STORIES",
+    "IsDisabled": false
+  },
+  "BONEGRINDER": {
+    "onStart": true,
+    "condition": "ART_SCORE:>=0.3",
+    "condition2": "",
+    "characterCondition": {},
+    "authors": [
+      {
+        "x": 998,
+        "y": 999,
+        "magnitude": "1412.092",
+        "sqrMagnitude": 1994005
+      }
+    ],
+    "starPointsSource": [
+      "ART_SCORE"
+    ],
+    "starPointsRanges": [
+      [
+        "0.000",
+        "0.000",
+        "0.300",
+        "0.610"
+      ]
+    ],
+    "starPointsSourceWeight": "1.000",
+    "behaviours": 0,
+    "date": "9999-12-31T23:59:59.9999999",
+    "id": "BONEGRINDER",
+    "IsDisabled": false
+  },
+  "BUFFALO_BREATH": {
+    "onStart": false,
+    "condition": "GENRE:HISTORICAL:>=0.35",
+    "condition2": "CHAR_FOUND: SW",
+    "characterCondition": {
+      "SW": "(SW: SCRIPTWRITER) AND (SW: OVERALL: HISTORICAL)"
+    },
+    "authors": [
+      {
+        "x": 37,
+        "y": 563,
+        "magnitude": "564.215",
+        "sqrMagnitude": 318338
+      }
+    ],
+    "starPointsSource": [
+      "GENRE:HISTORICAL"
+    ],
+    "starPointsRanges": [
+      [
+        "0.400",
+        "0.550",
+        "0.700",
+        "0.850"
+      ]
+    ],
+    "starPointsSourceWeight": "0.500",
+    "behaviours": 0,
+    "date": "1946-05-10T00:00:00",
+    "id": "BUFFALO_BREATH",
+    "IsDisabled": false
+  },
+  "KEEP": {
+    "onStart": false,
+    "condition": "GENRE:SCIENCE_FICTION:>=0.2",
+    "condition2": "CHAR_FOUND: DIR",
+    "characterCondition": {
+      "DIR": "(DIR: DIRECTOR) AND (DIR: OVERALL: SCIENCE_FICTION)"
+    },
+    "authors": [
+      {
+        "x": 99,
+        "y": 485,
+        "magnitude": "495.001",
+        "sqrMagnitude": 245026
+      }
+    ],
+    "starPointsSource": [
+      "GENRE:SCIENCE_FICTION"
+    ],
+    "starPointsRanges": [
+      [
+        "0.400",
+        "0.550",
+        "0.700",
+        "0.850"
+      ]
+    ],
+    "starPointsSourceWeight": "0.500",
+    "behaviours": 0,
+    "date": "1935-01-13T00:00:00",
+    "id": "KEEP",
+    "IsDisabled": false
+  },
+  "SUPERNOVA": {
+    "onStart": false,
+    "condition": "GENRE:HISTORICAL:>=0.37",
+    "condition2": "",
+    "characterCondition": {},
+    "authors": [
+      {
+        "x": 0,
+        "y": 2147483647,
+        "magnitude": "1.000",
+        "sqrMagnitude": 1
+      }
+    ],
+    "starPointsSource": [
+      "GENRE:HISTORICAL"
+    ],
+    "starPointsRanges": [
+      [
+        "0.400",
+        "0.550",
+        "0.700",
+        "0.870"
+      ]
+    ],
+    "starPointsSourceWeight": "0.700",
+    "behaviours": 1,
+    "date": "9999-12-31T23:59:59.9999999",
+    "id": "SUPERNOVA",
+    "IsDisabled": true
+  },
+  "NEVER_ADV": {
+    "onStart": false,
+    "condition": "(GENRE:ADVENTURE:>=0.35) AND (MOVIE_TAG_RULE:ADVENTURE)",
+    "condition2": "CHAR_FOUND: DIR",
+    "characterCondition": {
+      "DIR": "(DIR: DIRECTOR) AND (DIR: OVERALL: ADVENTURE)"
+    },
+    "authors": [
+      {
+        "x": 18,
+        "y": 494,
+        "magnitude": "494.328",
+        "sqrMagnitude": 244360
+      }
+    ],
+    "starPointsSource": [
+      "GENRE:ADVENTURE"
+    ],
+    "starPointsRanges": [
+      [
+        "0.400",
+        "0.550",
+        "0.700",
+        "0.850"
+      ]
+    ],
+    "starPointsSourceWeight": "0.500",
+    "behaviours": 0,
+    "date": "1933-03-25T00:00:00",
+    "id": "NEVER_ADV",
+    "IsDisabled": false
+  },
+  "SWORD_CHRIST": {
+    "onStart": false,
+    "condition": "",
+    "condition2": "",
+    "characterCondition": {},
+    "authors": [
+      {
+        "x": 95,
+        "y": 915,
+        "magnitude": "919.919",
+        "sqrMagnitude": 846250
+      }
+    ],
+    "starPointsSource": [
+      ""
+    ],
+    "starPointsRanges": [],
+    "starPointsSourceWeight": "0.000",
+    "behaviours": 0,
+    "date": "1930-02-07T00:00:00",
+    "id": "SWORD_CHRIST",
+    "IsDisabled": false
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "BRICKY": {
+    "code": "15istheanswer",
+    "portrait": 438,
+    "name": "Bricky",
+    "id": "BRICKY"
+  },
+  "DANSGAMING": {
+    "code": "fifteen",
+    "portrait": 439,
+    "name": "Dans Gaming",
+    "id": "DANSGAMING"
+  },
+  "ELWYCCO": {
+    "code": "15isbetterthan220",
+    "portrait": 440,
+    "name": "Максимиллиан Козлини",
+    "id": "ELWYCCO"
+  },
+  "EZEKIEL_III": {
+    "code": "yougofor15",
+    "portrait": 441,
+    "name": "Zeke Starr",
+    "id": "EZEKIEL_III"
+  },
+  "SIPS": {
+    "code": "15means15",
+    "portrait": 442,
+    "name": "Sips",
+    "id": "SIPS"
+  },
+  "ESCOCES_GAMER": {
+    "code": "SexyyBarrigón15",
+    "portrait": 614,
+    "name": "Escocés Gamer",
+    "id": "ESCOCES_GAMER"
+  },
+  "CHICHES": {
+    "code": "notienescorazón15",
+    "portrait": 615,
+    "name": "Chi Ches",
+    "id": "CHICHES"
+  },
+  "CRINGER": {
+    "code": "weAPPYyouCringer15",
+    "portrait": 616,
+    "name": "Crin Ger",
+    "id": "CRINGER"
+  },
+  "GHOSTKAI": {
+    "code": "superspy15",
+    "portrait": 617,
+    "name": "Ghost Kai",
+    "id": "GHOSTKAI"
+  },
+  "CHARLIE_PRYOR": {
+    "code": "charliethegreat15",
+    "portrait": 618,
+    "name": "Charlie Pryor",
+    "id": "CHARLIE_PRYOR"
+  },
+  "ZEALAND": {
+    "code": "exFMBase15",
+    "portrait": 619,
+    "name": "Zea Land",
+    "id": "ZEALAND"
+  },
+  "TIGERWRITER": {
+    "code": "youaremytiger15",
+    "portrait": 620,
+    "name": "Tiger Writer",
+    "id": "TIGERWRITER"
+  },
+  "ARATHRAK": {
+    "code": "ChrisWilliamson15",
+    "portrait": 621,
+    "name": "Chris Williamson",
+    "id": "ARATHRAK"
+  },
+  "MADMORPH": {
+    "code": "bearhiddenbehindthemask15",
+    "portrait": 622,
+    "name": "Mad Morph",
+    "id": "MADMORPH"
+  }
+}

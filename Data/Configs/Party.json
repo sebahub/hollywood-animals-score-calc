@@ -1,0 +1,96 @@
+{
+  "WrapUpPartyConfig": {
+    "ID": "WRAP_UP_PARTY",
+    "Costs": {
+      "Budget": 100000
+    },
+    "PreparationDaysCount": 0,
+    "ActiveDaysCount": 0,
+    "MoodBonus": 25,
+    "AttitudeBonus": 20,
+    "InfluenceBonus": 0,
+    "TotalDaysCount": 0
+  },
+  "CorporateConfigs": [
+    {
+      "ID": "PARTY_1",
+      "Costs": {
+        "Budget": 300000
+      },
+      "PreparationDaysCount": 7,
+      "ActiveDaysCount": 25,
+      "MoodBonus": 100,
+      "AttitudeBonus": 15,
+      "InfluenceBonus": 0,
+      "TotalDaysCount": 32
+    },
+    {
+      "ID": "PARTY_2",
+      "Costs": {
+        "Budget": 450000,
+        "Influence": 250
+      },
+      "PreparationDaysCount": 7,
+      "ActiveDaysCount": 25,
+      "MoodBonus": 100,
+      "AttitudeBonus": 25,
+      "InfluenceBonus": 0,
+      "TotalDaysCount": 32
+    },
+    {
+      "ID": "PARTY_3",
+      "Costs": {
+        "Budget": 600000,
+        "Influence": 450,
+        "Cash": 1500
+      },
+      "PreparationDaysCount": 7,
+      "ActiveDaysCount": 25,
+      "MoodBonus": 100,
+      "AttitudeBonus": 35,
+      "InfluenceBonus": 0,
+      "TotalDaysCount": 32
+    }
+  ],
+  "ReceptionConfigs": [
+    {
+      "ID": "OFFICIAL_RECEPTION_1",
+      "Costs": {
+        "Budget": 500000
+      },
+      "PreparationDaysCount": 7,
+      "ActiveDaysCount": 25,
+      "MoodBonus": 0,
+      "AttitudeBonus": 0,
+      "InfluenceBonus": 350,
+      "TotalDaysCount": 32
+    },
+    {
+      "ID": "OFFICIAL_RECEPTION_2",
+      "Costs": {
+        "Budget": 750000,
+        "Reputation": 30
+      },
+      "PreparationDaysCount": 7,
+      "ActiveDaysCount": 25,
+      "MoodBonus": 0,
+      "AttitudeBonus": 0,
+      "InfluenceBonus": 500,
+      "TotalDaysCount": 32
+    },
+    {
+      "ID": "OFFICIAL_RECEPTION_3",
+      "Costs": {
+        "Budget": 1000000,
+        "Reputation": 80,
+        "Cash": 2000
+      },
+      "PreparationDaysCount": 7,
+      "ActiveDaysCount": 25,
+      "MoodBonus": 0,
+      "AttitudeBonus": 0,
+      "InfluenceBonus": 750,
+      "TotalDaysCount": 32
+    }
+  ]
+}

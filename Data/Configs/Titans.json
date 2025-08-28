@@ -1,0 +1,249 @@
+{
+  "ITALIAN_ALBERTO": {
+    "profession": 0,
+    "quests": [
+      "ITALIAN_BIOPIC"
+    ],
+    "contracts": [
+      "ITALIAN_CASINO",
+      "ITALIAN_KEPT_WOMAN"
+    ],
+    "services": [
+      "ITALIAN_EVIDENCE",
+      "ITALIAN_CASH"
+    ],
+    "id": "ITALIAN_ALBERTO",
+    "Profession": "ITALIAN",
+    "Name": "ITALIAN_ALBERTO",
+    "PortraitId": "ITALIAN_ALBERTO_PORTRAIT",
+    "IconId": "ITALIAN_ALBERTO_ICON",
+    "BackgroundId": "BACKGROUND_ITALIAN_ALBERTO",
+    "ProfessionId": "ITALIAN_PROFESSION"
+  },
+  "ITALIAN_ARMANDO": {
+    "profession": 0,
+    "quests": [
+      "ITALIAN_YOUNG_DIRECTOR",
+      "ITALIAN_ESMERALDA"
+    ],
+    "contracts": [
+      "ITALIAN_CASINO",
+      "ITALIAN_KEPT_WOMAN"
+    ],
+    "services": [
+      "ITALIAN_EVIDENCE",
+      "ITALIAN_CASH"
+    ],
+    "id": "ITALIAN_ARMANDO",
+    "Profession": "ITALIAN",
+    "Name": "ITALIAN_ARMANDO",
+    "PortraitId": "ITALIAN_ARMANDO_PORTRAIT",
+    "IconId": "ITALIAN_ARMANDO_ICON",
+    "BackgroundId": "BACKGROUND_ITALIAN_ARMANDO",
+    "ProfessionId": "ITALIAN_PROFESSION"
+  },
+  "KKK_OLBERICH": {
+    "profession": 1,
+    "quests": [
+      "KKK_FILM",
+      "KKK_FIRE_THEM",
+      "KKK_PUNISHMENT"
+    ],
+    "contracts": [
+      "KKK_POPCORN",
+      "KKK_ORDERED_FILM"
+    ],
+    "services": [
+      "KKK_PROMOTION",
+      "KKK_MARCH"
+    ],
+    "id": "KKK_OLBERICH",
+    "Profession": "KKK",
+    "Name": "KKK_OLBERICH",
+    "PortraitId": "KKK_OLBERICH_PORTRAIT",
+    "IconId": "KKK_OLBERICH_ICON",
+    "BackgroundId": "BACKGROUND_KKK_OLBERICH",
+    "ProfessionId": "KKK_PROFESSION"
+  },
+  "REICH_ZIBBELE": {
+    "profession": 2,
+    "quests": [
+      "REICH_FILM"
+    ],
+    "contracts": [
+      "REICH_TOUR",
+      "REICH_PROMOTION"
+    ],
+    "services": [
+      "REICH_MOVIE_PROMOTION",
+      "REICH_SPONSORSHIP"
+    ],
+    "id": "REICH_ZIBBELE",
+    "Profession": "REICH",
+    "Name": "REICH_ZIBBELE",
+    "PortraitId": "REICH_ZIBBELE_PORTRAIT",
+    "IconId": "REICH_ZIBBELE_ICON",
+    "BackgroundId": "BACKGROUND_REICH_ZIBBELE",
+    "ProfessionId": "REICH_PROFESSION"
+  },
+  "REICH_STELM": {
+    "profession": 2,
+    "quests": [
+      "REICH_COPIES",
+      "REICH_WITH_LOVE",
+      "REICH_PROPAGANDA",
+      "REICH_JEWS"
+    ],
+    "contracts": [
+      "REICH_TOUR",
+      "REICH_PROMOTION"
+    ],
+    "services": [
+      "REICH_MOVIE_PROMOTION",
+      "REICH_SPONSORSHIP"
+    ],
+    "id": "REICH_STELM",
+    "Profession": "REICH",
+    "Name": "REICH_STELM",
+    "PortraitId": "REICH_STELM_PORTRAIT",
+    "IconId": "REICH_STELM_ICON",
+    "BackgroundId": "BACKGROUND_REICH_STELM",
+    "ProfessionId": "REICH_PROFESSION"
+  },
+  "POLICE_WALLIS": {
+    "profession": 3,
+    "quests": [
+      "POLICE_FILM",
+      "POLICE_TIME_WITH_ACTOR",
+      "POLICE_COMPOSER"
+    ],
+    "contracts": [
+      "POLICE_CINEMAS_RAIDS",
+      "POLICE_DRUGS_ON_STUDIO"
+    ],
+    "services": [
+      "POLICE_STUDIO_RAID",
+      "POLICE_MAFIA_DEFENSE",
+      "POLICE_RAIDS_DEFENSE"
+    ],
+    "id": "POLICE_WALLIS",
+    "Profession": "POLICE",
+    "Name": "POLICE_WALLIS",
+    "PortraitId": "POLICE_WALLIS_PORTRAIT",
+    "IconId": "POLICE_WALLIS_ICON",
+    "BackgroundId": "BACKGROUND_POLICE_WALLIS",
+    "ProfessionId": "POLICE_PROFESSION"
+  },
+  "BUSINESS_SIMMONS": {
+    "profession": 5,
+    "quests": [],
+    "contracts": [],
+    "services": [],
+    "id": "BUSINESS_SIMMONS",
+    "Profession": "BUSINESS",
+    "Name": "BUSINESS_SIMMONS",
+    "PortraitId": "BUSINESS_SIMMONS_PORTRAIT",
+    "IconId": "BUSINESS_SIMMONS_ICON",
+    "BackgroundId": "BACKGROUND_BUSINESS_SIMMONS",
+    "ProfessionId": "BUSINESS_PROFESSION"
+  },
+  "JOURNALIST_RITA": {
+    "profession": 6,
+    "quests": [],
+    "contracts": [],
+    "services": [],
+    "id": "JOURNALIST_RITA",
+    "Profession": "JOURNALIST",
+    "Name": "JOURNALIST_RITA",
+    "PortraitId": "JOURNALIST_RITA_PORTRAIT",
+    "IconId": "JOURNALIST_RITA_ICON",
+    "BackgroundId": "BACKGROUND_JOURNALIST_RITA",
+    "ProfessionId": "JOURNALIST_PROFESSION"
+  },
+  "IRELAND_DOYLE": {
+    "profession": 7,
+    "quests": [
+      "BOOTLEGGER_FILM",
+      "BOOTLEGGER_STAR_PROMOTION",
+      "BOOTLEGGER_NEPHEW",
+      "BOOTLEGGER_NEW_PROFESSION"
+    ],
+    "contracts": [
+      "BOOTLEGGERS_ALCOHOL_ON_STUDIO",
+      "BOOTLEGGER_BAR_PROMOTION_IN_CINEMA"
+    ],
+    "services": [
+      "BOOTLEGGER_THREATING",
+      "BOOTLEGGER_BEATING",
+      "BOOTLEGGER_KILLING"
+    ],
+    "id": "IRELAND_DOYLE",
+    "Profession": "IRELAND",
+    "Name": "IRELAND_DOYLE",
+    "PortraitId": "IRELAND_DOYLE_PORTRAIT",
+    "IconId": "IRELAND_DOYLE_ICON",
+    "BackgroundId": "BACKGROUND_IRELAND_DOYLE",
+    "ProfessionId": "IRELAND_PROFESSION"
+  },
+  "MAYOR_CARPENTER": {
+    "profession": 8,
+    "quests": [
+      "MAYOR_DAUGHTER",
+      "MAYOR_TAXES",
+      "MAYOR_ELECTION_DONATIONS"
+    ],
+    "contracts": [
+      "MAYOR_NEPHEW",
+      "MAYOR_MERITS"
+    ],
+    "services": [
+      "MAYOR_PARTY",
+      "MAYOR_LAWYER"
+    ],
+    "id": "MAYOR_CARPENTER",
+    "Profession": "MAYOR",
+    "Name": "MAYOR_CARPENTER",
+    "PortraitId": "MAYOR_CARPENTER_PORTRAIT",
+    "IconId": "MAYOR_CARPENTER_ICON",
+    "BackgroundId": "BACKGROUND_MAYOR_CARPENTER",
+    "ProfessionId": "MAYOR_PROFESSION"
+  },
+  "MAYOR_STRIPES": {
+    "profession": 8,
+    "quests": [],
+    "contracts": [
+      "MAYOR_SCHOOL",
+      "MAYOR_HOOD"
+    ],
+    "services": [
+      "MAYOR_PHILANTHROPES"
+    ],
+    "id": "MAYOR_STRIPES",
+    "Profession": "MAYOR",
+    "Name": "MAYOR_STRIPES",
+    "PortraitId": "MAYOR_STRIPES_PORTRAIT",
+    "IconId": "MAYOR_STRIPES_ICON",
+    "BackgroundId": "BACKGROUND_MAYOR_STRIPES",
+    "ProfessionId": "MAYOR_PROFESSION"
+  },
+  "PROSECUTOR_STRIPES": {
+    "profession": 4,
+    "quests": [
+      "PROSECUTOR_FILM"
+    ],
+    "contracts": [
+      "PROSECUTOR_CORRUPT_FIGHT",
+      "PROSECUTOR_ANTICRIME_TRAILERS"
+    ],
+    "services": [
+      "PROSECUTOR_PHILANTHROPES"
+    ],
+    "id": "PROSECUTOR_STRIPES",
+    "Profession": "PROSECUTOR",
+    "Name": "PROSECUTOR_STRIPES",
+    "PortraitId": "PROSECUTOR_STRIPES_PORTRAIT",
+    "IconId": "PROSECUTOR_STRIPES_ICON",
+    "BackgroundId": "BACKGROUND_PROSECUTOR_STRIPES",
+    "ProfessionId": "PROSECUTOR_PROFESSION"
+  }
+}

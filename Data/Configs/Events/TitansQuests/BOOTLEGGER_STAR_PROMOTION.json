@@ -1,0 +1,458 @@
+{
+  "headerLineIndexes": [
+    0,
+    11
+  ],
+  "eventLines": [
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "IRELAND_DOYLE",
+      "imageID": "RQ_DOYLE_02",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "START_TASK",
+          "value": "BOOTLEGGER_STAR_PROMOTION_SIMPLE&IRELAND_DOYLE",
+          "triggerType": 39,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "DEAL",
+          "value": "BODY=ID#BOOTLEGGER_STAR_PROMOTION_SIMPLE&TERM#90&TYPE#Choosing; SLOTS=PROFESSION#Actor&NEGOTIATIONSTYPE#BEFORE&PRICE#700&DEALSORTING#SKILL_DOWN&LABELSLOTID#SELECT_MALE_OR_FEMALE_ACTOR",
+          "triggerType": 51,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "==",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "++",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "START_TASK",
+          "value": "BOOTLEGGER_STAR_PROMOTION_HARD&IRELAND_DOYLE",
+          "triggerType": 39,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "DEAL",
+          "value": "BODY=ID#BOOTLEGGER_STAR_PROMOTION_HARD&TERM#90&TYPE#Choosing; SLOTS=PROFESSION#Actor&NEGOTIATIONSTYPE#BEFORE&PRICE#700&DEALSORTING#GENDER_DOWN&GENDER#Male&LABELSLOTID#CHOOSE_ACTOR_MALE+\nPROFESSION#Actor&NEGOTIATIONSTYPE#BEFORE&PRICE#700&DEALSORTING#GENDER_UP&GENDER#Female&LABELSLOTID#CHOOSE_ACTOR_FEMALE",
+          "triggerType": 51,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "==",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "++",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "==",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "NEXT_EVENT",
+          "value": "2",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "++",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [
+        {
+          "name": "IRELAND_DOYLE",
+          "value": "30",
+          "triggerType": 32,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": "PVAR_BOOL:bsp_success_simple",
+      "nextLine": -1,
+      "characterID": "IRELAND_DOYLE",
+      "imageID": "RQ_DOYLE_02",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "NEXT_EVENT",
+          "value": "2",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": "PVAR_BOOL:bsp_success_simple",
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [
+        {
+          "name": "IRELAND_DOYLE",
+          "value": "60",
+          "triggerType": 32,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": "PVAR_BOOL:bsp_success_hard",
+      "nextLine": -1,
+      "characterID": "IRELAND_DOYLE",
+      "imageID": "RQ_DOYLE_02",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "NEXT_EVENT",
+          "value": "2",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": "PVAR_BOOL:bsp_success_hard",
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [
+        {
+          "name": "IRELAND_DOYLE",
+          "value": "-30",
+          "triggerType": 32,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": "PVAR_BOOL:bsp_fail_simple",
+      "nextLine": -1,
+      "characterID": "IRELAND_DOYLE",
+      "imageID": "RQ_DOYLE_02",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "NEXT_EVENT",
+          "value": "2",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": "PVAR_BOOL:bsp_fail_simple",
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [
+        {
+          "name": "IRELAND_DOYLE",
+          "value": "-60",
+          "triggerType": 32,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": "PVAR_BOOL:bsp_fail_hard",
+      "nextLine": -1,
+      "characterID": "IRELAND_DOYLE",
+      "imageID": "RQ_DOYLE_02",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "NEXT_EVENT",
+          "value": "2",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": "PVAR_BOOL:bsp_fail_hard",
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    }
+  ],
+  "localTriggerVarsDefinitions": null,
+  "BaseId": "BOOTLEGGER_STAR_PROMOTION"
+}

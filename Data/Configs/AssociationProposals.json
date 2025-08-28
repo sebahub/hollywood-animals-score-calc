@@ -1,0 +1,1264 @@
+{
+  "PROPOSAL_POLLUX": {
+    "behaviour": 514,
+    "poroposalType": 1,
+    "triggersOn": [],
+    "triggersOff": [],
+    "triggersLeave": [],
+    "unlockCost": 10,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "2.000",
+      "EM": "2.000",
+      "SU": "2.000",
+      "HE": "2.000",
+      "MA": "2.000"
+    },
+    "id": "PROPOSAL_POLLUX"
+  },
+  "PROPOSAL_RAISE_TICKET_PRICE": {
+    "behaviour": 2,
+    "poroposalType": 2,
+    "triggersOn": [
+      {
+        "name": "TICKET_PRICE_COEFF",
+        "value": "2.5",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      },
+      {
+        "name": "WORLD_AUDIENCE_COEFF",
+        "value": "0.825",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "TICKET_PRICE_COEFF",
+        "value": "1",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      },
+      {
+        "name": "WORLD_AUDIENCE_COEFF",
+        "value": "1",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "2.000",
+      "EM": "-1.000",
+      "SU": "1.000",
+      "HE": "-2.000",
+      "MA": "-2.000"
+    },
+    "id": "PROPOSAL_RAISE_TICKET_PRICE"
+  },
+  "PROPOSAL_LOWER_TICKET_PRICE": {
+    "behaviour": 66,
+    "poroposalType": 2,
+    "triggersOn": [
+      {
+        "name": "TICKET_PRICE_COEFF",
+        "value": "0.67",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      },
+      {
+        "name": "WORLD_AUDIENCE_COEFF",
+        "value": "1.3",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "TICKET_PRICE_COEFF",
+        "value": "1",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      },
+      {
+        "name": "WORLD_AUDIENCE_COEFF",
+        "value": "1",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "1.000",
+      "SU": "-2.000",
+      "HE": "-1.000",
+      "MA": "0.000"
+    },
+    "id": "PROPOSAL_LOWER_TICKET_PRICE"
+  },
+  "PROPOSAL_LIMIT_CONTRACT_5_MOVIES": {
+    "behaviour": 6,
+    "poroposalType": 8,
+    "triggersOn": [
+      {
+        "name": "CONTRACT_MOVIES_LIMIT",
+        "value": "5",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "CONTRACT_MOVIES_LIMIT",
+        "value": "999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-1.000",
+      "SU": "-1.000",
+      "HE": "2.000",
+      "MA": "2.000"
+    },
+    "id": "PROPOSAL_LIMIT_CONTRACT_5_MOVIES"
+  },
+  "PROPOSAL_LIMIT_CONTRACT_10_MOVIES": {
+    "behaviour": 70,
+    "poroposalType": 8,
+    "triggersOn": [
+      {
+        "name": "CONTRACT_MOVIES_LIMIT",
+        "value": "10",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "CONTRACT_MOVIES_LIMIT",
+        "value": "999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-1.000",
+      "SU": "-1.000",
+      "HE": "1.000",
+      "MA": "2.000"
+    },
+    "id": "PROPOSAL_LIMIT_CONTRACT_10_MOVIES"
+  },
+  "PROPOSAL_LIMIT_CONTRACT_5_YEARS": {
+    "behaviour": 6,
+    "poroposalType": 9,
+    "triggersOn": [
+      {
+        "name": "CONTRACT_YEARS_LIMIT",
+        "value": "5",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "CONTRACT_YEARS_LIMIT",
+        "value": "999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-2.000",
+      "SU": "-1.000",
+      "HE": "2.000",
+      "MA": "2.000"
+    },
+    "id": "PROPOSAL_LIMIT_CONTRACT_5_YEARS"
+  },
+  "PROPOSAL_LIMIT_CONTRACT_10_YEARS": {
+    "behaviour": 70,
+    "poroposalType": 9,
+    "triggersOn": [
+      {
+        "name": "CONTRACT_YEARS_LIMIT",
+        "value": "10",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "CONTRACT_YEARS_LIMIT",
+        "value": "999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-1.000",
+      "EM": "0.000",
+      "SU": "1.000",
+      "HE": "1.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_LIMIT_CONTRACT_10_YEARS"
+  },
+  "PROPOSAL_LIMIT_MOVIE_BUDGET": {
+    "behaviour": 2,
+    "poroposalType": 3,
+    "triggersOn": [
+      {
+        "name": "LIMIT_MOVIE_BUDGET",
+        "value": "600000",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_MOVIE_BUDGET",
+        "value": "99999999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 1,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-1.000",
+      "SU": "1.000",
+      "HE": "2.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_LIMIT_MOVIE_BUDGET"
+  },
+  "PROPOSAL_LIMIT_RELEASE_AMOUNT": {
+    "behaviour": 2,
+    "poroposalType": 4,
+    "triggersOn": [
+      {
+        "name": "REMOVE_REDUNDANT_MOVIES",
+        "value": "true",
+        "triggerType": 88,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      },
+      {
+        "name": "MOVIES_LIMIT",
+        "value": "4",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "MOVIES_LIMIT",
+        "value": "999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 1,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-1.000",
+      "EM": "-2.000",
+      "SU": "1.000",
+      "HE": "0.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_LIMIT_RELEASE_AMOUNT"
+  },
+  "PROPOSAL_LIMIT_RELEASE_DURATION": {
+    "behaviour": 66,
+    "poroposalType": 5,
+    "triggersOn": [
+      {
+        "name": "LIMIT_RELEASE_DURATION",
+        "value": "8",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_RELEASE_DURATION",
+        "value": "999999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 1,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-2.000",
+      "SU": "0.000",
+      "HE": "1.000",
+      "MA": "0.000"
+    },
+    "id": "PROPOSAL_LIMIT_RELEASE_DURATION"
+  },
+  "PROPOSAL_LIMIT_MAX_SUM_CONTRACT_1_MOVIE": {
+    "behaviour": 70,
+    "poroposalType": 10,
+    "triggersOn": [
+      {
+        "name": "LIMIT_MAX_SUM_CONTRACT",
+        "value": "50000",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_MAX_SUM_CONTRACT",
+        "value": "99999999",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 1,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-1.000",
+      "SU": "-1.000",
+      "HE": "2.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_LIMIT_MAX_SUM_CONTRACT_1_MOVIE"
+  },
+  "PROPOSAL_LIMIT_MIN_SUM_CONTRACT_1_MOVIE": {
+    "behaviour": 70,
+    "poroposalType": 11,
+    "triggersOn": [
+      {
+        "name": "LIMIT_MIN_SUM_CONTRACT",
+        "value": "20000",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_MIN_SUM_CONTRACT",
+        "value": "0",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 1,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "0.000",
+      "EM": "-2.000",
+      "SU": "-1.000",
+      "HE": "1.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_LIMIT_MIN_SUM_CONTRACT_1_MOVIE"
+  },
+  "PROPOSAL_ILLEGAL_LIMIT": {
+    "behaviour": 134,
+    "poroposalType": 12,
+    "triggersOn": [
+      {
+        "name": "SET_ILLEGAL_WORKERS_PERCENT",
+        "value": "0",
+        "triggerType": 79,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 180,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "2.000",
+      "EM": "2.000",
+      "SU": "2.000",
+      "HE": "2.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_ILLEGAL_LIMIT"
+  },
+  "PROPOSAL_LIMIT_ADS_SUM": {
+    "behaviour": 6,
+    "poroposalType": 13,
+    "triggersOn": [
+      {
+        "name": "LIMIT_ADS_SUM",
+        "value": "200000",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_ADS_SUM",
+        "value": "99999999",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 1,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "1.000",
+      "SU": "-1.000",
+      "HE": "2.000",
+      "MA": "2.000"
+    },
+    "id": "PROPOSAL_LIMIT_ADS_SUM"
+  },
+  "PROPOSAL_LIMIT_MIN_SALARY": {
+    "behaviour": 4,
+    "poroposalType": 14,
+    "triggersOn": [
+      {
+        "name": "MIN_SALARY_COEFF",
+        "value": "1.75",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "MIN_SALARY_COEFF",
+        "value": "1",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "DATE:>=19-04-1933",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-2.000",
+      "SU": "0.000",
+      "HE": "2.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_LIMIT_MIN_SALARY"
+  },
+  "PROPOSAL_LIMIT_GRAND_CINEMA": {
+    "behaviour": 140,
+    "poroposalType": 15,
+    "triggersOn": [
+      {
+        "name": "LIMIT_GRAND_CINEMA",
+        "value": "1",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_GRAND_CINEMA",
+        "value": "999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 4,
+    "cooldown": 180,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "DATE:>=26-06-1960",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "1.000",
+      "SU": "1.000",
+      "HE": "2.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_LIMIT_GRAND_CINEMA"
+  },
+  "PROPOSAL_LIMIT_IMPROVEMENT": {
+    "behaviour": 140,
+    "poroposalType": 16,
+    "triggersOn": [
+      {
+        "name": "LIMIT_IMPROVEMENT",
+        "value": "1",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_IMPROVEMENT",
+        "value": "-99",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 4,
+    "cooldown": 180,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "DATE:>=25-11-1934",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "2.000",
+      "EM": "2.000",
+      "SU": "1.000",
+      "HE": "0.000",
+      "MA": "-2.000"
+    },
+    "id": "PROPOSAL_LIMIT_IMPROVEMENT"
+  },
+  "PROPOSAL_LIMIT_WORK_DAYS": {
+    "behaviour": 2,
+    "poroposalType": 18,
+    "triggersOn": [
+      {
+        "name": "SET_LIMIT_WORK_DAYS",
+        "value": "0",
+        "triggerType": 81,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      },
+      {
+        "name": "LIMIT_WORK_DAYS",
+        "value": "0.1",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_WORK_DAYS",
+        "value": "0",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "DATE:>=09-08-1932",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "1.000",
+      "EM": "-2.000",
+      "SU": "-1.000",
+      "HE": "2.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_LIMIT_WORK_DAYS"
+  },
+  "PROPOSAL_LIMIT_WORK_HOURS": {
+    "behaviour": 2,
+    "poroposalType": 17,
+    "triggersOn": [
+      {
+        "name": "SET_LIMIT_WORK_HOURS",
+        "value": "1",
+        "triggerType": 80,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      },
+      {
+        "name": "LIMIT_WORK_HOURS",
+        "value": "0.1",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_WORK_HOURS",
+        "value": "0",
+        "triggerType": 73,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "DATE:>=08-05-1932",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "1.000",
+      "EM": "-2.000",
+      "SU": "-1.000",
+      "HE": "2.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_LIMIT_WORK_HOURS"
+  },
+  "PROPOSAL_LIMIT_RELEASE_SLOTS_FOR_MOVIE": {
+    "behaviour": 134,
+    "poroposalType": 7,
+    "triggersOn": [
+      {
+        "name": "LIMIT_RELEASE_SLOTS_FOR_MOVIE",
+        "value": "10000",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_RELEASE_SLOTS_FOR_MOVIE",
+        "value": "99999999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 90,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-1.000",
+      "SU": "1.000",
+      "HE": "2.000",
+      "MA": "2.000"
+    },
+    "id": "PROPOSAL_LIMIT_RELEASE_SLOTS_FOR_MOVIE"
+  },
+  "PROPOSAL_LIMIT_RELEASE_SLOT_FOR_STUDIO": {
+    "behaviour": 70,
+    "poroposalType": 7,
+    "triggersOn": [
+      {
+        "name": "LIMIT_RELEASE_SLOTS_FOR_STUDIO",
+        "value": "17500",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_RELEASE_SLOTS_FOR_STUDIO",
+        "value": "99999999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-1.000",
+      "SU": "0.000",
+      "HE": "2.000",
+      "MA": "2.000"
+    },
+    "id": "PROPOSAL_LIMIT_RELEASE_SLOT_FOR_STUDIO"
+  },
+  "PROPOSAL_CODEX": {
+    "behaviour": 512,
+    "poroposalType": 19,
+    "triggersOn": [
+      {
+        "name": "OPEN_CODEX",
+        "value": "TRUE",
+        "triggerType": 82,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "OPEN_CODEX",
+        "value": "FALSE",
+        "triggerType": 82,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 1,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 1,
+    "cooldown": 0,
+    "voteDuration": 2,
+    "repealDuration": 2,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "2.000",
+      "EM": "2.000",
+      "SU": "2.000",
+      "HE": "2.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_CODEX"
+  },
+  "PROPOSAL_POSTPONE_CODEX": {
+    "behaviour": 36,
+    "poroposalType": 20,
+    "triggersOn": [
+      {
+        "name": "POSTPONE_CODEX",
+        "value": "TRUE",
+        "triggerType": 83,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      },
+      {
+        "name": "LOCK_PROPOSAL",
+        "value": "PROPOSAL_POSTPONE_CODEX",
+        "triggerType": 86,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "CODEX_ACTIVE: TRUE",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-2.000",
+      "SU": "-2.000",
+      "HE": "-2.000",
+      "MA": "-1.000"
+    },
+    "id": "PROPOSAL_POSTPONE_CODEX"
+  },
+  "PROPOSAL_ADD_TAG": {
+    "behaviour": 36,
+    "poroposalType": 21,
+    "triggersOn": [
+      {
+        "name": "ADD_TAG_TO_CODEX",
+        "value": "TRUE",
+        "triggerType": 84,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      },
+      {
+        "name": "RESET_PROPOSAL",
+        "value": "PROPOSAL_ADD_TAG",
+        "triggerType": 85,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "REMOVE_POTENTIAL_CODEX_TAG",
+        "value": "TRUE",
+        "triggerType": 87,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "2.000",
+      "EM": "2.000",
+      "SU": "2.000",
+      "HE": "2.000",
+      "MA": "1.000"
+    },
+    "id": "PROPOSAL_ADD_TAG"
+  },
+  "PROPOSAL_REMOVE_TAG": {
+    "behaviour": 36,
+    "poroposalType": 22,
+    "triggersOn": [
+      {
+        "name": "ADD_TAG_TO_CODEX",
+        "value": "FALSE",
+        "triggerType": 84,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      },
+      {
+        "name": "RESET_PROPOSAL",
+        "value": "PROPOSAL_REMOVE_TAG",
+        "triggerType": 85,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "REMOVE_POTENTIAL_CODEX_TAG",
+        "value": "FALSE",
+        "triggerType": 87,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "-2.000",
+      "EM": "-2.000",
+      "SU": "-2.000",
+      "HE": "-2.000",
+      "MA": "-1.000"
+    },
+    "id": "PROPOSAL_REMOVE_TAG"
+  },
+  "PROPOSAL_LIMIT_AGENTS": {
+    "behaviour": 138,
+    "poroposalType": 23,
+    "triggersOn": [
+      {
+        "name": "LIMIT_AGENTS",
+        "value": "7",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_AGENTS",
+        "value": "99999999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 4,
+    "cooldown": 90,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "2.000",
+      "EM": "2.000",
+      "SU": "1.000",
+      "HE": "0.000",
+      "MA": "-2.000"
+    },
+    "id": "PROPOSAL_LIMIT_AGENTS"
+  },
+  "PROPOSAL_LIMIT_SERVICES": {
+    "behaviour": 130,
+    "poroposalType": 24,
+    "triggersOn": [
+      {
+        "name": "LIMIT_SERVICES",
+        "value": "8",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersOff": [
+      {
+        "name": "LIMIT_SERVICES",
+        "value": "99999999",
+        "triggerType": 65,
+        "buffType": 1,
+        "duration": -1,
+        "probability": "1.000",
+        "delay": 0
+      }
+    ],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 1,
+    "cooldown": 60,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "2.000",
+      "EM": "2.000",
+      "SU": "1.000",
+      "HE": "0.000",
+      "MA": "-2.000"
+    },
+    "id": "PROPOSAL_LIMIT_SERVICES"
+  },
+  "PROPOSAL_BEST_FILM_RETREAT": {
+    "behaviour": 4,
+    "poroposalType": 25,
+    "triggersOn": [],
+    "triggersOff": [],
+    "triggersLeave": [],
+    "unlockCost": 100,
+    "initVoteCost": 20,
+    "initRepealCost": 10,
+    "finePoints": 0,
+    "cooldown": 0,
+    "voteDuration": 10,
+    "repealDuration": 20,
+    "activationCondition": "DATE:>=22-03-1933",
+    "deactivationCondition": "",
+    "intents": {
+      "GB": "2.000",
+      "EM": "2.000",
+      "SU": "1.000",
+      "HE": "0.000",
+      "MA": "-2.000"
+    },
+    "id": "PROPOSAL_BEST_FILM_RETREAT"
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "headerLineIndexes": [
+    0,
+    4
+  ],
+  "eventLines": [
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "16",
+      "imageID": "002_SPECIAL_ACTRESS",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "UNLOCK_CHARACTER",
+          "value": "16",
+          "triggerType": 33,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "HIRE_CHARACTER",
+          "value": "16&Years&2",
+          "triggerType": 34,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "MODE_MANAGER_EVENT",
+          "value": "LYDIA_RIP",
+          "triggerType": 44,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "NEXT_EVENT",
+          "value": "2",
+          "triggerType": 4,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "16",
+          "value": "0.2_0.34",
+          "triggerType": 45,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "MODE_MANAGER_EVENT",
+          "value": "LYDIA_REST",
+          "triggerType": 44,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "WAIT_DAYS",
+          "value": "90",
+          "triggerType": 8,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "16",
+      "imageID": "002_SPECIAL_ACTRESS",
+      "relation": "",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "UNLOCK_CHARACTER",
+          "value": "16",
+          "triggerType": 33,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "HIRE_CHARACTER",
+          "value": "16&Years&2",
+          "triggerType": 34,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "MODE_MANAGER_EVENT",
+          "value": "LYDIA_CHECK",
+          "triggerType": 44,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 360
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "MODE_MANAGER_EVENT",
+          "value": "LYDIA_RESTED",
+          "triggerType": 44,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 60
+        },
+        {
+          "name": "16",
+          "value": "0.1_0.3",
+          "triggerType": 45,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "UNLOCK_CHARACTER",
+          "value": "16",
+          "triggerType": 33,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 60
+        },
+        {
+          "name": "HIRE_CHARACTER",
+          "value": "16&Years&2",
+          "triggerType": 34,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 60
+        },
+        {
+          "name": "MODE_MANAGER_EVENT",
+          "value": "LYDIA_CHECK",
+          "triggerType": 44,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 780
+        }
+      ],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": "0.000",
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    }
+  ],
+  "localTriggerVarsDefinitions": null,
+  "BaseId": "TUT_03_ACTRESS_IN_TROUBLE"
+}

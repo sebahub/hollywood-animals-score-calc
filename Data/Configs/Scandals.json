@@ -1,0 +1,349 @@
+{
+  "SCANDAL_ALCOHOLIC": {
+    "isFromEvent": false,
+    "reputation": 30,
+    "money": 45000,
+    "influence": 110,
+    "moviePenalty": "-0.150",
+    "imageId": "SCANDAL_01_ALCOPIG",
+    "label": "ALCOHOLIC",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_ALCOHOLIC"
+  },
+  "SCANDAL_PROMISCUOUS_FUCKING": {
+    "isFromEvent": true,
+    "reputation": 60,
+    "money": 90000,
+    "influence": 210,
+    "moviePenalty": "-0.200",
+    "imageId": "",
+    "label": "",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_PROMISCUOUS_FUCKING"
+  },
+  "SCANDAL_PERSONAL_GIRL": {
+    "isFromEvent": true,
+    "reputation": 50,
+    "money": 85000,
+    "influence": 175,
+    "moviePenalty": "-0.175",
+    "imageId": "",
+    "label": "",
+    "filter": null,
+    "id": "SCANDAL_PERSONAL_GIRL"
+  },
+  "SCANDAL_POORE_HORSE": {
+    "isFromEvent": true,
+    "reputation": 40,
+    "money": 50000,
+    "influence": 145,
+    "moviePenalty": "-0.150",
+    "imageId": "",
+    "label": "",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_POORE_HORSE"
+  },
+  "SCANDAL_SCRATCHED_FACE": {
+    "isFromEvent": true,
+    "reputation": 40,
+    "money": 60000,
+    "influence": 130,
+    "moviePenalty": "-0.150",
+    "imageId": "",
+    "label": "",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 1
+        }
+      ]
+    },
+    "id": "SCANDAL_SCRATCHED_FACE"
+  },
+  "SCANDAL_KILLED_DOG": {
+    "isFromEvent": true,
+    "reputation": 50,
+    "money": 80000,
+    "influence": 160,
+    "moviePenalty": "-0.200",
+    "imageId": "",
+    "label": "",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_KILLED_DOG"
+  },
+  "SCANDAL_LICKING_WINE": {
+    "isFromEvent": true,
+    "reputation": 50,
+    "money": 65000,
+    "influence": 140,
+    "moviePenalty": "-0.150",
+    "imageId": "",
+    "label": "",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_LICKING_WINE"
+  },
+  "SCANDAL_WHOREDROME": {
+    "isFromEvent": true,
+    "reputation": 40,
+    "money": 100000,
+    "influence": 250,
+    "moviePenalty": "-0.250",
+    "imageId": "",
+    "label": "",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_WHOREDROME"
+  },
+  "SCANDAL_04_LOVE_LETTERS": {
+    "isFromEvent": false,
+    "reputation": 30,
+    "money": 50000,
+    "influence": 150,
+    "moviePenalty": "-0.150",
+    "imageId": "SCANDAL_04_LOVE_LETTERS",
+    "label": "HEARTBREAKER",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_04_LOVE_LETTERS"
+  },
+  "SCANDAL_05_SHOPLIFTING": {
+    "isFromEvent": false,
+    "reputation": 40,
+    "money": 50000,
+    "influence": 150,
+    "moviePenalty": "-0.150",
+    "imageId": "SCANDAL_05_SHOPLIFTING",
+    "label": "LUDOMANIAC",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 1
+        }
+      ]
+    },
+    "id": "SCANDAL_05_SHOPLIFTING"
+  },
+  "SCANDAL_07_STOP_THE_TRAIN": {
+    "isFromEvent": false,
+    "reputation": 50,
+    "money": 70000,
+    "influence": 175,
+    "moviePenalty": "-0.150",
+    "imageId": "SCANDAL_07_STOP_THE_TRAIN",
+    "label": "MISOGYNIST",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_07_STOP_THE_TRAIN"
+  },
+  "SCANDAL_08_WRONG_NAME": {
+    "isFromEvent": false,
+    "reputation": 60,
+    "money": 60000,
+    "influence": 150,
+    "moviePenalty": "-0.150",
+    "imageId": "SCANDAL_08_WRONG_NAME",
+    "label": "HOTHEADED",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 1
+        }
+      ]
+    },
+    "id": "SCANDAL_08_WRONG_NAME"
+  },
+  "SCANDAL_10_MEXICAN_BASEBALL": {
+    "isFromEvent": false,
+    "reputation": 80,
+    "money": 60000,
+    "influence": 150,
+    "moviePenalty": "-0.175",
+    "imageId": "SCANDAL_10_MEXICAN_BASEBALL",
+    "label": "XENOPHOBE",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_10_MEXICAN_BASEBALL"
+  },
+  "SCANDAL_11_FRENCH_DOCTOR": {
+    "isFromEvent": false,
+    "reputation": 80,
+    "money": 60000,
+    "influence": 150,
+    "moviePenalty": "-0.175",
+    "imageId": "SCANDAL_11_FRENCH_DOCTOR",
+    "label": "XENOPHOBE",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_11_FRENCH_DOCTOR"
+  },
+  "SCANDAL_06_BAD_WEDDING": {
+    "isFromEvent": false,
+    "reputation": 60,
+    "money": 50000,
+    "influence": 120,
+    "moviePenalty": "-0.125",
+    "imageId": "SCANDAL_06_BAD_WEDDING",
+    "label": "HOTHEADED",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_06_BAD_WEDDING"
+  },
+  "SCANDAL_FF": {
+    "isFromEvent": true,
+    "reputation": 70,
+    "money": 100000,
+    "influence": 220,
+    "moviePenalty": "-0.250",
+    "imageId": "",
+    "label": "",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_FF"
+  },
+  "SCANDAL_02_COLOREDGIRLS": {
+    "isFromEvent": false,
+    "reputation": 60,
+    "money": 60000,
+    "influence": 150,
+    "moviePenalty": "-0.175",
+    "imageId": "SCANDAL_02_COLOREDGIRLS",
+    "label": "MISOGYNIST",
+    "filter": {
+      "id": "CHARACTER",
+      "targetType": 1,
+      "selectionType": 1,
+      "subfilters": [
+        {
+          "$type": "CharacterGenderSubfilter, Assembly-CSharp",
+          "gender": 0
+        }
+      ]
+    },
+    "id": "SCANDAL_02_COLOREDGIRLS"
+  }
+}

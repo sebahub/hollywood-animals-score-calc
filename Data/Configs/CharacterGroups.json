@@ -1,0 +1,175 @@
+{
+  "FIRST_JEWISH_WAVE": {
+    "characterType": 1,
+    "groups": {
+      "Actor": 4,
+      "Director": 3,
+      "Composer": 2,
+      "FilmEditor": 2,
+      "Scriptwriter": 1
+    },
+    "condition": "DATE: >=16-09-1935",
+    "nationality": 1,
+    "genderM": "0.800",
+    "skillRange": {
+      "from": "0.600",
+      "to": "0.900"
+    },
+    "values": "SELFESTEEM:-0.8_-0.7",
+    "id": "FIRST_JEWISH_WAVE"
+  },
+  "SECOND_JEWISH_WAVE": {
+    "characterType": 1,
+    "groups": {
+      "Actor": 4,
+      "Director": 3,
+      "Composer": 2,
+      "FilmEditor": 2,
+      "Scriptwriter": 1
+    },
+    "condition": "DATE: >=20-10-1935",
+    "nationality": 1,
+    "genderM": "0.800",
+    "skillRange": {
+      "from": "0.600",
+      "to": "0.900"
+    },
+    "values": "SELFESTEEM:-0.8_-0.7",
+    "id": "SECOND_JEWISH_WAVE"
+  },
+  "THIRD_JEWISH_WAVE": {
+    "characterType": 1,
+    "groups": {
+      "Actor": 4,
+      "Director": 3,
+      "Composer": 2,
+      "FilmEditor": 2,
+      "Scriptwriter": 1
+    },
+    "condition": "DATE: >=05-09-1939",
+    "nationality": 1,
+    "genderM": "0.800",
+    "skillRange": {
+      "from": "0.600",
+      "to": "0.900"
+    },
+    "values": "SELFESTEEM:-0.8_-0.7",
+    "id": "THIRD_JEWISH_WAVE"
+  },
+  "BOTIQUE_WAVE": {
+    "characterType": 1,
+    "groups": {
+      "Actor": 6,
+      "Director": 3
+    },
+    "condition": "POLICY_ACTIVE: POLICY_BOTIQUE",
+    "nationality": 0,
+    "genderM": "0.500",
+    "skillRange": {
+      "from": "0.600",
+      "to": "0.900"
+    },
+    "values": "GENERATE_ART",
+    "id": "BOTIQUE_WAVE"
+  },
+  "MAJOR_WAVE": {
+    "characterType": 1,
+    "groups": {
+      "Actor": 6,
+      "Director": 3
+    },
+    "condition": "POLICY_ACTIVE: POLICY_MAJOR",
+    "nationality": 0,
+    "genderM": "0.500",
+    "skillRange": {
+      "from": "0.600",
+      "to": "0.800"
+    },
+    "values": "GENERATE_COM",
+    "id": "MAJOR_WAVE"
+  },
+  "FIRST_CAPTAIN_WAVE": {
+    "characterType": 4,
+    "groups": {
+      "CptHR": 2,
+      "CptLawyer": 2,
+      "CptFinancier": 2,
+      "CptPR": 2
+    },
+    "condition": "DATE: >=15-06-1939",
+    "nationality": 0,
+    "genderM": "0.500",
+    "skillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    },
+    "values": "CHANCE: 70% ATTITUDE: 0.75_1,\nCHANCE: 40% HIRED_SKILL_RANGE: 0.6_0.9&SELFESTEEM: 1_2",
+    "id": "FIRST_CAPTAIN_WAVE"
+  },
+  "FIRST_LIEUT_WAVE": {
+    "characterType": 2,
+    "groups": {
+      "LieutScript": 2,
+      "LieutPrep": 2,
+      "LieutProd": 2,
+      "LieutPost": 2,
+      "LieutRelease": 2,
+      "LieutProducers": 2,
+      "LieutSecurity": 2,
+      "LieutInfrastructure": 2,
+      "LieutTech": 2,
+      "LieutEscort": 2
+    },
+    "condition": "DATE: >=15-06-1939",
+    "nationality": 0,
+    "genderM": "0.500",
+    "skillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    },
+    "values": "CHANCE: 70% ATTITUDE: 0.75_1,\nCHANCE: 40% HIRED_SKILL_RANGE: 0.6_0.9&SELFESTEEM: 1_2",
+    "id": "FIRST_LIEUT_WAVE"
+  },
+  "SECOND_CAPTAIN_WAVE": {
+    "characterType": 4,
+    "groups": {
+      "CptHR": 2,
+      "CptLawyer": 2,
+      "CptFinancier": 2,
+      "CptPR": 2
+    },
+    "condition": "DATE: >=15-06-1944",
+    "nationality": 0,
+    "genderM": "0.500",
+    "skillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    },
+    "values": "CHANCE: 70% ATTITUDE: 0.75_1,\nCHANCE: 40% HIRED_SKILL_RANGE: 0.6_0.9&SELFESTEEM: 1_2",
+    "id": "SECOND_CAPTAIN_WAVE"
+  },
+  "SECOND_LIEUT_WAVE": {
+    "characterType": 2,
+    "groups": {
+      "LieutScript": 2,
+      "LieutPrep": 2,
+      "LieutProd": 2,
+      "LieutPost": 2,
+      "LieutRelease": 2,
+      "LieutProducers": 2,
+      "LieutSecurity": 2,
+      "LieutInfrastructure": 2,
+      "LieutTech": 2,
+      "LieutEscort": 2
+    },
+    "condition": "DATE: >=15-06-1944",
+    "nationality": 0,
+    "genderM": "0.500",
+    "skillRange": {
+      "from": "0.100",
+      "to": "0.200"
+    },
+    "values": "CHANCE: 70% ATTITUDE: 0.75_1,\nCHANCE: 40% HIRED_SKILL_RANGE: 0.6_0.9&SELFESTEEM: 1_2",
+    "id": "SECOND_LIEUT_WAVE"
+  }
+}

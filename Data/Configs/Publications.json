@@ -1,0 +1,822 @@
+{
+  "PUB_DEATH_ACTOR": {
+    "delay": {
+      "from": 2,
+      "to": 2
+    },
+    "triggers": [
+      [
+        {
+          "name": "START_EVENT",
+          "value": "char_23_BEST_FAMILY",
+          "triggerType": 5,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 2
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_DEATH_ACTOR"
+  },
+  "PUB_DEATH_ACTOR_TRIAL_WIN": {
+    "delay": {
+      "from": 2,
+      "to": 2
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_DEATH_ACTOR_TRIAL_WIN"
+  },
+  "PUB_DEATH_ACTOR_TRIAL_LOOSE": {
+    "delay": {
+      "from": 2,
+      "to": 2
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-20",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "PUB",
+          "value": "PUB_DEATH_ACTOR_TRIAL_LOOSE_EXTRA",
+          "triggerType": 7,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_DEATH_ACTOR_TRIAL_LOOSE"
+  },
+  "PUB_DEATH_ACTOR_TRIAL_LOOSE_EXTRA": {
+    "delay": {
+      "from": 50,
+      "to": 50
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_DEATH_ACTOR_TRIAL_LOOSE_EXTRA"
+  },
+  "PUB_SRECIAL_EVENT_MALE": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "15",
+          "triggerType": 27,
+          "buffType": 2,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "TUT_05_HIRING_PUBLICATION",
+    "id": "PUB_SRECIAL_EVENT_MALE"
+  },
+  "PUB_SRECIAL_EVENT_FEMALE": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "15",
+          "triggerType": 27,
+          "buffType": 2,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "TUT_05_HIRING_PUBLICATION",
+    "id": "PUB_SRECIAL_EVENT_FEMALE"
+  },
+  "PUB_FEAR_OF_SPOILERS": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-10",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_FEAR_OF_SPOILERS"
+  },
+  "PUB_SLUGGISH_ROBBERY": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-15",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_SLUGGISH_ROBBERY"
+  },
+  "PUB_MYSTICAL_HOWL": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-20",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "TRIAL",
+          "value": "TRIAL_MYSTICAL_HOWL",
+          "triggerType": 6,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_MYSTICAL_HOWL"
+  },
+  "PUB_MAYOR_ELECTION_DONATIONS": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-20",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_MAYOR_ELECTION_DONATIONS"
+  },
+  "PUB_ILLEGAL_TRICKS": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-35",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_ILLEGAL_TRICKS"
+  },
+  "PUB_REICH_DEBT_NOT_CLOSED": {
+    "delay": {
+      "from": 1,
+      "to": 1
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-1000",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_REICH_DEBT_NOT_CLOSED"
+  },
+  "PUB_REICH_DEBT_CLOSED": {
+    "delay": {
+      "from": 1,
+      "to": 1
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "30",
+          "triggerType": 27,
+          "buffType": 2,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "ADD_BUDGET",
+          "value": "Reich",
+          "triggerType": 25,
+          "buffType": 2,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "REICH_CHARITY_PUBLICATION",
+    "id": "PUB_REICH_DEBT_CLOSED"
+  },
+  "PUB_KKK_FILM_1": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_KKK_FILM_1"
+  },
+  "PUB_KKK_FILM_2": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_KKK_FILM_2"
+  },
+  "PUB_KKK_FILM_3": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_KKK_FILM_3"
+  },
+  "PUB_JOURNALIST_TOUR_SUCCESS": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "15",
+          "triggerType": 27,
+          "buffType": 2,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_JOURNALIST_TOUR_SUCCESS"
+  },
+  "PUB_JOURNALIST_TOUR_FAIL": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-20",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_JOURNALIST_TOUR_FAIL"
+  },
+  "PUB_JOURNALIST_TOUR_REJECT": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-20",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_JOURNALIST_TOUR_REJECT"
+  },
+  "PUB_FALLOUT": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-20",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_FALLOUT"
+  },
+  "PUB_ETHNIC_EVENT": {
+    "delay": {
+      "from": 4,
+      "to": 4
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-15",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_ETHNIC_EVENT"
+  },
+  "PUB_IRON_HAND": {
+    "delay": {
+      "from": 3,
+      "to": 3
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_IRON_HAND"
+  },
+  "PUB_ILLEGAL_GIFTS_OFFER": {
+    "delay": {
+      "from": 4,
+      "to": 4
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-20",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_ILLEGAL_GIFTS_OFFER"
+  },
+  "PUB_THEATERS_POGROM": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_THEATERS_POGROM"
+  },
+  "PUB_ANTHONY_AND_DUSHANNA": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_ANTHONY_AND_DUSHANNA"
+  },
+  "PUB_BLOODY_SUNDAY": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_BLOODY_SUNDAY"
+  },
+  "PUB_MARCUS_RIZLI": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_MARCUS_RIZLI"
+  },
+  "PUB_THE_CODE_INTRO": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_THE_CODE_INTRO"
+  },
+  "PUB_ANTITRUST_START": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      [
+        {
+          "name": "GERSTEIN_BUY_CINEMAS",
+          "value": "true",
+          "triggerType": 91,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_ANTITRUST_START"
+  },
+  "PUB_GERSTEIN_MONOPOLY_START": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      [
+        {
+          "name": "CINEMAS_DISCOUNT",
+          "value": "0.7",
+          "triggerType": 73,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_GERSTEIN_MONOPOLY_START"
+  },
+  "PUB_COURT_ANTITRAST": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      [
+        {
+          "name": "CINEMAS_DISCOUNT",
+          "value": "0.4",
+          "triggerType": 73,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_COURT_ANTITRAST"
+  },
+  "PUB_GERSTEIN_CHARITY_FOR_REICH": {
+    "delay": {
+      "from": 4,
+      "to": 4
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_GERSTEIN_CHARITY_FOR_REICH"
+  },
+  "PUB_ILLEGAL_GIFTS_OPERATION": {
+    "delay": {
+      "from": 5,
+      "to": 5
+    },
+    "triggers": [
+      [
+        {
+          "name": "CONDITION",
+          "value": "CHECK_LIEUT_COMFORT#TRIAL=TRIAL_BLACK_PRESENTS_WITH_CHARACTER#TRIAL=TRIAL_BLACK_PRESENTS_WITHOUT_CHARACTER",
+          "triggerType": 97,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_ILLEGAL_GIFTS_OPERATION"
+  },
+  "PUB_BLACK_PRESENTS_WITH_CHARACTER": {
+    "delay": {
+      "from": 1,
+      "to": 1
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-30",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_BLACK_PRESENTS_WITH_CHARACTER"
+  },
+  "PUB_BLACK_PRESENTS_WITHOUT_CHARACTER": {
+    "delay": {
+      "from": 1,
+      "to": 1
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-30",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_BLACK_PRESENTS_WITHOUT_CHARACTER"
+  },
+  "PUB_WW2_RAISE_TAXES": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_WW2_RAISE_TAXES"
+  },
+  "PUB_WW2_DROP_TAXES": {
+    "delay": {
+      "from": 0,
+      "to": 0
+    },
+    "triggers": [
+      []
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_WW2_DROP_TAXES"
+  },
+  "PUB_POACHING_FROM_COMPETITORS_TRIAL_LOSE": {
+    "delay": {
+      "from": 1,
+      "to": 1
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-50",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_POACHING_FROM_COMPETITORS_TRIAL_LOSE"
+  },
+  "PUB_THREAT": {
+    "delay": {
+      "from": 2,
+      "to": 2
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-20",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_THREAT"
+  },
+  "PUB_BEATING": {
+    "delay": {
+      "from": 2,
+      "to": 2
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-40",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_BEATING"
+  },
+  "PUB_KIDNAPPING": {
+    "delay": {
+      "from": 2,
+      "to": 2
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-60",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_KIDNAPPING"
+  },
+  "PUB_ASSASINATION": {
+    "delay": {
+      "from": 2,
+      "to": 2
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-80",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "CONDITION",
+          "value": "CHECK_LIEUT_SECURITY#TRIAL=TRIAL_ASSASINATION_WITH_CHARACTER#TRIAL=TRIAL_ASSASINATION_WITHOUT_CHARACTER",
+          "triggerType": 97,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_ASSASINATION"
+  },
+  "PUB_DUVAL_MONUMENT_SUCCESS": {
+    "delay": {
+      "from": 7,
+      "to": 7
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "120",
+          "triggerType": 27,
+          "buffType": 2,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_DUVAL_MONUMENT_SUCCESS"
+  },
+  "PUB_DUVAL_MONUMENT_FAILED": {
+    "delay": {
+      "from": 7,
+      "to": 7
+    },
+    "triggers": [
+      [
+        {
+          "name": "REPUTATION",
+          "value": "-350",
+          "triggerType": 27,
+          "buffType": 3,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "imageId": "IMG_PUBLICATION",
+    "id": "PUB_DUVAL_MONUMENT_FAILED"
+  }
+}

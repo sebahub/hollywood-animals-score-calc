@@ -1,0 +1,212 @@
+{
+  "WM_HOSPICE": {
+    "isLegal": true,
+    "weight": "1.000",
+    "price": 10000,
+    "cashPrice": 0,
+    "influencePrice": 50,
+    "reputationPrice": 0,
+    "successProbability": "0.970",
+    "preparingTime": 14,
+    "agentDeadProbability": "0.000",
+    "audienceBoost": "0.100",
+    "successIds": [
+      "01",
+      "02"
+    ],
+    "failIds": [
+      "01",
+      "02"
+    ],
+    "id": "WM_HOSPICE"
+  },
+  "WM_ORPHANAGE": {
+    "isLegal": true,
+    "weight": "1.000",
+    "price": 15000,
+    "cashPrice": 0,
+    "influencePrice": 60,
+    "reputationPrice": 0,
+    "successProbability": "0.970",
+    "preparingTime": 7,
+    "agentDeadProbability": "0.000",
+    "audienceBoost": "0.150",
+    "successIds": [
+      "01",
+      "02"
+    ],
+    "failIds": [
+      "01",
+      "02"
+    ],
+    "id": "WM_ORPHANAGE"
+  },
+  "WM_WEDDING": {
+    "isLegal": true,
+    "weight": "1.000",
+    "price": 20000,
+    "cashPrice": 0,
+    "influencePrice": 70,
+    "reputationPrice": 0,
+    "successProbability": "0.970",
+    "preparingTime": 28,
+    "agentDeadProbability": "0.000",
+    "audienceBoost": "0.250",
+    "successIds": [
+      "01",
+      "02"
+    ],
+    "failIds": [
+      "01",
+      "02"
+    ],
+    "id": "WM_WEDDING"
+  },
+  "WM_HOMELESS": {
+    "isLegal": true,
+    "weight": "1.000",
+    "price": 30000,
+    "cashPrice": 0,
+    "influencePrice": 80,
+    "reputationPrice": 0,
+    "successProbability": "0.970",
+    "preparingTime": 21,
+    "agentDeadProbability": "0.000",
+    "audienceBoost": "0.300",
+    "successIds": [
+      "01",
+      "02"
+    ],
+    "failIds": [
+      "01",
+      "02"
+    ],
+    "id": "WM_HOMELESS"
+  },
+  "WM_DEBT": {
+    "isLegal": true,
+    "weight": "1.000",
+    "price": 40000,
+    "cashPrice": 0,
+    "influencePrice": 100,
+    "reputationPrice": 0,
+    "successProbability": "0.970",
+    "preparingTime": 14,
+    "agentDeadProbability": "0.000",
+    "audienceBoost": "0.400",
+    "successIds": [
+      "01",
+      "02"
+    ],
+    "failIds": [
+      "01",
+      "02"
+    ],
+    "id": "WM_DEBT"
+  },
+  "BM_DROWNING": {
+    "isLegal": false,
+    "weight": "1.000",
+    "price": 400,
+    "cashPrice": 200,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "successProbability": "0.330",
+    "preparingTime": 7,
+    "agentDeadProbability": "0.030",
+    "audienceBoost": "0.150",
+    "successIds": [
+      "01",
+      "02"
+    ],
+    "failIds": [
+      "01",
+      "02"
+    ],
+    "id": "BM_DROWNING"
+  },
+  "BM_DRUNKARD": {
+    "isLegal": false,
+    "weight": "1.000",
+    "price": 900,
+    "cashPrice": 500,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "successProbability": "0.650",
+    "preparingTime": 7,
+    "agentDeadProbability": "0.060",
+    "audienceBoost": "0.250",
+    "successIds": [
+      "01",
+      "02"
+    ],
+    "failIds": [
+      "01",
+      "02"
+    ],
+    "id": "BM_DRUNKARD"
+  },
+  "BM_FIGHT": {
+    "isLegal": false,
+    "weight": "1.000",
+    "price": 1500,
+    "cashPrice": 0,
+    "influencePrice": 0,
+    "reputationPrice": 10,
+    "successProbability": "0.650",
+    "preparingTime": 21,
+    "agentDeadProbability": "0.090",
+    "audienceBoost": "0.350",
+    "successIds": [
+      "01",
+      "02"
+    ],
+    "failIds": [
+      "01",
+      "02"
+    ],
+    "id": "BM_FIGHT"
+  },
+  "BM_CRIMINAL": {
+    "isLegal": false,
+    "weight": "1.000",
+    "price": 2500,
+    "cashPrice": 0,
+    "influencePrice": 0,
+    "reputationPrice": 20,
+    "successProbability": "0.650",
+    "preparingTime": 28,
+    "agentDeadProbability": "0.120",
+    "audienceBoost": "0.450",
+    "successIds": [
+      "01",
+      "02"
+    ],
+    "failIds": [
+      "01",
+      "02"
+    ],
+    "id": "BM_CRIMINAL"
+  },
+  "BM_HOUSE_BURN": {
+    "isLegal": false,
+    "weight": "1.000",
+    "price": 6000,
+    "cashPrice": 0,
+    "influencePrice": 0,
+    "reputationPrice": 40,
+    "successProbability": "0.650",
+    "preparingTime": 14,
+    "agentDeadProbability": "0.150",
+    "audienceBoost": "0.550",
+    "successIds": [
+      "01",
+      "02"
+    ],
+    "failIds": [
+      "01",
+      "02"
+    ],
+    "id": "BM_HOUSE_BURN"
+  }
+}

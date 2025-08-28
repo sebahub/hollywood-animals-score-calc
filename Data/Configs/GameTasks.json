@@ -1,0 +1,2519 @@
+{
+  "MAYOR_DAUGHTER_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "md_success_simple",
+    "varFail": "md_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_DAUGHTER_SIMPLE_1",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,ACTOR#ID#14",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_DAUGHTER_SIMPLE",
+    "IsMultitask": true
+  },
+  "MAYOR_DAUGHTER_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "md_success_hard",
+    "varFail": "md_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_DAUGHTER_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      },
+      {
+        "id": "MAYOR_DAUGHTER_HARD_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "MAYOR_DAUGHTER_HARD_3",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "MAYOR_DAUGHTER_HARD_4",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,ACTOR#ID#14&ACTOR#SKILL#0.5",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_DAUGHTER_HARD",
+    "IsMultitask": true
+  },
+  "MAYOR_TAXES_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, MAYOR_TAXES_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, MAYOR_TAXES_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "mt_success_simple",
+    "varFail": "mt_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_TAXES_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_TAXES_SIMPLE",
+    "IsMultitask": true
+  },
+  "MAYOR_TAXES_HARD": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, MAYOR_TAXES_HARD&True",
+    "failCondition": "DEAL_CLOSED, MAYOR_TAXES_HARD&False",
+    "cancelCondition": "",
+    "varSuccess": "mt_success_hard",
+    "varFail": "mt_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_TAXES_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_TAXES_HARD",
+    "IsMultitask": true
+  },
+  "MAYOR_ELECTION_DONATIONS_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEBT_CLOSED, MayorElection",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "med_success_simple",
+    "varFail": "med_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_ELECTION_DONATIONS_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_ELECTION_DONATIONS_SIMPLE",
+    "IsMultitask": true
+  },
+  "MAYOR_ELECTION_DONATIONS_HARD": {
+    "taskDescription": null,
+    "successCondition": "DEBT_CLOSED, MayorElection",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "med_success_hard",
+    "varFail": "med_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_ELECTION_DONATIONS_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_ELECTION_DONATIONS_HARD",
+    "IsMultitask": true
+  },
+  "MAYOR_NEPHEW_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "mn_success",
+    "varFail": "mn_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_NEPHEW_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      },
+      {
+        "id": "MAYOR_NEPHEW_SIMPLE_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "MAYOR_NEPHEW_SIMPLE_2",
+        "type": 2,
+        "taskClass": 0,
+        "successCondition": "COUNT, 3, CONSTRUCTION:DEVELOPER:CUTTERSTONE_COMPANY",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_NEPHEW_SIMPLE",
+    "IsMultitask": true
+  },
+  "MAYOR_MERITS_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "mm_success",
+    "varFail": "mm_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_MERITS_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_MERITS_SIMPLE",
+    "IsMultitask": true
+  },
+  "MAYOR_PARTY_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "",
+    "varFail": "",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_PARTY_SIMPLE_0",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "INSTANT",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_PARTY_SIMPLE",
+    "IsMultitask": true
+  },
+  "MAYOR_LAWYER_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "ml_success",
+    "varFail": "ml_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_LAWYER_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_LAWYER_SIMPLE",
+    "IsMultitask": true
+  },
+  "POLICE_FILM_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "pf_success_simple",
+    "varFail": "pf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_FILM_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      },
+      {
+        "id": "POLICE_FILM_SIMPLE_1",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,HAS_TAG#THEME_UNIFORM_HEROISM",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_FILM_SIMPLE",
+    "IsMultitask": true
+  },
+  "POLICE_FILM_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "pf_success_hard",
+    "varFail": "pf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_FILM_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      },
+      {
+        "id": "POLICE_FILM_HARD_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "POLICE_FILM_HARD_2",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "POLICE_FILM_HARD_3",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,HAS_TAG#THEME_UNIFORM_HEROISM&ART_SCORE#Release#0.4",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_FILM_HARD",
+    "IsMultitask": true
+  },
+  "POLICE_TIME_WITH_ACTOR_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, POLICE_TIME_WITH_ACTOR_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, POLICE_TIME_WITH_ACTOR_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "ptwa_success_simple",
+    "varFail": "ptwa_fail_simple",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_TIME_WITH_ACTOR_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_TIME_WITH_ACTOR_SIMPLE",
+    "IsMultitask": true
+  },
+  "POLICE_TIME_WITH_ACTOR_HARD": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, POLICE_TIME_WITH_ACTOR_HARD&True",
+    "failCondition": "DEAL_CLOSED, POLICE_TIME_WITH_ACTOR_HARD&False",
+    "cancelCondition": "",
+    "varSuccess": "ptwa_success_hard",
+    "varFail": "ptwa_fail_hard",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_TIME_WITH_ACTOR_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_TIME_WITH_ACTOR_HARD",
+    "IsMultitask": true
+  },
+  "POLICE_COMPOSER_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "pc_success_simple",
+    "varFail": "pc_fail_simple",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_COMPOSER_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,COMPOSER#ID#53",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_COMPOSER_SIMPLE",
+    "IsMultitask": true
+  },
+  "POLICE_COMPOSER_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "pc_success_hard",
+    "varFail": "pc_fail_hard",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_COMPOSER_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,COMPOSER#ID#53&HAS_TAG#WILD_WEST&ART_SCORE#Release#0.5",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      },
+      {
+        "id": "POLICE_COMPOSER_HARD_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "POLICE_COMPOSER_HARD_2",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "POLICE_COMPOSER_HARD_3",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_COMPOSER_HARD",
+    "IsMultitask": true
+  },
+  "POLICE_STUDIO_RAID_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "psr_success",
+    "varFail": "psr_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_STUDIO_RAID_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_STUDIO_RAID_SIMPLE",
+    "IsMultitask": true
+  },
+  "POLICE_MAFIA_DEFENSE_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "pmd_success",
+    "varFail": "pmd_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_MAFIA_DEFENSE_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 365",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_MAFIA_DEFENSE_SIMPLE",
+    "IsMultitask": true
+  },
+  "POLICE_RAIDS_DEFENSE_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "prd_success",
+    "varFail": "prd_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_RAIDS_DEFENSE_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_RAIDS_DEFENSE_SIMPLE",
+    "IsMultitask": true
+  },
+  "POLICE_CINEMAS_RAIDS_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "pcr_success",
+    "varFail": "pcr_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_CINEMAS_RAIDS_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_CINEMAS_RAIDS_SIMPLE",
+    "IsMultitask": true
+  },
+  "POLICE_DRUGS_ON_STUDIO_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "pdos_success",
+    "varFail": "pdos_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "POLICE_DRUGS_ON_STUDIO_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION,180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "POLICE_DRUGS_ON_STUDIO_SIMPLE",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_FILM_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "bf_success_simple",
+    "varFail": "bf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_FILM_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      },
+      {
+        "id": "BOOTLEGGER_FILM_SIMPLE_1",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,HAS_TAG#THEME_ALCOHOL_FREEDOM",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_FILM_SIMPLE",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_FILM_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "bf_success_hard",
+    "varFail": "bf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_FILM_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      },
+      {
+        "id": "BOOTLEGGER_FILM_HARD_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "BOOTLEGGER_FILM_HARD_2",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "BOOTLEGGER_FILM_HARD_3",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,HAS_TAG#THEME_ALCOHOL_FREEDOM&ART_SCORE#Release#0.4",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_FILM_HARD",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_STAR_PROMOTION_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, BOOTLEGGER_STAR_PROMOTION_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, BOOTLEGGER_STAR_PROMOTION_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "bsp_success_simple",
+    "varFail": "bsp_fail_simple",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_STAR_PROMOTION_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_STAR_PROMOTION_SIMPLE",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_STAR_PROMOTION_HARD": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, BOOTLEGGER_STAR_PROMOTION_HARD&True",
+    "failCondition": "DEAL_CLOSED, BOOTLEGGER_STAR_PROMOTION_HARD&False",
+    "cancelCondition": "",
+    "varSuccess": "bsp_success_hard",
+    "varFail": "bsp_fail_hard",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_STAR_PROMOTION_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_STAR_PROMOTION_HARD",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_NEPHEW_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, BOOTLEGGER_NEPHEW_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, BOOTLEGGER_NEPHEW_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "bn_success_simple",
+    "varFail": "bn_fail_simple",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_NEPHEW_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_NEPHEW_SIMPLE",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_NEPHEW_HARD": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, BOOTLEGGER_NEPHEW_HARD&True",
+    "failCondition": "DEAL_CLOSED, BOOTLEGGER_NEPHEW_HARD&False",
+    "cancelCondition": "",
+    "varSuccess": "bn_success_hard",
+    "varFail": "bn_fail_hard",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_NEPHEW_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_NEPHEW_HARD",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_POLLUX_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, BOOTLEGGER_POLLUX_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, BOOTLEGGER_POLLUX_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "bp_success_simple",
+    "varFail": "bp_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_POLLUX_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_POLLUX_SIMPLE",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_POLLUX_HARD": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, BOOTLEGGER_POLLUX_HARD&True",
+    "failCondition": "DEAL_CLOSED, BOOTLEGGER_POLLUX_HARD&False",
+    "cancelCondition": "",
+    "varSuccess": "bp_success_hard",
+    "varFail": "bp_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_POLLUX_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_POLLUX_HARD",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_KILLING_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "bk_success",
+    "varFail": "bk_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_KILLING_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 10",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_KILLING_SIMPLE",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_BEATING_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "bb_success",
+    "varFail": "bb_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_BEATING_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 5",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_BEATING_SIMPLE",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_THREATING_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "bt_success",
+    "varFail": "bt_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_THREATING_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 3",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_THREATING_SIMPLE",
+    "IsMultitask": true
+  },
+  "BOOTLEGGERS_ALCOHOL_ON_STUDIO_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "baos_success",
+    "varFail": "baos_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGERS_ALCOHOL_ON_STUDIO_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION,180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGERS_ALCOHOL_ON_STUDIO_SIMPLE",
+    "IsMultitask": true
+  },
+  "BOOTLEGGER_BAR_PROMOTION_IN_CINEMA_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "bbpic_success",
+    "varFail": "bbpic_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "BOOTLEGGER_BAR_PROMOTION_IN_CINEMA_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "BOOTLEGGER_BAR_PROMOTION_IN_CINEMA_SIMPLE",
+    "IsMultitask": true
+  },
+  "SYSTEM_TALENT_HIRING_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "sth_success",
+    "varFail": "sth_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 2,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "SYSTEM_TALENT_HIRING_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 25",
+        "cancelCondition": null
+      },
+      {
+        "id": "SYSTEM_TALENT_HIRING_SIMPLE_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "SYSTEM_TALENT_HIRING_SIMPLE_2",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "SYSTEM_TALENT_HIRING_SIMPLE_3",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "HIRING_WITH_PARAMS,ID:SYSTEM_TALENT_HIRING_SIMPLE&PARAMS:OWNER=Free$PROFESSION=Actor$ARTCOM=1",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "SYSTEM_TALENT_HIRING_SIMPLE",
+    "IsMultitask": true
+  },
+  "SYSTEM_TUT_07_IMPROVEMENT_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "stis_success",
+    "varFail": "stis_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 2,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "SYSTEM_TUT_07_IMPROVEMENT_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "IMPROVEMENT_LEVEL, 1",
+        "failCondition": "DURATION, 120",
+        "cancelCondition": null
+      }
+    ],
+    "id": "SYSTEM_TUT_07_IMPROVEMENT_SIMPLE",
+    "IsMultitask": true
+  },
+  "SYSTEM_ETHNIC_COMPOSITION_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, BLACK_CHEKING&True",
+    "failCondition": "DEAL_CLOSED, BLACK_CHEKING&False",
+    "cancelCondition": "",
+    "varSuccess": "secs_success",
+    "varFail": "secs_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 2,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "SYSTEM_ETHNIC_COMPOSITION_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 30,ID:BLACK_CHEKING",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "SYSTEM_ETHNIC_COMPOSITION_SIMPLE_1",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "CHECK_ETHNIC_WITH_PARAMS,NATIONALITY=NONE_BLACK",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "SYSTEM_ETHNIC_COMPOSITION_SIMPLE",
+    "IsMultitask": true
+  },
+  "SYSTEM_LUXTA_DEAL_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "slds_success",
+    "varFail": "slds_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 2,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "SYSTEM_LUXTA_DEAL_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 365",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "SYSTEM_LUXTA_DEAL_SIMPLE_1",
+        "type": 2,
+        "taskClass": 0,
+        "successCondition": "COUNT, 500000, CONSTRUCTION_SUMM:DEVELOPER:LUXTA_CONSTRUCTIONS",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "SYSTEM_LUXTA_DEAL_SIMPLE",
+    "IsMultitask": true
+  },
+  "SYSTEM_TALENT_GIFT_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "stg_success",
+    "varFail": "stg_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 2,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "SYSTEM_TALENT_GIFT_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      },
+      {
+        "id": "SYSTEM_TALENT_GIFT_SIMPLE_1",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "GIFTING,ID:64&HEROIN",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "SYSTEM_TALENT_GIFT_SIMPLE",
+    "IsMultitask": true
+  },
+  "SYSTEM_JOURNALIST_TOUR_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED,SYSTEM_JOURNALIST_TOUR_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED,SYSTEM_JOURNALIST_TOUR_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "jt_success",
+    "varFail": "jt_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 2,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "SYSTEM_JOURNALIST_TOUR_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 7",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "SYSTEM_JOURNALIST_TOUR_SIMPLE",
+    "IsMultitask": true
+  },
+  "SYSTEM_NEGATIVE_BUDGET_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED,SYSTEM_NEGATIVE_BUDGET_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED,SYSTEM_NEGATIVE_BUDGET_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "nb_success",
+    "varFail": "nb_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 2,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "SYSTEM_NEGATIVE_BUDGET_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 100, ID:GAME_OVER",
+        "cancelCondition": null
+      }
+    ],
+    "id": "SYSTEM_NEGATIVE_BUDGET_SIMPLE",
+    "IsMultitask": true
+  },
+  "SYSTEM_GRAVES_FILM_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "gf_success",
+    "varFail": "gf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 2,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "SYSTEM_GRAVES_FILM_SIMPLE_0",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "SYSTEM_GRAVES_FILM_SIMPLE_1",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 1100",
+        "cancelCondition": null
+      },
+      {
+        "id": "SYSTEM_GRAVES_FILM_SIMPLE_2",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,GRAVES_SUCCESS",
+        "failCondition": "MOVIE,Release,RELEASE_DAY,GRAVES_FAIL",
+        "cancelCondition": null
+      }
+    ],
+    "id": "SYSTEM_GRAVES_FILM_SIMPLE",
+    "IsMultitask": true
+  },
+  "PROSECUTOR_FILM_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "prf_success_simple",
+    "varFail": "prf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "PROSECUTOR_FILM_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      },
+      {
+        "id": "PROSECUTOR_FILM_SIMPLE_1",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,HAS_TAG#ANTAGONIST_CORRUPT_OFFICIAL",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "PROSECUTOR_FILM_SIMPLE",
+    "IsMultitask": true
+  },
+  "PROSECUTOR_FILM_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "prf_success_hard",
+    "varFail": "prf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "PROSECUTOR_FILM_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      },
+      {
+        "id": "PROSECUTOR_FILM_HARD_1",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,HAS_TAG#ANTAGONIST_CORRUPT_OFFICIAL",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "PROSECUTOR_FILM_HARD",
+    "IsMultitask": true
+  },
+  "PROSECUTOR_CORRUPT_FIGHT_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "ACTION_COMPLETE,ProsecutorCorruption&True",
+    "failCondition": "ACTION_COMPLETE,ProsecutorCorruption&False",
+    "cancelCondition": "",
+    "varSuccess": "prkf_success",
+    "varFail": "prkf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "PROSECUTOR_CORRUPT_FIGHT_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION,NEXT_YEAR,False",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "PROSECUTOR_CORRUPT_FIGHT_SIMPLE",
+    "IsMultitask": true
+  },
+  "PROSECUTOR_ANTICRIME_TRAILERS_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "prat_success",
+    "varFail": "prat_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "PROSECUTOR_ANTICRIME_TRAILERS_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "PROSECUTOR_ANTICRIME_TRAILERS_SIMPLE",
+    "IsMultitask": true
+  },
+  "MAYOR_SCHOOL_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED,MAYOR_SCHOOL_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, MAYOR_SCHOOL_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "prms_success",
+    "varFail": "prms_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_SCHOOL_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_SCHOOL_SIMPLE",
+    "IsMultitask": true
+  },
+  "MAYOR_HOOD_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED,MAYOR_HOOD_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, MAYOR_HOOD_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "prmh_success",
+    "varFail": "prmh_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "MAYOR_HOOD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "MAYOR_HOOD_SIMPLE",
+    "IsMultitask": true
+  },
+  "REICH_FILM_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "rf_success_simple",
+    "varFail": "rf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "REICH_FILM_SIMPLE_1",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,ACTOR#ID#54",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      }
+    ],
+    "id": "REICH_FILM_SIMPLE",
+    "IsMultitask": true
+  },
+  "REICH_FILM_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "rf_success_hard",
+    "varFail": "rf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "REICH_FILM_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      },
+      {
+        "id": "REICH_FILM_HARD_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "REICH_FILM_HARD_3",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "REICH_FILM_HARD_4",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,ACTOR#ID#54&COM_SCORE#Release#0.5",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "REICH_FILM_HARD",
+    "IsMultitask": true
+  },
+  "REICH_JEWS_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, JEWS_CHEKING&True",
+    "failCondition": "DEAL_CLOSED, JEWS_CHEKING&False",
+    "cancelCondition": "",
+    "varSuccess": "rj_success_simple",
+    "varFail": "rj_fail_simple",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "REICH_JEWS_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 730,ID:JEWS_CHEKING",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "REICH_JEWS_SIMPLE",
+    "IsMultitask": true
+  },
+  "REICH_JEWS_HARD": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, JEWS_CHEKING&True",
+    "failCondition": "DEAL_CLOSED, JEWS_CHEKING&False",
+    "cancelCondition": "",
+    "varSuccess": "rj_success_hard",
+    "varFail": "rj_fail_hard",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "REICH_JEWS_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 365,ID:JEWS_CHEKING",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "REICH_JEWS_HARD",
+    "IsMultitask": true
+  },
+  "REICH_PROPAGANDA_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "rprop_success_simple",
+    "varFail": "rprop_fail_simple",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "REICH_PROPAGANDA_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      },
+      {
+        "id": "REICH_PROPAGANDA_SIMPLE_1",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,SCRIPTWRITER#ID#55",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "REICH_PROPAGANDA_SIMPLE",
+    "IsMultitask": true
+  },
+  "REICH_PROPAGANDA_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "rprop_success_hard",
+    "varFail": "rprop_fail_hard",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "REICH_PROPAGANDA_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      },
+      {
+        "id": "REICH_PROPAGANDA_HARD_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "REICH_PROPAGANDA_HARD_2",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "REICH_PROPAGANDA_HARD_3",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,SCRIPTWRITER#ID#55&ART_SCORE#Release#0.6",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "REICH_PROPAGANDA_HARD",
+    "IsMultitask": true
+  },
+  "REICH_PROMOTION_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "rp_success",
+    "varFail": "rp_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "REICH_PROMOTION_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "REICH_PROMOTION_SIMPLE",
+    "IsMultitask": true
+  },
+  "REICH_TOUR_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, REICH_TOUR_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, REICH_TOUR_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "rt_success",
+    "varFail": "rt_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "REICH_TOUR_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "REICH_TOUR_SIMPLE",
+    "IsMultitask": true
+  },
+  "REICH_MOVIE_PROMOTION_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "rmp_success",
+    "varFail": "rmp_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "REICH_MOVIE_PROMOTION_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION,GERMAN_MOVIE_PROMOTION",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "REICH_MOVIE_PROMOTION_SIMPLE",
+    "IsMultitask": true
+  },
+  "ITALIAN_BIOPIC_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "ib_success_simple",
+    "varFail": "ib_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "ITALIAN_BIOPIC_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      },
+      {
+        "id": "ITALIAN_BIOPIC_SIMPLE_1",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,SCRIPTWRITER#ID#56",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "ITALIAN_BIOPIC_SIMPLE",
+    "IsMultitask": true
+  },
+  "ITALIAN_BIOPIC_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "ib_success_hard",
+    "varFail": "ib_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "ITALIAN_BIOPIC_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      },
+      {
+        "id": "ITALIAN_BIOPIC_HARD_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "ITALIAN_BIOPIC_HARD_2",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "ITALIAN_BIOPIC_HARD_3",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,SCRIPTWRITER#ID#56&ACTOR#COM_STATUS#0",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "ITALIAN_BIOPIC_HARD",
+    "IsMultitask": true
+  },
+  "ITALIAN_YOUNG_DIRECTOR_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "iyd_success_simple",
+    "varFail": "iyd_fail_simple",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "ITALIAN_YOUNG_DIRECTOR_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      },
+      {
+        "id": "ITALIAN_YOUNG_DIRECTOR_SIMPLE_1",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,DIRECTOR#ID#57",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "ITALIAN_YOUNG_DIRECTOR_SIMPLE",
+    "IsMultitask": true
+  },
+  "ITALIAN_YOUNG_DIRECTOR_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "PRESS_BUTTON,P",
+    "varSuccess": "iyd_success_hard",
+    "varFail": "iyd_fail_hard",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "ITALIAN_YOUNG_DIRECTOR_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      },
+      {
+        "id": "ITALIAN_YOUNG_DIRECTOR_HARD_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "ITALIAN_YOUNG_DIRECTOR_HARD_2",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "ITALIAN_YOUNG_DIRECTOR_HARD_3",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,DIRECTOR#ID#57&COM_SCORE#Release#0.5",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "ITALIAN_YOUNG_DIRECTOR_HARD",
+    "IsMultitask": true
+  },
+  "ITALIAN_ESMERALDA_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, ITALIAN_ESMERALDA&True",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "ie_success_simple",
+    "varFail": "ie_fail_simple",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "ITALIAN_ESMERALDA_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 365,ID:SUCCESS_DEAL,FOR_QUEST:ITALIAN_ESMERALDA",
+        "failCondition": "MOVIE,Release,RELEASE,ACTOR#ID#ITALIAN_ESMERALDA",
+        "cancelCondition": null
+      }
+    ],
+    "id": "ITALIAN_ESMERALDA_SIMPLE",
+    "IsMultitask": true
+  },
+  "ITALIAN_ESMERALDA_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "ie_success_hard",
+    "varFail": "ie_fail_hard",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "ITALIAN_ESMERALDA_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "FIRING_WITH_PARAMS, ACTOR#ID#ITALIAN_ESMERALDA",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      }
+    ],
+    "id": "ITALIAN_ESMERALDA_HARD",
+    "IsMultitask": true
+  },
+  "ITALIAN_CASINO_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, ITALIAN_CASINO_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, ITALIAN_CASINO_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "ic_success",
+    "varFail": "ic_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "ITALIAN_CASINO_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 90",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "ITALIAN_CASINO_SIMPLE",
+    "IsMultitask": true
+  },
+  "ITALIAN_KEPT_WOMAN_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, ITALIAN_KEPT_WOMAN_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, ITALIAN_KEPT_WOMAN_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "ikw_success",
+    "varFail": "ikw_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "ITALIAN_KEPT_WOMAN_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 90",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "ITALIAN_KEPT_WOMAN_SIMPLE",
+    "IsMultitask": true
+  },
+  "ITALIAN_EVIDENCE_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, ITALIAN_EVIDENCE&True",
+    "failCondition": "DEAL_CLOSED, ITALIAN_EVIDENCE&False",
+    "cancelCondition": "",
+    "varSuccess": "iev_success",
+    "varFail": "iev_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "ITALIAN_EVIDENCE_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 10,ID:ITALIAN_EVIDENCE",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "ITALIAN_EVIDENCE_SIMPLE",
+    "IsMultitask": true
+  },
+  "KKK_FILM_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "kf_success_simple",
+    "varFail": "kf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_FILM_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,HAS_TAG#THEME_WHITE_SUPREMACY",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_FILM_SIMPLE",
+    "IsMultitask": true
+  },
+  "KKK_FILM_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "kf_success_hard",
+    "varFail": "kf_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_FILM_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "MOVIE,Release,RELEASE_DAY,ART_SCORE#Release#0.5&HAS_TAG#THEME_WHITE_SUPREMACY",
+        "failCondition": "DURATION, 730",
+        "cancelCondition": null
+      },
+      {
+        "id": "KKK_FILM_HARD_1",
+        "type": 1,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "KKK_FILM_HARD_2",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_FILM_HARD",
+    "IsMultitask": true
+  },
+  "KKK_FIRE_THEM_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, NOT_WHITE_CHEKING_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, NOT_WHITE_CHEKING_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "",
+    "varFail": "kft_fail_simple",
+    "nextTaskIsSuccess": "KKK_FIRE_THEM_CONTINUE-SIMPLE",
+    "nextTaskIsFail": "",
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_FIRE_THEM_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 30,ID:NOT_WHITE_CHEKING_SIMPLE",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "KKK_FIRE_THEM_SIMPLE_2",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_FIRE_THEM_SIMPLE",
+    "IsMultitask": true
+  },
+  "KKK_FIRE_THEM_CONTINUE-SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "HIRING_WITH_PARAMS,ID&PARAMS:NATIONALITY=NONE",
+    "cancelCondition": "",
+    "varSuccess": "kft_success_simple",
+    "varFail": "kft_fail_simple",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_FIRE_THEM_CONTINUE-SIMPLE_0",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "DEAL_CLOSED, KKK_FIRE_THEM&True",
+        "failCondition": "CHECK_ETHNIC_WITH_PARAMS,NATIONALITY=NONE",
+        "cancelCondition": null
+      },
+      {
+        "id": "KKK_FIRE_THEM_CONTINUE-SIMPLE_1",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION,365,ID:SUCCESS_DEAL,FOR_QUEST:KKK_FIRE_THEM",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_FIRE_THEM_CONTINUE-SIMPLE",
+    "IsMultitask": true
+  },
+  "KKK_FIRE_THEM_HARD": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, NOT_WHITE_CHEKING_HARD&True",
+    "failCondition": "DEAL_CLOSED, NOT_WHITE_CHEKING_HARD&False",
+    "cancelCondition": "",
+    "varSuccess": "",
+    "varFail": "kft_fail_hard",
+    "nextTaskIsSuccess": "KKK_FIRE_THEM_CONTINUE-HARD",
+    "nextTaskIsFail": "",
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_FIRE_THEM_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 30,ID:NOT_WHITE_CHEKING_HARD",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "KKK_FIRE_THEM_HARD_2",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "PRESS_BUTTON,F",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_FIRE_THEM_HARD",
+    "IsMultitask": true
+  },
+  "KKK_FIRE_THEM_CONTINUE-HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "HIRING_WITH_PARAMS,ID&PARAMS:NATIONALITY=NONE",
+    "cancelCondition": "",
+    "varSuccess": "kft_success_hard",
+    "varFail": "kft_fail_hard",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_FIRE_THEM_CONTINUE-HARD_0",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "DEAL_CLOSED, KKK_FIRE_THEM&True",
+        "failCondition": "CHECK_ETHNIC_WITH_PARAMS,NATIONALITY=NONE",
+        "cancelCondition": null
+      },
+      {
+        "id": "KKK_FIRE_THEM_CONTINUE-HARD_1",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION,365,ID:SUCCESS_DEAL,FOR_QUEST:KKK_FIRE_THEM",
+        "failCondition": "CHECK_ETHNIC_WITH_PARAMS,ILLEGAL=0",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_FIRE_THEM_CONTINUE-HARD",
+    "IsMultitask": true
+  },
+  "KKK_PUNISHMENT_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "DEAL_CLOSED, KKK_PUNISHMENT_SIMPLE&True",
+    "failCondition": "DEAL_CLOSED, KKK_PUNISHMENT_SIMPLE&False",
+    "cancelCondition": "",
+    "varSuccess": "kp_success_simple",
+    "varFail": "kp_fail_simple",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 9,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_PUNISHMENT_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_PUNISHMENT_SIMPLE",
+    "IsMultitask": true
+  },
+  "KKK_PUNISHMENT_HARD": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "kp_success_hard",
+    "varFail": "kp_fail_hard",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_PUNISHMENT_HARD_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "FIRING_WITH_PARAMS, ACTOR#ID#KKK_PUNISHMENT",
+        "failCondition": "DURATION, 90",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_PUNISHMENT_HARD",
+    "IsMultitask": true
+  },
+  "KKK_MARCH_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "MOVIE,Release,COMPETITOR,AUDIENCE#COMPETITOR#KKK_MARCH",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "km_success",
+    "varFail": "km_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_MARCH_SIMPLE_0",
+        "type": 6,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_MARCH_SIMPLE",
+    "IsMultitask": true
+  },
+  "KKK_POPCORN_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "kpop_success",
+    "varFail": "kpop_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": true,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_POPCORN_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_POPCORN_SIMPLE",
+    "IsMultitask": true
+  },
+  "KKK_ORDERED_FILM_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "MOVIE,Release,RELEASE,LABEL#Protagonist#RACIST#KKK_ORDERED_FILM",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "kof_success",
+    "varFail": "kof_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": true,
+    "isPassive": false,
+    "taskClass": 1,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "KKK_ORDERED_FILM_SIMPLE_0",
+        "type": 4,
+        "taskClass": 0,
+        "successCondition": "",
+        "failCondition": "",
+        "cancelCondition": null
+      },
+      {
+        "id": "KKK_ORDERED_FILM_SIMPLE_1",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "PRESS_BUTTON,C",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      }
+    ],
+    "id": "KKK_ORDERED_FILM_SIMPLE",
+    "IsMultitask": true
+  },
+  "SYSTEM_END_ACT_1_SIMPLE": {
+    "taskDescription": null,
+    "successCondition": "",
+    "failCondition": "",
+    "cancelCondition": "",
+    "varSuccess": "act1end_success",
+    "varFail": "act1end_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 2,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "SYSTEM_END_ACT_1_SIMPLE_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "DURATION, 180",
+        "failCondition": "",
+        "cancelCondition": null
+      }
+    ],
+    "id": "SYSTEM_END_ACT_1_SIMPLE",
+    "IsMultitask": true
+  },
+  "SYSTEM_SPECIAL_SHUT_YOUR_MOUTH": {
+    "taskDescription": null,
+    "successCondition": "PRESS_BUTTON,C",
+    "failCondition": "PRESS_BUTTON,F",
+    "cancelCondition": "",
+    "varSuccess": "special_shut_your_mouth_success",
+    "varFail": "special_shut_your_mouth_fail",
+    "nextTaskIsSuccess": null,
+    "nextTaskIsFail": null,
+    "isReusable": false,
+    "isPassive": false,
+    "taskClass": 2,
+    "taskType": 0,
+    "parentId": "",
+    "subTasks": [
+      {
+        "id": "SYSTEM_SPECIAL_SHUT_YOUR_MOUTH_0",
+        "type": 3,
+        "taskClass": 0,
+        "successCondition": "SECURITY_EVENT, SinsSurveillance, 65, Success",
+        "failCondition": "DURATION, 365",
+        "cancelCondition": null
+      }
+    ],
+    "id": "SYSTEM_SPECIAL_SHUT_YOUR_MOUTH",
+    "IsMultitask": true
+  }
+}

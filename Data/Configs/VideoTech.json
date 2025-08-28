@@ -1,0 +1,245 @@
+{
+  "DUPLER": {
+    "parameters": null,
+    "techType": 0,
+    "displayPointsQPE": [
+      1,
+      1,
+      2
+    ],
+    "improvPointsQPE": [
+      1,
+      1,
+      1
+    ],
+    "enabledOnStart": true,
+    "isColored": false,
+    "questTechId": "",
+    "format": "35-mm",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_DUPLER",
+    "releaseDate": "1927-03-06T00:00:00",
+    "hasReleaseDate": true,
+    "manufactorerCostMod": "1.000",
+    "price": 100000,
+    "isQuestTech": false,
+    "outDate": "1931-05-06T00:00:00",
+    "hasOutDate": true,
+    "id": "DUPLER"
+  },
+  "HESPRO_STANDART": {
+    "parameters": null,
+    "techType": 0,
+    "displayPointsQPE": [
+      2,
+      1,
+      1
+    ],
+    "improvPointsQPE": [
+      1,
+      0,
+      1
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "HESPRO_QUEST",
+    "format": "35-mm",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_HESPRO",
+    "releaseDate": "1930-04-04T00:00:00",
+    "hasReleaseDate": true,
+    "manufactorerCostMod": "0.800",
+    "price": 115000,
+    "isQuestTech": false,
+    "outDate": "1936-09-09T00:00:00",
+    "hasOutDate": true,
+    "id": "HESPRO_STANDART"
+  },
+  "HESPRO_QUEST": {
+    "parameters": null,
+    "techType": 0,
+    "displayPointsQPE": [
+      4,
+      2,
+      2
+    ],
+    "improvPointsQPE": [
+      2,
+      1,
+      1
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "",
+    "format": "35-mm",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_HESPRO",
+    "releaseDate": "0001-01-01T00:00:00",
+    "hasReleaseDate": false,
+    "manufactorerCostMod": "0.700",
+    "price": 0,
+    "isQuestTech": true,
+    "outDate": "0001-01-01T00:00:00",
+    "hasOutDate": false,
+    "id": "HESPRO_QUEST"
+  },
+  "BLUE_TERM_IRIS_STANDART": {
+    "parameters": null,
+    "techType": 0,
+    "displayPointsQPE": [
+      4,
+      3,
+      1
+    ],
+    "improvPointsQPE": [
+      2,
+      1,
+      2
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "BLUE_TERM_IRIS_QUEST",
+    "format": "35-mm",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_BLUE_TERM",
+    "releaseDate": "1936-03-06T00:00:00",
+    "hasReleaseDate": true,
+    "manufactorerCostMod": "1.100",
+    "price": 195000,
+    "isQuestTech": false,
+    "outDate": "1939-03-06T00:00:00",
+    "hasOutDate": true,
+    "id": "BLUE_TERM_IRIS_STANDART"
+  },
+  "BLUE_TERM_IRIS_QUEST": {
+    "parameters": null,
+    "techType": 0,
+    "displayPointsQPE": [
+      5,
+      3,
+      2
+    ],
+    "improvPointsQPE": [
+      2,
+      1,
+      2
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "",
+    "format": "35-mm",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_BLUE_TERM",
+    "releaseDate": "0001-01-01T00:00:00",
+    "hasReleaseDate": false,
+    "manufactorerCostMod": "1.000",
+    "price": 0,
+    "isQuestTech": true,
+    "outDate": "0001-01-01T00:00:00",
+    "hasOutDate": false,
+    "id": "BLUE_TERM_IRIS_QUEST"
+  },
+  "DUPLER_COMPACT_STANDART": {
+    "parameters": null,
+    "techType": 0,
+    "displayPointsQPE": [
+      2,
+      4,
+      4
+    ],
+    "improvPointsQPE": [
+      1,
+      2,
+      1
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "DUPLER_COMPACT_QUEST",
+    "format": "16-mm",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_DUPLER",
+    "releaseDate": "1942-02-02T00:00:00",
+    "hasReleaseDate": true,
+    "manufactorerCostMod": "0.800",
+    "price": 135000,
+    "isQuestTech": false,
+    "outDate": "1946-02-02T00:00:00",
+    "hasOutDate": true,
+    "id": "DUPLER_COMPACT_STANDART"
+  },
+  "DUPLER_COMPACT_QUEST": {
+    "parameters": null,
+    "techType": 0,
+    "displayPointsQPE": [
+      3,
+      5,
+      3
+    ],
+    "improvPointsQPE": [
+      2,
+      1,
+      1
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "",
+    "format": "16-mm",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_DUPLER",
+    "releaseDate": "0001-01-01T00:00:00",
+    "hasReleaseDate": false,
+    "manufactorerCostMod": "0.650",
+    "price": 0,
+    "isQuestTech": true,
+    "outDate": "0001-01-01T00:00:00",
+    "hasOutDate": false,
+    "id": "DUPLER_COMPACT_QUEST"
+  },
+  "BLUE_TERM_VIVID": {
+    "parameters": null,
+    "techType": 0,
+    "displayPointsQPE": [
+      4,
+      2,
+      2
+    ],
+    "improvPointsQPE": [
+      2,
+      1,
+      2
+    ],
+    "enabledOnStart": false,
+    "isColored": true,
+    "questTechId": "",
+    "format": "35-mm",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_BLUE_TERM",
+    "releaseDate": "1939-06-05T00:00:00",
+    "hasReleaseDate": true,
+    "manufactorerCostMod": "1.000",
+    "price": 300000,
+    "isQuestTech": false,
+    "outDate": "1948-06-05T00:00:00",
+    "hasOutDate": true,
+    "id": "BLUE_TERM_VIVID"
+  },
+  "FLUMEN_STANDART": {
+    "parameters": null,
+    "techType": 0,
+    "displayPointsQPE": [
+      4,
+      5,
+      1
+    ],
+    "improvPointsQPE": [
+      2,
+      2,
+      2
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "",
+    "format": "16-mm",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_FLUMEN",
+    "releaseDate": "1939-09-10T00:00:00",
+    "hasReleaseDate": true,
+    "manufactorerCostMod": "1.200",
+    "price": 150000,
+    "isQuestTech": false,
+    "outDate": "1948-09-10T00:00:00",
+    "hasOutDate": true,
+    "id": "FLUMEN_STANDART"
+  }
+}

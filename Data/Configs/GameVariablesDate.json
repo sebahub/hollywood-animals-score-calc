@@ -1,0 +1,169 @@
+{
+  "data": [
+    {
+      "id": "TECH_CURRENT_AVG_QUALITY",
+      "date": "12-31-1928",
+      "value": "1"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_QUALITY",
+      "date": "06-01-1932",
+      "value": "2"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_QUALITY",
+      "date": "01-01-1936",
+      "value": "3"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_QUALITY",
+      "date": "06-01-1939",
+      "value": "4"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_QUALITY",
+      "date": "01-01-1943",
+      "value": "5"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_PRACTICALITY",
+      "date": "12-31-1928",
+      "value": "1"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_PRACTICALITY",
+      "date": "06-01-1932",
+      "value": "2"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_PRACTICALITY",
+      "date": "01-01-1936",
+      "value": "3"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_PRACTICALITY",
+      "date": "06-01-1939",
+      "value": "4"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_PRACTICALITY",
+      "date": "01-01-1943",
+      "value": "5"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_ECONOMY",
+      "date": "12-31-1928",
+      "value": "1"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_ECONOMY",
+      "date": "06-01-1932",
+      "value": "2"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_ECONOMY",
+      "date": "01-01-1936",
+      "value": "3"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_ECONOMY",
+      "date": "06-01-1939",
+      "value": "4"
+    },
+    {
+      "id": "TECH_CURRENT_AVG_ECONOMY",
+      "date": "01-01-1943",
+      "value": "5"
+    },
+    {
+      "id": "TECH_CURRENT_COLOR_COM_FACTOR",
+      "date": "12-31-1928",
+      "value": "0.15"
+    },
+    {
+      "id": "TECH_CURRENT_COLOR_COM_FACTOR",
+      "date": "01-01-1931",
+      "value": "0.10"
+    },
+    {
+      "id": "TECH_CURRENT_COLOR_COM_FACTOR",
+      "date": "01-01-1932",
+      "value": "0.05"
+    },
+    {
+      "id": "TECH_CURRENT_COLOR_COM_FACTOR",
+      "date": "01-01-1933",
+      "value": "0"
+    },
+    {
+      "id": "TECH_CURRENT_COLOR_COM_FACTOR",
+      "date": "01-01-1934",
+      "value": "0"
+    },
+    {
+      "id": "TECH_CURRENT_BLACK_AND_WHITE_COM_FACTOR",
+      "date": "12-31-1928",
+      "value": "0"
+    },
+    {
+      "id": "TECH_CURRENT_BLACK_AND_WHITE_COM_FACTOR",
+      "date": "01-01-1931",
+      "value": "0"
+    },
+    {
+      "id": "TECH_CURRENT_BLACK_AND_WHITE_COM_FACTOR",
+      "date": "01-01-1932",
+      "value": "0"
+    },
+    {
+      "id": "TECH_CURRENT_BLACK_AND_WHITE_COM_FACTOR",
+      "date": "01-01-1933",
+      "value": "0"
+    },
+    {
+      "id": "TECH_CURRENT_BLACK_AND_WHITE_COM_FACTOR",
+      "date": "01-01-1934",
+      "value": "-0.05"
+    },
+    {
+      "id": "TECH_AUDIO_INFLUENCE_COM_SCORE",
+      "date": "01-01-1929",
+      "value": "0"
+    },
+    {
+      "id": "TECH_AUDIO_INFLUENCE_COM_SCORE",
+      "date": "01-01-1950",
+      "value": "1"
+    },
+    {
+      "id": "ads_budget",
+      "date": "12-31-1928",
+      "value": "10000"
+    },
+    {
+      "id": "ads_budget",
+      "date": "05-05-1936",
+      "value": "35000"
+    },
+    {
+      "id": "tax_percent",
+      "date": "12-31-1928",
+      "value": "0.11"
+    },
+    {
+      "id": "tax_percent",
+      "date": "03-05-1942",
+      "value": "0.53"
+    },
+    {
+      "id": "tax_percent",
+      "date": "10-05-1945",
+      "value": "0.19"
+    },
+    {
+      "id": "competitors_attack_poachings_base_probability_per_week",
+      "date": "05-14-1943",
+      "value": "0.00164"
+    }
+  ]
+}

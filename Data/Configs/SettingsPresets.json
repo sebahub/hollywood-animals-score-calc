@@ -1,0 +1,29 @@
+{
+  "TextSize": {
+    "Id": "TextSize",
+    "OptionsAmount": 2,
+    "UnparsedValues": [
+      "1",
+      " 1.3"
+    ],
+    "DefaultValueIndex": 0
+  },
+  "TextSpeed": {
+    "Id": "TextSpeed",
+    "OptionsAmount": 2,
+    "UnparsedValues": [
+      "4",
+      " 40"
+    ],
+    "DefaultValueIndex": 0
+  },
+  "SoundVolume": {
+    "Id": "SoundVolume",
+    "OptionsAmount": 2,
+    "UnparsedValues": [
+      "0",
+      "1"
+    ],
+    "DefaultValueIndex": 1
+  }
+}

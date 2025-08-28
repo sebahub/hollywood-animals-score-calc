@@ -1,0 +1,1803 @@
+{
+  "1": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "ROMANCE": "12.000"
+    },
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Scriptwriter": "0.720"
+    },
+    "parameters": null,
+    "birthDate": "1904-11-30T00:00:00",
+    "gender": 0,
+    "firstNameId": "922",
+    "lastNameId": "923",
+    "values": "MOOD:0.53; ATTITUDE:0.57; PORTRAIT:430",
+    "limit": "0.800",
+    "id": "1"
+  },
+  "2": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "ACTION": "12.000"
+    },
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Scriptwriter": "0.710"
+    },
+    "parameters": null,
+    "birthDate": "1901-04-06T00:00:00",
+    "gender": 0,
+    "firstNameId": "924",
+    "lastNameId": "925",
+    "values": "MOOD:0.64; ATTITUDE:0.36; PORTRAIT:40",
+    "limit": "0.800",
+    "id": "2"
+  },
+  "3": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "DETECTIVE": "12.000"
+    },
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Scriptwriter": "0.700"
+    },
+    "parameters": null,
+    "birthDate": "1889-11-30T00:00:00",
+    "gender": 0,
+    "firstNameId": "954",
+    "lastNameId": "927",
+    "values": "MOOD:0.46; ATTITUDE:0.78; PORTRAIT:169",
+    "limit": "0.900",
+    "id": "3"
+  },
+  "4": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "ART": "0.320"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "ROMANCE",
+      "ACTION",
+      "DETECTIVE",
+      "ADVENTURE",
+      "ACTION",
+      "PROTAGONIST_CLUMSY_OAF",
+      "PROTAGONIST_COWBOY",
+      "PROTAGONIST_DETECTIVE",
+      "ANTAGONIST_EVIL_MONSTER",
+      "PROTAGONIST_COP"
+    ],
+    "type": 1,
+    "starterState": 16,
+    "professions": {
+      "Actor": "0.840"
+    },
+    "parameters": null,
+    "birthDate": "1901-05-23T00:00:00",
+    "gender": 0,
+    "firstNameId": "924",
+    "lastNameId": "900",
+    "values": "MOOD:0.85; ATTITUDE:0.42; PORTRAIT:131; DEATH_DATE:12-31-1928",
+    "limit": "0.900",
+    "id": "4"
+  },
+  "5": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "ACTION",
+      "ADVENTURE",
+      "DRAMA",
+      "DRAMA",
+      "ROMANCE",
+      "PROTAGONIST_DARING_ADVENTURER",
+      "SUPPORTINGCHARACTER_SIDEKICK",
+      "SUPPORTINGCHARACTER_RIVAL",
+      "PROTAGONIST_WORKING_MAN",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST"
+    ],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Actor": "0.810"
+    },
+    "parameters": null,
+    "birthDate": "1883-09-08T00:00:00",
+    "gender": 0,
+    "firstNameId": "928",
+    "lastNameId": "929",
+    "values": "MOOD:0.62; ATTITUDE:0.66; PORTRAIT:351",
+    "limit": "0.900",
+    "id": "5"
+  },
+  "6": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "COM": "0.130"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "DETECTIVE",
+      "THRILLER",
+      "COMEDY",
+      "COMEDY",
+      "ACTION",
+      "SUPPORTINGCHARACTER_SIDEKICK",
+      "ANTAGONIST_MURDERER",
+      "PROTAGONIST_HOPELESS_ROMANTIC",
+      "PROTAGONIST_HOPELESS_ROMANTIC",
+      "PROTAGONIST_COWBOY"
+    ],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Actor": "0.770"
+    },
+    "parameters": null,
+    "birthDate": "1881-03-22T00:00:00",
+    "gender": 0,
+    "firstNameId": "930",
+    "lastNameId": "931",
+    "values": "MOOD:0.72; ATTITUDE:0.32; PORTRAIT:25",
+    "limit": "0.800",
+    "id": "6"
+  },
+  "7": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "ROMANCE",
+      "DETECTIVE",
+      "COMEDY",
+      "DRAMA",
+      "DETECTIVE",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST",
+      "SUPPORTINGCHARACTER_FEMME_FATALE",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST",
+      "SUPPORTINGCHARACTER_DAMSEL_IN_DISTRESS",
+      "SUPPORTINGCHARACTER_DAMSEL_IN_DISTRESS"
+    ],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Actor": "0.780"
+    },
+    "parameters": null,
+    "birthDate": "1898-02-01T00:00:00",
+    "gender": 1,
+    "firstNameId": "932",
+    "lastNameId": "933",
+    "values": "MOOD:0.82; ATTITUDE:0.48; PORTRAIT:31",
+    "limit": "0.800",
+    "id": "7"
+  },
+  "8": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "ROMANCE",
+      "DRAMA",
+      "DRAMA",
+      "THRILLER",
+      "COMEDY",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST",
+      "SUPPORTINGCHARACTER_SIDEKICK",
+      "SUPPORTINGCHARACTER_DAMSEL_IN_DISTRESS",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST",
+      "ANTAGONIST_EVIL_WITCH"
+    ],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Actor": "0.770"
+    },
+    "parameters": null,
+    "birthDate": "1886-06-05T00:00:00",
+    "gender": 1,
+    "firstNameId": "934",
+    "lastNameId": "935",
+    "values": "MOOD:0.67; ATTITUDE:0.38; PORTRAIT:20",
+    "limit": "0.800",
+    "id": "8"
+  },
+  "9": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Director": "0.780"
+    },
+    "parameters": null,
+    "birthDate": "1884-04-18T00:00:00",
+    "gender": 0,
+    "firstNameId": "936",
+    "lastNameId": "937",
+    "values": "MOOD:0.78; ATTITUDE:0.72;PORTRAIT:74",
+    "limit": "0.900",
+    "id": "9"
+  },
+  "10": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "INDOOR": "0.200",
+      "OUTDOOR": "0.300"
+    },
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Cinematographer": "0.760"
+    },
+    "parameters": null,
+    "birthDate": "1877-07-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "938",
+    "lastNameId": "939",
+    "values": "MOOD:0.62; ATTITUDE:0.4; PORTRAIT:57",
+    "limit": "0.800",
+    "id": "10"
+  },
+  "11": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Producer": "0.800"
+    },
+    "parameters": null,
+    "birthDate": "1890-11-07T00:00:00",
+    "gender": 0,
+    "firstNameId": "940",
+    "lastNameId": "941",
+    "values": "MOOD:0.75; ATTITUDE:0.61; PORTRAIT:304",
+    "limit": "0.900",
+    "id": "11"
+  },
+  "12": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "DRAMA",
+      "COMEDY",
+      "THRILLER",
+      "ROMANCE",
+      "ROMANCE",
+      "SUPPORTINGCHARACTER_STRICT_PARENT",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST",
+      "SUPPORTINGCHARACTER_FEMME_FATALE",
+      "SUPPORTINGCHARACTER_DAMSEL_IN_DISTRESS",
+      "SUPPORTINGCHARACTER_DAMSEL_IN_DISTRESS"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.500"
+    },
+    "parameters": null,
+    "birthDate": "1897-08-17T00:00:00",
+    "gender": 1,
+    "firstNameId": "942",
+    "lastNameId": "943",
+    "values": "MOOD:0.7; ATTITUDE:0.5",
+    "limit": "0.500",
+    "id": "12"
+  },
+  "13": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "PERFECTIONIST",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "DRAMA": "12.000"
+    },
+    "blackTags": [
+      "HORROR"
+    ],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Scriptwriter": "0.850"
+    },
+    "parameters": null,
+    "birthDate": "1895-07-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "901",
+    "lastNameId": "902",
+    "values": "MOOD:0.83; ATTITUDE:0.62; PORTRAIT:144; POLLUX:3",
+    "limit": "0.850",
+    "id": "13"
+  },
+  "14": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "UNWANTED_ACTOR",
+      "STERILE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.010"
+    },
+    "parameters": null,
+    "birthDate": "1910-07-25T00:00:00",
+    "gender": 1,
+    "firstNameId": "913",
+    "lastNameId": "944",
+    "values": "MOOD:0.92; ATTITUDE:0.85; PORTRAIT:92",
+    "limit": "0.200",
+    "id": "14"
+  },
+  "15": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "LEADER",
+      "HOTHEADED",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "COMEDY",
+      "ACTION",
+      "COMEDY",
+      "HORROR",
+      "ADVENTURE",
+      "PROTAGONIST_COWBOY",
+      "PROTAGONIST_SHERIFF",
+      "SUPPORTINGCHARACTER_SIDEKICK",
+      "ANTAGONIST_EVIL_MONSTER",
+      "ANTAGONIST_BANDIT"
+    ],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Actor": "0.590"
+    },
+    "parameters": null,
+    "birthDate": "1894-03-15T00:00:00",
+    "gender": 0,
+    "firstNameId": "945",
+    "lastNameId": "946",
+    "values": "MOOD:0.81; ATTITUDE:0.40; DOSSIER_SIN:SIN_SEX_WITH_FIFTEEN_YEAR_OLD; PORTRAIT:205",
+    "limit": "0.600",
+    "id": "15"
+  },
+  "16": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "PERFECTIONIST",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.050"
+    },
+    "parameters": null,
+    "birthDate": "1886-11-27T00:00:00",
+    "gender": 1,
+    "firstNameId": "947",
+    "lastNameId": "914",
+    "values": "MOOD:0.23; ATTITUDE:0.66; PORTRAIT:3",
+    "limit": "0.050",
+    "id": "16"
+  },
+  "17": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "LAZY",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Scriptwriter": "0.190"
+    },
+    "parameters": null,
+    "birthDate": "1901-04-03T00:00:00",
+    "gender": 0,
+    "firstNameId": "948",
+    "lastNameId": "949",
+    "values": "MOOD:0.62; ATTITUDE:0.39; PORTRAIT:152",
+    "limit": "0.500",
+    "id": "17"
+  },
+  "18": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "RACIST",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Scriptwriter": "0.280"
+    },
+    "parameters": null,
+    "birthDate": "1893-05-19T00:00:00",
+    "gender": 0,
+    "firstNameId": "950",
+    "lastNameId": "951",
+    "values": "MOOD:0.41; ATTITUDE:0.6; PORTRAIT:44",
+    "limit": "0.700",
+    "id": "18"
+  },
+  "19": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "LUDOMANIAC",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Scriptwriter": "0.350"
+    },
+    "parameters": null,
+    "birthDate": "1886-10-12T00:00:00",
+    "gender": 0,
+    "firstNameId": "952",
+    "lastNameId": "953",
+    "values": "MOOD:0.27;ATTITUDE:0.53; PORTRAIT:120",
+    "limit": "0.900",
+    "id": "19"
+  },
+  "20": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "ALCOHOLIC",
+      "MISOGYNIST",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "ADVENTURE",
+      "HISTORICAL",
+      "ADVENTURE",
+      "COMEDY",
+      "HISTORICAL",
+      "PROTAGONIST_COWBOY",
+      "SUPPORTINGCHARACTER_SIDEKICK",
+      "SUPPORTINGCHARACTER_RIVAL",
+      "ANTAGONIST_BANDIT",
+      "PROTAGONIST_KNIGHT"
+    ],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Actor": "0.330"
+    },
+    "parameters": null,
+    "birthDate": "1901-06-15T00:00:00",
+    "gender": 0,
+    "firstNameId": "955",
+    "lastNameId": "915",
+    "values": "MOOD:0.32; ATTITUDE:0.25; NATIONALITY:JEWISH; PORTRAIT:215",
+    "limit": "0.600",
+    "id": "20"
+  },
+  "21": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "RACIST",
+      "HEARTBREAKER",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "THRILLER",
+      "ROMANCE",
+      "DETECTIVE",
+      "ROMANCE",
+      "THRILLER",
+      "ANTAGONIST_SERIAL_KILLER",
+      "PROTAGONIST_HOPELESS_ROMANTIC",
+      "SUPPORTINGCHARACTER_ANGRY_BOSS",
+      "PROTAGONIST_HOPELESS_ROMANTIC",
+      "PROTAGONIST_WORKING_MAN"
+    ],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Actor": "0.250"
+    },
+    "parameters": null,
+    "birthDate": "1876-09-20T00:00:00",
+    "gender": 0,
+    "firstNameId": "956",
+    "lastNameId": "957",
+    "values": "MOOD:0.56; ATTITUDE:0.63; PORTRAIT:110",
+    "limit": "0.500",
+    "id": "21"
+  },
+  "22": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "CHASTE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "DRAMA",
+      "ACTION",
+      "DETECTIVE",
+      "COMEDY",
+      "DRAMA",
+      "SUPPORTINGCHARACTER_SIDEKICK",
+      "ANTAGONIST_CRIMINAL_MASTERMIND",
+      "PROTAGONIST_COP",
+      "PROTAGONIST_CLUMSY_OAF",
+      "SUPPORTINGCHARACTER_RIVAL"
+    ],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Actor": "0.380"
+    },
+    "parameters": null,
+    "birthDate": "1861-11-03T00:00:00",
+    "gender": 0,
+    "firstNameId": "917",
+    "lastNameId": "958",
+    "values": "MOOD:0.43; ATTITUDE:0.78; NATIONALITY:JEWISH; PORTRAIT:178",
+    "limit": "0.600",
+    "id": "22"
+  },
+  "23": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "DEMANDING",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "HISTORICAL",
+      "DRAMA",
+      "ROMANCE",
+      "HISTORICAL",
+      "THRILLER",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST",
+      "SUPPORTINGCHARACTER_SIDEKICK",
+      "SUPPORTINGCHARACTER_STRICT_PARENT",
+      "SUPPORTINGCHARACTER_FEMME_FATALE"
+    ],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Actor": "0.290"
+    },
+    "parameters": null,
+    "birthDate": "1902-04-10T00:00:00",
+    "gender": 1,
+    "firstNameId": "959",
+    "lastNameId": "960",
+    "values": "MOOD:0.36; ATTITUDE:0.94; PORTRAIT:33",
+    "limit": "0.900",
+    "id": "23"
+  },
+  "24": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "UNDISCIPLINED",
+      "JUNKIE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "COMEDY",
+      "ACTION",
+      "COMEDY",
+      "ADVENTURE",
+      "ROMANCE",
+      "ANTAGONIST_EVIL_WITCH",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST",
+      "ANTAGONIST_EVIL_MONSTER",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST",
+      "SUPPORTINGCHARACTER_FEMME_FATALE"
+    ],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Actor": "0.180"
+    },
+    "parameters": null,
+    "birthDate": "1887-07-25T00:00:00",
+    "gender": 1,
+    "firstNameId": "961",
+    "lastNameId": "916",
+    "values": "MOOD:0.48; ATTITUDE:0.39; NATIONALITY:JEWISH; PORTRAIT:74",
+    "limit": "0.700",
+    "id": "24"
+  },
+  "25": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "LUDOMANIAC",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Producer": "0.290"
+    },
+    "parameters": null,
+    "birthDate": "1895-03-07T00:00:00",
+    "gender": 0,
+    "firstNameId": "962",
+    "lastNameId": "963",
+    "values": "MOOD:0.44; ATTITUDE:0.62; SIN:SIN_EROTIC_PHOTOS; PORTRAIT:149",
+    "limit": "0.600",
+    "id": "25"
+  },
+  "26": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Producer": "0.350"
+    },
+    "parameters": null,
+    "birthDate": "1887-11-18T00:00:00",
+    "gender": 0,
+    "firstNameId": "964",
+    "lastNameId": "965",
+    "values": "MOOD:0.67; ATTITUDE:0.29; PORTRAIT:183",
+    "limit": "0.800",
+    "id": "26"
+  },
+  "27": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "CALM",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "INDOOR": "0.100",
+      "OUTDOOR": "0.200"
+    },
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Cinematographer": "0.210"
+    },
+    "parameters": null,
+    "birthDate": "1890-09-14T00:00:00",
+    "gender": 0,
+    "firstNameId": "966",
+    "lastNameId": "967",
+    "values": "MOOD:0.32; ATTITUDE:0.67; PORTRAIT:167",
+    "limit": "0.700",
+    "id": "27"
+  },
+  "28": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "JUNKIE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "INDOOR": "0.200",
+      "OUTDOOR": "0.200"
+    },
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Cinematographer": "0.370"
+    },
+    "parameters": null,
+    "birthDate": "1881-05-03T00:00:00",
+    "gender": 0,
+    "firstNameId": "968",
+    "lastNameId": "969",
+    "values": "MOOD:0.55; ATTITUDE:0.44; SIN:SIN_EXHIBITIONIST; PORTRAIT:263",
+    "limit": "0.800",
+    "id": "28"
+  },
+  "29": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "PERFECTIONIST",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Director": "0.280"
+    },
+    "parameters": null,
+    "birthDate": "1894-07-22T00:00:00",
+    "gender": 0,
+    "firstNameId": "970",
+    "lastNameId": "971",
+    "values": "MOOD:0.87; ATTITUDE:0.42; SIN:SIN_BLACK_MOTHER; PORTRAIT:331",
+    "limit": "0.700",
+    "id": "29"
+  },
+  "30": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "DISCIPLINED",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Director": "0.420"
+    },
+    "parameters": null,
+    "birthDate": "1884-11-09T00:00:00",
+    "gender": 0,
+    "firstNameId": "972",
+    "lastNameId": "973",
+    "values": "MOOD:0.42; ATTITUDE:0.5; SIN:SIN_SPOKE_AGAINST_JESUS; PORTRAIT:300",
+    "limit": "0.900",
+    "id": "30"
+  },
+  "31": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "RACIST",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Composer": "0.330"
+    },
+    "parameters": null,
+    "birthDate": "1885-04-12T00:00:00",
+    "gender": 0,
+    "firstNameId": "970",
+    "lastNameId": "974",
+    "values": "MOOD:0.26; ATTITUDE:0.37; PORTRAIT:191",
+    "limit": "0.600",
+    "id": "31"
+  },
+  "32": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "Composer": "0.280"
+    },
+    "parameters": null,
+    "birthDate": "1891-08-29T00:00:00",
+    "gender": 0,
+    "firstNameId": "975",
+    "lastNameId": "976",
+    "values": "MOOD:0.43; ATTITUDE:0.54; PORTRAIT:105",
+    "limit": "0.600",
+    "id": "32"
+  },
+  "33": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "FilmEditor": "0.360"
+    },
+    "parameters": null,
+    "birthDate": "1889-05-18T00:00:00",
+    "gender": 1,
+    "firstNameId": "977",
+    "lastNameId": "978",
+    "values": "MOOD:0.6; ATTITUDE:0.48; PORTRAIT:114",
+    "limit": "0.700",
+    "id": "33"
+  },
+  "34": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "ALCOHOLIC",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 2,
+    "professions": {
+      "FilmEditor": "0.270"
+    },
+    "parameters": null,
+    "birthDate": "1886-11-03T00:00:00",
+    "gender": 0,
+    "firstNameId": "979",
+    "lastNameId": "980",
+    "values": "MOOD:0.19; ATTITUDE:0.78; PORTRAIT:190",
+    "limit": "0.500",
+    "id": "34"
+  },
+  "35": {
+    "type": 4,
+    "starterState": 2,
+    "professions": {
+      "CptPR": "0.300"
+    },
+    "parameters": null,
+    "birthDate": "1884-09-07T00:00:00",
+    "gender": 1,
+    "firstNameId": "981",
+    "lastNameId": "982",
+    "values": "MOOD:0.44; ATTITUDE:0.19; PORTRAIT:36",
+    "limit": "0.300",
+    "id": "35"
+  },
+  "36": {
+    "type": 4,
+    "starterState": 2,
+    "professions": {
+      "CptLawyer": "0.500"
+    },
+    "parameters": null,
+    "birthDate": "1895-04-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "983",
+    "lastNameId": "984",
+    "values": "MOOD:0.58; ATTITUDE:0.39; PORTRAIT:52",
+    "limit": "0.500",
+    "id": "36"
+  },
+  "37": {
+    "type": 4,
+    "starterState": 2,
+    "professions": {
+      "CptFinancier": "0.800"
+    },
+    "parameters": null,
+    "birthDate": "1886-11-14T00:00:00",
+    "gender": 0,
+    "firstNameId": "985",
+    "lastNameId": "986",
+    "values": "MOOD:0.39; ATTITUDE:0.54; PORTRAIT:184",
+    "limit": "0.800",
+    "id": "37"
+  },
+  "38": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "ROMANCE",
+      "DRAMA",
+      "COMEDY",
+      "DRAMA",
+      "ROMANCE",
+      "SUPPORTINGCHARACTER_SIDEKICK",
+      "ANTAGONIST_MURDERER",
+      "PROTAGONIST_HOPELESS_ROMANTIC",
+      "PROTAGONIST_HOPELESS_ROMANTIC",
+      "PROTAGONIST_DARING_ADVENTURER"
+    ],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Actor": "0.770"
+    },
+    "parameters": null,
+    "birthDate": "1886-10-07T00:00:00",
+    "gender": 0,
+    "firstNameId": "987",
+    "lastNameId": "988",
+    "values": "MOOD:0.52; ATTITUDE:0.31; PORTRAIT:150",
+    "limit": "0.800",
+    "id": "38"
+  },
+  "39": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "HOTHEADED",
+      "ALCOHOLIC",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "DRAMA": "12.000",
+      "ROMANCE": "12.000"
+    },
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Scriptwriter": "0.800"
+    },
+    "parameters": null,
+    "birthDate": "1884-04-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "160",
+    "lastNameId": "474",
+    "values": "MOOD:0.8; ATTITUDE:0.94; PORTRAIT:63",
+    "limit": "0.800",
+    "id": "39"
+  },
+  "40": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "DEMANDING",
+      "HOTHEADED",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "COM": "0.300",
+      "PROTAGONIST_COWBOY": "12.000"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "ACTION",
+      "ADVENTURE",
+      "ROMANCE",
+      "ACTION",
+      "ACTION",
+      "PROTAGONIST_COWBOY",
+      "PROTAGONIST_DARING_ADVENTURER",
+      "PROTAGONIST_COWBOY",
+      "PROTAGONIST_COWBOY",
+      "PROTAGONIST_SHERIFF"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.780"
+    },
+    "parameters": null,
+    "birthDate": "1914-07-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "992",
+    "lastNameId": "993",
+    "values": "MOOD:0.79; ATTITUDE:0.30; PORTRAIT:64",
+    "limit": "0.780",
+    "id": "40"
+  },
+  "41": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "HOTHEADED",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "ADVENTURE": "12.000"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "ADVENTURE"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Director": "0.510"
+    },
+    "parameters": null,
+    "birthDate": "1899-07-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "84",
+    "lastNameId": "557",
+    "values": "MOOD:0.30; ATTITUDE:0.45; PORTRAIT:347",
+    "limit": "0.510",
+    "id": "41"
+  },
+  "42": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "HARDWORKING",
+      "MISOGYNIST",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "COM": "0.100"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "ACTION",
+      "ADVENTURE",
+      "DRAMA",
+      "ADVENTURE",
+      "ACTION",
+      "PROTAGONIST_COWBOY",
+      "PROTAGONIST_SHERIFF",
+      "ANTAGONIST_MURDERER",
+      "PROTAGONIST_DARING_ADVENTURER",
+      "PROTAGONIST_COP"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.520"
+    },
+    "parameters": null,
+    "birthDate": "1919-07-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "994",
+    "lastNameId": "995",
+    "values": "MOOD:0.70; ATTITUDE:0.80; PORTRAIT:193",
+    "limit": "0.520",
+    "id": "42"
+  },
+  "43": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "LEADER",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "ACTION": "12.000"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "ACTION"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Director": "0.430"
+    },
+    "parameters": null,
+    "birthDate": "1894-07-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "31",
+    "lastNameId": "594",
+    "values": "MOOD:0.40; ATTITUDE:0.60; PORTRAIT:405",
+    "limit": "0.430",
+    "id": "43"
+  },
+  "44": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "MELANCHOLIC",
+      "RACIST",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "HORROR",
+      "ADVENTURE",
+      "ACTION",
+      "ACTION",
+      "DRAMA",
+      "ANTAGONIST_EVIL_MONSTER",
+      "SUPPORTINGCHARACTER_SIDEKICK",
+      "PROTAGONIST_COP",
+      "ANTAGONIST_BANDIT",
+      "PROTAGONIST_COWBOY"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.510"
+    },
+    "parameters": null,
+    "birthDate": "1909-07-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "119",
+    "lastNameId": "579",
+    "values": "MOOD:0.66; ATTITUDE:0.74; PORTRAIT:353",
+    "limit": "0.510",
+    "id": "44"
+  },
+  "45": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "CHEERY",
+      "CHASTE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "DRAMA",
+      "ADVENTURE",
+      "ADVENTURE",
+      "ACTION",
+      "ROMANCE",
+      "SUPPORTINGCHARACTER_FEMME_FATALE",
+      "SUPPORTINGCHARACTER_STRICT_PARENT",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST",
+      "SUPPORTINGCHARACTER_DAMSEL_IN_DISTRESS",
+      "SUPPORTINGCHARACTER_LOVE_INTEREST"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.480"
+    },
+    "parameters": null,
+    "birthDate": "1934-07-25T00:00:00",
+    "gender": 1,
+    "firstNameId": "280",
+    "lastNameId": "544",
+    "values": "MOOD:0.80; ATTITUDE:0.90; PORTRAIT:24",
+    "limit": "0.480",
+    "id": "45"
+  },
+  "46": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "HARDWORKING",
+      "MELANCHOLIC",
+      "UNTOUCHABLE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "COM": "0.160"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE"
+    ],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Actor": "0.610"
+    },
+    "parameters": null,
+    "birthDate": "0125-03-14T00:00:00",
+    "gender": 0,
+    "firstNameId": "-1",
+    "lastNameId": "-1",
+    "values": "MOOD:0.32; ATTITUDE:0.46; PORTRAIT:293;FOREVENT:SYSTEM_TALENT_HIRING_SIMPLE",
+    "limit": "0.800",
+    "id": "46"
+  },
+  "47": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "CALM",
+      "INDIFFERENT",
+      "UNTOUCHABLE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "ART": "0.180"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE"
+    ],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Actor": "0.630"
+    },
+    "parameters": null,
+    "birthDate": "0127-07-25T00:00:00",
+    "gender": 1,
+    "firstNameId": "-1",
+    "lastNameId": "-1",
+    "values": "MOOD:0.61; ATTITUDE:0.53; PORTRAIT:43;FOREVENT:SYSTEM_TALENT_HIRING_SIMPLE",
+    "limit": "0.800",
+    "id": "47"
+  },
+  "48": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "HEARTBREAKER",
+      "UNTOUCHABLE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "COM": "0.230"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE"
+    ],
+    "type": 1,
+    "starterState": 0,
+    "professions": {
+      "Actor": "0.720"
+    },
+    "parameters": null,
+    "birthDate": "0125-05-08T00:00:00",
+    "gender": 0,
+    "firstNameId": "-1",
+    "lastNameId": "-1",
+    "values": "MOOD:0.68; ATTITUDE:0.75; PORTRAIT:256;FOREVENT:SYSTEM_TALENT_GIFT_SIMPLE;DARK_PRESENT:6",
+    "limit": "0.900",
+    "id": "48"
+  },
+  "49": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "HEARTBREAKER",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "ART": "0.180"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.660"
+    },
+    "parameters": null,
+    "birthDate": "1901-08-17T00:00:00",
+    "gender": 0,
+    "firstNameId": "-1",
+    "lastNameId": "-1",
+    "values": "MOOD:0; ATTITUDE:0; PORTRAIT:434",
+    "limit": "0.800",
+    "id": "49"
+  },
+  "50": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "ALCOHOLIC",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Director": "0.710"
+    },
+    "parameters": null,
+    "birthDate": "1898-03-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "-1",
+    "lastNameId": "-1",
+    "values": "MOOD:0.33; ATTITUDE:0.46; PORTRAIT:401",
+    "limit": "0.800",
+    "id": "50"
+  },
+  "51": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "LEADER",
+      "DISCIPLINED",
+      "IMMORTAL"
+    ],
+    "whiteTags": {
+      "COM": "0.180",
+      "ART": "0.070"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.730"
+    },
+    "parameters": null,
+    "birthDate": "1900-10-11T00:00:00",
+    "gender": 0,
+    "firstNameId": "-1",
+    "lastNameId": "-1",
+    "values": "MOOD:0.55; ATTITUDE:0.45; PORTRAIT:379",
+    "limit": "0.800",
+    "id": "51"
+  },
+  "52": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "HOTHEADED",
+      "HEARTBREAKER",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Producer": "0.500"
+    },
+    "parameters": null,
+    "birthDate": "1893-05-22T00:00:00",
+    "gender": 0,
+    "firstNameId": "-1",
+    "lastNameId": "-1",
+    "values": "MOOD:1; ATTITUDE:0.7; PORTRAIT:378",
+    "limit": "0.700",
+    "id": "52"
+  },
+  "53": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Composer": "0.010"
+    },
+    "parameters": null,
+    "birthDate": "1888-08-29T00:00:00",
+    "gender": 0,
+    "firstNameId": "57",
+    "lastNameId": "1000",
+    "values": "MOOD:0.7; ATTITUDE:0.75; PORTRAIT:627",
+    "limit": "0.100",
+    "id": "53"
+  },
+  "54": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "MAIN_CHARACTER",
+      "STERILE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.630"
+    },
+    "parameters": null,
+    "birthDate": "1893-07-25T00:00:00",
+    "gender": 1,
+    "firstNameId": "1001",
+    "lastNameId": "1002",
+    "values": "MOOD:0.85; ATTITUDE:0.73; PORTRAIT:131",
+    "limit": "0.800",
+    "id": "54"
+  },
+  "55": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Scriptwriter": "0.800"
+    },
+    "parameters": null,
+    "birthDate": "1875-09-13T00:00:00",
+    "gender": 0,
+    "firstNameId": "1003",
+    "lastNameId": "1004",
+    "values": "MOOD:0.6; ATTITUDE:0.64; PORTRAIT:44",
+    "limit": "0.800",
+    "id": "55"
+  },
+  "56": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Scriptwriter": "0.770"
+    },
+    "parameters": null,
+    "birthDate": "1877-06-27T00:00:00",
+    "gender": 0,
+    "firstNameId": "1005",
+    "lastNameId": "1006",
+    "values": "MOOD:0.7; ATTITUDE:0.82; PORTRAIT:357",
+    "limit": "0.770",
+    "id": "56"
+  },
+  "57": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Director": "0.020"
+    },
+    "parameters": null,
+    "birthDate": "1900-03-25T00:00:00",
+    "gender": 0,
+    "firstNameId": "1007",
+    "lastNameId": "1008",
+    "values": "MOOD:0.83; ATTITUDE:0.77; PORTRAIT:416",
+    "limit": "0.200",
+    "id": "57"
+  },
+  "58": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "SUPER_IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Producer": "0.500"
+    },
+    "parameters": null,
+    "birthDate": "1865-09-21T00:00:00",
+    "gender": 0,
+    "firstNameId": "987",
+    "lastNameId": "1073",
+    "values": "MOOD:0.89; ATTITUDE:0.08; PORTRAIT:623",
+    "limit": "0.700",
+    "id": "58"
+  },
+  "59": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "SUPER_IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.770"
+    },
+    "parameters": null,
+    "birthDate": "1885-11-13T00:00:00",
+    "gender": 0,
+    "firstNameId": "1129",
+    "lastNameId": "1130",
+    "values": "MOOD:0.84; ATTITUDE:0.95; PORTRAIT:624",
+    "limit": "1.000",
+    "id": "59"
+  },
+  "60": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "SUPER_IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Producer": "0.500"
+    },
+    "parameters": null,
+    "birthDate": "1883-04-10T00:00:00",
+    "gender": 0,
+    "firstNameId": "9",
+    "lastNameId": "1131",
+    "values": "MOOD:0.84; ATTITUDE:0.95; PORTRAIT:625",
+    "limit": "0.700",
+    "id": "60"
+  },
+  "61": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "SUPER_IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Producer": "0.500"
+    },
+    "parameters": null,
+    "birthDate": "1882-05-03T00:00:00",
+    "gender": 0,
+    "firstNameId": "23",
+    "lastNameId": "437",
+    "values": "MOOD:0.84; ATTITUDE:0.95; PORTRAIT:626",
+    "limit": "0.700",
+    "id": "61"
+  },
+  "62": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "SUPER_IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Scriptwriter": "0.770"
+    },
+    "parameters": null,
+    "birthDate": "1885-09-11T00:00:00",
+    "gender": 0,
+    "firstNameId": "1132",
+    "lastNameId": "703",
+    "values": "MOOD:0.75; ATTITUDE:0.7; PORTRAIT:628",
+    "limit": "0.770",
+    "id": "62"
+  },
+  "63": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "SUPER_IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Producer": "0.500"
+    },
+    "parameters": null,
+    "birthDate": "1884-05-12T00:00:00",
+    "gender": 0,
+    "firstNameId": "1133",
+    "lastNameId": "187",
+    "values": "MOOD:0.9; ATTITUDE:0.73; PORTRAIT:629",
+    "limit": "0.700",
+    "id": "63"
+  },
+  "64": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "DEMANDING",
+      "STERILE",
+      "SUPER_IMMORTAL"
+    ],
+    "whiteTags": {
+      "COM": "0.280"
+    },
+    "blackTags": [],
+    "recentTags": [
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_GENRE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE",
+      "RANDOM_ROLE"
+    ],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.810"
+    },
+    "parameters": null,
+    "birthDate": "1899-01-08T00:00:00",
+    "gender": 0,
+    "firstNameId": "129",
+    "lastNameId": "409",
+    "values": "MOOD:0.88; ATTITUDE:0.88; PORTRAIT:630;DARK_PRESENT:6",
+    "limit": "1.000",
+    "id": "64"
+  },
+  "65": {
+    "$type": "Data.Configs.TalentConfig, Assembly-CSharp",
+    "labels": [
+      "STERILE",
+      "IMMORTAL"
+    ],
+    "whiteTags": {},
+    "blackTags": [],
+    "recentTags": [],
+    "type": 1,
+    "starterState": 64,
+    "professions": {
+      "Actor": "0.810"
+    },
+    "parameters": null,
+    "birthDate": "1899-01-01T00:00:00",
+    "gender": 1,
+    "firstNameId": "258",
+    "lastNameId": "654",
+    "values": "MOOD:0.88; ATTITUDE:0.88; SIN:SIN_HISTORY_WITH_PROSTITUTES",
+    "limit": "0.900",
+    "id": "65"
+  }
+}

@@ -1,0 +1,2481 @@
+{
+  "GB": {
+    "GENERAL": {
+      "PLATOU": {
+        "owner": "GB",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.000",
+          "AVG_LOYALTY_MOD": "1.000",
+          "PASSIVE_INCOME_IP_MOD": "1.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "GB",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.200",
+          "AVG_LOYALTY_MOD": "1.050",
+          "PASSIVE_INCOME_IP_MOD": "1.100"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "GB",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.500",
+          "AVG_LOYALTY_MOD": "1.100",
+          "PASSIVE_INCOME_IP_MOD": "1.200"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "GB",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "0.800",
+          "AVG_LOYALTY_MOD": "0.950",
+          "PASSIVE_INCOME_IP_MOD": "0.900"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "GB",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "0.500",
+          "AVG_LOYALTY_MOD": "0.900",
+          "PASSIVE_INCOME_IP_MOD": "0.850"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    },
+    "CINEMAS": {
+      "PLATOU": {
+        "owner": "GB",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "0.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "GB",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "1.000"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "GB",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "2.000"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "HYPERGROWTH": {
+        "owner": "GB",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "10.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "5.000"
+        },
+        "id": "HYPERGROWTH"
+      },
+      "RECESSION": {
+        "owner": "GB",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-1.000"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "GB",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "0.500"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-2.000"
+        },
+        "id": "ACTIVE_RECESSION"
+      },
+      "EMERGENCY": {
+        "owner": "GB",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-10.000"
+        },
+        "id": "EMERGENCY"
+      }
+    },
+    "ASSOCIATION": {
+      "AGGRESSIVE": {
+        "owner": "GB",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "10.000",
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "2.000",
+          "AGGRESSION_DRAIN_MOD": "0.750",
+          "AGGRESSION_MOD": "0.750",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "AGGRESSIVE"
+      },
+      "NEUTRAL_AGGRESSIVE": {
+        "owner": "GB",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "5.000",
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "1.500",
+          "AGGRESSION_DRAIN_MOD": "0.900",
+          "AGGRESSION_MOD": "0.900",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "NEUTRAL_AGGRESSIVE"
+      },
+      "NEUTRAL": {
+        "owner": "GB",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "3.000",
+          "EXCESS": "30.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "1.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.100",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "NEUTRAL"
+      },
+      "PASSIVE_NEUTRAL": {
+        "owner": "GB",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "1.000",
+          "EXCESS": "15.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "0.660",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.250",
+          "ASSOCIATION_INITIATIVE_MOD": "0.000"
+        },
+        "id": "PASSIVE_NEUTRAL"
+      },
+      "PASSIVE": {
+        "owner": "GB",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "0.000",
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "0.330",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.450",
+          "ASSOCIATION_INITIATIVE_MOD": "0.000"
+        },
+        "id": "PASSIVE"
+      }
+    },
+    "DEFENSE": {
+      "STRONG": {
+        "owner": "GB",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "4.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "2.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.250"
+        },
+        "id": "STRONG"
+      },
+      "VERY_STRONG": {
+        "owner": "GB",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "6.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "3.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.660"
+        },
+        "id": "VERY_STRONG"
+      },
+      "NORMAL": {
+        "owner": "GB",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "1.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.000"
+        },
+        "id": "NORMAL"
+      },
+      "WEAK": {
+        "owner": "GB",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "-0.500",
+          "DEFENSE_COST_PER_PERSON_MOD": "0.800"
+        },
+        "id": "WEAK"
+      },
+      "VERY_WEAK": {
+        "owner": "GB",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "-1.250",
+          "DEFENSE_COST_PER_PERSON_MOD": "0.500"
+        },
+        "id": "VERY_WEAK"
+      }
+    },
+    "ATTACK": {
+      "NUCLEAR": {
+        "owner": "GB",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "1000.000",
+          "EXCESS": "2000.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "10.000",
+          "BEATING_MOD": "10.000",
+          "KILLING_MOD": "10.000",
+          "KIDNAPPING_MOD": "10.000",
+          "AGGRESSION_DRAIN_MOD": "0.800",
+          "AGGRESSION_MOD": "0.700",
+          "POACHING_MOD": "10.000"
+        },
+        "id": "NUCLEAR"
+      },
+      "BALLISTIC": {
+        "owner": "GB",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "200.000",
+          "EXCESS": "1000.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "2.000",
+          "BEATING_MOD": "2.000",
+          "KILLING_MOD": "2.000",
+          "KIDNAPPING_MOD": "2.000",
+          "AGGRESSION_DRAIN_MOD": "0.800",
+          "AGGRESSION_MOD": "0.750",
+          "POACHING_MOD": "5.000"
+        },
+        "id": "BALLISTIC"
+      },
+      "VERY_AGGRESSIVE": {
+        "owner": "GB",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "15.000",
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "1.000",
+          "KIDNAPPING_MOD": "1.000",
+          "AGGRESSION_DRAIN_MOD": "0.800",
+          "AGGRESSION_MOD": "0.800",
+          "POACHING_MOD": "3.000"
+        },
+        "id": "VERY_AGGRESSIVE"
+      },
+      "AGGRESSIVE": {
+        "owner": "GB",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "10.000",
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "1.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "0.900",
+          "AGGRESSION_MOD": "0.900",
+          "POACHING_MOD": "2.000"
+        },
+        "id": "AGGRESSIVE"
+      },
+      "NORMAL": {
+        "owner": "GB",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "5.000",
+          "EXCESS": "20.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.250",
+          "POACHING_MOD": "1.000"
+        },
+        "id": "NORMAL"
+      },
+      "WEAK": {
+        "owner": "GB",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "2.000",
+          "EXCESS": "10.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "0.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.300",
+          "POACHING_MOD": "0.500"
+        },
+        "id": "WEAK"
+      },
+      "ABSENT": {
+        "owner": "GB",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "0.000",
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "0.000",
+          "BEATING_MOD": "0.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.660",
+          "POACHING_MOD": "0.000"
+        },
+        "id": "ABSENT"
+      }
+    },
+    "HIRING": {
+      "PLATOU": {
+        "owner": "GB",
+        "type": 5,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {},
+        "id": "PLATOU"
+      }
+    },
+    "PAYMENTS": {
+      "PLATOU": {
+        "owner": "GB",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "0.000"
+        },
+        "id": "PLATOU"
+      },
+      "AGRESSIVE_GROWTH": {
+        "owner": "GB",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "5.000",
+          "AGRESSION": "10.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "0.000",
+          "KIDNAPPING_MOD": "1.000"
+        },
+        "id": "AGRESSIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "GB",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "0.500"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "GB",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "1.000"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    },
+    "FILM_PRODUCTION": {
+      "PLATOU": {
+        "owner": "GB",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "1.200"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "1.000",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.000",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "GB",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "1.500",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.010",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.010"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "GB",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "2.000",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.040",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.040"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "GB",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "0.900"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "0.500",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "0.990",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "0.990"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "GB",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "0.300",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "0.960",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "0.960"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    }
+  },
+  "EM": {
+    "GENERAL": {
+      "PLATOU": {
+        "owner": "EM",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.000",
+          "AVG_LOYALTY_MOD": "1.000",
+          "PASSIVE_INCOME_IP_MOD": "1.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "EM",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.100",
+          "AVG_LOYALTY_MOD": "1.050",
+          "PASSIVE_INCOME_IP_MOD": "1.100"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "EM",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.250",
+          "AVG_LOYALTY_MOD": "1.100",
+          "PASSIVE_INCOME_IP_MOD": "1.200"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "EM",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "0.900",
+          "AVG_LOYALTY_MOD": "0.950",
+          "PASSIVE_INCOME_IP_MOD": "0.900"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "EM",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "0.850",
+          "AVG_LOYALTY_MOD": "0.900",
+          "PASSIVE_INCOME_IP_MOD": "0.850"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    },
+    "CINEMAS": {
+      "PLATOU": {
+        "owner": "EM",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "0.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "EM",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "1.000"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "EM",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "2.000"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "HYPERGROWTH": {
+        "owner": "EM",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "10.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "5.000"
+        },
+        "id": "HYPERGROWTH"
+      },
+      "RECESSION": {
+        "owner": "EM",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-1.000"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "EM",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "0.500"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-2.000"
+        },
+        "id": "ACTIVE_RECESSION"
+      },
+      "EMERGENCY": {
+        "owner": "EM",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-10.000"
+        },
+        "id": "EMERGENCY"
+      }
+    },
+    "ASSOCIATION": {
+      "AGGRESSIVE": {
+        "owner": "EM",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "10.000",
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "2.000",
+          "AGGRESSION_DRAIN_MOD": "0.750",
+          "AGGRESSION_MOD": "0.750",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "AGGRESSIVE"
+      },
+      "NEUTRAL_AGGRESSIVE": {
+        "owner": "EM",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "5.000",
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "1.500",
+          "AGGRESSION_DRAIN_MOD": "0.900",
+          "AGGRESSION_MOD": "0.900",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "NEUTRAL_AGGRESSIVE"
+      },
+      "NEUTRAL": {
+        "owner": "EM",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "3.000",
+          "EXCESS": "30.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "1.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.100",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "NEUTRAL"
+      },
+      "PASSIVE_NEUTRAL": {
+        "owner": "EM",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "1.000",
+          "EXCESS": "15.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "0.660",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.250",
+          "ASSOCIATION_INITIATIVE_MOD": "0.000"
+        },
+        "id": "PASSIVE_NEUTRAL"
+      },
+      "PASSIVE": {
+        "owner": "EM",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "0.000",
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "0.330",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.450",
+          "ASSOCIATION_INITIATIVE_MOD": "0.000"
+        },
+        "id": "PASSIVE"
+      }
+    },
+    "DEFENSE": {
+      "STRONG": {
+        "owner": "EM",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "4.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "2.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.250"
+        },
+        "id": "STRONG"
+      },
+      "VERY_STRONG": {
+        "owner": "EM",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "6.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "3.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.660"
+        },
+        "id": "VERY_STRONG"
+      },
+      "NORMAL": {
+        "owner": "EM",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "1.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.000"
+        },
+        "id": "NORMAL"
+      },
+      "WEAK": {
+        "owner": "EM",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "-0.500",
+          "DEFENSE_COST_PER_PERSON_MOD": "0.800"
+        },
+        "id": "WEAK"
+      },
+      "VERY_WEAK": {
+        "owner": "EM",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "-1.250",
+          "DEFENSE_COST_PER_PERSON_MOD": "0.500"
+        },
+        "id": "VERY_WEAK"
+      }
+    },
+    "ATTACK": {
+      "NUCLEAR": {
+        "owner": "EM",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "1000.000",
+          "EXCESS": "2000.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "10.000",
+          "BEATING_MOD": "10.000",
+          "KILLING_MOD": "10.000",
+          "KIDNAPPING_MOD": "10.000",
+          "AGGRESSION_DRAIN_MOD": "0.800",
+          "AGGRESSION_MOD": "0.700"
+        },
+        "id": "NUCLEAR"
+      },
+      "BALLISTIC": {
+        "owner": "EM",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "200.000",
+          "EXCESS": "1000.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "2.000",
+          "BEATING_MOD": "2.000",
+          "KILLING_MOD": "2.000",
+          "KIDNAPPING_MOD": "2.000",
+          "AGGRESSION_DRAIN_MOD": "0.800",
+          "AGGRESSION_MOD": "0.750"
+        },
+        "id": "BALLISTIC"
+      },
+      "VERY_AGGRESSIVE": {
+        "owner": "EM",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "15.000",
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "1.000",
+          "KIDNAPPING_MOD": "1.000",
+          "AGGRESSION_DRAIN_MOD": "0.900",
+          "AGGRESSION_MOD": "0.900"
+        },
+        "id": "VERY_AGGRESSIVE"
+      },
+      "AGGRESSIVE": {
+        "owner": "EM",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "10.000",
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "1.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "0.800",
+          "AGGRESSION_MOD": "0.800"
+        },
+        "id": "AGGRESSIVE"
+      },
+      "NORMAL": {
+        "owner": "EM",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "5.000",
+          "EXCESS": "20.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.250"
+        },
+        "id": "NORMAL"
+      },
+      "WEAK": {
+        "owner": "EM",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "2.000",
+          "EXCESS": "10.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "0.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.300"
+        },
+        "id": "WEAK"
+      },
+      "ABSENT": {
+        "owner": "EM",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "0.000",
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "0.000",
+          "BEATING_MOD": "0.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.660"
+        },
+        "id": "ABSENT"
+      }
+    },
+    "HIRING": {
+      "PLATOU": {
+        "owner": "EM",
+        "type": 5,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {},
+        "id": "PLATOU"
+      }
+    },
+    "PAYMENTS": {
+      "ACTIVE_RECESSION": {
+        "owner": "EM",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "1.000"
+        },
+        "id": "ACTIVE_RECESSION"
+      },
+      "PLATOU": {
+        "owner": "EM",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "0.000"
+        },
+        "id": "PLATOU"
+      }
+    },
+    "FILM_PRODUCTION": {
+      "PLATOU": {
+        "owner": "EM",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "1.200"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "1.000",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.000",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "EM",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "1.500",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.010",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.010"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "EM",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "2.000",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.040",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.040"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "EM",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "0.900"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "0.500",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "0.990",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "0.990"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "EM",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "0.300",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "0.960",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "0.960"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    }
+  },
+  "SU": {
+    "GENERAL": {
+      "PLATOU": {
+        "owner": "SU",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.000",
+          "AVG_LOYALTY_MOD": "1.000",
+          "PASSIVE_INCOME_IP_MOD": "1.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "SU",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.100",
+          "AVG_LOYALTY_MOD": "1.050",
+          "PASSIVE_INCOME_IP_MOD": "1.100"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "SU",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.250",
+          "AVG_LOYALTY_MOD": "1.100",
+          "PASSIVE_INCOME_IP_MOD": "1.200"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "SU",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "0.900",
+          "AVG_LOYALTY_MOD": "0.950",
+          "PASSIVE_INCOME_IP_MOD": "0.900"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "SU",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "0.850",
+          "AVG_LOYALTY_MOD": "0.900",
+          "PASSIVE_INCOME_IP_MOD": "0.850"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    },
+    "CINEMAS": {
+      "PLATOU": {
+        "owner": "SU",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "0.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "SU",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "1.000"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "SU",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "2.000"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "HYPERGROWTH": {
+        "owner": "SU",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "10.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "5.000"
+        },
+        "id": "HYPERGROWTH"
+      },
+      "RECESSION": {
+        "owner": "SU",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-1.000"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "SU",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "0.500"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-2.000"
+        },
+        "id": "ACTIVE_RECESSION"
+      },
+      "EMERGENCY": {
+        "owner": "SU",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-10.000"
+        },
+        "id": "EMERGENCY"
+      }
+    },
+    "ASSOCIATION": {
+      "AGGRESSIVE": {
+        "owner": "SU",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "10.000",
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "2.000",
+          "AGGRESSION_DRAIN_MOD": "0.750",
+          "AGGRESSION_MOD": "0.750",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "AGGRESSIVE"
+      },
+      "NEUTRAL_AGGRESSIVE": {
+        "owner": "SU",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "5.000",
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "1.500",
+          "AGGRESSION_DRAIN_MOD": "0.900",
+          "AGGRESSION_MOD": "0.900",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "NEUTRAL_AGGRESSIVE"
+      },
+      "NEUTRAL": {
+        "owner": "SU",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "3.000",
+          "EXCESS": "30.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "1.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.100",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "NEUTRAL"
+      },
+      "PASSIVE_NEUTRAL": {
+        "owner": "SU",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "1.000",
+          "EXCESS": "15.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "0.660",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.250",
+          "ASSOCIATION_INITIATIVE_MOD": "0.000"
+        },
+        "id": "PASSIVE_NEUTRAL"
+      },
+      "PASSIVE": {
+        "owner": "SU",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "0.000",
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "0.330",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.450",
+          "ASSOCIATION_INITIATIVE_MOD": "0.000"
+        },
+        "id": "PASSIVE"
+      }
+    },
+    "DEFENSE": {
+      "STRONG": {
+        "owner": "SU",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "4.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "2.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.250"
+        },
+        "id": "STRONG"
+      },
+      "VERY_STRONG": {
+        "owner": "SU",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "6.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "3.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.660"
+        },
+        "id": "VERY_STRONG"
+      },
+      "NORMAL": {
+        "owner": "SU",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "1.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.000"
+        },
+        "id": "NORMAL"
+      },
+      "WEAK": {
+        "owner": "SU",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "-0.500",
+          "DEFENSE_COST_PER_PERSON_MOD": "0.800"
+        },
+        "id": "WEAK"
+      },
+      "VERY_WEAK": {
+        "owner": "SU",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "-1.250",
+          "DEFENSE_COST_PER_PERSON_MOD": "0.500"
+        },
+        "id": "VERY_WEAK"
+      }
+    },
+    "ATTACK": {
+      "VERY_AGGRESSIVE": {
+        "owner": "SU",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "15.000",
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "1.000",
+          "KIDNAPPING_MOD": "1.000",
+          "AGGRESSION_DRAIN_MOD": "0.900",
+          "AGGRESSION_MOD": "0.900"
+        },
+        "id": "VERY_AGGRESSIVE"
+      },
+      "AGGRESSIVE": {
+        "owner": "SU",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "10.000",
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "1.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "0.800",
+          "AGGRESSION_MOD": "0.800"
+        },
+        "id": "AGGRESSIVE"
+      },
+      "NORMAL": {
+        "owner": "SU",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "5.000",
+          "EXCESS": "20.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.250"
+        },
+        "id": "NORMAL"
+      },
+      "WEAK": {
+        "owner": "SU",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "2.000",
+          "EXCESS": "10.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "0.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.300"
+        },
+        "id": "WEAK"
+      },
+      "ABSENT": {
+        "owner": "SU",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "0.000",
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "0.000",
+          "BEATING_MOD": "0.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.660"
+        },
+        "id": "ABSENT"
+      }
+    },
+    "HIRING": {
+      "PLATOU": {
+        "owner": "SU",
+        "type": 5,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {},
+        "id": "PLATOU"
+      }
+    },
+    "PAYMENTS": {
+      "ACTIVE_RECESSION": {
+        "owner": "SU",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "1.000"
+        },
+        "id": "ACTIVE_RECESSION"
+      },
+      "PLATOU": {
+        "owner": "SU",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "0.000"
+        },
+        "id": "PLATOU"
+      }
+    },
+    "FILM_PRODUCTION": {
+      "PLATOU": {
+        "owner": "SU",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "1.200"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "1.000",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.000",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "SU",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "1.500",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.010",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.010"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "SU",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "2.000",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.040",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.040"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "SU",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "0.900"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "0.500",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "0.990",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "0.990"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "SU",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "0.300",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "0.960",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "0.960"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    }
+  },
+  "HE": {
+    "GENERAL": {
+      "PLATOU": {
+        "owner": "HE",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.000",
+          "AVG_LOYALTY_MOD": "1.000",
+          "PASSIVE_INCOME_IP_MOD": "1.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "HE",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.100",
+          "AVG_LOYALTY_MOD": "1.050",
+          "PASSIVE_INCOME_IP_MOD": "1.100"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "HE",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.250",
+          "AVG_LOYALTY_MOD": "1.100",
+          "PASSIVE_INCOME_IP_MOD": "1.200"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "HE",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "0.900",
+          "AVG_LOYALTY_MOD": "0.950",
+          "PASSIVE_INCOME_IP_MOD": "0.900"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "HE",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "0.850",
+          "AVG_LOYALTY_MOD": "0.900",
+          "PASSIVE_INCOME_IP_MOD": "0.850"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    },
+    "CINEMAS": {
+      "PLATOU": {
+        "owner": "HE",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "0.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "HE",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "1.000"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "HE",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "10.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "2.000"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "HYPERGROWTH": {
+        "owner": "HE",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "20.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "5.000"
+        },
+        "id": "HYPERGROWTH"
+      },
+      "RECESSION": {
+        "owner": "HE",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-1.000"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "HE",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "0.500"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-2.000"
+        },
+        "id": "ACTIVE_RECESSION"
+      },
+      "EMERGENCY": {
+        "owner": "HE",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-10.000"
+        },
+        "id": "EMERGENCY"
+      }
+    },
+    "ASSOCIATION": {
+      "AGGRESSIVE": {
+        "owner": "HE",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "10.000",
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "2.000",
+          "AGGRESSION_DRAIN_MOD": "0.750",
+          "AGGRESSION_MOD": "0.750",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "AGGRESSIVE"
+      },
+      "NEUTRAL_AGGRESSIVE": {
+        "owner": "HE",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "5.000",
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "1.500",
+          "AGGRESSION_DRAIN_MOD": "0.900",
+          "AGGRESSION_MOD": "0.900",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "NEUTRAL_AGGRESSIVE"
+      },
+      "NEUTRAL": {
+        "owner": "HE",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "3.000",
+          "EXCESS": "30.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "1.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.100",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "NEUTRAL"
+      },
+      "PASSIVE_NEUTRAL": {
+        "owner": "HE",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "1.000",
+          "EXCESS": "15.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "0.660",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.250",
+          "ASSOCIATION_INITIATIVE_MOD": "0.000"
+        },
+        "id": "PASSIVE_NEUTRAL"
+      },
+      "PASSIVE": {
+        "owner": "HE",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "0.000",
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "0.330",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.450",
+          "ASSOCIATION_INITIATIVE_MOD": "0.000"
+        },
+        "id": "PASSIVE"
+      }
+    },
+    "DEFENSE": {
+      "STRONG": {
+        "owner": "HE",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "4.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "2.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.250"
+        },
+        "id": "STRONG"
+      },
+      "VERY_STRONG": {
+        "owner": "HE",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "6.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "3.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.660"
+        },
+        "id": "VERY_STRONG"
+      },
+      "NORMAL": {
+        "owner": "HE",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "1.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.000"
+        },
+        "id": "NORMAL"
+      },
+      "WEAK": {
+        "owner": "HE",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "-0.500",
+          "DEFENSE_COST_PER_PERSON_MOD": "0.800"
+        },
+        "id": "WEAK"
+      },
+      "VERY_WEAK": {
+        "owner": "HE",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "-1.250",
+          "DEFENSE_COST_PER_PERSON_MOD": "0.500"
+        },
+        "id": "VERY_WEAK"
+      }
+    },
+    "ATTACK": {
+      "VERY_AGGRESSIVE": {
+        "owner": "HE",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "15.000",
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "1.000",
+          "KIDNAPPING_MOD": "1.000",
+          "AGGRESSION_DRAIN_MOD": "0.900",
+          "AGGRESSION_MOD": "0.900"
+        },
+        "id": "VERY_AGGRESSIVE"
+      },
+      "AGGRESSIVE": {
+        "owner": "HE",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "10.000",
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "1.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "0.800",
+          "AGGRESSION_MOD": "0.800"
+        },
+        "id": "AGGRESSIVE"
+      },
+      "NORMAL": {
+        "owner": "HE",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "5.000",
+          "EXCESS": "20.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.250"
+        },
+        "id": "NORMAL"
+      },
+      "WEAK": {
+        "owner": "HE",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "2.000",
+          "EXCESS": "10.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "0.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.300"
+        },
+        "id": "WEAK"
+      },
+      "ABSENT": {
+        "owner": "HE",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "0.000",
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "0.000",
+          "BEATING_MOD": "0.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.660"
+        },
+        "id": "ABSENT"
+      }
+    },
+    "HIRING": {
+      "PLATOU": {
+        "owner": "HE",
+        "type": 5,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {},
+        "id": "PLATOU"
+      }
+    },
+    "PAYMENTS": {
+      "ACTIVE_RECESSION": {
+        "owner": "HE",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "1.000"
+        },
+        "id": "ACTIVE_RECESSION"
+      },
+      "PLATOU": {
+        "owner": "HE",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "0.000"
+        },
+        "id": "PLATOU"
+      }
+    },
+    "FILM_PRODUCTION": {
+      "PLATOU": {
+        "owner": "HE",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "1.200"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "1.000",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.000",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "HE",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "1.500",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.010",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.010"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "HE",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "2.000",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.040",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.040"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "HE",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "0.900"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "0.950",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "0.990",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "0.990"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "HE",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "0.900",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "0.960",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "0.960"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    }
+  },
+  "MA": {
+    "GENERAL": {
+      "PLATOU": {
+        "owner": "MA",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "30.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.000",
+          "AVG_LOYALTY_MOD": "1.000",
+          "PASSIVE_INCOME_IP_MOD": "1.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "MA",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.100",
+          "AVG_LOYALTY_MOD": "1.050",
+          "PASSIVE_INCOME_IP_MOD": "1.100"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "MA",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "1.250",
+          "AVG_LOYALTY_MOD": "1.100",
+          "PASSIVE_INCOME_IP_MOD": "1.200"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "MA",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "0.900",
+          "AVG_LOYALTY_MOD": "0.950",
+          "PASSIVE_INCOME_IP_MOD": "0.900"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "MA",
+        "type": 1,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "BUDGET_GENERAL_MOD": "0.850",
+          "AVG_LOYALTY_MOD": "0.900",
+          "PASSIVE_INCOME_IP_MOD": "0.850"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    },
+    "CINEMAS": {
+      "PLATOU": {
+        "owner": "MA",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "0.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "MA",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "30.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "1.000"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "MA",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "2.000"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "HYPERGROWTH": {
+        "owner": "MA",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "20.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "5.000"
+        },
+        "id": "HYPERGROWTH"
+      },
+      "RECESSION": {
+        "owner": "MA",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-1.000"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "MA",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "0.500"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-2.000"
+        },
+        "id": "ACTIVE_RECESSION"
+      },
+      "EMERGENCY": {
+        "owner": "MA",
+        "type": 2,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "CINEMAS_CONVERSION_MOD": "-10.000"
+        },
+        "id": "EMERGENCY"
+      }
+    },
+    "ASSOCIATION": {
+      "AGGRESSIVE": {
+        "owner": "MA",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "10.000",
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "2.000",
+          "AGGRESSION_DRAIN_MOD": "0.750",
+          "AGGRESSION_MOD": "0.750",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "AGGRESSIVE"
+      },
+      "NEUTRAL_AGGRESSIVE": {
+        "owner": "MA",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "5.000",
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "1.500",
+          "AGGRESSION_DRAIN_MOD": "0.900",
+          "AGGRESSION_MOD": "0.900",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "NEUTRAL_AGGRESSIVE"
+      },
+      "NEUTRAL": {
+        "owner": "MA",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "3.000",
+          "EXCESS": "30.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "1.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.100",
+          "ASSOCIATION_INITIATIVE_MOD": "1.000"
+        },
+        "id": "NEUTRAL"
+      },
+      "PASSIVE_NEUTRAL": {
+        "owner": "MA",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "1.000",
+          "EXCESS": "15.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "0.660",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.250",
+          "ASSOCIATION_INITIATIVE_MOD": "0.000"
+        },
+        "id": "PASSIVE_NEUTRAL"
+      },
+      "PASSIVE": {
+        "owner": "MA",
+        "type": 8,
+        "thresholds": {
+          "AGRESSION": "0.000",
+          "EXCESS": "5.000"
+        },
+        "modifiers": {
+          "ASSOCIATION_STRATEGY_MOD": "0.330",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.450",
+          "ASSOCIATION_INITIATIVE_MOD": "0.000"
+        },
+        "id": "PASSIVE"
+      }
+    },
+    "DEFENSE": {
+      "STRONG": {
+        "owner": "MA",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "4.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "2.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.250"
+        },
+        "id": "STRONG"
+      },
+      "VERY_STRONG": {
+        "owner": "MA",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "6.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "3.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.660"
+        },
+        "id": "VERY_STRONG"
+      },
+      "NORMAL": {
+        "owner": "MA",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "1.000",
+          "DEFENSE_COST_PER_PERSON_MOD": "1.000"
+        },
+        "id": "NORMAL"
+      },
+      "WEAK": {
+        "owner": "MA",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "2.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "-0.500",
+          "DEFENSE_COST_PER_PERSON_MOD": "0.800"
+        },
+        "id": "WEAK"
+      },
+      "VERY_WEAK": {
+        "owner": "MA",
+        "type": 3,
+        "thresholds": {
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "DEFENSE_POWER_MOD": "-1.250",
+          "DEFENSE_COST_PER_PERSON_MOD": "0.500"
+        },
+        "id": "VERY_WEAK"
+      }
+    },
+    "ATTACK": {
+      "VERY_AGGRESSIVE": {
+        "owner": "MA",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "15.000",
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "1.000",
+          "KIDNAPPING_MOD": "1.000",
+          "AGGRESSION_DRAIN_MOD": "0.900",
+          "AGGRESSION_MOD": "0.900"
+        },
+        "id": "VERY_AGGRESSIVE"
+      },
+      "AGGRESSIVE": {
+        "owner": "MA",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "10.000",
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "1.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "0.800",
+          "AGGRESSION_MOD": "0.800"
+        },
+        "id": "AGGRESSIVE"
+      },
+      "NORMAL": {
+        "owner": "MA",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "5.000",
+          "EXCESS": "20.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "1.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.250"
+        },
+        "id": "NORMAL"
+      },
+      "WEAK": {
+        "owner": "MA",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "2.000",
+          "EXCESS": "10.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "1.000",
+          "BEATING_MOD": "0.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.300"
+        },
+        "id": "WEAK"
+      },
+      "ABSENT": {
+        "owner": "MA",
+        "type": 4,
+        "thresholds": {
+          "AGRESSION": "0.000",
+          "EXCESS": "1.000"
+        },
+        "modifiers": {
+          "SABOTAGE_MOD": "0.000",
+          "BEATING_MOD": "0.000",
+          "KILLING_MOD": "0.000",
+          "KIDNAPPING_MOD": "0.000",
+          "AGGRESSION_DRAIN_MOD": "1.000",
+          "AGGRESSION_MOD": "1.660"
+        },
+        "id": "ABSENT"
+      }
+    },
+    "HIRING": {
+      "PLATOU": {
+        "owner": "MA",
+        "type": 5,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {},
+        "id": "PLATOU"
+      }
+    },
+    "PAYMENTS": {
+      "ACTIVE_RECESSION": {
+        "owner": "MA",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "1.000"
+        },
+        "id": "ACTIVE_RECESSION"
+      },
+      "PLATOU": {
+        "owner": "MA",
+        "type": 6,
+        "thresholds": {
+          "EXCESS": "3.000"
+        },
+        "modifiers": {
+          "LAYOFF_MOD": "0.000"
+        },
+        "id": "PLATOU"
+      }
+    },
+    "FILM_PRODUCTION": {
+      "PLATOU": {
+        "owner": "MA",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "10.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "1.000",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.000",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.000"
+        },
+        "id": "PLATOU"
+      },
+      "GROWTH": {
+        "owner": "MA",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "50.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "1.500",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.010",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.010"
+        },
+        "id": "GROWTH"
+      },
+      "ACTIVE_GROWTH": {
+        "owner": "MA",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "100.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "2.000",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "1.040",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "1.040"
+        },
+        "id": "ACTIVE_GROWTH"
+      },
+      "RECESSION": {
+        "owner": "MA",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "0.900"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "0.950",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "0.990",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "0.990"
+        },
+        "id": "RECESSION"
+      },
+      "ACTIVE_RECESSION": {
+        "owner": "MA",
+        "type": 7,
+        "thresholds": {
+          "EXCESS": "0.000"
+        },
+        "modifiers": {
+          "PRODUCTION_PROBABILITY_MOD": "0.900",
+          "MOVIE_TARGET_BASELINE_GROWTH_MOD": "0.960",
+          "MOVIE_TARGET_BUDGET_GROWTH_MOD": "0.960"
+        },
+        "id": "ACTIVE_RECESSION"
+      }
+    }
+  }
+}

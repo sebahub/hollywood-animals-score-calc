@@ -1,0 +1,1788 @@
+{
+  "BANK": {
+    "preproductionParameters": {
+      "BaseBudget": "4500",
+      "BaseDuration": "10"
+    },
+    "productionParameters": {
+      "BaseBudget": "400",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "BANK"
+  },
+  "SALOON": {
+    "preproductionParameters": {
+      "BaseBudget": "5300",
+      "BaseDuration": "13"
+    },
+    "productionParameters": {
+      "BaseBudget": "450",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "SALOON"
+  },
+  "PRAIRIES": {
+    "preproductionParameters": {
+      "BaseBudget": "6000",
+      "BaseDuration": "12"
+    },
+    "productionParameters": {
+      "BaseBudget": "650",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "id": "PRAIRIES"
+  },
+  "DESERT": {
+    "preproductionParameters": {
+      "BaseBudget": "4000",
+      "BaseDuration": "7"
+    },
+    "productionParameters": {
+      "BaseBudget": "600",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "id": "DESERT"
+  },
+  "FIELD": {
+    "preproductionParameters": {
+      "BaseBudget": "4500",
+      "BaseDuration": "10"
+    },
+    "productionParameters": {
+      "BaseBudget": "400",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      3,
+      4
+    ],
+    "id": "FIELD"
+  },
+  "MOUNTAINS": {
+    "preproductionParameters": {
+      "BaseBudget": "7600",
+      "BaseDuration": "16"
+    },
+    "productionParameters": {
+      "BaseBudget": "850",
+      "BaseDuration": "11"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "id": "MOUNTAINS"
+  },
+  "FOREST": {
+    "preproductionParameters": {
+      "BaseBudget": "5700",
+      "BaseDuration": "10"
+    },
+    "productionParameters": {
+      "BaseBudget": "500",
+      "BaseDuration": "8"
+    },
+    "indoorCommercialPenalty": "-0.125",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "FOREST"
+  },
+  "WILD_WEST_TOWN": {
+    "preproductionParameters": {
+      "BaseBudget": "10000",
+      "BaseDuration": "18"
+    },
+    "productionParameters": {
+      "BaseBudget": "960",
+      "BaseDuration": "9"
+    },
+    "indoorCommercialPenalty": "-0.200",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "WILD_WEST_TOWN"
+  },
+  "WILD_WEST_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "6000",
+      "BaseDuration": "13"
+    },
+    "productionParameters": {
+      "BaseBudget": "600",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "WILD_WEST_INTERIORS"
+  },
+  "WILD_WEST_FARM": {
+    "preproductionParameters": {
+      "BaseBudget": "6500",
+      "BaseDuration": "9"
+    },
+    "productionParameters": {
+      "BaseBudget": "650",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.050",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "WILD_WEST_FARM"
+  },
+  "CITY_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "11000",
+      "BaseDuration": "15"
+    },
+    "productionParameters": {
+      "BaseBudget": "1100",
+      "BaseDuration": "14"
+    },
+    "indoorCommercialPenalty": "-0.175",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "id": "CITY_EXTERIORS"
+  },
+  "CITY_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "6500",
+      "BaseDuration": "10"
+    },
+    "productionParameters": {
+      "BaseBudget": "760",
+      "BaseDuration": "9"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "CITY_INTERIORS"
+  },
+  "AIRPORT": {
+    "preproductionParameters": {
+      "BaseBudget": "7400",
+      "BaseDuration": "13"
+    },
+    "productionParameters": {
+      "BaseBudget": "520",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.075",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "id": "AIRPORT"
+  },
+  "COUNTRY_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "4200",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "460",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "-0.060",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "COUNTRY_INTERIORS"
+  },
+  "COUNTRY_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "5200",
+      "BaseDuration": "11"
+    },
+    "productionParameters": {
+      "BaseBudget": "500",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "-0.140",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "COUNTRY_EXTERIORS"
+  },
+  "COUNTRY_ESTATE_AND_SURROUNDINGS": {
+    "preproductionParameters": {
+      "BaseBudget": "7700",
+      "BaseDuration": "14"
+    },
+    "productionParameters": {
+      "BaseBudget": "580",
+      "BaseDuration": "9"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "COUNTRY_ESTATE_AND_SURROUNDINGS"
+  },
+  "CASTLE_AND_SURROUNDINGS": {
+    "preproductionParameters": {
+      "BaseBudget": "8300",
+      "BaseDuration": "13"
+    },
+    "productionParameters": {
+      "BaseBudget": "650",
+      "BaseDuration": "10"
+    },
+    "indoorCommercialPenalty": "-0.125",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "id": "CASTLE_AND_SURROUNDINGS"
+  },
+  "SEASHORE": {
+    "preproductionParameters": {
+      "BaseBudget": "3300",
+      "BaseDuration": "7"
+    },
+    "productionParameters": {
+      "BaseBudget": "370",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.125",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "SEASHORE"
+  },
+  "ISLAND": {
+    "preproductionParameters": {
+      "BaseBudget": "5700",
+      "BaseDuration": "12"
+    },
+    "productionParameters": {
+      "BaseBudget": "420",
+      "BaseDuration": "10"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "id": "ISLAND"
+  },
+  "SEA": {
+    "preproductionParameters": {
+      "BaseBudget": "4200",
+      "BaseDuration": "9"
+    },
+    "productionParameters": {
+      "BaseBudget": "470",
+      "BaseDuration": "11"
+    },
+    "indoorCommercialPenalty": "-0.130",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "id": "SEA"
+  },
+  "FANTASY_TOWN": {
+    "preproductionParameters": {
+      "BaseBudget": "12000",
+      "BaseDuration": "15"
+    },
+    "productionParameters": {
+      "BaseBudget": "980",
+      "BaseDuration": "9"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "FANTASY_TOWN"
+  },
+  "PRISON": {
+    "preproductionParameters": {
+      "BaseBudget": "2500",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "320",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      3,
+      4,
+      5,
+      5
+    ],
+    "id": "PRISON"
+  },
+  "JUNGLE": {
+    "preproductionParameters": {
+      "BaseBudget": "6900",
+      "BaseDuration": "15"
+    },
+    "productionParameters": {
+      "BaseBudget": "750",
+      "BaseDuration": "10"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "id": "JUNGLE"
+  },
+  "VOLCANO": {
+    "preproductionParameters": {
+      "BaseBudget": "3300",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "550",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "-0.135",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "id": "VOLCANO"
+  },
+  "TRIBAL_TOWN": {
+    "preproductionParameters": {
+      "BaseBudget": "5700",
+      "BaseDuration": "13"
+    },
+    "productionParameters": {
+      "BaseBudget": "560",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "-0.075",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "TRIBAL_TOWN"
+  },
+  "RANCH": {
+    "preproductionParameters": {
+      "BaseBudget": "3800",
+      "BaseDuration": "5"
+    },
+    "productionParameters": {
+      "BaseBudget": "440",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.040",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "RANCH"
+  },
+  "BANDIT_CAMP": {
+    "preproductionParameters": {
+      "BaseBudget": "2200",
+      "BaseDuration": "4"
+    },
+    "productionParameters": {
+      "BaseBudget": "350",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.200",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "BANDIT_CAMP"
+  },
+  "GRAVEYARD": {
+    "preproductionParameters": {
+      "BaseBudget": "4100",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "380",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.080",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "GRAVEYARD"
+  },
+  "STORE": {
+    "preproductionParameters": {
+      "BaseBudget": "3000",
+      "BaseDuration": "5"
+    },
+    "productionParameters": {
+      "BaseBudget": "300",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "STORE"
+  },
+  "RESTAURANT": {
+    "preproductionParameters": {
+      "BaseBudget": "4200",
+      "BaseDuration": "9"
+    },
+    "productionParameters": {
+      "BaseBudget": "380",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      3,
+      3,
+      4,
+      5
+    ],
+    "id": "RESTAURANT"
+  },
+  "PARK": {
+    "preproductionParameters": {
+      "BaseBudget": "1750",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "280",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "-0.200",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "PARK"
+  },
+  "CINEMA": {
+    "preproductionParameters": {
+      "BaseBudget": "4000",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "350",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "CINEMA"
+  },
+  "HOTEL": {
+    "preproductionParameters": {
+      "BaseBudget": "4000",
+      "BaseDuration": "7"
+    },
+    "productionParameters": {
+      "BaseBudget": "300",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "HOTEL"
+  },
+  "HOSPITAL": {
+    "preproductionParameters": {
+      "BaseBudget": "5800",
+      "BaseDuration": "9"
+    },
+    "productionParameters": {
+      "BaseBudget": "430",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.060",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "HOSPITAL"
+  },
+  "GATEWAY": {
+    "preproductionParameters": {
+      "BaseBudget": "1900",
+      "BaseDuration": "4"
+    },
+    "productionParameters": {
+      "BaseBudget": "250",
+      "BaseDuration": "3"
+    },
+    "indoorCommercialPenalty": "-0.075",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "GATEWAY"
+  },
+  "FACTORY": {
+    "preproductionParameters": {
+      "BaseBudget": "9000",
+      "BaseDuration": "14"
+    },
+    "productionParameters": {
+      "BaseBudget": "600",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "id": "FACTORY"
+  },
+  "TOWN_STREETS": {
+    "preproductionParameters": {
+      "BaseBudget": "6500",
+      "BaseDuration": "11"
+    },
+    "productionParameters": {
+      "BaseBudget": "780",
+      "BaseDuration": "12"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "TOWN_STREETS"
+  },
+  "TOWN_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "5700",
+      "BaseDuration": "11"
+    },
+    "productionParameters": {
+      "BaseBudget": "500",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "-0.200",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "TOWN_INTERIORS"
+  },
+  "MARKET": {
+    "preproductionParameters": {
+      "BaseBudget": "4200",
+      "BaseDuration": "12"
+    },
+    "productionParameters": {
+      "BaseBudget": "420",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "MARKET"
+  },
+  "SNACK_BAR": {
+    "preproductionParameters": {
+      "BaseBudget": "2700",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "260",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "SNACK_BAR"
+  },
+  "BAR": {
+    "preproductionParameters": {
+      "BaseBudget": "3000",
+      "BaseDuration": "5"
+    },
+    "productionParameters": {
+      "BaseBudget": "300",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "BAR"
+  },
+  "CHURCH": {
+    "preproductionParameters": {
+      "BaseBudget": "3900",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "360",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.090",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "id": "CHURCH"
+  },
+  "MOTEL": {
+    "preproductionParameters": {
+      "BaseBudget": "3800",
+      "BaseDuration": "7"
+    },
+    "productionParameters": {
+      "BaseBudget": "300",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "MOTEL"
+  },
+  "GAS_STATION": {
+    "preproductionParameters": {
+      "BaseBudget": "3600",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "350",
+      "BaseDuration": "3"
+    },
+    "indoorCommercialPenalty": "-0.075",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "GAS_STATION"
+  },
+  "ABANDONED_HOUSE": {
+    "preproductionParameters": {
+      "BaseBudget": "5500",
+      "BaseDuration": "12"
+    },
+    "productionParameters": {
+      "BaseBudget": "540",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "ABANDONED_HOUSE"
+  },
+  "TOWN_SQUARE": {
+    "preproductionParameters": {
+      "BaseBudget": "7000",
+      "BaseDuration": "15"
+    },
+    "productionParameters": {
+      "BaseBudget": "540",
+      "BaseDuration": "9"
+    },
+    "indoorCommercialPenalty": "-0.130",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "TOWN_SQUARE"
+  },
+  "PLANT": {
+    "preproductionParameters": {
+      "BaseBudget": "9200",
+      "BaseDuration": "13"
+    },
+    "productionParameters": {
+      "BaseBudget": "650",
+      "BaseDuration": "8"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "id": "PLANT"
+  },
+  "FANTASY_KINGDOM_OUTDOOR": {
+    "preproductionParameters": {
+      "BaseBudget": "10400",
+      "BaseDuration": "17"
+    },
+    "productionParameters": {
+      "BaseBudget": "1000",
+      "BaseDuration": "12"
+    },
+    "indoorCommercialPenalty": "-0.175",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "id": "FANTASY_KINGDOM_OUTDOOR"
+  },
+  "FANTASY_KINGDOM_INTERIOR": {
+    "preproductionParameters": {
+      "BaseBudget": "6800",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "800",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "FANTASY_KINGDOM_INTERIOR"
+  },
+  "DUNGEONS": {
+    "preproductionParameters": {
+      "BaseBudget": "2900",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "280",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.200",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "DUNGEONS"
+  },
+  "SETTLEMENT_OF_ENCHANTED_CREATURES": {
+    "preproductionParameters": {
+      "BaseBudget": "9200",
+      "BaseDuration": "15"
+    },
+    "productionParameters": {
+      "BaseBudget": "900",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "SETTLEMENT_OF_ENCHANTED_CREATURES"
+  },
+  "MONSTER'S_LAIR": {
+    "preproductionParameters": {
+      "BaseBudget": "4900",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "630",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "MONSTER'S_LAIR"
+  },
+  "TAVERN": {
+    "preproductionParameters": {
+      "BaseBudget": "3400",
+      "BaseDuration": "7"
+    },
+    "productionParameters": {
+      "BaseBudget": "370",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "TAVERN"
+  },
+  "MILL": {
+    "preproductionParameters": {
+      "BaseBudget": "3200",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "340",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.075",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "MILL"
+  },
+  "OCEAN": {
+    "preproductionParameters": {
+      "BaseBudget": "2600",
+      "BaseDuration": "5"
+    },
+    "productionParameters": {
+      "BaseBudget": "260",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      2,
+      4
+    ],
+    "id": "OCEAN"
+  },
+  "CAVE": {
+    "preproductionParameters": {
+      "BaseBudget": "3300",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "340",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.060",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      2,
+      2,
+      3,
+      4
+    ],
+    "id": "CAVE"
+  },
+  "WATERFALL": {
+    "preproductionParameters": {
+      "BaseBudget": "3800",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "500",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.125",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "WATERFALL"
+  },
+  "ANCIENT_TEMPLE": {
+    "preproductionParameters": {
+      "BaseBudget": "4000",
+      "BaseDuration": "11"
+    },
+    "productionParameters": {
+      "BaseBudget": "380",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "-0.075",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "ANCIENT_TEMPLE"
+  },
+  "SHIP": {
+    "preproductionParameters": {
+      "BaseBudget": "3800",
+      "BaseDuration": "13"
+    },
+    "productionParameters": {
+      "BaseBudget": "420",
+      "BaseDuration": "13"
+    },
+    "indoorCommercialPenalty": "-0.110",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "SHIP"
+  },
+  "COTTAGE": {
+    "preproductionParameters": {
+      "BaseBudget": "2800",
+      "BaseDuration": "7"
+    },
+    "productionParameters": {
+      "BaseBudget": "300",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "COTTAGE"
+  },
+  "LAKE": {
+    "preproductionParameters": {
+      "BaseBudget": "3800",
+      "BaseDuration": "7"
+    },
+    "productionParameters": {
+      "BaseBudget": "360",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.080",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "LAKE"
+  },
+  "SAWMILL": {
+    "preproductionParameters": {
+      "BaseBudget": "3100",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "380",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "-0.090",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "SAWMILL"
+  },
+  "ABANDONED_MINE": {
+    "preproductionParameters": {
+      "BaseBudget": "3900",
+      "BaseDuration": "10"
+    },
+    "productionParameters": {
+      "BaseBudget": "400",
+      "BaseDuration": "8"
+    },
+    "indoorCommercialPenalty": "-0.070",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "ABANDONED_MINE"
+  },
+  "PLANTATION": {
+    "preproductionParameters": {
+      "BaseBudget": "3400",
+      "BaseDuration": "11"
+    },
+    "productionParameters": {
+      "BaseBudget": "380",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "PLANTATION"
+  },
+  "RUINED_SETTLEMENT": {
+    "preproductionParameters": {
+      "BaseBudget": "3600",
+      "BaseDuration": "9"
+    },
+    "productionParameters": {
+      "BaseBudget": "300",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "-0.090",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "RUINED_SETTLEMENT"
+  },
+  "BATTLEFIELD": {
+    "preproductionParameters": {
+      "BaseBudget": "6200",
+      "BaseDuration": "14"
+    },
+    "productionParameters": {
+      "BaseBudget": "780",
+      "BaseDuration": "13"
+    },
+    "indoorCommercialPenalty": "-0.225",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "BATTLEFIELD"
+  },
+  "MEDIEVAL_SETTLEMENT": {
+    "preproductionParameters": {
+      "BaseBudget": "4200",
+      "BaseDuration": "11"
+    },
+    "productionParameters": {
+      "BaseBudget": "390",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.075",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "MEDIEVAL_SETTLEMENT"
+  },
+  "MILITARY_FORT": {
+    "preproductionParameters": {
+      "BaseBudget": "5000",
+      "BaseDuration": "14"
+    },
+    "productionParameters": {
+      "BaseBudget": "360",
+      "BaseDuration": "10"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "MILITARY_FORT"
+  },
+  "MILITARY_CAMP": {
+    "preproductionParameters": {
+      "BaseBudget": "4000",
+      "BaseDuration": "10"
+    },
+    "productionParameters": {
+      "BaseBudget": "420",
+      "BaseDuration": "8"
+    },
+    "indoorCommercialPenalty": "-0.135",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "MILITARY_CAMP"
+  },
+  "COAST": {
+    "preproductionParameters": {
+      "BaseBudget": "3500",
+      "BaseDuration": "8"
+    },
+    "productionParameters": {
+      "BaseBudget": "400",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "-0.090",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "COAST"
+  },
+  "PORT": {
+    "preproductionParameters": {
+      "BaseBudget": "3800",
+      "BaseDuration": "11"
+    },
+    "productionParameters": {
+      "BaseBudget": "350",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.135",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      2,
+      4
+    ],
+    "id": "PORT"
+  },
+  "FIELD_HOSPITAL": {
+    "preproductionParameters": {
+      "BaseBudget": "3100",
+      "BaseDuration": "7"
+    },
+    "productionParameters": {
+      "BaseBudget": "320",
+      "BaseDuration": "4"
+    },
+    "indoorCommercialPenalty": "-0.050",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "FIELD_HOSPITAL"
+  },
+  "RAILSTATION": {
+    "preproductionParameters": {
+      "BaseBudget": "7000",
+      "BaseDuration": "11"
+    },
+    "productionParameters": {
+      "BaseBudget": "700",
+      "BaseDuration": "5"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 4,
+    "maxQualityPavilions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "id": "RAILSTATION"
+  },
+  "MIDDLE_AGE_TOWN": {
+    "preproductionParameters": {
+      "BaseBudget": "12500",
+      "BaseDuration": "15"
+    },
+    "productionParameters": {
+      "BaseBudget": "950",
+      "BaseDuration": "11"
+    },
+    "indoorCommercialPenalty": "-0.200",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "MIDDLE_AGE_TOWN"
+  },
+  "SPACESHIP": {
+    "preproductionParameters": {
+      "BaseBudget": "9000",
+      "BaseDuration": "10"
+    },
+    "productionParameters": {
+      "BaseBudget": "750",
+      "BaseDuration": "8"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "SPACESHIP"
+  },
+  "PLANET_SURFACES": {
+    "preproductionParameters": {
+      "BaseBudget": "4600",
+      "BaseDuration": "9"
+    },
+    "productionParameters": {
+      "BaseBudget": "450",
+      "BaseDuration": "7"
+    },
+    "indoorCommercialPenalty": "-0.050",
+    "globalQualityLimit": 1,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "PLANET_SURFACES"
+  },
+  "FUTURISTIC_CITY_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "13000",
+      "BaseDuration": "17"
+    },
+    "productionParameters": {
+      "BaseBudget": "1250",
+      "BaseDuration": "15"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "FUTURISTIC_CITY_EXTERIORS"
+  },
+  "FUTURISTIC_CITY_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "9200",
+      "BaseDuration": "12"
+    },
+    "productionParameters": {
+      "BaseBudget": "820",
+      "BaseDuration": "9"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "FUTURISTIC_CITY_INTERIORS"
+  },
+  "ANCIENT_CITY_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.200",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "ANCIENT_CITY_EXTERIORS"
+  },
+  "ANCIENT_CITY_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "ANCIENT_CITY_INTERIORS"
+  },
+  "ANCIENT_COUNTRY_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "ANCIENT_COUNTRY_EXTERIORS"
+  },
+  "ANCIENT_COUNTRY_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "ANCIENT_COUNTRY_INTERIORS"
+  },
+  "ARABIC_CITY_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 1,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      4
+    ],
+    "id": "ARABIC_CITY_EXTERIORS"
+  },
+  "ARABIC_CITY_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "ARABIC_CITY_INTERIORS"
+  },
+  "ARABIC_COUNTRY_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 1,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "ARABIC_COUNTRY_EXTERIORS"
+  },
+  "ARABIC_COUNTRY_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "ARABIC_COUNTRY_INTERIORS"
+  },
+  "ANCIENT_CHINESE_TOWN_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "ANCIENT_CHINESE_TOWN_EXTERIORS"
+  },
+  "ANCIENT_CHINESE_TOWN_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "ANCIENT_CHINESE_TOWN_INTERIORS"
+  },
+  "ANCIENT_CHINESE_COUNTRY_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "ANCIENT_CHINESE_COUNTRY_EXTERIORS"
+  },
+  "ANCIENT_CHINESE_COUNTRY_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "ANCIENT_CHINESE_COUNTRY_INTERIORS"
+  },
+  "FEUDAL_JAPANESE_TOWN_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.150",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "FEUDAL_JAPANESE_TOWN_EXTERIORS"
+  },
+  "FEUDAL_JAPANESE_TOWN_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "FEUDAL_JAPANESE_TOWN_INTERIORS"
+  },
+  "FEUDAL_JAPANESE_COUNTRY_EXTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "-0.100",
+    "globalQualityLimit": 2,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "FEUDAL_JAPANESE_COUNTRY_EXTERIORS"
+  },
+  "FEUDAL_JAPANESE_COUNTRY_INTERIORS": {
+    "preproductionParameters": {
+      "BaseBudget": "2222",
+      "BaseDuration": "6"
+    },
+    "productionParameters": {
+      "BaseBudget": "222",
+      "BaseDuration": "6"
+    },
+    "indoorCommercialPenalty": "0.000",
+    "globalQualityLimit": 3,
+    "maxQualityPavilions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": "FEUDAL_JAPANESE_COUNTRY_INTERIORS"
+  }
+}

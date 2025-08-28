@@ -1,0 +1,399 @@
+{
+  "TRIAL_DEATH_ACTOR": {
+    "firstNameId": "147",
+    "lastNameId": "900",
+    "severity": 1,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 10,
+      "to": 15
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 1000000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      }
+    ],
+    "winTriggers": [
+      [
+        {
+          "name": "PUB",
+          "value": "PUB_DEATH_ACTOR_TRIAL_WIN",
+          "triggerType": 7,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "looseTriggers": [
+      [
+        {
+          "name": "PUB",
+          "value": "PUB_DEATH_ACTOR_TRIAL_LOOSE",
+          "triggerType": 7,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "id": "TRIAL_DEATH_ACTOR"
+  },
+  "TRIAL_JAIL_TEST": {
+    "firstNameId": null,
+    "lastNameId": null,
+    "severity": 3,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 20,
+      "to": 30
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 100000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      },
+      {
+        "type": 1,
+        "payAmount": 0,
+        "imprisonDurationInYears": 15,
+        "characterFromContext": "SUSPECT"
+      }
+    ],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      []
+    ],
+    "id": "TRIAL_JAIL_TEST"
+  },
+  "TRIAL_MYSTICAL_HOWL": {
+    "firstNameId": "996",
+    "lastNameId": "997",
+    "severity": 1,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 10,
+      "to": 15
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 200000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      }
+    ],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      []
+    ],
+    "id": "TRIAL_MYSTICAL_HOWL"
+  },
+  "LUXTA_DEAL_TRIAL": {
+    "firstNameId": "Luxta",
+    "lastNameId": "Constructions",
+    "severity": 1,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 10,
+      "to": 15
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 500000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      }
+    ],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      []
+    ],
+    "id": "LUXTA_DEAL_TRIAL"
+  },
+  "TRIAL_BLACK_PRESENTS_WITH_CHARACTER": {
+    "firstNameId": null,
+    "lastNameId": null,
+    "severity": 1,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 10,
+      "to": 15
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 250000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      },
+      {
+        "type": 1,
+        "payAmount": 0,
+        "imprisonDurationInYears": 6,
+        "characterFromContext": "SUSPECT"
+      }
+    ],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      [
+        {
+          "name": "PUB",
+          "value": "PUB_BLACK_PRESENTS_WITH_CHARACTER",
+          "triggerType": 7,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "id": "TRIAL_BLACK_PRESENTS_WITH_CHARACTER"
+  },
+  "TRIAL_BLACK_PRESENTS_WITHOUT_CHARACTER": {
+    "firstNameId": null,
+    "lastNameId": null,
+    "severity": 1,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 10,
+      "to": 15
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 250000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      }
+    ],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      [
+        {
+          "name": "PUB",
+          "value": "PUB_BLACK_PRESENTS_WITHOUT_CHARACTER",
+          "triggerType": 7,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "id": "TRIAL_BLACK_PRESENTS_WITHOUT_CHARACTER"
+  },
+  "TRIAL_POACHING_FROM_COMPETITORS": {
+    "firstNameId": null,
+    "lastNameId": null,
+    "severity": 1,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 10,
+      "to": 15
+    },
+    "claims": [],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      [
+        {
+          "name": "PUB",
+          "value": "PUB_POACHING_FROM_COMPETITORS_TRIAL_LOSE",
+          "triggerType": 7,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "id": "TRIAL_POACHING_FROM_COMPETITORS"
+  },
+  "TRIAL_ASSASINATION_WITH_CHARACTER": {
+    "firstNameId": null,
+    "lastNameId": null,
+    "severity": 2,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 15,
+      "to": 20
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 500000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      },
+      {
+        "type": 1,
+        "payAmount": 0,
+        "imprisonDurationInYears": 7,
+        "characterFromContext": "SUSPECT"
+      }
+    ],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      []
+    ],
+    "id": "TRIAL_ASSASINATION_WITH_CHARACTER"
+  },
+  "TRIAL_ASSASINATION_WITHOUT_CHARACTER": {
+    "firstNameId": null,
+    "lastNameId": null,
+    "severity": 2,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 15,
+      "to": 20
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 500000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      }
+    ],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      []
+    ],
+    "id": "TRIAL_ASSASINATION_WITHOUT_CHARACTER"
+  },
+  "TRIAL_EXMAYOR": {
+    "firstNameId": "1134",
+    "lastNameId": "1135",
+    "severity": 2,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 10,
+      "to": 15
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 650000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      }
+    ],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      []
+    ],
+    "id": "TRIAL_EXMAYOR"
+  },
+  "TRIAL_FRIENDLY_NEIGHBOR": {
+    "firstNameId": "1136",
+    "lastNameId": "1137",
+    "severity": 1,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 10,
+      "to": 15
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 450000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      }
+    ],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      []
+    ],
+    "id": "TRIAL_FRIENDLY_NEIGHBOR"
+  },
+  "TRIAL_CHEESE": {
+    "firstNameId": "1138",
+    "lastNameId": "1139",
+    "severity": 2,
+    "delay": {
+      "from": 2,
+      "to": 3
+    },
+    "duration": {
+      "from": 10,
+      "to": 15
+    },
+    "claims": [
+      {
+        "type": 0,
+        "payAmount": 2000000,
+        "imprisonDurationInYears": 0,
+        "characterFromContext": null
+      }
+    ],
+    "winTriggers": [
+      []
+    ],
+    "looseTriggers": [
+      []
+    ],
+    "id": "TRIAL_CHEESE"
+  }
+}

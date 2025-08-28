@@ -1,0 +1,137 @@
+{
+  "SONATONE": {
+    "parameters": null,
+    "techType": 1,
+    "displayPointsQPE": [
+      1,
+      2,
+      1
+    ],
+    "improvPointsQPE": [
+      0,
+      1,
+      1
+    ],
+    "enabledOnStart": true,
+    "isColored": false,
+    "questTechId": "",
+    "format": "Mono On-Disk",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_SONATONE",
+    "releaseDate": "1927-04-07T00:00:00",
+    "hasReleaseDate": true,
+    "manufactorerCostMod": "1.000",
+    "price": 80000,
+    "isQuestTech": false,
+    "outDate": "1931-08-07T00:00:00",
+    "hasOutDate": true,
+    "id": "SONATONE"
+  },
+  "DOMINUS": {
+    "parameters": null,
+    "techType": 1,
+    "displayPointsQPE": [
+      2,
+      2,
+      1
+    ],
+    "improvPointsQPE": [
+      1,
+      0,
+      1
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "",
+    "format": "Mono On-Disk",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_SONATONE",
+    "releaseDate": "1930-06-07T00:00:00",
+    "hasReleaseDate": true,
+    "manufactorerCostMod": "1.300",
+    "price": 110000,
+    "isQuestTech": false,
+    "outDate": "1935-06-07T00:00:00",
+    "hasOutDate": true,
+    "id": "DOMINUS"
+  },
+  "FRAMETONE_STANDART": {
+    "parameters": null,
+    "techType": 1,
+    "displayPointsQPE": [
+      3,
+      2,
+      1
+    ],
+    "improvPointsQPE": [
+      1,
+      0,
+      1
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "FRAMETONE_QUEST",
+    "format": "Mono On-Film",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_FRAMETONE",
+    "releaseDate": "1934-04-07T00:00:00",
+    "hasReleaseDate": true,
+    "manufactorerCostMod": "1.000",
+    "price": 135000,
+    "isQuestTech": false,
+    "outDate": "1940-04-07T00:00:00",
+    "hasOutDate": true,
+    "id": "FRAMETONE_STANDART"
+  },
+  "FRAMETONE_QUEST": {
+    "parameters": null,
+    "techType": 1,
+    "displayPointsQPE": [
+      5,
+      3,
+      3
+    ],
+    "improvPointsQPE": [
+      1,
+      1,
+      1
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "",
+    "format": "Mono On-Film",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_FRAMETONE",
+    "releaseDate": "0001-01-01T00:00:00",
+    "hasReleaseDate": false,
+    "manufactorerCostMod": "0.800",
+    "price": 0,
+    "isQuestTech": true,
+    "outDate": "0001-01-01T00:00:00",
+    "hasOutDate": false,
+    "id": "FRAMETONE_QUEST"
+  },
+  "FILMSOUND_STANDART": {
+    "parameters": null,
+    "techType": 1,
+    "displayPointsQPE": [
+      4,
+      5,
+      2
+    ],
+    "improvPointsQPE": [
+      2,
+      1,
+      0
+    ],
+    "enabledOnStart": false,
+    "isColored": false,
+    "questTechId": "",
+    "format": "Mono On-Film",
+    "manufactorerNameLoc": "TECH_MANUFACTURER_FILMSOUND",
+    "releaseDate": "1940-02-02T00:00:00",
+    "hasReleaseDate": true,
+    "manufactorerCostMod": "1.200",
+    "price": 175000,
+    "isQuestTech": false,
+    "outDate": "1948-04-07T00:00:00",
+    "hasOutDate": true,
+    "id": "FILMSOUND_STANDART"
+  }
+}

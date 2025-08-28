@@ -1,0 +1,127 @@
+{
+  "YOUNG_1": {
+    "intId": 0,
+    "ageRange": {
+      "x": 18,
+      "y": 25,
+      "magnitude": "30.806",
+      "sqrMagnitude": 949
+    },
+    "hasSpouseProbability": "0.400",
+    "hasSpouseAndHadSpouseProbability": "0.010",
+    "noSpouseAndHadSpouseProbability": "0.010",
+    "pastMarriageAmountProbabilities": [
+      "0.050"
+    ],
+    "marriageProbability": "0.050",
+    "divorceProbabilty": "0.013",
+    "minorChildrenAmount": {
+      "x": 1,
+      "y": 1,
+      "magnitude": "1.414",
+      "sqrMagnitude": 2
+    },
+    "birthrate": "0.050",
+    "id": "YOUNG_1"
+  },
+  "YOUNG_2": {
+    "intId": 1,
+    "ageRange": {
+      "x": 25,
+      "y": 35,
+      "magnitude": "43.012",
+      "sqrMagnitude": 1850
+    },
+    "hasSpouseProbability": "0.600",
+    "hasSpouseAndHadSpouseProbability": "0.070",
+    "noSpouseAndHadSpouseProbability": "0.100",
+    "pastMarriageAmountProbabilities": [
+      "0.050"
+    ],
+    "marriageProbability": "0.050",
+    "divorceProbabilty": "0.013",
+    "minorChildrenAmount": {
+      "x": 1,
+      "y": 2,
+      "magnitude": "2.236",
+      "sqrMagnitude": 5
+    },
+    "birthrate": "0.100",
+    "id": "YOUNG_2"
+  },
+  "MID_1": {
+    "intId": 2,
+    "ageRange": {
+      "x": 35,
+      "y": 45,
+      "magnitude": "57.009",
+      "sqrMagnitude": 3250
+    },
+    "hasSpouseProbability": "0.700",
+    "hasSpouseAndHadSpouseProbability": "0.100",
+    "noSpouseAndHadSpouseProbability": "0.400",
+    "pastMarriageAmountProbabilities": [
+      "0.025"
+    ],
+    "marriageProbability": "0.025",
+    "divorceProbabilty": "0.006",
+    "minorChildrenAmount": {
+      "x": 1,
+      "y": 3,
+      "magnitude": "3.162",
+      "sqrMagnitude": 10
+    },
+    "birthrate": "0.080",
+    "id": "MID_1"
+  },
+  "MID_2": {
+    "intId": 3,
+    "ageRange": {
+      "x": 45,
+      "y": 55,
+      "magnitude": "71.063",
+      "sqrMagnitude": 5050
+    },
+    "hasSpouseProbability": "0.800",
+    "hasSpouseAndHadSpouseProbability": "0.125",
+    "noSpouseAndHadSpouseProbability": "0.800",
+    "pastMarriageAmountProbabilities": [
+      "0.010"
+    ],
+    "marriageProbability": "0.010",
+    "divorceProbabilty": "0.003",
+    "minorChildrenAmount": {
+      "x": 1,
+      "y": 2,
+      "magnitude": "2.236",
+      "sqrMagnitude": 5
+    },
+    "birthrate": "0.040",
+    "id": "MID_2"
+  },
+  "OLD": {
+    "intId": 4,
+    "ageRange": {
+      "x": 55,
+      "y": 2147483647,
+      "magnitude": "55.009",
+      "sqrMagnitude": 3026
+    },
+    "hasSpouseProbability": "0.900",
+    "hasSpouseAndHadSpouseProbability": "0.150",
+    "noSpouseAndHadSpouseProbability": "0.950",
+    "pastMarriageAmountProbabilities": [
+      "0.005"
+    ],
+    "marriageProbability": "0.005",
+    "divorceProbabilty": "0.000",
+    "minorChildrenAmount": {
+      "x": 1,
+      "y": 1,
+      "magnitude": "1.414",
+      "sqrMagnitude": 2
+    },
+    "birthrate": "0.000",
+    "id": "OLD"
+  }
+}

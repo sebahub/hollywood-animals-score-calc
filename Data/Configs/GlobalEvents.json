@@ -1,0 +1,455 @@
+{
+  "news_001_DETROIT_POISONING": {
+    "condition": "DATE:15-12-1929",
+    "triggers": [
+      []
+    ],
+    "id": "news_001_DETROIT_POISONING"
+  },
+  "news_002_PROTEST": {
+    "condition": "DATE:07-05-1930",
+    "triggers": [
+      []
+    ],
+    "id": "news_002_PROTEST"
+  },
+  "news_003_DEPRESSION": {
+    "condition": "DATE:24-10-1929",
+    "triggers": [
+      []
+    ],
+    "id": "news_003_DEPRESSION"
+  },
+  "news_004_KILLER": {
+    "condition": "DATE:10-09-1930",
+    "triggers": [
+      [
+        {
+          "name": "FIRE_AND_LOCK_CHARACTER",
+          "value": "52",
+          "triggerType": 36,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "id": "news_004_KILLER"
+  },
+  "news_demo_FUNERAL": {
+    "condition": "DATE:26-07-1960",
+    "triggers": [
+      []
+    ],
+    "id": "news_demo_FUNERAL"
+  },
+  "NEWS_ELECTIONS_001_FIRST_MEETING": {
+    "condition": "(DATE:02-09-1931) AND ((TITAN_OPENED:MAYOR_CARPENTER) OR (TITAN_OPENED:PROSECUTOR_STRIPES))",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_001_FIRST_MEETING"
+  },
+  "NEWS_ELECTIONS_002_DESTROYING_CAMP": {
+    "condition": "(DATE:02-06-1932) AND ((TITAN_OPENED:MAYOR_CARPENTER) OR (TITAN_OPENED:PROSECUTOR_STRIPES))",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_002_DESTROYING_CAMP"
+  },
+  "NEWS_ELECTIONS_003_CARPENTER_PRESS_CONFERENCE": {
+    "condition": "(DATE:03-09-1932) AND ((TITAN_OPENED:MAYOR_CARPENTER) OR (TITAN_OPENED:PROSECUTOR_STRIPES))",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_003_CARPENTER_PRESS_CONFERENCE"
+  },
+  "NEWS_ELECTIONS_004_STRIPES_BURNINGMAN": {
+    "condition": "(DATE:02-06-1933) AND ((TITAN_OPENED:MAYOR_CARPENTER) OR (TITAN_OPENED:PROSECUTOR_STRIPES))",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_004_STRIPES_BURNINGMAN"
+  },
+  "NEWS_ELECTIONS_005_CARPENTER_BREAD": {
+    "condition": "(DATE:20-08-1933) AND ((TITAN_OPENED:MAYOR_CARPENTER) OR (TITAN_OPENED:PROSECUTOR_STRIPES))",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_005_CARPENTER_BREAD"
+  },
+  "NEWS_ELECTIONS_006_CARPENTER_WIN": {
+    "condition": "(DATE:09-09-1933) AND (ELECTION_WINNER:1933:MAYOR_CARPENTER) AND ((TITAN_OPENED:MAYOR_CARPENTER) OR (TITAN_OPENED:PROSECUTOR_STRIPES))",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_006_CARPENTER_WIN"
+  },
+  "NEWS_ELECTIONS_007_STRIPES_WIN": {
+    "condition": "(DATE:09-09-1933) AND (ELECTION_WINNER:1933:PROSECUTOR_STRIPES)AND ((TITAN_OPENED:MAYOR_CARPENTER) OR (TITAN_OPENED:PROSECUTOR_STRIPES))",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_007_STRIPES_WIN"
+  },
+  "NEWS_ELECTIONS_009_STRIPES_RAID_PREPARATIONS": {
+    "condition": "(DATE:30-07-1934) AND (ELECTION_WINNER:1933:PROSECUTOR_STRIPES)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_009_STRIPES_RAID_PREPARATIONS"
+  },
+  "NEWS_ELECTIONS_010_STRIPES_FIRST_RAID": {
+    "condition": "(DATE:01-08-1934) AND (ELECTION_WINNER:1933:PROSECUTOR_STRIPES)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_010_STRIPES_FIRST_RAID"
+  },
+  "NEWS_ELECTIONS_008_STRIPES_QUIT": {
+    "condition": "(DATE:02-09-1934) AND (ELECTION_WINNER:1933:MAYOR_CARPENTER) AND (TITAN_OPENED:PROSECUTOR_STRIPES)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_008_STRIPES_QUIT"
+  },
+  "NEWS_ELECTIONS_011_STRIPES_ARRESTED_ITALIANS": {
+    "condition": "(DATE:01-09-1934) AND (ELECTION_WINNER:1933:PROSECUTOR_STRIPES)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_011_STRIPES_ARRESTED_ITALIANS"
+  },
+  "NEWS_ELECTIONS_021_STRIPES_ARRESTED_LAMBERT_1": {
+    "condition": "(DATE:02-04-1934) AND (ELECTION_WINNER:1933:PROSECUTOR_STRIPES)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_021_STRIPES_ARRESTED_LAMBERT_1"
+  },
+  "NEWS_ELECTIONS_021_STRIPES_ARRESTED_LAMBERT_2": {
+    "condition": "(DATE:02-05-1934) AND (ELECTION_WINNER:1933:PROSECUTOR_STRIPES)",
+    "triggers": [
+      [
+        {
+          "name": "DISABLE_RAIDS",
+          "value": "true",
+          "triggerType": 98,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "id": "NEWS_ELECTIONS_021_STRIPES_ARRESTED_LAMBERT_2"
+  },
+  "NEWS_ELECTIONS_021_STRIPES_ARRESTED_LAMBERT_3": {
+    "condition": "(DATE:02-06-1934) AND (ELECTION_WINNER:1933:PROSECUTOR_STRIPES)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_021_STRIPES_ARRESTED_LAMBERT_3"
+  },
+  "NEWS_ELECTIONS_013_CARPENTER_REELLECTION_1": {
+    "condition": "(DATE:03-09-1937) AND (ELECTION_WINNER:1933:MAYOR_CARPENTER) AND (TITAN_OPENED:MAYOR_CARPENTER)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_013_CARPENTER_REELLECTION_1"
+  },
+  "NEWS_ELECTIONS_015_CARPENTER_REELLECTION_2": {
+    "condition": "(DATE:03-09-1941) AND (ELECTION_WINNER:1933:MAYOR_CARPENTER) AND (TITAN_OPENED:MAYOR_CARPENTER)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_015_CARPENTER_REELLECTION_2"
+  },
+  "NEWS_ELECTIONS_017_LILLAND_CARPENTER": {
+    "condition": "(DATE:02-09-1945) AND (ELECTION_WINNER:1933:MAYOR_CARPENTER) AND (TITAN_OPENED:MAYOR_CARPENTER)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_017_LILLAND_CARPENTER"
+  },
+  "NEWS_ELECTIONS_012_STRIPES_REELLECTION_1": {
+    "condition": "(DATE:03-09-1937) AND (ELECTION_WINNER:1933:PROSECUTOR_STRIPES) AND (TITAN_OPENED:MAYOR_STRIPES)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_012_STRIPES_REELLECTION_1"
+  },
+  "NEWS_ELECTIONS_014_STRIPES_REELLECTION_2": {
+    "condition": "(DATE:03-09-1941) AND (ELECTION_WINNER:1933:PROSECUTOR_STRIPES) AND (TITAN_OPENED:MAYOR_STRIPES)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_014_STRIPES_REELLECTION_2"
+  },
+  "NEWS_ELECTIONS_016_LILLAND_STRIPES": {
+    "condition": "(DATE:02-09-1945) AND (ELECTION_WINNER:1933:PROSECUTOR_STRIPES) AND (TITAN_OPENED:MAYOR_STRIPES)",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_ELECTIONS_016_LILLAND_STRIPES"
+  },
+  "NEWS_GERSTEIN_MEET": {
+    "condition": "DATE:23-02-1931",
+    "triggers": [
+      []
+    ],
+    "id": "NEWS_GERSTEIN_MEET"
+  },
+  "news_012_HITLER_HINDENBURG": {
+    "condition": "DATE:24-03-1934",
+    "triggers": [
+      []
+    ],
+    "id": "news_012_HITLER_HINDENBURG"
+  },
+  "news_013_LAWS_AGAINST_JEWS": {
+    "condition": "DATE:15-09-1935",
+    "triggers": [
+      []
+    ],
+    "id": "news_013_LAWS_AGAINST_JEWS"
+  },
+  "news_014_OLYMPIC_GAMES": {
+    "condition": "DATE:01-08-1936",
+    "triggers": [
+      []
+    ],
+    "id": "news_014_OLYMPIC_GAMES"
+  },
+  "news_015_WAR_BEGINNING": {
+    "condition": "DATE:01-09-1939",
+    "triggers": [
+      []
+    ],
+    "id": "news_015_WAR_BEGINNING"
+  },
+  "news_011_PEARL_HARBOUR": {
+    "condition": "DATE:07-12-1941",
+    "triggers": [
+      []
+    ],
+    "id": "news_011_PEARL_HARBOUR"
+  },
+  "news_016_WAR_END_EU": {
+    "condition": "DATE:07-05-1945",
+    "triggers": [
+      []
+    ],
+    "id": "news_016_WAR_END_EU"
+  },
+  "news_016_WAR_END_US": {
+    "condition": "DATE:02-09-1945",
+    "triggers": [
+      []
+    ],
+    "id": "news_016_WAR_END_US"
+  },
+  "POLLUX_SPEAKER_ON_THE_WAR": {
+    "condition": "DATE:15-12-1941",
+    "triggers": [
+      []
+    ],
+    "id": "POLLUX_SPEAKER_ON_THE_WAR"
+  },
+  "POLLUX_SPEAKER_DIED": {
+    "condition": "DATE:10-09-1942",
+    "triggers": [
+      []
+    ],
+    "id": "POLLUX_SPEAKER_DIED"
+  },
+  "news_008_PROHIBITION": {
+    "condition": "DATE:25-07-1932",
+    "triggers": [
+      []
+    ],
+    "id": "news_008_PROHIBITION"
+  },
+  "news_009_AMENDMENT": {
+    "condition": "DATE:05-12-1933",
+    "triggers": [
+      []
+    ],
+    "id": "news_009_AMENDMENT"
+  },
+  "news_006_NEW_DEAL": {
+    "condition": "DATE:03-03-1933",
+    "triggers": [
+      []
+    ],
+    "id": "news_006_NEW_DEAL"
+  },
+  "news_007_NEW_DEAL": {
+    "condition": "DATE:14-08-1935",
+    "triggers": [
+      []
+    ],
+    "id": "news_007_NEW_DEAL"
+  },
+  "news_010_UNSATISFIED_AUDIENCE": {
+    "condition": "DATE:24-01-1931",
+    "triggers": [
+      []
+    ],
+    "id": "news_010_UNSATISFIED_AUDIENCE"
+  },
+  "news_006_GREEN": {
+    "condition": "DATE:20-09-1930",
+    "triggers": [
+      []
+    ],
+    "id": "news_006_GREEN"
+  },
+  "news_21_GREENS_SPEACH": {
+    "condition": "DATE:28-11-1933",
+    "triggers": [
+      []
+    ],
+    "id": "news_21_GREENS_SPEACH"
+  },
+  "news_020_STORM_THEATER_F": {
+    "condition": "(DATE:10-08-1946) AND (PVAR_BOOL:GERSTEIN_ANTITRUST_FAILED)",
+    "triggers": [
+      [
+        {
+          "name": "ACT_I_COUNTDOWN",
+          "value": "12-31-1946",
+          "triggerType": 94,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "CINEMAS_DISCOUNT",
+          "value": "0.1",
+          "triggerType": 73,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "COMP_SELL_CINEMAS",
+          "value": "0.5",
+          "triggerType": 93,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "COMP_SELL_CINEMAS",
+          "value": "1",
+          "triggerType": 93,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 30
+        }
+      ]
+    ],
+    "id": "news_020_STORM_THEATER_F"
+  },
+  "news_020_STORM_THEATER_S": {
+    "condition": "(DATE:10-08-1946) AND (PVAR_BOOL:GERSTEIN_ANTITRUST_SUCCESS)",
+    "triggers": [
+      [
+        {
+          "name": "ACT_I_COUNTDOWN",
+          "value": "12-31-1948",
+          "triggerType": 94,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "CINEMAS_DISCOUNT",
+          "value": "0.1",
+          "triggerType": 73,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "COMP_SELL_CINEMAS",
+          "value": "0.5",
+          "triggerType": 93,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        },
+        {
+          "name": "COMP_SELL_CINEMAS",
+          "value": "1",
+          "triggerType": 93,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 30
+        }
+      ]
+    ],
+    "id": "news_020_STORM_THEATER_S"
+  },
+  "news_022_CINEMAS_SERVICE_COST_PRICE_INCRERASE": {
+    "condition": "DATE:30-04-1933",
+    "triggers": [
+      [
+        {
+          "name": "CINEMAS_SERVICE_COST_MULTIPLIER",
+          "value": "2",
+          "triggerType": 73,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "id": "news_022_CINEMAS_SERVICE_COST_PRICE_INCRERASE"
+  },
+  "news_023_LEGAL_STAFF_SALARY_INCREASE": {
+    "condition": "DATE:05-03-1937",
+    "triggers": [
+      [
+        {
+          "name": "LEGAL_STAFF_SALARY_MULTIPLIER",
+          "value": "1.6",
+          "triggerType": 73,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "id": "news_023_LEGAL_STAFF_SALARY_INCREASE"
+  },
+  "news_MARTIN": {
+    "condition": "DATE:21-01-1929",
+    "triggers": [
+      [
+        {
+          "name": "CUSTOM_ACTION",
+          "value": "ID#UNLOCK_BOBBY_MARTIN",
+          "triggerType": 54,
+          "buffType": 1,
+          "duration": -1,
+          "probability": "1.000",
+          "delay": 0
+        }
+      ]
+    ],
+    "id": "news_MARTIN"
+  }
+}

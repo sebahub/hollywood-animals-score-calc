@@ -1,0 +1,2542 @@
+{
+  "ALLB0": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 0
+      },
+      {
+        "id": 0,
+        "scoreType": 0
+      },
+      {
+        "id": 3,
+        "scoreType": 0
+      },
+      {
+        "id": 2,
+        "scoreType": 0
+      },
+      {
+        "id": 5,
+        "scoreType": 0
+      },
+      {
+        "id": 4,
+        "scoreType": 0
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "BILLBOARD1",
+      "position": {
+        "x": "50.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "300.000",
+        "y": "140.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "ALLB0"
+  },
+  "ALLB1": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 0
+      },
+      {
+        "id": 0,
+        "scoreType": 0
+      },
+      {
+        "id": 3,
+        "scoreType": 0
+      },
+      {
+        "id": 2,
+        "scoreType": 0
+      },
+      {
+        "id": 5,
+        "scoreType": 0
+      },
+      {
+        "id": 4,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.500",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "RADIO_MAGAZINE_1",
+      "position": {
+        "x": "100.000",
+        "y": "10.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 1
+    },
+    "id": "ALLB1"
+  },
+  "ALLB2": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 0
+      },
+      {
+        "id": 0,
+        "scoreType": 0
+      },
+      {
+        "id": 3,
+        "scoreType": 0
+      },
+      {
+        "id": 2,
+        "scoreType": 0
+      },
+      {
+        "id": 5,
+        "scoreType": 0
+      },
+      {
+        "id": 4,
+        "scoreType": 0
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "3.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "NEWSPAPERS1",
+      "position": {
+        "x": "250.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "ALLB2"
+  },
+  "ALLA0": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 1
+      },
+      {
+        "id": 0,
+        "scoreType": 1
+      },
+      {
+        "id": 3,
+        "scoreType": 1
+      },
+      {
+        "id": 2,
+        "scoreType": 1
+      },
+      {
+        "id": 5,
+        "scoreType": 1
+      },
+      {
+        "id": 4,
+        "scoreType": 1
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.600",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "RADIO_1",
+      "position": {
+        "x": "350.000",
+        "y": "10.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "140.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "ALLA0"
+  },
+  "ALLA1": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 1
+      },
+      {
+        "id": 0,
+        "scoreType": 1
+      },
+      {
+        "id": 3,
+        "scoreType": 1
+      },
+      {
+        "id": 2,
+        "scoreType": 1
+      },
+      {
+        "id": 5,
+        "scoreType": 1
+      },
+      {
+        "id": 4,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.800",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "MAGAZINES1",
+      "position": {
+        "x": "400.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "ALLA1"
+  },
+  "ALLA2": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 1
+      },
+      {
+        "id": 0,
+        "scoreType": 1
+      },
+      {
+        "id": 3,
+        "scoreType": 1
+      },
+      {
+        "id": 2,
+        "scoreType": 1
+      },
+      {
+        "id": 5,
+        "scoreType": 1
+      },
+      {
+        "id": 4,
+        "scoreType": 1
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.200",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "RADIO_MAGAZINE_4",
+      "position": {
+        "x": "450.000",
+        "y": "10.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 1
+    },
+    "id": "ALLA2"
+  },
+  "ALLC0": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 2
+      },
+      {
+        "id": 0,
+        "scoreType": 2
+      },
+      {
+        "id": 3,
+        "scoreType": 2
+      },
+      {
+        "id": 2,
+        "scoreType": 2
+      },
+      {
+        "id": 5,
+        "scoreType": 2
+      },
+      {
+        "id": 4,
+        "scoreType": 2
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.900",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "BILLBOARD1",
+      "position": {
+        "x": "500.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "ALLC0"
+  },
+  "ALLC1": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 2
+      },
+      {
+        "id": 0,
+        "scoreType": 2
+      },
+      {
+        "id": 3,
+        "scoreType": 2
+      },
+      {
+        "id": 2,
+        "scoreType": 2
+      },
+      {
+        "id": 5,
+        "scoreType": 2
+      },
+      {
+        "id": 4,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.200",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "RADIO_MAGAZINE_2",
+      "position": {
+        "x": "550.000",
+        "y": "10.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 1
+    },
+    "id": "ALLC1"
+  },
+  "ALLC2": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 2
+      },
+      {
+        "id": 0,
+        "scoreType": 2
+      },
+      {
+        "id": 3,
+        "scoreType": 2
+      },
+      {
+        "id": 2,
+        "scoreType": 2
+      },
+      {
+        "id": 5,
+        "scoreType": 2
+      },
+      {
+        "id": 4,
+        "scoreType": 2
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.400",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "RADIO_MAGAZINE_3",
+      "position": {
+        "x": "600.000",
+        "y": "10.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 1
+    },
+    "id": "ALLC2"
+  },
+  "TMB0": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 0
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TMB0"
+  },
+  "TMB1": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TMB1"
+  },
+  "TMB2": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 0
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TMB2"
+  },
+  "TFB0": {
+    "audiences": [
+      {
+        "id": 0,
+        "scoreType": 0
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TFB0"
+  },
+  "TFB1": {
+    "audiences": [
+      {
+        "id": 0,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TFB1"
+  },
+  "TFB2": {
+    "audiences": [
+      {
+        "id": 0,
+        "scoreType": 0
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TFB2"
+  },
+  "YMB0": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 0
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YMB0"
+  },
+  "YMB1": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YMB1"
+  },
+  "YMB2": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 0
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YMB2"
+  },
+  "YFB0": {
+    "audiences": [
+      {
+        "id": 2,
+        "scoreType": 0
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YFB0"
+  },
+  "YFB1": {
+    "audiences": [
+      {
+        "id": 2,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YFB1"
+  },
+  "YFB2": {
+    "audiences": [
+      {
+        "id": 2,
+        "scoreType": 0
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YFB2"
+  },
+  "AMB0": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 0
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AMB0"
+  },
+  "AMB1": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AMB1"
+  },
+  "AMB2": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 0
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AMB2"
+  },
+  "AFB0": {
+    "audiences": [
+      {
+        "id": 4,
+        "scoreType": 0
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AFB0"
+  },
+  "AFB1": {
+    "audiences": [
+      {
+        "id": 4,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AFB1"
+  },
+  "AFB2": {
+    "audiences": [
+      {
+        "id": 4,
+        "scoreType": 0
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AFB2"
+  },
+  "TMC0": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 2
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TMC0"
+  },
+  "TMC1": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TMC1"
+  },
+  "TMC2": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 2
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TMC2"
+  },
+  "TFC0": {
+    "audiences": [
+      {
+        "id": 0,
+        "scoreType": 2
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TFC0"
+  },
+  "TFC1": {
+    "audiences": [
+      {
+        "id": 0,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TFC1"
+  },
+  "TFC2": {
+    "audiences": [
+      {
+        "id": 0,
+        "scoreType": 2
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TFC2"
+  },
+  "YMC0": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 2
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YMC0"
+  },
+  "YMC1": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YMC1"
+  },
+  "YMC2": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 2
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YMC2"
+  },
+  "YFC0": {
+    "audiences": [
+      {
+        "id": 2,
+        "scoreType": 2
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YFC0"
+  },
+  "YFC1": {
+    "audiences": [
+      {
+        "id": 2,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YFC1"
+  },
+  "YFC2": {
+    "audiences": [
+      {
+        "id": 2,
+        "scoreType": 2
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YFC2"
+  },
+  "AMC0": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 2
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AMC0"
+  },
+  "AMC1": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AMC1"
+  },
+  "AMC2": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 2
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AMC2"
+  },
+  "AFC0": {
+    "audiences": [
+      {
+        "id": 4,
+        "scoreType": 2
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AFC0"
+  },
+  "AFC1": {
+    "audiences": [
+      {
+        "id": 4,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AFC1"
+  },
+  "AFC2": {
+    "audiences": [
+      {
+        "id": 4,
+        "scoreType": 2
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AFC2"
+  },
+  "TMA0": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 1
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TMA0"
+  },
+  "TMA1": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TMA1"
+  },
+  "TMA2": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 1
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TMA2"
+  },
+  "TFA0": {
+    "audiences": [
+      {
+        "id": 0,
+        "scoreType": 1
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TFA0"
+  },
+  "TFA1": {
+    "audiences": [
+      {
+        "id": 0,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TFA1"
+  },
+  "TFA2": {
+    "audiences": [
+      {
+        "id": 0,
+        "scoreType": 1
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TFA2"
+  },
+  "YMA0": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 1
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YMA0"
+  },
+  "YMA1": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YMA1"
+  },
+  "YMA2": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 1
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YMA2"
+  },
+  "YFA0": {
+    "audiences": [
+      {
+        "id": 2,
+        "scoreType": 1
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YFA0"
+  },
+  "YFA1": {
+    "audiences": [
+      {
+        "id": 2,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YFA1"
+  },
+  "YFA2": {
+    "audiences": [
+      {
+        "id": 2,
+        "scoreType": 1
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YFA2"
+  },
+  "AMA0": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 1
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AMA0"
+  },
+  "AMA1": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AMA1"
+  },
+  "AMA2": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 1
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AMA2"
+  },
+  "AFA0": {
+    "audiences": [
+      {
+        "id": 4,
+        "scoreType": 1
+      }
+    ],
+    "quality": 0,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.010",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AFA0"
+  },
+  "AFA1": {
+    "audiences": [
+      {
+        "id": 4,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.040",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AFA1"
+  },
+  "AFA2": {
+    "audiences": [
+      {
+        "id": 4,
+        "scoreType": 1
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.100",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AFA2"
+  },
+  "AA": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 1
+      },
+      {
+        "id": 4,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AA"
+  },
+  "AB": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 0
+      },
+      {
+        "id": 4,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AB"
+  },
+  "AC": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 2
+      },
+      {
+        "id": 4,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "AC"
+  },
+  "YA": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 1
+      },
+      {
+        "id": 2,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YA"
+  },
+  "YB": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 0
+      },
+      {
+        "id": 2,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YB"
+  },
+  "YC": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 2
+      },
+      {
+        "id": 2,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "YC"
+  },
+  "TA": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 1
+      },
+      {
+        "id": 0,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TA"
+  },
+  "TB": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 0
+      },
+      {
+        "id": 0,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TB"
+  },
+  "TC": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 2
+      },
+      {
+        "id": 0,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "1.000",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": null,
+      "position": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "0.000",
+        "y": "0.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "TC"
+  },
+  "B1RADIO": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 0
+      },
+      {
+        "id": 4,
+        "scoreType": 0
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": true,
+    "budgetFactor": "0.600",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "RADIO_1",
+      "position": {
+        "x": "350.000",
+        "y": "10.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "140.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "B1RADIO"
+  },
+  "B1BLBRD": {
+    "audiences": [
+      {
+        "id": 5,
+        "scoreType": 0
+      },
+      {
+        "id": 4,
+        "scoreType": 0
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": true,
+    "budgetFactor": "0.375",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "BILLBOARD1",
+      "position": {
+        "x": "50.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "300.000",
+        "y": "140.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "B1BLBRD"
+  },
+  "ARTMAG": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 1
+      },
+      {
+        "id": 2,
+        "scoreType": 1
+      },
+      {
+        "id": 5,
+        "scoreType": 1
+      },
+      {
+        "id": 4,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": true,
+    "budgetFactor": "0.500",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "RADIO_MAGAZINE_4",
+      "position": {
+        "x": "450.000",
+        "y": "10.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 1
+    },
+    "id": "ARTMAG"
+  },
+  "COMMAG": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 2
+      },
+      {
+        "id": 2,
+        "scoreType": 2
+      },
+      {
+        "id": 5,
+        "scoreType": 2
+      },
+      {
+        "id": 4,
+        "scoreType": 2
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.675",
+    "enableDate": "1938-01-01T00:00:00",
+    "hasEnableDate": true,
+    "influencePrice": 250,
+    "reputationPrice": 100,
+    "releasePatternInfo": {
+      "id": "MAGAZINES1",
+      "position": {
+        "x": "500.000",
+        "y": "30.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 1
+    },
+    "id": "COMMAG"
+  },
+  "B3PRINT": {
+    "audiences": [
+      {
+        "id": 3,
+        "scoreType": 0
+      },
+      {
+        "id": 2,
+        "scoreType": 0
+      },
+      {
+        "id": 5,
+        "scoreType": 0
+      },
+      {
+        "id": 4,
+        "scoreType": 0
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.750",
+    "enableDate": "1938-01-01T00:00:00",
+    "hasEnableDate": true,
+    "influencePrice": 250,
+    "reputationPrice": 100,
+    "releasePatternInfo": {
+      "id": "NEWSPAPERS1",
+      "position": {
+        "x": "250.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 0
+    },
+    "id": "B3PRINT"
+  },
+  "FC2": {
+    "audiences": [
+      {
+        "id": 0,
+        "scoreType": 2
+      },
+      {
+        "id": 2,
+        "scoreType": 2
+      },
+      {
+        "id": 4,
+        "scoreType": 2
+      }
+    ],
+    "quality": 2,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.550",
+    "enableDate": "1938-01-01T00:00:00",
+    "hasEnableDate": true,
+    "influencePrice": 250,
+    "reputationPrice": 100,
+    "releasePatternInfo": {
+      "id": "RADIO_MAGAZINE_2",
+      "position": {
+        "x": "550.000",
+        "y": "10.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 1
+    },
+    "id": "FC2"
+  },
+  "MCA1": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 2
+      },
+      {
+        "id": 3,
+        "scoreType": 2
+      },
+      {
+        "id": 5,
+        "scoreType": 2
+      },
+      {
+        "id": 1,
+        "scoreType": 1
+      },
+      {
+        "id": 3,
+        "scoreType": 1
+      },
+      {
+        "id": 5,
+        "scoreType": 1
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": false,
+    "budgetFactor": "0.600",
+    "enableDate": "1938-01-01T00:00:00",
+    "hasEnableDate": true,
+    "influencePrice": 250,
+    "reputationPrice": 100,
+    "releasePatternInfo": {
+      "id": "RADIO_MAGAZINE_3",
+      "position": {
+        "x": "600.000",
+        "y": "10.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 1
+    },
+    "id": "MCA1"
+  },
+  "TYC1": {
+    "audiences": [
+      {
+        "id": 1,
+        "scoreType": 2
+      },
+      {
+        "id": 0,
+        "scoreType": 2
+      },
+      {
+        "id": 3,
+        "scoreType": 2
+      },
+      {
+        "id": 2,
+        "scoreType": 2
+      }
+    ],
+    "quality": 1,
+    "isVisibleFromStart": true,
+    "budgetFactor": "0.450",
+    "enableDate": "0001-01-01T00:00:00",
+    "hasEnableDate": false,
+    "influencePrice": 0,
+    "reputationPrice": 0,
+    "releasePatternInfo": {
+      "id": "RADIO_MAGAZINE_1",
+      "position": {
+        "x": "400.000",
+        "y": "0.000"
+      },
+      "size": {
+        "x": "100.000",
+        "y": "100.000"
+      },
+      "sortingOrder": 1
+    },
+    "id": "TYC1"
+  }
+}

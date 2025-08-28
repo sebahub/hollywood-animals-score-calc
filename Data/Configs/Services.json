@@ -1,0 +1,92 @@
+{
+  "MAYOR_PARTY": {
+    "requirement": "GWP:MAYOR:25",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-100",
+    "cooldown": 30,
+    "id": "MAYOR_PARTY"
+  },
+  "MAYOR_LAWYER": {
+    "requirement": "GWP:MAYOR:105",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-200",
+    "cooldown": 30,
+    "id": "MAYOR_LAWYER"
+  },
+  "POLICE_COMP_RAID": {
+    "requirement": "GWP:MAYOR:65",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "POLICE_COMP_RAID"
+  },
+  "POLICE_PROTECTION": {
+    "requirement": "GWP:MAYOR:45",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "POLICE_PROTECTION"
+  },
+  "POLICE_ANTI_RAIDS": {
+    "requirement": "GWP:MAYOR:30",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "POLICE_ANTI_RAIDS"
+  },
+  "ITALIAN_KOMPROMAT": {
+    "requirement": "GWP:MAYOR:35",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "ITALIAN_KOMPROMAT"
+  },
+  "ITALIAN_CASH": {
+    "requirement": "GWP:MAYOR:25",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "ITALIAN_CASH"
+  },
+  "IRELAND_KILLING": {
+    "requirement": "GWP:MAYOR:64",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "IRELAND_KILLING"
+  },
+  "IRELAND_BEATING": {
+    "requirement": "GWP:MAYOR:64",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "IRELAND_BEATING"
+  },
+  "IRELAND_THREAT": {
+    "requirement": "GWP:MAYOR:64",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "IRELAND_THREAT"
+  },
+  "ATTORNEY_PHILS": {
+    "requirement": "GWP:MAYOR:64",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "ATTORNEY_PHILS"
+  },
+  "REICH_GERMAN": {
+    "requirement": "GWP:MAYOR:50",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "REICH_GERMAN"
+  },
+  "REICH_MONEY": {
+    "requirement": "GWP:MAYOR:65",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "REICH_MONEY"
+  },
+  "KKK_PROMOTION": {
+    "requirement": "GWP:MAYOR:40",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "KKK_PROMOTION"
+  },
+  "KKK_MARCH": {
+    "requirement": "GWP:MAYOR:30",
+    "trigger": "ADD_INFLUENCE: 146, GWP:MAYOR:-25",
+    "cooldown": 30,
+    "id": "KKK_MARCH"
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "headerLineIndexes": [
+    0
+  ],
+  "eventLines": [
+    {
+      "type": 1,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [],
+      "requirements": null,
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "CHARACTER1",
+      "imageID": "1_WORST_SCRIPT_EVER",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 2,
+      "triggers": [
+        {
+          "name": "ITALIAN",
+          "value": "20",
+          "triggerType": 31,
+          "buffType": 1,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": null,
+      "condition": "STAFF_RACE: BLACK: >=0.01",
+      "nextLine": -1,
+      "characterID": null,
+      "imageID": "",
+      "relation": "",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "ITALIAN",
+          "value": "-20",
+          "triggerType": 31,
+          "buffType": 3,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": 20,
+          "id": "ITALIAN",
+          "type": 7
+        }
+      ],
+      "condition": null,
+      "nextLine": 1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "ADD_CASH",
+          "value": "-200",
+          "triggerType": 29,
+          "buffType": 3,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": -1,
+          "id": "EDITS_ON_GO",
+          "type": 0
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": -1,
+          "id": "CASTING",
+          "type": 3
+        },
+        {
+          "$type": "GameEvents.LineRequirementWithID, Assembly-CSharp",
+          "id": "CHARACTER1",
+          "type": 12
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAndInt, Assembly-CSharp",
+          "intValue": 2,
+          "id": "WATCH",
+          "type": 6
+        },
+        {
+          "type": 13
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWith3IDAndInt, Assembly-CSharp",
+          "thirdId": "WARNING_IN_CIRCLE",
+          "secondId": "CHARACTER1",
+          "intValue": 20,
+          "id": "DEMAND",
+          "type": 9
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    },
+    {
+      "type": 3,
+      "triggers": [
+        {
+          "name": "2",
+          "value": "10",
+          "triggerType": 47,
+          "buffType": 4,
+          "duration": -1,
+          "probability": 1.0,
+          "delay": 0
+        }
+      ],
+      "requirements": [
+        {
+          "$type": "GameEvents.LineRequirementWithIDAnd2Int, Assembly-CSharp",
+          "intValue2": 10,
+          "intValue": 2,
+          "id": "2",
+          "type": 14
+        }
+      ],
+      "condition": null,
+      "nextLine": -1,
+      "characterID": "PLAYER",
+      "imageID": "",
+      "relation": "+",
+      "behavior": 0,
+      "rating": 0.0,
+      "money": 0,
+      "isStressQuiet": false,
+      "tags": null,
+      "IsSkippableEmpty": false
+    }
+  ],
+  "localTriggerVarsDefinitions": null,
+  "BaseId": "DEBUG_PROD3"
+}

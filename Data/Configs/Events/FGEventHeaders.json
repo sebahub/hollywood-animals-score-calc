@@ -1,0 +1,1738 @@
+{
+  "FocusGroup": {
+    "SCRIPT_INCOMPATIBILITY_GENRES_QUOTE": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 1,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {},
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRES_QUOTE",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_0": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_0",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: HISTORICAL) AND (TAG: SCIENCE_FICTION)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_1": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_1",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: HISTORICAL) AND (TAG: UTOPIAN_FUTURISTIC_CITY)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_2": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_2",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: HISTORICAL) AND (TAG: DYSTOPIAN_FUTURISTIC_CITY)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_3": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_3",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: HISTORICAL) AND ((TAG: MODERN_AMERICAN_CITY) OR (TAG: MODERN_AMERICAN_TOWN) OR (TAG: MODERN_AMERICAN_COUNTRYSIDE) OR (TAG: MODERN_EUROPEAN_CITY))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_4": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_4",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: HISTORICAL) AND (TAG: FANTASY_KINGDOM)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_5": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_5",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: HISTORICAL) AND (TAG: SPACE)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_6": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_6",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: SCIENCE_FICTION) AND (TAG: WILD_WEST)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_7": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_7",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: SCIENCE_FICTION) AND (TAG: MIDDLE_AGES)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_8": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_8",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: SCIENCE_FICTION) AND (TAG: CARIBBEAN)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_9": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_9",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: SCIENCE_FICTION) AND (TAG: GREAT_WAR)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_10": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 2,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "GENRE1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 1",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_GENRE_SETTING:TAG: 2"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_SETTING_QUOTE_10",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: SCIENCE_FICTION) AND ((TAG: WW2_EUROPE) OR (TAG: WW2_PACIFIC) OR (TAG: WW2_AFRICA))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_GENRE_PROTAGONIST_QUOTE": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 3,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {},
+        "baseId": "SCRIPT_INCOMPATIBILITY_GENRE_PROTAGONIST_QUOTE",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_0": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_0",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: MODERN_EUROPEAN_TOWN) AND (TAG: PROTAGONIST_COWBOY)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_1": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_1",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: MODERN_EUROPEAN_TOWN) AND ((TAG: PROTAGONIST_SHERIFF) OR (TAG: SUPPORTINGCHARACTER_SHERIFF))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_2": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_2",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: ANTAGONIST_BARBARIAN_TRIBE) AND ((TAG: MODERN_EUROPEAN_COUNTRYSIDE) OR (TAG: MODERN_EUROPEAN_TOWN))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_3": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_3",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: PROTAGONIST_KNIGHT) AND ((TAG: MODERN_EUROPEAN_COUNTRYSIDE) OR (TAG: MODERN_EUROPEAN_TOWN))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_4": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_4",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: PROTAGONIST_PIRATE) AND ((TAG: MODERN_EUROPEAN_COUNTRYSIDE) OR (TAG: MODERN_EUROPEAN_TOWN))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_5": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_5",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: PROTAGONIST_SOUTHERN_BELLE) AND ((TAG: MODERN_EUROPEAN_COUNTRYSIDE) OR (TAG: MODERN_EUROPEAN_TOWN) OR (TAG: VICTORIAN_ENGLAND)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_6": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_6",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: VICTORIAN_ENGLAND) AND ((TAG: PROTAGONIST_COWBOY) OR (TAG: PROTAGONIST_SHERIFF) OR (TAG: SUPPORTINGCHARACTER_SHERIFF))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_7": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_7",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: VICTORIAN_ENGLAND) AND (TAG: ANTAGONIST_ALIEN)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_8": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_8",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: VICTORIAN_ENGLAND) AND (TAG: ANTAGONIST_ROBOTS)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_9": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_9",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: AMERICAN_CIVIL_WAR) AND (TAG: ANTAGONIST_ALIEN)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_10": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_10",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: AMERICAN_CIVIL_WAR) AND ((TAG: ANTAGONIST_EVIL_SORCERER) OR (TAG: ANTAGONIST_EVIL_WITCH))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_11": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_11",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: AMERICAN_CIVIL_WAR) AND (TAG: ANTAGONIST_VAMPIRE)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_12": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_12",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: AMERICAN_CIVIL_WAR) AND (TAG: ANTAGONIST_ROBOT)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_13": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_13",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: AMERICAN_CIVIL_WAR) AND (TAG: PROTAGONIST_KNIGHT)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_14": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_14",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: TROPICAL_ISLAND) AND (TAG: PROTAGONIST_COWBOY)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_15": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_15",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: TROPICAL_ISLAND) AND (TAG: PROTAGONIST_SHERIFF)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_16": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_16",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: TROPICAL_ISLAND) AND (TAG: PROTAGONIST_KNIGHT)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_17": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_17",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: TROPICAL_ISLAND) AND (TAG: ANTAGONIST_VAMPIRE)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_18": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_18",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: CARIBBEAN) AND (TAG: PROTAGONIST_COWBOY)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_19": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_19",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: CARIBBEAN) AND ((TAG: PROTAGONIST_SHERIFF) OR (TAG: SUPPORTINGCHARACTER_SHERIFF)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_20": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_20",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: CARIBBEAN) AND (TAG: PROTAGONIST_WHITE_COLLAR)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_21": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_21",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "(TAG: CARIBBEAN) AND (TAG: PROTAGONIST_COP)",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_22": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_22",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "((TAG: GREAT_WAR) AND (TAG: PROTAGONIST_COWBOY)) OR ((TAG: PROTAGONIST_COWBOY) AND ((TAG: WW2_EUROPE) OR (TAG: WW2_PACIFIC) OR (TAG: WW2_AFRICA)))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_23": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_23",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "((TAG: GREAT_WAR) AND (TAG: PROTAGONIST_SHERIFF)) OR ((TAG: GREAT_WAR) AND (TAG: SUPPORTINGCHARACTER_SHERIFF)) OR ((TAG: PROTAGONIST_SHERIFF) AND ((TAG: WW2_EUROPE) OR (TAG: WW2_PACIFIC) OR (TAG: WW2_AFRICA))) OR ((TAG: SUPPORTINGCHARACTER_SHERIFF) AND ((TAG: WW2_EUROPE) OR (TAG: WW2_PACIFIC) OR (TAG: WW2_AFRICA)))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_24": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 16,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ROLE1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 0",
+          "SETTING1": "PROBLEM:SCRIPT_COMPATIBILITY_ROLE_SETTING:TAG: 1"
+        },
+        "baseId": "SCRIPT_INCOMPATIBILITY_ROLE_SETTING_QUOTE_24",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "((TAG: GREAT_WAR) AND (TAG: PROTAGONIST_COP)) OR ((TAG: PROTAGONIST_COP) AND ((TAG: WW2_EUROPE) OR (TAG: WW2_PACIFIC) OR (TAG: WW2_AFRICA)))",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PREP_DIRECTOR_BASELINE_MISMATCH_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 5,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "DIRECTOR1": "PROBLEM:PREP_DIRECTOR_BASELINE_MATCH:CHARACTER: 1"
+        },
+        "baseId": "PREP_DIRECTOR_BASELINE_MISMATCH_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null,
+          null,
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PREP_PROTAGONIST_BASELINE_MISMATCH_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 6,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ACTOR1": "PROBLEM:PREP_PROTAGONIST_BASELINE_MATCH:CHARACTER: 1"
+        },
+        "baseId": "PREP_PROTAGONIST_BASELINE_MISMATCH_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null,
+          null,
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PREP_SUPPORT_BASELINE_MISMATCH_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 7,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ACTOR1": "PROBLEM:PREP_SUPPORT_BASELINE_MATCH:CHARACTER: 1"
+        },
+        "baseId": "PREP_SUPPORT_BASELINE_MISMATCH_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          "FG: 3",
+          "FG: 2"
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PREP_ANTAGONIST_BASELINE_MISMATCH_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 8,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ACTOR1": "PROBLEM:PREP_ANTAGONIST_BASELINE_MATCH:CHARACTER: 1"
+        },
+        "baseId": "PREP_ANTAGONIST_BASELINE_MISMATCH_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null,
+          null,
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PREP_INDOOR_RECOMMENDED_MISMATCH_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 10,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {},
+        "baseId": "PREP_INDOOR_RECOMMENDED_MISMATCH_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null,
+          null,
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PREP_OUTDOOR_RECOMMENDED_MISMATCH_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 11,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {},
+        "baseId": "PREP_OUTDOOR_RECOMMENDED_MISMATCH_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          "FG: 3",
+          "FG: 2"
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PREP_AGE_MISMATCH_QUOTE": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 9,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {
+          "ACTOR1": "PROBLEM:PREP_AGE_MATCH:CHARACTER: 1"
+        },
+        "baseId": "PREP_AGE_MISMATCH_QUOTE",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PROD_SKIP_SCENES_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 12,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {},
+        "baseId": "PROD_SKIP_SCENES_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null,
+          null,
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PROD_SCANDAL_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 13,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "1": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {},
+        "baseId": "PROD_SCANDAL_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          "FG: 3",
+          "FG: 2",
+          "FG: 1"
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POST_MONTAGE_RECOMMENDED_MISMATCH_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 14,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          },
+          "2": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {},
+        "baseId": "POST_MONTAGE_RECOMMENDED_MISMATCH_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null,
+          null,
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POST_SOUND_RECOMMENDED_MISMATCH_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 15,
+        "penaltyRanges": {
+          "3": {
+            "from": "-10.000",
+            "to": "0.000"
+          }
+        },
+        "parameterAliases": {},
+        "baseId": "POST_SOUND_RECOMMENDED_MISMATCH_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null,
+          null,
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POST_COMPOSER_BASELINE_MISMATCH_CARD": [
+      {
+        "$type": "GameEvents.FocusGroupCardEventHeader, Assembly-CSharp",
+        "associatedProblemId": 0,
+        "penaltyRanges": null,
+        "parameterAliases": {},
+        "baseId": "POST_COMPOSER_BASELINE_MISMATCH_CARD",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 0,
+        "contextType": 2,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          "FG: 3 OR 2",
+          "FG: 1"
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,2258 @@
+{
+  "TitansQuest": {
+    "MAYOR_DAUGHTER": [
+      {
+        "baseId": "MAYOR_DAUGHTER",
+        "chainNumber": 0,
+        "type": 8,
+        "behaviours": 264,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "MAYOR_DAUGHTER",
+        "chainNumber": 1,
+        "type": 8,
+        "behaviours": 1032,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "MAYOR_TAXES": [
+      {
+        "baseId": "MAYOR_TAXES",
+        "chainNumber": 0,
+        "type": 8,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "MAYOR_TAXES",
+        "chainNumber": 1,
+        "type": 8,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "MAYOR_ELECTION_DONATIONS": [
+      {
+        "baseId": "MAYOR_ELECTION_DONATIONS",
+        "chainNumber": 0,
+        "type": 8,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "MAYOR_ELECTION_DONATIONS",
+        "chainNumber": 1,
+        "type": 8,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "MAYOR_NEPHEW": [
+      {
+        "baseId": "MAYOR_NEPHEW",
+        "chainNumber": 0,
+        "type": 8,
+        "behaviours": 160,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "MAYOR_NEPHEW",
+        "chainNumber": 1,
+        "type": 8,
+        "behaviours": 2208,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "MAYOR_MERITS": [
+      {
+        "baseId": "MAYOR_MERITS",
+        "chainNumber": 0,
+        "type": 8,
+        "behaviours": 160,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "MAYOR_MERITS",
+        "chainNumber": 1,
+        "type": 8,
+        "behaviours": 160,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "MAYOR_PARTY": [
+      {
+        "baseId": "MAYOR_PARTY",
+        "chainNumber": 0,
+        "type": 8,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "MAYOR_LAWYER": [
+      {
+        "baseId": "MAYOR_LAWYER",
+        "chainNumber": 0,
+        "type": 8,
+        "behaviours": 192,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "MAYOR_LAWYER",
+        "chainNumber": 1,
+        "type": 8,
+        "behaviours": 192,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_CARPENTER",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLICE_FILM": [
+      {
+        "baseId": "POLICE_FILM",
+        "chainNumber": 0,
+        "type": 3,
+        "behaviours": 264,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "POLICE_FILM",
+        "chainNumber": 1,
+        "type": 3,
+        "behaviours": 1032,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLICE_TIME_WITH_ACTOR": [
+      {
+        "baseId": "POLICE_TIME_WITH_ACTOR",
+        "chainNumber": 0,
+        "type": 3,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "POLICE_TIME_WITH_ACTOR",
+        "chainNumber": 1,
+        "type": 3,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLICE_COMPOSER": [
+      {
+        "baseId": "POLICE_COMPOSER",
+        "chainNumber": 0,
+        "type": 3,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "POLICE_COMPOSER",
+        "chainNumber": 1,
+        "type": 3,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLICE_CINEMAS_RAIDS": [
+      {
+        "baseId": "POLICE_CINEMAS_RAIDS",
+        "chainNumber": 0,
+        "type": 3,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "POLICE_CINEMAS_RAIDS",
+        "chainNumber": 1,
+        "type": 3,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLICE_DRUGS_ON_STUDIO": [
+      {
+        "baseId": "POLICE_DRUGS_ON_STUDIO",
+        "chainNumber": 0,
+        "type": 3,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "POLICE_DRUGS_ON_STUDIO",
+        "chainNumber": 1,
+        "type": 3,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLICE_STUDIO_RAID": [
+      {
+        "baseId": "POLICE_STUDIO_RAID",
+        "chainNumber": 0,
+        "type": 3,
+        "behaviours": 192,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "POLICE_STUDIO_RAID",
+        "chainNumber": 1,
+        "type": 3,
+        "behaviours": 192,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLICE_MAFIA_DEFENSE": [
+      {
+        "baseId": "POLICE_MAFIA_DEFENSE",
+        "chainNumber": 0,
+        "type": 3,
+        "behaviours": 192,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "POLICE_MAFIA_DEFENSE",
+        "chainNumber": 1,
+        "type": 3,
+        "behaviours": 192,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLICE_RAIDS_DEFENSE": [
+      {
+        "baseId": "POLICE_RAIDS_DEFENSE",
+        "chainNumber": 0,
+        "type": 3,
+        "behaviours": 192,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "POLICE_RAIDS_DEFENSE",
+        "chainNumber": 1,
+        "type": 3,
+        "behaviours": 192,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "POLICE_WALLIS",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGER_FILM": [
+      {
+        "baseId": "BOOTLEGGER_FILM",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 264,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "BOOTLEGGER_FILM",
+        "chainNumber": 1,
+        "type": 7,
+        "behaviours": 1032,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGER_STAR_PROMOTION": [
+      {
+        "baseId": "BOOTLEGGER_STAR_PROMOTION",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "BOOTLEGGER_STAR_PROMOTION",
+        "chainNumber": 1,
+        "type": 7,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGER_NEPHEW": [
+      {
+        "baseId": "BOOTLEGGER_NEPHEW",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "BOOTLEGGER_NEPHEW",
+        "chainNumber": 1,
+        "type": 7,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGER_NEW_PROFESSION": [
+      {
+        "baseId": "BOOTLEGGER_NEW_PROFESSION",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 784,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGER_POLLUX": [
+      {
+        "baseId": "BOOTLEGGER_POLLUX",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "BOOTLEGGER_POLLUX",
+        "chainNumber": 1,
+        "type": 7,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGERS_ALCOHOL_ON_STUDIO": [
+      {
+        "baseId": "BOOTLEGGERS_ALCOHOL_ON_STUDIO",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "BOOTLEGGERS_ALCOHOL_ON_STUDIO",
+        "chainNumber": 1,
+        "type": 7,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGER_BAR_PROMOTION_IN_CINEMA": [
+      {
+        "baseId": "BOOTLEGGER_BAR_PROMOTION_IN_CINEMA",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "BOOTLEGGER_BAR_PROMOTION_IN_CINEMA",
+        "chainNumber": 1,
+        "type": 7,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGER_THREATING": [
+      {
+        "baseId": "BOOTLEGGER_THREATING",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "BOOTLEGGER_THREATING",
+        "chainNumber": 1,
+        "type": 7,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGER_BEATING": [
+      {
+        "baseId": "BOOTLEGGER_BEATING",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "BOOTLEGGER_BEATING",
+        "chainNumber": 1,
+        "type": 7,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGER_KILLING": [
+      {
+        "baseId": "BOOTLEGGER_KILLING",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "BOOTLEGGER_KILLING",
+        "chainNumber": 1,
+        "type": 7,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "BOOTLEGGER_AGENTS_TRAINING": [
+      {
+        "baseId": "BOOTLEGGER_AGENTS_TRAINING",
+        "chainNumber": 0,
+        "type": 7,
+        "behaviours": 4160,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "IRELAND_DOYLE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PROSECUTOR_FILM": [
+      {
+        "baseId": "PROSECUTOR_FILM",
+        "chainNumber": 0,
+        "type": 4,
+        "behaviours": 264,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "PROSECUTOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "PROSECUTOR_FILM",
+        "chainNumber": 1,
+        "type": 4,
+        "behaviours": 1032,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "PROSECUTOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PROSECUTOR_CORRUPT_FIGHT": [
+      {
+        "baseId": "PROSECUTOR_CORRUPT_FIGHT",
+        "chainNumber": 0,
+        "type": 4,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "PROSECUTOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "PROSECUTOR_CORRUPT_FIGHT",
+        "chainNumber": 1,
+        "type": 4,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "PROSECUTOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PROSECUTOR_ANTICRIME_TRAILERS": [
+      {
+        "baseId": "PROSECUTOR_ANTICRIME_TRAILERS",
+        "chainNumber": 0,
+        "type": 4,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "PROSECUTOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "PROSECUTOR_ANTICRIME_TRAILERS",
+        "chainNumber": 1,
+        "type": 4,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "PROSECUTOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "PROSECUTOR_PHILANTHROPES": [
+      {
+        "baseId": "PROSECUTOR_PHILANTHROPES",
+        "chainNumber": 0,
+        "type": 4,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "PROSECUTOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "MAYOR_SCHOOL": [
+      {
+        "baseId": "MAYOR_SCHOOL",
+        "chainNumber": 0,
+        "type": 8,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "MAYOR_SCHOOL",
+        "chainNumber": 1,
+        "type": 8,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "MAYOR_HOOD": [
+      {
+        "baseId": "MAYOR_HOOD",
+        "chainNumber": 0,
+        "type": 8,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "MAYOR_HOOD",
+        "chainNumber": 1,
+        "type": 8,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "MAYOR_PHILANTHROPES": [
+      {
+        "baseId": "MAYOR_PHILANTHROPES",
+        "chainNumber": 0,
+        "type": 8,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "MAYOR_STRIPES",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "REICH_FILM": [
+      {
+        "baseId": "REICH_FILM",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 264,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_ZIBBELE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "REICH_FILM",
+        "chainNumber": 1,
+        "type": 2,
+        "behaviours": 1032,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_ZIBBELE",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "REICH_COPIES": [
+      {
+        "baseId": "REICH_COPIES",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 1800,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "REICH_WITH_LOVE": [
+      {
+        "baseId": "REICH_WITH_LOVE",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 2832,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "REICH_JEWS": [
+      {
+        "baseId": "REICH_JEWS",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "REICH_JEWS",
+        "chainNumber": 1,
+        "type": 2,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "REICH_PROPAGANDA": [
+      {
+        "baseId": "REICH_PROPAGANDA",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "REICH_PROPAGANDA",
+        "chainNumber": 1,
+        "type": 2,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "REICH_PROMOTION": [
+      {
+        "baseId": "REICH_PROMOTION",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 2080,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "REICH_PROMOTION",
+        "chainNumber": 1,
+        "type": 2,
+        "behaviours": 2080,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "REICH_TOUR": [
+      {
+        "baseId": "REICH_TOUR",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 2080,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "REICH_TOUR",
+        "chainNumber": 1,
+        "type": 2,
+        "behaviours": 2080,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "REICH_SPONSORSHIP": [
+      {
+        "baseId": "REICH_SPONSORSHIP",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "REICH_MOVIE_PROMOTION": [
+      {
+        "baseId": "REICH_MOVIE_PROMOTION",
+        "chainNumber": 0,
+        "type": 2,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "REICH_MOVIE_PROMOTION",
+        "chainNumber": 1,
+        "type": 2,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "REICH_STELM",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "ITALIAN_BIOPIC": [
+      {
+        "baseId": "ITALIAN_BIOPIC",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 2312,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "ITALIAN_BIOPIC",
+        "chainNumber": 1,
+        "type": 0,
+        "behaviours": 1032,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "ITALIAN_YOUNG_DIRECTOR": [
+      {
+        "baseId": "ITALIAN_YOUNG_DIRECTOR",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "ITALIAN_YOUNG_DIRECTOR",
+        "chainNumber": 1,
+        "type": 0,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "ITALIAN_ESMERALDA": [
+      {
+        "baseId": "ITALIAN_ESMERALDA",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "ITALIAN_ESMERALDA",
+        "chainNumber": 1,
+        "type": 0,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "ITALIAN_CASINO": [
+      {
+        "baseId": "ITALIAN_CASINO",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 2080,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "ITALIAN_CASINO",
+        "chainNumber": 1,
+        "type": 0,
+        "behaviours": 2080,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "ITALIAN_KEPT_WOMAN": [
+      {
+        "baseId": "ITALIAN_KEPT_WOMAN",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "ITALIAN_KEPT_WOMAN",
+        "chainNumber": 1,
+        "type": 0,
+        "behaviours": 2080,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "ITALIAN_EVIDENCE": [
+      {
+        "baseId": "ITALIAN_EVIDENCE",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "ITALIAN_EVIDENCE",
+        "chainNumber": 1,
+        "type": 0,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "ITALIAN_CASH": [
+      {
+        "baseId": "ITALIAN_CASH",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "ITALIAN_ALBERTO",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "KKK_FILM": [
+      {
+        "baseId": "KKK_FILM",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 264,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "KKK_FILM",
+        "chainNumber": 1,
+        "type": 1,
+        "behaviours": 1032,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "KKK_PUNISHMENT": [
+      {
+        "baseId": "KKK_PUNISHMENT",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "KKK_PUNISHMENT",
+        "chainNumber": 1,
+        "type": 1,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "KKK_FIRE_THEM": [
+      {
+        "baseId": "KKK_FIRE_THEM",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 272,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "KKK_FIRE_THEM",
+        "chainNumber": 1,
+        "type": 1,
+        "behaviours": 2064,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "KKK_ORDERED_FILM": [
+      {
+        "baseId": "KKK_ORDERED_FILM",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "KKK_ORDERED_FILM",
+        "chainNumber": 1,
+        "type": 1,
+        "behaviours": 2080,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "KKK_POPCORN": [
+      {
+        "baseId": "KKK_POPCORN",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 32,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "KKK_POPCORN",
+        "chainNumber": 1,
+        "type": 1,
+        "behaviours": 2080,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "KKK_MARCH": [
+      {
+        "baseId": "KKK_MARCH",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      },
+      {
+        "baseId": "KKK_MARCH",
+        "chainNumber": 1,
+        "type": 1,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "KKK_PROMOTION": [
+      {
+        "baseId": "KKK_PROMOTION",
+        "chainNumber": 0,
+        "type": 1,
+        "behaviours": 64,
+        "contextType": 6,
+        "probabilities": [
+          {
+            "Item1": "DEFAULT",
+            "Item2": "1.000"
+          }
+        ],
+        "rangedProbabilities": [],
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": "KKK_OLBERICH",
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "PREP_DIRECTOR_BASELINE_MATCH": {
+    "id": 5,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 3,
+    "weakValue": "-0.200"
+  },
+  "PREP_PROTAGONIST_BASELINE_MATCH": {
+    "id": 6,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 3,
+    "weakValue": "-0.150"
+  },
+  "PREP_SUPPORT_BASELINE_MATCH": {
+    "id": 7,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 3,
+    "weakValue": "-0.150"
+  },
+  "PREP_ANTAGONIST_BASELINE_MATCH": {
+    "id": 8,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 3,
+    "weakValue": "-0.150"
+  },
+  "PREP_AGE_MATCH": {
+    "id": 9,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 1,
+    "weakValue": "-1.000"
+  },
+  "PREP_INDOOR_RECOMMENDED_MATCH": {
+    "id": 10,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 3,
+    "weakValue": "-2.000"
+  },
+  "PREP_INDOOR_MATCH": {
+    "id": 4,
+    "strenghtCondition": 5,
+    "strenghtValue": "1.500",
+    "weakCondition": 3,
+    "weakValue": "-1.500"
+  },
+  "PREP_OUTDOOR_MATCH": {
+    "id": 17,
+    "strenghtCondition": 5,
+    "strenghtValue": "1.500",
+    "weakCondition": 3,
+    "weakValue": "-1.500"
+  },
+  "PREP_COSTUMES_PROPS_MATCH": {
+    "id": 18,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 3,
+    "weakValue": "-2.000"
+  },
+  "PREP_EXTRAS_MATCH": {
+    "id": 19,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 3,
+    "weakValue": "-2.000"
+  },
+  "PREP_AUDIOTECH_MATCH": {
+    "id": 20,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 2,
+    "weakValue": "0.000"
+  },
+  "PREP_VIDEOTECH_MATCH": {
+    "id": 21,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 2,
+    "weakValue": "0.000"
+  },
+  "PREP_AUDIOTECH_OBSOLETE": {
+    "id": 29,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 2,
+    "weakValue": "0.000"
+  },
+  "PREP_VIDEOTECH_OBSOLETE": {
+    "id": 30,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 2,
+    "weakValue": "0.000"
+  },
+  "PREP_ART_MATCH": {
+    "id": 22,
+    "strenghtCondition": 5,
+    "strenghtValue": "0.700",
+    "weakCondition": 0,
+    "weakValue": "0.000"
+  },
+  "PREP_COM_MATCH": {
+    "id": 23,
+    "strenghtCondition": 5,
+    "strenghtValue": "0.700",
+    "weakCondition": 0,
+    "weakValue": "0.000"
+  },
+  "PREP_ACTOR_RECENT_REPEATING": {
+    "id": 24,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 2,
+    "weakValue": "0.000"
+  },
+  "PREP_ACTOR_RECENT_REPEATING_TO_MATCH": {
+    "id": 31,
+    "strenghtCondition": 0,
+    "strenghtValue": "0.000",
+    "weakCondition": 2,
+    "weakValue": "0.000"
+  },
+  "PREP_ACTOR_RECENT_MATCH": {
+    "id": 25,
+    "strenghtCondition": 4,
+    "strenghtValue": "0.000",
+    "weakCondition": 2,
+    "weakValue": "0.000"
+  },
+  "PREP_ACTOR_OVERALL_MATCH": {
+    "id": 26,
+    "strenghtCondition": 4,
+    "strenghtValue": "0.000",
+    "weakCondition": 2,
+    "weakValue": "0.000"
+  },
+  "PREP_DIRECTOR_OVERALL_MATCH": {
+    "id": 27,
+    "strenghtCondition": 4,
+    "strenghtValue": "0.000",
+    "weakCondition": 0,
+    "weakValue": "0.000"
+  },
+  "PREP_PRODUCER_OVERALL_MATCH": {
+    "id": 28,
+    "strenghtCondition": 4,
+    "strenghtValue": "0.000",
+    "weakCondition": 0,
+    "weakValue": "0.000"
+  }
+}

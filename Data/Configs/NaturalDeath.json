@@ -1,0 +1,122 @@
+{
+  "D_YOUNG_1": {
+    "ageRange": {
+      "x": 18,
+      "y": 25,
+      "magnitude": 30.8058434,
+      "sqrMagnitude": 949
+    },
+    "shortIlnessMale": 2.0,
+    "shortIlnessFemale": 2.0,
+    "longIlnessMale": 1.0,
+    "longIlnessFemale": 1.0,
+    "oldAgeMale": 0.0,
+    "oldAgeFemale": 0.0,
+    "id": "D_YOUNG_1"
+  },
+  "D_YOUNG_2": {
+    "ageRange": {
+      "x": 25,
+      "y": 35,
+      "magnitude": 43.0116272,
+      "sqrMagnitude": 1850
+    },
+    "shortIlnessMale": 5.0,
+    "shortIlnessFemale": 5.0,
+    "longIlnessMale": 5.0,
+    "longIlnessFemale": 5.0,
+    "oldAgeMale": 0.0,
+    "oldAgeFemale": 0.0,
+    "id": "D_YOUNG_2"
+  },
+  "D_MID_1": {
+    "ageRange": {
+      "x": 35,
+      "y": 45,
+      "magnitude": 57.00877,
+      "sqrMagnitude": 3250
+    },
+    "shortIlnessMale": 8.0,
+    "shortIlnessFemale": 8.0,
+    "longIlnessMale": 8.0,
+    "longIlnessFemale": 8.0,
+    "oldAgeMale": 0.0,
+    "oldAgeFemale": 0.0,
+    "id": "D_MID_1"
+  },
+  "D_MID_2": {
+    "ageRange": {
+      "x": 46,
+      "y": 55,
+      "magnitude": 71.70077,
+      "sqrMagnitude": 5141
+    },
+    "shortIlnessMale": 10.0,
+    "shortIlnessFemale": 10.0,
+    "longIlnessMale": 10.0,
+    "longIlnessFemale": 10.0,
+    "oldAgeMale": 0.0,
+    "oldAgeFemale": 0.0,
+    "id": "D_MID_2"
+  },
+  "D_OLD_1": {
+    "ageRange": {
+      "x": 56,
+      "y": 65,
+      "magnitude": 85.79627,
+      "sqrMagnitude": 7361
+    },
+    "shortIlnessMale": 7.5,
+    "shortIlnessFemale": 7.5,
+    "longIlnessMale": 9.0,
+    "longIlnessFemale": 9.0,
+    "oldAgeMale": 10.0,
+    "oldAgeFemale": 5.0,
+    "id": "D_OLD_1"
+  },
+  "D_OLD_2": {
+    "ageRange": {
+      "x": 66,
+      "y": 75,
+      "magnitude": 99.90495,
+      "sqrMagnitude": 9981
+    },
+    "shortIlnessMale": 5.0,
+    "shortIlnessFemale": 5.0,
+    "longIlnessMale": 7.5,
+    "longIlnessFemale": 7.5,
+    "oldAgeMale": 15.0,
+    "oldAgeFemale": 12.5,
+    "id": "D_OLD_2"
+  },
+  "D_SUPER_OLD": {
+    "ageRange": {
+      "x": 75,
+      "y": 99,
+      "magnitude": 124.201447,
+      "sqrMagnitude": 15426
+    },
+    "shortIlnessMale": 2.0,
+    "shortIlnessFemale": 2.0,
+    "longIlnessMale": 5.0,
+    "longIlnessFemale": 5.0,
+    "oldAgeMale": 25.0,
+    "oldAgeFemale": 20.0,
+    "id": "D_SUPER_OLD"
+  },
+  "D_MAX": {
+    "ageRange": {
+      "x": 100,
+      "y": 2147483647,
+      "magnitude": 100.005,
+      "sqrMagnitude": 10001
+    },
+    "shortIlnessMale": 1.0,
+    "shortIlnessFemale": 1.0,
+    "longIlnessMale": 3.0,
+    "longIlnessFemale": 3.0,
+    "oldAgeMale": 65.0,
+    "oldAgeFemale": 55.0,
+    "id": "D_MAX"
+  }
+}

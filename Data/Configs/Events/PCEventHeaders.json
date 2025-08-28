@@ -1,0 +1,292 @@
+{
+  "PolluxCeremony": {
+    "POLLUX_1933": [
+      {
+        "baseId": "POLLUX_1933",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1934": [
+      {
+        "baseId": "POLLUX_1934",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1935": [
+      {
+        "baseId": "POLLUX_1935",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1936": [
+      {
+        "baseId": "POLLUX_1936",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1937": [
+      {
+        "baseId": "POLLUX_1937",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1938": [
+      {
+        "baseId": "POLLUX_1938",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1939": [
+      {
+        "baseId": "POLLUX_1939",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1940": [
+      {
+        "baseId": "POLLUX_1940",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1941": [
+      {
+        "baseId": "POLLUX_1941",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1942": [
+      {
+        "baseId": "POLLUX_1942",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1943": [
+      {
+        "baseId": "POLLUX_1943",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1944": [
+      {
+        "baseId": "POLLUX_1944",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1945": [
+      {
+        "baseId": "POLLUX_1945",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1946": [
+      {
+        "baseId": "POLLUX_1946",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1947": [
+      {
+        "baseId": "POLLUX_1947",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ],
+    "POLLUX_1948": [
+      {
+        "baseId": "POLLUX_1948",
+        "chainNumber": 0,
+        "type": 0,
+        "behaviours": 0,
+        "contextType": 8,
+        "probabilities": null,
+        "rangedProbabilities": null,
+        "titleConditions": [
+          null
+        ],
+        "selectionCondition": null,
+        "validationCondition": null,
+        "bgColor": null,
+        "characterDefinitions": null
+      }
+    ]
+  }
+}

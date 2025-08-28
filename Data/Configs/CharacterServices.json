@@ -1,0 +1,80 @@
+{
+  "HOTEL_ROOM": {
+    "baseFee": 100,
+    "clientFee": 200,
+    "condition": "PERK: HOTEL_SUITE",
+    "id": "HOTEL_ROOM"
+  },
+  "PENTHOUSE": {
+    "baseFee": 1000,
+    "clientFee": 3000,
+    "condition": "PERK: PENTHOUSE",
+    "id": "PENTHOUSE"
+  },
+  "VILLA": {
+    "baseFee": 2000,
+    "clientFee": 4000,
+    "condition": "PERK: VILLA",
+    "id": "VILLA"
+  },
+  "CAR_WITH_DRIVER": {
+    "baseFee": 100,
+    "clientFee": 500,
+    "condition": "PERK: PERSONAL_DRIVER",
+    "id": "CAR_WITH_DRIVER"
+  },
+  "PREMIUM_CAR": {
+    "baseFee": 200,
+    "clientFee": 1000,
+    "condition": "PERK: PERSONAL_DRIVER_PREMIUM",
+    "id": "PREMIUM_CAR"
+  },
+  "MAID": {
+    "baseFee": 50,
+    "clientFee": 250,
+    "condition": "PERK: HOUSEMAID",
+    "id": "MAID"
+  },
+  "NANNY": {
+    "baseFee": 50,
+    "clientFee": 300,
+    "condition": "PERK: NANNY",
+    "id": "NANNY"
+  },
+  "SPOUSES_ASSISTANT": {
+    "baseFee": 50,
+    "clientFee": 400,
+    "condition": "PERK: SPOUSES_ASSISTANT",
+    "id": "SPOUSES_ASSISTANT"
+  },
+  "ASSISTANT": {
+    "baseFee": 100,
+    "clientFee": 500,
+    "condition": "PERK: ASSISTANT",
+    "id": "ASSISTANT"
+  },
+  "PERSONAL_CHEF": {
+    "baseFee": 70,
+    "clientFee": 500,
+    "condition": "PERK: CHEF",
+    "id": "PERSONAL_CHEF"
+  },
+  "BUTLER": {
+    "baseFee": 100,
+    "clientFee": 700,
+    "condition": "PERK: BUTLER",
+    "id": "BUTLER"
+  },
+  "INSURANCE": {
+    "baseFee": 50,
+    "clientFee": 100,
+    "condition": "",
+    "id": "INSURANCE"
+  },
+  "EXPANDED_INSURANCE": {
+    "baseFee": 100,
+    "clientFee": 200,
+    "condition": "PERK: INSURANCE_PLUS",
+    "id": "EXPANDED_INSURANCE"
+  }
+}

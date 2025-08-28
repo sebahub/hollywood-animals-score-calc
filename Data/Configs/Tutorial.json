@@ -1,0 +1,4506 @@
+{
+  "initialFunctionality": {},
+  "initialTutorialFunctionality": {
+    "Cash": false,
+    "FullTimeControls": false,
+    "Influence": false,
+    "Staff": false,
+    "Upgrades": false,
+    "Lieutenants": false,
+    "Captains": false,
+    "Building": false,
+    "Secrets": false,
+    "QualitySelection": false,
+    "HRSelection": false,
+    "TimeFlow": false,
+    "ShowBottomBarProgress": false,
+    "ShowBottomBarButtons": false,
+    "PerksEnabled": false,
+    "ShowTopBarElements": false,
+    "Fire": false,
+    "FreezeBuilding": false,
+    "ProductionEvents": false,
+    "StaffRaises": false,
+    "StaffRequests": false,
+    "InfoButton": false,
+    "CharacterEvents": false,
+    "Scandals": false,
+    "Policy": false,
+    "AttackByCompetitors": false,
+    "ShowBottomConstructorButton": false,
+    "ShowBottomStartProjectButton": false,
+    "BirdView": false
+  },
+  "initialSpecialTutorialFunctionality": {
+    "MapNavigation": true,
+    "QualitySelection": true,
+    "Lieutenants": false,
+    "Secrets": false,
+    "ProductionEvents": false,
+    "StaffRaises": false,
+    "StaffRequests": false,
+    "InfoButton": false,
+    "CharacterEvents": false,
+    "Scandals": false,
+    "Policy": false,
+    "AttackByCompetitors": false,
+    "BirdView": false
+  },
+  "modes": [
+    {
+      "id": "FULLSCREEN_TUTORIAL_ON_START",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "TUTORIAL_IDEAS_GENRES",
+          "type": 23,
+          "parameters": "PARAMS:string,TUTORIAL_IDEAS_GENRES,DRAMA-MODERN_AMERICAN_CITY-PROTAGONIST_WORKING_MAN#COMEDY-MODERN_AMERICAN_TOWN-PROTAGONIST_CLUMSY_OAF#ACTION-WILD_WEST-PROTAGONIST_COWBOY#ROMANCE-FANTASY_KINGDOM-PROTAGONIST_HOPELESS_ROMANTIC#DETECTIVE-MODERN_AMERICAN_TOWN-PROTAGONIST_COP#ADVENTURE-TROPICAL_ISLAND-PROTAGONIST_DARING_ADVENTURER#THRILLER-MODERN_AMERICAN_CITY-PROTAGONIST_DETECTIVE#HISTORICAL-WILD_WEST-PROTAGONIST_COWBOY",
+          "functionality": {}
+        },
+        {
+          "id": "SHOW_STUDIO",
+          "type": 0,
+          "parameters": "POSITION: 2.71, -29.60; ZOOM: 0.5",
+          "functionality": {}
+        },
+        {
+          "id": "SHOW_TUTORIAL_BG",
+          "type": 6,
+          "parameters": "VIEW: TutorialBg",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_DIORAMA_END",
+          "type": 5,
+          "parameters": "START_ON: VIEW_CUSTOM_EVENT,TutorialBg,AFTER_DIORAMA",
+          "functionality": {}
+        },
+        {
+          "id": "PLAY_LIMBO_MUSIC",
+          "type": 28,
+          "parameters": "PARAMS: MUSIC, MUSIC_LIMBO; LOOP: TRUE; OVERRIDE : TRUE",
+          "functionality": {}
+        },
+        {
+          "id": "PLAY_LIMBO_WIND",
+          "type": 28,
+          "parameters": "PARAMS: AMBIENT, LIMBO_WIND; LOOP: TRUE;",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_STUDIO_NAME",
+          "type": 5,
+          "parameters": "START_ON: VIEW_CUSTOM_EVENT,TutorialBg,NAME_SET",
+          "functionality": {}
+        },
+        {
+          "id": "STOP_LIMBO_WIND",
+          "type": 29,
+          "parameters": "PARAMS: AMBIENT, LIMBO_WIND; FADE: 1",
+          "functionality": {}
+        },
+        {
+          "id": "PLAY_LIMBO_OFFICE_LOOP",
+          "type": 28,
+          "parameters": "PARAMS: AMBIENT, OFFICE_LOOP; LOOP: TRUE",
+          "functionality": {}
+        },
+        {
+          "id": "ON_TUTORIAL_VIEW_REVERT",
+          "type": 19,
+          "parameters": "OPERATION: UPDATE_VIEW,TutorialBg,SHOW_UI . HIDE_VIEW,TutorialView . GO_BACK,1",
+          "functionality": {}
+        },
+        {
+          "id": "NAMING",
+          "type": 9,
+          "parameters": "TYPE: CHARACTERS_NAMING; TITLE: TUTORIAL_THREE_CPT_NAMING_TITLE; TEXT: TUTORIAL_THREE_CPT_NAMING_TEXT; PARAMS: CptLawyer,CptPR,CptFinancier; START_ON: pointer;",
+          "functionality": {}
+        },
+        {
+          "id": "MOVIE_SELECTION",
+          "type": 9,
+          "parameters": "TYPE: MOVIE_SELECTION; TITLE: TUTORIAL_MOVIE_SELECTION_TITLE; TEXT: TUTORIAL_MOVIE_SELECTION_TEXT; PARAMS: MOVIE_1#Luk_limping#WILD_WEST#ACTION#0.5#ADVENTURE#0.5, MOVIE_2#Blind_love#MODERN_AMERICAN_TOWN#ROMANCE#0.7#COMEDY#0.3, MOVIE_3#Deadly#MODERN_AMERICAN_CITY#DETECTIVE#0.6#THRILLER#0.4",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GAME_START"
+    },
+    {
+      "id": "MOVIE",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,2,Scriptwriter,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,11,Producer,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,9,Director,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,4,Actor,Unisex,PROTAGONIST_COWBOY",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,6,Actor,Unisex,ANTAGONIST_BANDIT",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,5,Actor,Unisex,SUPPORTINGCHARACTER_MENTOR",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,10,Cinematographer,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: RESULTS,Script,0.59,0.01,0.01,10000,52,52,6",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: RESULTS,Preproduction,0.62,0.07,0.04,10000,43,43,6",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: RESULTS,Production,0.63,0,0.07,411000,60,82,6",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: NEXT_STAGE",
+          "functionality": {}
+        },
+        {
+          "id": "M1S1",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 1; PARAMS: ABOUT,TAG,PROTAGONIST_COWBOY; AMOUNT: 8; IMAGES: Luke_limping_1,Luke_limping_2;",
+          "functionality": {}
+        },
+        {
+          "id": "M1S2",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 2; PARAMS: ABOUT; IMAGES: Luke_limping_3,Luke_limping_4;",
+          "functionality": {}
+        },
+        {
+          "id": "M1S3",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 3; PARAMS: ABOUT,TAG,THEME_TREASURE_HUNT; IMAGES: Luke_limping_5,Luke_limping_6;",
+          "functionality": {}
+        },
+        {
+          "id": "M1S4",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 4; PARAMS: ABOUT,TAG,SUPPORTINGCHARACTER_MENTOR; IMAGES: Luke_limping_7,Luke_limping_8;",
+          "functionality": {}
+        },
+        {
+          "id": "M1S5",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 5; PARAMS: ABOUT,TAG,ANTAGONIST_BANDIT; IMAGES: Luke_limping_9,Luke_limping_10;",
+          "functionality": {}
+        },
+        {
+          "id": "M1S6",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 6; PARAMS: ABOUT,TAG,EVENTS_SHOOTOUT; IMAGES: Luke_limping_11,Luke_limping_12;",
+          "functionality": {}
+        },
+        {
+          "id": "M1S7",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 7; PARAMS: ABOUT; IMAGES: Luke_limping_13,Luke_limping_14;",
+          "functionality": {}
+        },
+        {
+          "id": "M1S8",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 8; PARAMS: ABOUT,TAG,FINALE_PROTAGONIST_OVERCAME_SELFDOUBT; IMAGES: Luke_limping_15,Luke_limping_16;",
+          "functionality": {}
+        },
+        {
+          "id": "M1S_COM",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_SCORE_TITLE; TEXT: TUTORIAL_COM_SCORE; PARAMS: COM",
+          "functionality": {}
+        },
+        {
+          "id": "M1S_ART",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_SCORE_TITLE; TEXT: TUTORIAL_ART_SCORE; PARAMS: ART",
+          "functionality": {}
+        },
+        {
+          "id": "M1S_SCRIPT",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_SCRIPT_TITLE; TEXT: TUTORIAL_SCRIPT_SCORE_LUKE; PARAMS: SCRIPT",
+          "functionality": {}
+        },
+        {
+          "id": "M1S_PREPRO",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_PREPROD_SCORE_TITLE; TEXT: TUTORIAL_PREPROD_SCORE; PARAMS: PREPROD",
+          "functionality": {}
+        },
+        {
+          "id": "M1S_PROD",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_PROD_SCORE_TITLE; TEXT: TUTORIAL_PROD_SCORE_LUKE; PARAMS: PROD",
+          "functionality": {}
+        },
+        {
+          "id": "M1S_INFO",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_MOVIE_DETAILS_TITLE; PARAMS: MOVIE_DETAILS",
+          "functionality": {}
+        },
+        {
+          "id": "M1S_BUDGET",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_BUDGET_TITLE; TEXT: TUTORIAL_BUDGET; PARAMS: BUDGET",
+          "functionality": {}
+        },
+        {
+          "id": "M1S_AUDITORY",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_AUDIENCE_TITLE; TEXT: TUTORIAL_AUDIENCE_TEXT; DESCRIPTION: TUTORIAL_AUDIENCE_LUKE; PARAMS: AUDIENCE,Western",
+          "functionality": {}
+        },
+        {
+          "id": "STOP_LIMBO_MUSIC",
+          "type": 29,
+          "parameters": "PARAMS: MUSIC, MUSIC_LIMBO; FADE: 1",
+          "functionality": {}
+        },
+        {
+          "id": "STOP_LIMBO_OFFICE_LOOP",
+          "type": 29,
+          "parameters": "PARAMS: AMBIENT, OFFICE_LOOP; FADE: 1",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_POSTPROD_VIEW",
+          "type": 3,
+          "parameters": "DURATION: 0.5;",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_TUTORIAL_VIEW",
+          "type": 7,
+          "parameters": "VIEW: TutorialView",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_POSTPROD_VIEW",
+          "type": 7,
+          "parameters": "VIEW: TutorialBg; DELAY: 0.5;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,TutorialView,MOVIE_1"
+    },
+    {
+      "id": "MOVIE",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,1,Scriptwriter,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,11,Producer,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,9,Director,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,4,Actor,Unisex,PROTAGONIST_CLUMSY_OAF",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,38,Actor,Unisex,SUPPORTINGCHARACTER_RIVAL",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,8,Actor,Female,SUPPORTINGCHARACTER_STRICT_PARENT",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,7,Actor,Female,SUPPORTINGCHARACTER_LOVE_INTEREST",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,10,Cinematographer,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: RESULTS,Script,0.59,0.01,0.01,10000,52,52,6",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: RESULTS,Preproduction,0.62,0.07,0.04,10000,43,43,6",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: RESULTS,Production,0.63,0,0.07,411000,60,82,6",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: NEXT_STAGE",
+          "functionality": {}
+        },
+        {
+          "id": "M2S1",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 1; PARAMS: ABOUT,TAG,PROTAGONIST_CLUMSY_OAF; AMOUNT: 8; IMAGES: Blind_love_1,Blind_love_2;",
+          "functionality": {}
+        },
+        {
+          "id": "M2S2",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 2; PARAMS: ABOUT,TAG,SUPPORTINGCHARACTER_RIVAL; IMAGES: Blind_love_3,Blind_love_4;",
+          "functionality": {}
+        },
+        {
+          "id": "M2S3",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 3; PARAMS: ABOUT,TAG,SUPPORTINGCHARACTER_STRICT_PARENT; IMAGES: Blind_love_5,Blind_love_6;",
+          "functionality": {}
+        },
+        {
+          "id": "M2S4",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 4; PARAMS: ABOUT,TAG,SUPPORTINGCHARACTER_LOVE_INTEREST; IMAGES: Blind_love_7,Blind_love_8;",
+          "functionality": {}
+        },
+        {
+          "id": "M2S5",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 5; PARAMS: ABOUT; IMAGES: Blind_love_9,Blind_love_10;",
+          "functionality": {}
+        },
+        {
+          "id": "M2S6",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 6; PARAMS: ABOUT,TAG,THEME_WINNING_THE_BELOVED; IMAGES: Blind_love_11,Blind_love_12;",
+          "functionality": {}
+        },
+        {
+          "id": "M2S7",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 7; PARAMS: ABOUT; IMAGES: Blind_love_13,Blind_love_14;",
+          "functionality": {}
+        },
+        {
+          "id": "M2S8",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 8; PARAMS: ABOUT,TAG,FINALE_SWEETHEARTS_STAY_TOGETHER; IMAGES: Blind_love_15,Blind_love_16;",
+          "functionality": {}
+        },
+        {
+          "id": "M2S_COM",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_SCORE_TITLE; TEXT: TUTORIAL_COM_SCORE; PARAMS: COM",
+          "functionality": {}
+        },
+        {
+          "id": "M2S_ART",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_SCORE_TITLE; TEXT: TUTORIAL_ART_SCORE; PARAMS: ART",
+          "functionality": {}
+        },
+        {
+          "id": "M2S_SCRIPT",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_SCRIPT_TITLE; TEXT: TUTORIAL_SCRIPT_SCORE_BLIND_LOVE; PARAMS: SCRIPT",
+          "functionality": {}
+        },
+        {
+          "id": "M2S_PREPRO",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_PREPROD_SCORE_TITLE; TEXT: TUTORIAL_PREPROD_SCORE; PARAMS: PREPROD",
+          "functionality": {}
+        },
+        {
+          "id": "M2S_PROD",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_PROD_SCORE_TITLE; TEXT: TUTORIAL_PROD_SCORE_BLIND_LOVE; PARAMS: PROD",
+          "functionality": {}
+        },
+        {
+          "id": "M2S_INFO",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_MOVIE_DETAILS_TITLE; PARAMS: MOVIE_DETAILS",
+          "functionality": {}
+        },
+        {
+          "id": "M2S_BUDGET",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_BUDGET_TITLE; TEXT: TUTORIAL_BUDGET; PARAMS: BUDGET",
+          "functionality": {}
+        },
+        {
+          "id": "M2S_AUDITORY",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_AUDIENCE_TITLE; TEXT: TUTORIAL_AUDIENCE_TEXT; DESCRIPTION: TUTORIAL_AUDIENCE_BLIND_LOVE; PARAMS: AUDIENCE,Melodrama",
+          "functionality": {}
+        },
+        {
+          "id": "STOP_LIMBO_MUSIC",
+          "type": 29,
+          "parameters": "PARAMS: MUSIC, MUSIC_LIMBO; FADE: 1",
+          "functionality": {}
+        },
+        {
+          "id": "STOP_LIMBO_OFFICE_LOOP",
+          "type": 29,
+          "parameters": "PARAMS: AMBIENT, OFFICE_LOOP; FADE: 1",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_POSTPROD_VIEW",
+          "type": 3,
+          "parameters": "DURATION: 0.5;",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_POSTPROD_VIEW",
+          "type": 7,
+          "parameters": "VIEW: TutorialBg; DELAY: 0.5;",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_TUTORIAL_VIEW",
+          "type": 7,
+          "parameters": "VIEW: TutorialView",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,TutorialView,MOVIE_2"
+    },
+    {
+      "id": "MOVIE",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,3,Scriptwriter,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,11,Producer,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,9,Director,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,4,Actor,Unisex,PROTAGONIST_DETECTIVE",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,7,Actor,Unisex,SUPPORTINGCHARACTER_SIDEKICK",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,6,Actor,Unisex,ANTAGONIST_SERIAL_KILLER",
+          "functionality": {}
+        },
+        {
+          "id": "SLOT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: SLOT,10,Cinematographer,Unisex",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: RESULTS,Script,0.59,0.01,0.01,10000,52,52,6",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: RESULTS,Preproduction,0.62,0.07,0.04,10000,43,43,6",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: RESULTS,Production,0.63,0,0.07,411000,60,82,6",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: NEXT_STAGE",
+          "functionality": {}
+        },
+        {
+          "id": "M3S1",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 1; PARAMS: ABOUT,TAG,EVENTS_PRISON_BREAK; AMOUNT: 8; IMAGES: Deadly_1,Deadly_2;",
+          "functionality": {}
+        },
+        {
+          "id": "M3S2",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 2; PARAMS: ABOUT,TAG,ANTAGONIST_SERIAL_KILLER; IMAGES: Deadly_3,Deadly_4;",
+          "functionality": {}
+        },
+        {
+          "id": "M3S3",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 3; PARAMS: ABOUT,TAG,PROTAGONIST_DETECTIVE; IMAGES: Deadly_5,Deadly_6;",
+          "functionality": {}
+        },
+        {
+          "id": "M3S4",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 4; PARAMS: ABOUT,TAG,SUPPORTINGCHARACTER_SIDEKICK; IMAGES: Deadly_7,Deadly_8;",
+          "functionality": {}
+        },
+        {
+          "id": "M3S5",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 5; PARAMS: ABOUT,TAG,THEME_SEARCH_KILLER; IMAGES: Deadly_9,Deadly_10;",
+          "functionality": {}
+        },
+        {
+          "id": "M3S6",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 6; PARAMS: ABOUT; IMAGES: Deadly_11,Deadly_12;",
+          "functionality": {}
+        },
+        {
+          "id": "M3S7",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 7; PARAMS: ABOUT; IMAGES: Deadly_13,Deadly_14;",
+          "functionality": {}
+        },
+        {
+          "id": "M3S8",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_MOVIE; TEXT: 8; PARAMS: ABOUT,TAG,FINALE_ANTAGONIST_GETS_PUNISHED; IMAGES: Deadly_15,Deadly_16;",
+          "functionality": {}
+        },
+        {
+          "id": "M3S_COM",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_SCORE_TITLE; TEXT: TUTORIAL_COM_SCORE; PARAMS: COM",
+          "functionality": {}
+        },
+        {
+          "id": "M3S_ART",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_SCORE_TITLE; TEXT: TUTORIAL_ART_SCORE; PARAMS: ART",
+          "functionality": {}
+        },
+        {
+          "id": "M3S_SCRIPT",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_SCRIPT_TITLE; TEXT: TUTORIAL_SCRIPT_SCORE_DEATH_BRINGER; PARAMS: SCRIPT",
+          "functionality": {}
+        },
+        {
+          "id": "M3S_PREPRO",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_PREPROD_SCORE_TITLE; TEXT: TUTORIAL_PREPROD_SCORE; PARAMS: PREPROD",
+          "functionality": {}
+        },
+        {
+          "id": "M3S_PROD",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_PROD_SCORE_TITLE; TEXT: TUTORIAL_PROD_SCORE_DEATH_BRINGER; PARAMS: PROD",
+          "functionality": {}
+        },
+        {
+          "id": "M3S_INFO",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_MOVIE_DETAILS_TITLE; PARAMS: MOVIE_DETAILS",
+          "functionality": {}
+        },
+        {
+          "id": "M3S_BUDGET",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_BUDGET_TITLE; TEXT: TUTORIAL_BUDGET; PARAMS: BUDGET",
+          "functionality": {}
+        },
+        {
+          "id": "M3S_AUDITORY",
+          "type": 9,
+          "parameters": "TYPE: ABOUT_PIPELINE; TITLE: TUTORIAL_AUDIENCE_TITLE; TEXT: TUTORIAL_AUDIENCE_TEXT; DESCRIPTION: TUTORIAL_AUDIENCE_DEATH_BRINGER; PARAMS: AUDIENCE,Thriller",
+          "functionality": {}
+        },
+        {
+          "id": "STOP_LIMBO_MUSIC",
+          "type": 29,
+          "parameters": "PARAMS: MUSIC, MUSIC_LIMBO; FADE: 1",
+          "functionality": {}
+        },
+        {
+          "id": "STOP_LIMBO_OFFICE_LOOP",
+          "type": 29,
+          "parameters": "PARAMS: AMBIENT, OFFICE_LOOP; FADE: 1",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_POSTPROD_VIEW",
+          "type": 3,
+          "parameters": "DURATION: 0.5; PARAMS: INSTANT;",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_POSTPROD_VIEW",
+          "type": 7,
+          "parameters": "VIEW: TutorialBg; DELAY: 0.5;",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_TUTORIAL_VIEW",
+          "type": 7,
+          "parameters": "VIEW: TutorialView",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,TutorialView,MOVIE_3"
+    },
+    {
+      "id": "MOUSE_ZOOM_MESSAGE",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "MOUSE_ZOOM_MESSAGE",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_WIDTH: 440; TEXT: TUTORIAL_MOUSE_ZOOM; DELAY: 4; PREFAB: 71_stepPrefab; PIVOT: BOTTOM; AMOUNT: 123;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON:"
+    },
+    {
+      "id": "HIRE_CPT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "PLAY_TUTORIAL_MUSIC",
+          "type": 28,
+          "parameters": "PARAMS: MUSIC, TUTORIAL_MUSIC; FADE: 0 ; OVERRIDE : TRUE",
+          "functionality": {}
+        },
+        {
+          "id": "TUTORIAL_ADS_AMOUNT",
+          "type": 23,
+          "parameters": "PARAMS:int,TUTORIAL_ADS_LEFT,3",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "TUTORIAL_ADS_AGENTS",
+          "type": 23,
+          "parameters": "PARAMS:string,TUTORIAL_ADS_AGENTS,B1RADIO_B1BLBRD_B3PRINT_MCA1_TYC1#B1RADIO_B1BLBRD_B3PRINT_COMMAG_FC2#B1RADIO_B1BLBRD_B3PRINT_COMMAG_ARTMAG;",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_POSTPROD_VIEW",
+          "type": 2,
+          "parameters": "DURATION: 1.5; PARAMS: INSTANT;",
+          "functionality": {}
+        },
+        {
+          "id": "SHOW_TOP_VIEWS",
+          "type": 6,
+          "parameters": "VIEW: BottomBarView;",
+          "functionality": {}
+        },
+        {
+          "id": "SHOW_STUDIO",
+          "type": 1,
+          "parameters": "",
+          "functionality": {}
+        },
+        {
+          "id": "SHOW_TASKS_VIEWS",
+          "type": 6,
+          "parameters": "VIEW: TasksView; PARAMS: WITH_ANIMATION;",
+          "functionality": {}
+        },
+        {
+          "id": "SHOW_STUDIO",
+          "type": 0,
+          "parameters": "PARAMS: BUILDING,POSTPRODUCTION_DOMINION; ZOOM: 0.7; DURATION: SLOW; OFFSET: 0,7.984;",
+          "functionality": {
+            "DelayByTutorialPopup": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: FORCE; VIEW: TutorialPopup; TARGET: TUTORIAL_MOVIE; MESSAGE_POSITION: 464,78; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_OPEN_MOVIE_ON_BOTTOM_BAR; PREFAB: 01_stepPrefab; DESCRIPTION: TUTORIAL_OPEN_MOVIE_ON_BOTTOM_BAR_DESCRIPTION; PIVOT: BOTTOM; AMOUNT: 123; START_ON: VIEW_SHOWN,PostProductionEditorView;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_VIEW",
+          "type": 5,
+          "parameters": "START_ON: VIEW_CUSTOM_EVENT,PostProductionEditorView,POST_PROD_SHOWN",
+          "functionality": {}
+        },
+        {
+          "id": "START_POSTPROD",
+          "type": 4,
+          "parameters": "TYPE: FORCE; VIEW: PostProductionEditorView; TARGET: STAFF; OUTLINE: TRUE; MESSAGE_POSITION: 423.6,-77; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_POSTPROD_CHOOSE_EDIT_COMP; DELAY: 0.1; PREFAB: 02_stepPrefab; DESCRIPTION: TUTORIAL_POSTPROD_CHOOSE_EDIT_COMP_DESCRIPTION; PIVOT: BOTTOM; AMOUNT: 170; START_ON: VIEW_CUSTOM_EVENT,PostProductionEditorView,CHARACTER_SELECTION",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_EDITOR",
+          "type": 5,
+          "parameters": "START_ON: MOVIE,0,EDITOR",
+          "functionality": {
+            "DelayByTutorialPopup": true
+          }
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_COMPOSER",
+          "type": 5,
+          "parameters": "START_ON: MOVIE,0,COMPOSER",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_LIEUT",
+          "type": 24,
+          "parameters": "TARGET: QualitySelection",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "START_POSTPROD",
+          "type": 4,
+          "parameters": "TYPE: FORCE; VIEW: PostProductionEditorView; TARGET: TECH; OUTLINE: TRUE; MESSAGE_POSITION: 333,165.06; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_POSTPROD_CHOOSE_QUALITY; DELAY: 0.5; PREFAB: 03_stepPrefab; DESCRIPTION: TUTORIAL_POSTPROD_CHOOSE_QUALITY_DESCRIPTION; AMOUNT: 170; START_ON: VIEW_SHOWN,SelectionView;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_PICTURE",
+          "type": 5,
+          "parameters": "START_ON: MOVIE,0,PICTURE",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_MUSIC",
+          "type": 5,
+          "parameters": "START_ON: MOVIE,0,MUSIC",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_SOUND",
+          "type": 5,
+          "parameters": "START_ON: MOVIE,0,SOUND",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_LIEUT",
+          "type": 24,
+          "parameters": "TARGET: Lieutenants",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_CONTINUE",
+          "type": 5,
+          "parameters": "START_ON: VIEW_HIDDEN,PostProductionEditorView",
+          "functionality": {}
+        },
+        {
+          "id": "STAGE_RESULT",
+          "type": 22,
+          "parameters": "TYPE: SET_MOVIE_PARAMS; PARAMS: RESULTS,Postproduction,0.7,-0.09,-0.03,6",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_MAP",
+          "type": 5,
+          "parameters": "START_ON: ON_MAP",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "SHOW_STUDIO",
+          "type": 0,
+          "parameters": "PARAMS: BUILDING,POSTPRODUCTION_DOMINION; ZOOM: 1; DURATION: MEDIUM; OFFSET: 4.86,3.54;",
+          "functionality": {}
+        },
+        {
+          "id": "NEED_PR_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; TEXT: TUTORIAL_NEED_HIRE_CPT; MESSAGE_WIDTH: 391; DELAY: 0.2; MESSAGE_POSITION: 444,-15; PREFAB: 04_stepPrefab; PIVOT: BOTTOM; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: MODE,MOVIE;"
+    },
+    {
+      "id": "HIRE_MAIN",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "SHOW_STUDIO",
+          "type": 0,
+          "parameters": "PARAMS: BUILDING,MAIN_BUILDING; ZOOM: 0.5; DURATION: MEDIUM; DELAY: 1; OFFSET: -0.1,0;",
+          "functionality": {}
+        },
+        {
+          "id": "CLICK_ON_PALACE",
+          "type": 4,
+          "parameters": "TYPE: FORCE; TEXT: TUTORIAL_CLICK_ON_PALACE; VIEW: TutorialPopup; TARGET: BUILDING; MESSAGE_POSITION: 608,224; MESSAGE_WIDTH: 391;PARAMS: BUILDING,MAIN_BUILDING; PIVOT: BOTTOM; PREFAB: 05_stepPrefab; DESCRIPTION: TUTORIAL_CLICK_ON_PALACE_DESCRIPTION; AMOUNT: 123; START_ON: VIEW_SHOWN,All;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "MapNavigation": false
+          }
+        },
+        {
+          "id": "WAIT_FOR_CPT",
+          "type": 5,
+          "parameters": "START_ON: HAS_HIRED_CHARACTERS,CptHR",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_CAPT",
+          "type": 24,
+          "parameters": "TARGET: HRSelection",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_CAPT",
+          "type": 24,
+          "parameters": "TARGET: Captains",
+          "functionality": {
+            "MapNavigation": true
+          }
+        },
+        {
+          "id": "TEST_TASK",
+          "type": 13,
+          "parameters": "MTASK_HEADER: MULTITASK_HEADER_HIRE_LIEUTENANTS; DELAY: 3;",
+          "functionality": {}
+        },
+        {
+          "id": "TEST_TASK1",
+          "type": 14,
+          "parameters": "MTASK_ITEM: HIRE_LIEUT_POST; START_ON: HAS_HIRED_CHARACTERS,LieutPost",
+          "functionality": {}
+        },
+        {
+          "id": "TEST_TASK2",
+          "type": 14,
+          "parameters": "MTASK_ITEM: HIRE_LIEUT_REL; START_ON: HAS_HIRED_CHARACTERS,LieutRelease",
+          "functionality": {}
+        },
+        {
+          "id": "TEST_TASK3",
+          "type": 14,
+          "parameters": "MTASK_ITEM: HIRE_LIEUT_INFR; START_ON: HAS_HIRED_CHARACTERS,LieutInfrastructure",
+          "functionality": {}
+        },
+        {
+          "id": "TEST_TASK4",
+          "type": 16,
+          "parameters": "MTASK_HEADER: MULTITASK_HEADER_HIRE_LIEUTENANTS",
+          "functionality": {}
+        },
+        {
+          "id": "FORCE_SHOW_TASKS",
+          "type": 15,
+          "parameters": "",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MODE,HIRE_CPT;"
+    },
+    {
+      "id": "WAIT_FOR_POSTLIEUT",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "ENABLE_TIME",
+          "type": 24,
+          "parameters": "TARGET: ShowBottomBarProgress; DELAY: 1.8;",
+          "functionality": {}
+        },
+        {
+          "id": "PLAY_BOTTOM_BAR_SFX",
+          "type": 28,
+          "parameters": "PARAMS: SFX, BOTTOM_BAR_DRUMS",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: BottomBarView; TARGET: BOTTOM_BAR; OUTLINE: TRUE; MESSAGE_POSITION: -9.11,-117.8; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_BOTTOM_BAR_TEXT; DELAY: 0.9; PIVOT: CENTER; PREFAB: 06_stepPrefab; AMOUNT: 170;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "ENABLE_TIME",
+          "type": 24,
+          "parameters": "TARGET: TimeFlow; DELAY:1;",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_TIME",
+          "type": 24,
+          "parameters": "TARGET: ShowTopBarElements;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: HAS_HIRED_CHARACTERS,LieutPost"
+    },
+    {
+      "id": "WAIT_FOR_INFRLIEUT",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false,
+            "TimeFlow": false
+          }
+        },
+        {
+          "id": "BUILD_SCRIPT_DOMINION",
+          "type": 12,
+          "parameters": "TEXT: TASK_BUILD_SCRIPT; START_ON: BUILDING_PLACED,SCRIPT_DOMINION; DELAY:1.5;",
+          "functionality": {}
+        },
+        {
+          "id": "FORCE_SHOW_TASKS",
+          "type": 15,
+          "parameters": "",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_TIME",
+          "type": 24,
+          "parameters": "TARGET: ShowBottomBarButtons; DELAY: 1.3;",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: FORCE; VIEW: BottomBarView; TARGET: BUILD; OUTLINE: TRUE; MESSAGE_POSITION: -341.5,-171.8; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_BUILD; DESCRIPTION: TUTORIAL_BUILD_DESCRIPTION; AMOUNT: 123; PREFAB: 07_stepPrefab; START_ON: VIEW_SHOWN,BuildingsView; DELAY:1.8;",
+          "functionality": {
+            "UnblockUI": true,
+            "TimeFlow": true
+          }
+        }
+      ],
+      "parameters": "START_ON: HAS_HIRED_CHARACTERS,LieutInfrastructure,LieutPost,LieutRelease; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "POSTPROD_IYF",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: StageResultsView; TARGET: SCORE_DIFF; OUTLINE: TRUE; MESSAGE_POSITION: -523.6,172.8; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_IYF_POSTPROD_1; DELAY:0.2; PIVOT: BOTTOM; PREFAB: 08_stepPrefab; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "PREPARE_RELEASE",
+          "type": 18,
+          "parameters": "PARAMS: noParams",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,StageResultsView,POST_PROD_IYF_FIRST_SLIDE"
+    },
+    {
+      "id": "WAIT_FOR_PROD",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "BUILD_PAVILION",
+          "type": 12,
+          "parameters": "TEXT: TASK_BUILD_PAVILION; START_ON: BUILDING_PLACED,PAVILION_I;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: BUILDING,PRODUCTION_DOMINION; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "WAIT_FOR_PERK",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "BUILD_CONSTRUCTOR",
+          "type": 12,
+          "parameters": "TEXT: TASK_BUILD_CONSTRUCTOR; START_ON: BUILDING_PLACED,CONSTRUCTOR;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: ON_PERK,BLDG_CONSTRUCTOR; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "ACTIVATE_CONSTRUCTOR_BTN",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "SHOW_CONSTRUCTOR_BUTTON",
+          "type": 24,
+          "parameters": "TARGET: ShowBottomConstructorButton;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_ANIMATION_HIDDEN,MovieScriptEditorView, DONT_CHECK_IF_SHOWN; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "ACTIVATE_START_PREPROD",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "SHOW_START_PROJ_BTN",
+          "type": 24,
+          "parameters": "TARGET: ShowBottomStartProjectButton;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: BUILDING,PREPRODUCTION_DOMINION; PARAMS: ONLY_ON_MAP; DELAY: 0.1;"
+    },
+    {
+      "id": "WAIT_FOR_POSTPROD_EDIT",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "OPEN_MOVIE_1",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: TIMELINE; OUTLINE: TRUE; MESSAGE_POSITION: -635.2,-432.3; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_RELEASE_0; DELAY: 6; PIVOT: BOTTOM; PREFAB: 09_stepPrefab; AMOUNT: 123;",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 8,
+          "parameters": "VIEW: ReleaseEditorView; PARAMS: START_INTRO; DELAY: 1",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE_2",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: TIMELINE_MOVIE; OUTLINE: TRUE; MESSAGE_POSITION: 498.3,-235.4; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_RELEASE_1; PREFAB: 10_stepPrefab; AMOUNT: 123; DELAY: 2.5",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 8,
+          "parameters": "VIEW: ReleaseEditorView; PARAMS: CONFIRM_MOVIE; DELAY: 0.5",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 8,
+          "parameters": "VIEW: ReleaseEditorView; PARAMS: NEXT; DELAY: 0.5",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE_4",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: SETTINGS; OUTLINE: TRUE; MESSAGE_POSITION: -6.3,-12.6; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_RELEASE_2_1; PIVOT: BOTTOM; PREFAB: 11_stepPrefabWithouArrow; AMOUNT: 123; DELAY: 1",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 8,
+          "parameters": "VIEW: ReleaseEditorView; PARAMS: HOVER_ON; DELAY: 1",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE_3",
+          "type": 26,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: RENT_1; OUTLINE: TRUE; MESSAGE_POSITION: -350,300; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_RELEASE_2_2; PIVOT: TOP; PREFAB: 12_stepPrefab; AMOUNT: 123; DELAY: 1",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 8,
+          "parameters": "VIEW: ReleaseEditorView; PARAMS: HOVER_OFF",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE_4",
+          "type": 26,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: SETTINGS; OUTLINE: TRUE; MESSAGE_POSITION: -6.3,-12.6; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_RELEASE_2_3; PIVOT: BOTTOM; PREFAB: 11_stepPrefab; AMOUNT: 123; DELAY: 1",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE_5",
+          "type": 26,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: DEVELOPER; OUTLINE: TRUE; MESSAGE_POSITION: -0.6,61.8; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_RELEASE_2_4; PIVOT: BOTTOM; PREFAB: 14_stepPrefab; AMOUNT: 123;",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE_4",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: RENT_1; OUTLINE: TRUE; MESSAGE_POSITION: -84.7,-243.5; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_RELEASE_2_1_2; PIVOT: BOTTOM; PREFAB: 13_stepPrefab; AMOUNT: 123;",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 8,
+          "parameters": "VIEW: ReleaseEditorView; PARAMS: NEXT; DELAY:1",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: TIMELINE_MOVIE; OUTLINE: TRUE; MESSAGE_POSITION: 111.6,-389.2; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_RELEASE_3_NEW; DELAY: 5; PIVOT: BOTTOM; PREFAB: 15_stepPrefab; AMOUNT: 123;",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 8,
+          "parameters": "VIEW: ReleaseEditorView; PARAMS: TO_ADS_AGENTS; DELAY: 1",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE_6",
+          "type": 26,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: AUDIENCE; OUTLINE: TRUE; MESSAGE_POSITION: -110.7,-29.7; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_TAG_AUDIENCE_CLARIFICATION_1; DELAY: 1; PIVOT: BOTTOM; PREFAB: 16_stepPrefab; AMOUNT: 123;",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE_6",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: AUDIENCE; OUTLINE: TRUE; MESSAGE_POSITION: -110.7,-29.7; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_TAG_AUDIENCE_CLARIFICATION_2; PIVOT: BOTTOM; PREFAB: 16_stepPrefabWithoutArrow; AMOUNT: 123;",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_MAP",
+          "type": 5,
+          "parameters": "START_ON: VIEW_CUSTOM_EVENT,ReleaseEditorView,READY_TO_FINISH",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE_7",
+          "type": 4,
+          "parameters": "TYPE: FORCE; VIEW: ReleaseEditorView; TARGET: COMPLETE_BUTTON; OUTLINE: TRUE; MESSAGE_POSITION: -512.7,-313.6; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_RELEASE_FINAL; DESCRIPTION: TUTORIAL_RELEASE_FINAL_DESCRIPTION; DELAY: 0.7; PIVOT: BOTTOM; PREFAB: 17_stepPrefab; AMOUNT: 123; START_ON: VIEW_CUSTOM_EVENT,ReleaseEditorView,START_STAGE",
+          "functionality": {}
+        },
+        {
+          "id": "RELEASE_EVENT",
+          "type": 20,
+          "parameters": "ID: TUT_04_RELEASE_PROBLEM; ADD_CONTEXT: Movie, 0; DELAY_BY_DAYS: 2;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_SHOWN,ReleaseEditorView"
+    },
+    {
+      "id": "LAST_TUTOR_ADS_RELEASE",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "LAST_TUTOR_ADS_RELEASE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: ReleaseEditorView; TARGET: AUDIENCE; OUTLINE: TRUE; MESSAGE_POSITION: -110.7,-29.7; MESSAGE_WIDTH: 391; TEXT: LAST_TUTOR_ADS_RELEASE; DELAY: 1; PIVOT: BOTTOM; PREFAB: 16_stepPrefab; AMOUNT: 123;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,ReleaseEditorView,LAST_TUTOR_ADS_RELEASE"
+    },
+    {
+      "id": "MOVIE_ARCHIVED",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ENABLE_FIRE",
+          "type": 24,
+          "parameters": "TARGET: InfoButton;",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 20,
+          "parameters": "ID: TUT_02_DEATH_ACTOR; ADD_CONTEXT: Movie, 0; DELAY_BY_DAYS: 2;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MOVIE,0,ARCHIVED"
+    },
+    {
+      "id": "PREPROD_BUILT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "ENABLE_FIRE",
+          "type": 24,
+          "parameters": "TARGET: Fire;",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_FREEZE",
+          "type": 24,
+          "parameters": "TARGET: FreezeBuilding;",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_FREEZE",
+          "type": 24,
+          "parameters": "TARGET: Staff;",
+          "functionality": {
+            "TimeFlow": false
+          }
+        },
+        {
+          "id": "NAMING_ACTORS",
+          "type": 9,
+          "parameters": "TYPE: CHARACTERS_NAMING; TITLE: TUTORIAL_HR_ACTOR_NAMING_TITLE; TEXT: TUTORIAL_HR_ACTOR_NAMING_TEXT; PARAMS: Actor,Actor,Actor,Actor,Actor,Actor; DELAY:1",
+          "functionality": {
+            "UnblockUI": true,
+            "TimeFlow": true
+          }
+        },
+        {
+          "id": "NAMING_DIRECTORS",
+          "type": 9,
+          "parameters": "TYPE: CHARACTERS_NAMING; TITLE: TUTORIAL_HR_DIRECTOR_NAMING_TITLE; TEXT: TUTORIAL_HR_DIRECTOR_NAMING_TEXT; PARAMS: Director,Director",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_TUTORIAL_VIEW",
+          "type": 7,
+          "parameters": "VIEW: TutorialView; PARAMS: WITH_ANIMATION;",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 20,
+          "parameters": "ID: TUT_03_ACTRESS_IN_TROUBLE; DELAY_BY_DAYS: 2;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,HiringView,LIEUT_PREPROD_HIRE_CLOSED"
+    },
+    {
+      "id": "TALENT_HIRING_TUT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "TALENT_HIRING_EVENT",
+          "type": 20,
+          "parameters": "ID: TUT_05_HIRING;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: SPECIAL_DAYLY_CHECK, DAY#3&PROFESSION#CptPR&BUILDING#CASTING"
+    },
+    {
+      "id": "TALENT_HIRING_PUBLICATION",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "TALENT_HIRING_PUBLICATION_RESULT",
+          "type": 33,
+          "parameters": "ID: PUB_SRECIAL_EVENT, PARAMS: CONTEXT_TYPE#CharacterDefinitions&CONTEXT_ID#ACTOR&CHARACTER#OWNER=Player$PROFESSION=Actor$ARTCOM=1$ORDER=Last",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: TASK_COMPLETE,SYSTEM_TALENT_HIRING_SIMPLE,TRUE"
+    },
+    {
+      "id": "ABOUT_SINS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "WAIT_FOR_OPENED",
+          "type": 5,
+          "parameters": "START_ON: VIEW_CUSTOM_EVENT,NegotiationView,OPENED",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_OFFERS",
+          "type": 8,
+          "parameters": "VIEW: NegotiationView; PARAMS: OPEN_OFFERS; DELAY: 5;",
+          "functionality": {}
+        },
+        {
+          "id": "ABOUT_SINS_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -140,172; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_EVIDENCE; DELAY: 0.7; PIVOT: BOTTOM; PREFAB: 43_stepPrefab; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,NegotiationView,NEGOTIATION_FOR_CHARACTER_15"
+    },
+    {
+      "id": "IMPROVEMENT_TUT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "IMPROVEMENT_CHARACTER_CHECK",
+          "type": 53,
+          "parameters": "ID: IMPROVEMENT_TUT_CHAR_CREATING_1;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: SPECIAL_DAYLY_CHECK, PERK#IMPROVEMENT_I; DELAY_BY_DAYS:15; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "IMPROVEMENT_TUT_CHAR_CREATING_1",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "IMPROVEMENT_TUT_CHAR_CREATING_2",
+          "type": 34,
+          "parameters": "PARAMS:EVENT_ID#SYSTEM_TUT_07_IMPROVEMENT_SIMPLE$SYSTEM_TUT_07_IMPROVEMENT_SUCCESS_SIMPLE&PROFESSION#Actor&GENDER#Male&TRY_START_NEXT#START_IMPROVEMENT_TUT_EVENT",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "START_IMPROVEMENT_TUT_EVENT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "IMPROVEMENT_TUT_EVENT",
+          "type": 20,
+          "parameters": "ID: TUT_07_IMPROVEMENT; START_CONDITION:TYPE#LowestImprovementLevel;",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "IMPROVEMENT_TUT_TASK",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "SHOW_INFRASTRUCTURE",
+          "type": 0,
+          "parameters": "PARAMS: BUILDING,INFRASTRUCTURE_DOMINION; ZOOM: 1; DURATION: MEDIUM; DELAY: 1; OFFSET: -0.1,0;",
+          "functionality": {}
+        },
+        {
+          "id": "INFRASTRUCTURE_DOMINION_TUTOR",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -660,-65; MESSAGE_WIDTH: 391; TEXT: MIDDLE_IMPROVEMENT_TUTORIAL; PREFAB: 67_stepPrefab; PIVOT:TOP; AMOUNT:123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: TASK_ADDED,SYSTEM_TUT_07_IMPROVEMENT_SIMPLE; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "IMPROVEMENT_TUT_TASK_SUCCESS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: TASK_COMPLETE,SYSTEM_TUT_07_IMPROVEMENT_SIMPLE,TRUE;"
+    },
+    {
+      "id": "IMPROVEMENT_LEVEL_ANIMATION",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "IMPROVEMENT_TUT_EVENT_2",
+          "type": 20,
+          "parameters": "ID: TUT_07_IMPROVEMENT_SUCCESS;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: IMPROVEMENT_LEVEL_ANIMATION,1; PARAMS: MODE_COMPLETE#IMPROVEMENT_TUT_TASK_SUCCESS, ONLY_ON_MAP;"
+    },
+    {
+      "id": "WAIT_FOR_ETHNIC_COMPOSITION",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ETHNIC_QUEST_CHARACTER_CHECK",
+          "type": 53,
+          "parameters": "ID: PICK_CHAR_FOR_ETHNIC_QUEST_1;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: SPECIAL_DAYLY_CHECK, BLACK#TRUE; DELAY_BY_DAYS:15;"
+    },
+    {
+      "id": "PICK_CHAR_FOR_ETHNIC_QUEST_1",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PICK_CHAR_FOR_ETHNIC_QUEST_2",
+          "type": 34,
+          "parameters": "PARAMS:EVENT_ID#SYSTEM_ETHNIC_COMPOSITION_SIMPLE$SYSTEM_ETHNIC_COMPOSITION_SUCCESS_SIMPLE&LABEL#RACIST&GENDER#Male&TRY_START_NEXT#START_ETHNIC_COMPOSITION_EVENT",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "START_ETHNIC_COMPOSITION_EVENT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ETHNIC_COMPOSITION_EVENT",
+          "type": 20,
+          "parameters": "ID: ETHNIC_COMPOSITION; START_CONDITION:TYPE#AnyBlack;",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "ETHNIC_COMPOSITION_TASK_SUCCESS",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "WAIT_FOR_SECONDS",
+          "type": 53,
+          "parameters": "ID: ETHNIC_COMPOSITION_EVENT_2_DELAYED; DELAY: 3;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: TASK_COMPLETE,SYSTEM_ETHNIC_COMPOSITION_SIMPLE,TRUE;"
+    },
+    {
+      "id": "ETHNIC_COMPOSITION_EVENT_2_DELAYED",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ETHNIC_COMPOSITION_EVENT_2",
+          "type": 20,
+          "parameters": "ID: ETHNIC_COMPOSITION_SUCCESS;",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "LUXTA_DEAL",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "LUXTA_DEAL_CHARACTER_CHECK",
+          "type": 53,
+          "parameters": "ID: PICK_CHAR_FOR_LUXTA_DEAL_1;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,11-19-1929"
+    },
+    {
+      "id": "PICK_CHAR_FOR_LUXTA_DEAL_1",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PICK_CHAR_FOR_LUXTA_DEAL_2",
+          "type": 34,
+          "parameters": "PARAMS:EVENT_ID#SYSTEM_LUXTA_DEAL_SIMPLE&GENDER#Male&PROFESSION#CptLawyer|LieutInfrastructure&TRY_START_NEXT#START_LUXTA_DEAL_EVENT",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "START_LUXTA_DEAL_EVENT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "LUXTA_DEAL_EVENT",
+          "type": 20,
+          "parameters": "ID: LUXTA_DEAL;",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "LUXTA_DEAL_TASK_FAIL",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "LUXTA_DEAL_TRIAL",
+          "type": 54,
+          "parameters": "ID: LUXTA_DEAL_TRIAL;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: TASK_COMPLETE,SYSTEM_LUXTA_DEAL_SIMPLE,FALSE;"
+    },
+    {
+      "id": "WAIT_FOR_ESCORTLIEUT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "SHOW_ESCORT",
+          "type": 6,
+          "parameters": "VIEW: EscortDomenionView; PARAMS: WITH_ANIMATION;",
+          "functionality": {}
+        },
+        {
+          "id": "ABOUT_SERVICES_1",
+          "type": 26,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -249,-297; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_SERVICES_A; DELAY: 1; PIVOT: BOTTOM; PREFAB: 40_stepPrefab; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "ABOUT_SERVICES_2",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -250,-250; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_SERVICES_B; PIVOT: BOTTOM; PREFAB: 41_stepPrefab; AMOUNT: 123;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: HAS_HIRED_CHARACTERS,LieutEscort; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "ABOUT_STATUS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "ABOUT_STATUS_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -9,-170; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_STATUSES; PIVOT: TOP; PREFAB: 44_stepPrefab; AMOUNT: 123; DELAY: 1;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: SPECIAL_DAYLY_CHECK, DAY#3&PROFESSION#CptPR&BUILDING#CASTING; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "ABOUT_SECRETS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "SECRETS1",
+          "type": 26,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: 641.4,-423.4; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_SECRET_A; PREFAB: 36_stepPrefab; PIVOT:BOTTOM; AMOUNT:123; DELAY: 4;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "ENABLE_SECRETS",
+          "type": 24,
+          "parameters": "TARGET: Secrets",
+          "functionality": {}
+        },
+        {
+          "id": "SECRETS2",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -521.1,-43.8; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_SECRET_B; PREFAB: 37_stepPrefab; PIVOT:BOTTOM; AMOUNT:123;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,NewThingSmallPopupView,ON_NEW_SECRET"
+    },
+    {
+      "id": "ABOUT_SCECRETS_BUTTON",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "SECRETS3",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: 664.6,424.2; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_SECRET_C; ICON:SECRETS; PREFAB: 38_stepPrefab; PIVOT:TOP; AMOUNT:123;DELAY:1.4",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MODE,ABOUT_SECRETS; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "ABOUT_CASH",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "ENABLE_LIEUT",
+          "type": 24,
+          "parameters": "TARGET: Cash",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_PREPROD_CAST",
+          "type": 5,
+          "parameters": "START_ON: VIEW_HIDDEN,EventView",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: TopBarView; TARGET: INFLUENCE; MESSAGE_POSITION: 0,377.5; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_CASH; OUTLINE: TRUE; PIVOT:TOP; AMOUNT:123; PREFAB: 19_stepPrefabCash; DELAY: 1;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,EventView,TUT_01_TREE_PROBLEM"
+    },
+    {
+      "id": "ABOUT_IP",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "WAIT_FOR_PREPROD_CAST",
+          "type": 5,
+          "parameters": "START_ON: VIEW_HIDDEN,EventView",
+          "functionality": {}
+        },
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "ENABLE_LIEUT",
+          "type": 24,
+          "parameters": "TARGET: Influence",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: TopBarView; TARGET: INFLUENCE; MESSAGE_POSITION: 0,377.5; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_IP; OUTLINE: TRUE; PIVOT:TOP; AMOUNT:123; PREFAB: 19_stepPrefabInfluence; DELAY: 1;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,EventView,TUT_04_RELEASE_PROBLEM"
+    },
+    {
+      "id": "ABOUT_TIMESPEED",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "ABOUT_TIMESPEED",
+          "type": 4,
+          "parameters": "TYPE: INFO; TEXT: TUTORIAL_SPEEDBUTTONS_1; MESSAGE_WIDTH: 391; MESSAGE_POSITION: -369,192; PREFAB: 18_stepPrefab; PIVOT: CENTER; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: BUILDING_PLACED,ANY; PARAMS: ONLY_ON_MAP; DELAY: 7;"
+    },
+    {
+      "id": "SCRIPT_TREE_PROBLEM",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "TREE_PROBLEM_EVENT",
+          "type": 20,
+          "parameters": "ID: TUT_01_TREE_PROBLEM;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: BUILDING,PROGRESS,SCRIPT_DOMINION,0.8"
+    },
+    {
+      "id": "CHOOSE_TAGS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ENABLE_TIME",
+          "type": 24,
+          "parameters": "TARGET: PerksEnabled;",
+          "functionality": {}
+        },
+        {
+          "id": "CHOOSE_TAGS_STEP",
+          "type": 9,
+          "parameters": "TYPE: TAGS_SELECTION; TITLE: TUTORIAL_TAG_SELECTION_TITLE; TEXT: TUTORIAL_TAG_SELECTION_TEXT; PARAMS: DRAMA,COMEDY,ACTION,ROMANCE,DETECTIVE,ADVENTURE,THRILLER,HISTORICAL",
+          "functionality": {}
+        },
+        {
+          "id": "NAMING_SCRIPTWRITERS",
+          "type": 9,
+          "parameters": "TYPE: CHARACTERS_NAMING; TITLE: TUTORIAL_THIS_IS_SCRIPT_DOMINION_TITLE; TEXT: TUTORIAL_THIS_IS_SCRIPT_DOMINION; PARAMS: Scriptwriter,Scriptwriter,Scriptwriter",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_TUTORIAL_VIEW",
+          "type": 7,
+          "parameters": "VIEW: TutorialView; PARAMS: WITH_ANIMATION;",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "GENERATE_IDEAS",
+          "type": 17,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "SHOW_SCRIPT",
+          "type": 0,
+          "parameters": "PARAMS: BUILDING,SCRIPT_DOMINION; ZOOM: 1; DELAY: 0.5; DURATION: SLOW; END_IF_WHITHOUT_LIMB:TRUE;",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "CLICK_ON_SCRIPT",
+          "type": 4,
+          "parameters": "TYPE: FORCE; TEXT: TUTORIAL_START_NEW_PROJECT; TARGET: BUILDING; MESSAGE_POSITION: 608,224; MESSAGE_WIDTH: 391; PARAMS: BUILDING,SCRIPT_DOMINION; UI_OVERLAY: TRUE; AMOUNT: 123; VIEW: TutorialPopup; DESCRIPTION: TUTORIAL_START_NEW_PROJECT_DESCRIPTION; PIVOT: BOTTOM; PREFAB: 05_stepPrefab; START_ON: VIEW_SHOWN,All;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: FORCE; VIEW: ScriptDomenionView; TARGET: IDEAS_BUTTON; MESSAGE_POSITION: 236.9,-15.7; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_START_WRITE_SCRIPT; DELAY: 2.5; PIVOT:BOTTOM; AMOUNT:123; PREFAB: 22_stepPrefab; START_ON: VIEW_SHOWN,All;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "TASK_DONE",
+          "type": 4,
+          "parameters": "TYPE: FORCE; TEXT: TUTORIAL_SELECT_IDEA; OUTLINE: TRUE; MESSAGE_WIDTH: 391; VIEW: IdeasAndScriptsView; TARGET: IDEAS; MESSAGE_POSITION: 200.4,-246.7; DELAY: 2; DESCRIPTION: TUTORIAL_SELECT_IDEA_DESCRIPTION; PIVOT: CENTER; PREFAB: 23_stepPrefab; START_ON: VIEW_SHOWN,All; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "WAIT_IDEAS_CLOSED",
+          "type": 5,
+          "parameters": "START_ON: VIEW_HIDDEN,IdeasAndScriptsView; DELAY: 0.1;",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_WRITERS_CLOSED",
+          "type": 5,
+          "parameters": "START_ON: VIEW_HIDDEN,MovieScriptReviewAndScriptwriterSelectionView; DELAY: 0.1;",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_IDEAS_CLOSED",
+          "type": 5,
+          "parameters": "START_ON: VIEW_HIDDEN,IdeasAndScriptsView; DELAY: 0.1;",
+          "functionality": {}
+        },
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: FORCE; VIEW: ScriptDomenionView; TARGET: PERKS_BUTTON; MESSAGE_POSITION: 407.7,54; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_PERKS; DELAY: 1; DESCRIPTION: TUTORIAL_ABOUT_PERKS_DESCRIPTION; PIVOT: TOP; PREFAB: 24_stepPrefab; START_ON: VIEW_SHOWN,All; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: FORCE; VIEW: PerksView; TARGET: BLDG_CONSTRUCTOR; MESSAGE_POSITION: 23.4,-119.3; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_CONSTRUCTOR_PERK; DELAY: 4; DESCRIPTION: TUTORIAL_ABOUT_CONSTRUCTOR_PERK_DESCRIPTION; PIVOT: BOTTOM; PREFAB: 25_stepPrefab; START_ON: VIEW_CUSTOM_EVENT,PerksView,ON_PERK_SELECTED; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: FORCE; VIEW: PerksView; TARGET: OK; MESSAGE_POSITION: 0,-110; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_CONSTRUCTOR_PERK_ALLOW; DELAY: 1.5; DESCRIPTION: TUTORIAL_ABOUT_CONSTRUCTOR_PERK_ALLOW_DESCRIPTION; PIVOT: BOTTOM; PREFAB: 26_stepPrefab; START_ON: ON_PERK_STARTED; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "ENABLE_TIME",
+          "type": 24,
+          "parameters": "TARGET: Upgrades;",
+          "functionality": {}
+        },
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 5,
+          "parameters": "START_ON: VIEW_HIDDEN,PerksView",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_BUILDING",
+          "type": 24,
+          "parameters": "TARGET: Building; DELAY:1;",
+          "functionality": {}
+        },
+        {
+          "id": "BUILD_PREPROD",
+          "type": 12,
+          "parameters": "TEXT: TASK_BUILD_PREPROD; START_ON: BUILDING_PLACED,PREPRODUCTION_DOMINION;",
+          "functionality": {}
+        },
+        {
+          "id": "BUILD_PROD",
+          "type": 12,
+          "parameters": "TEXT: TASK_BUILD_PROD; START_ON: BUILDING_PLACED,PRODUCTION_DOMINION; DELAY:1;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: HAS_HIRED_CHARACTERS,LieutScript; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "RELEASE_IYF",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: StageResultsView; TARGET: CINEMASCORE; MESSAGE_POSITION: 266.8,1.6; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_ABOUT_IYF_RELEASE_1; OUTLINE: TRUE; PIVOT:TOP; PREFAB: 20_stepPrefab; AMOUNT: 123",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,StageResultsView,KINOMARK_SHOWN"
+    },
+    {
+      "id": "RELEASE_RESULTS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: ReleaseResultsView; TARGET: RESULTS; OUTLINE: TRUE; MESSAGE_POSITION: 350,-398.1; MESSAGE_WIDTH: 500; TEXT: TUTORIAL_ABOUT_IYF_RELEASE_3; PREFAB: 21_stepPrefab; PIVOT:BOTTOM; AMOUNT:123; DELAY: 1.5;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,ReleaseResultsView,RESULTS"
+    },
+    {
+      "id": "MAX_SPEED_UNLOCK",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "WAIT_FOR_POSTPROD_CLOSED",
+          "type": 5,
+          "parameters": "START_ON: VIEW_ANIMATION_HIDDEN,PreproductionEditorView;",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_MAX_SPEED",
+          "type": 24,
+          "parameters": "TARGET: FullTimeControls;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT, PreproductionEditorView,PREPROD_STARTED;"
+    },
+    {
+      "id": "ABOUT_PREPROD",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 5,
+          "parameters": "START_ON: VIEW_ANIMATION_SHOWN,PreproductionEditorView;",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 26,
+          "parameters": "TYPE: INFO; VIEW: PreproductionEditorView; TARGET: LOCATIONS_TYPE; MESSAGE_POSITION: -128.1,-92.8; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_LOCATIONS_MAIN_SECONDARY; DELAY: 3; PREFAB: 27a_stepPrefab; PIVOT:BOTTOM; AMOUNT:123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 26,
+          "parameters": "TYPE: INFO; VIEW: PreproductionEditorView; TARGET: LOCATIONS_TYPE; MESSAGE_POSITION: 66.4,-92.8; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_INTNAT; PREFAB: 27_stepPrefab; PIVOT:BOTTOM; AMOUNT:123;",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 26,
+          "parameters": "TYPE: INFO; VIEW: PreproductionEditorView; TARGET: LOCATIONS_QUALITY; MESSAGE_POSITION: 208.6,-75.2; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_QUALITY; PREFAB: 28_stepPrefab; PIVOT:BOTTOM; AMOUNT:123;",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: PreproductionEditorView; TARGET: LOCATIONS_QUALITY; MESSAGE_POSITION: 506.1,-58.9; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_PAVILION; PREFAB: 34_stepPrefab; PIVOT:BOTTOM; AMOUNT:123;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,PreproductionEditorView,LOCATIONS_OPENED;"
+    },
+    {
+      "id": "ABOUT_PREPROD_CANCELATION",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 5,
+          "parameters": "START_ON: VIEW_ANIMATION_SHOWN,PreproductionEditorView;",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: PreproductionEditorView; TARGET: LOCATIONS_TYPE; MESSAGE_POSITION: 122,174; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_CANCEL_PROJECT; DELAY: 0.6; PREFAB: 45_stepPrefab; PIVOT:TOP; AMOUNT:123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,PreproductionEditorView,LOCATIONS_OPENED; PARAMS: MODE_COMPLETE#ABOUT_PREPROD;"
+    },
+    {
+      "id": "ABOUT_PREPROD_HIRE",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "WAIT_FOR_POSTPROD_EDIT",
+          "type": 5,
+          "parameters": "START_ON: VIEW_ANIMATION_SHOWN,PreproductionEditorView;",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 26,
+          "parameters": "TYPE: INFO; VIEW: PreproductionEditorView; TARGET: LOCATIONS_TYPE; MESSAGE_POSITION: 0,0; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_HIRE; DELAY: 0.6; PREFAB: 46_stepPrefab; PIVOT:CENTER; AMOUNT:123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 26,
+          "parameters": "TYPE: INFO; VIEW: PreproductionEditorView; TARGET: LOCATIONS_TYPE; MESSAGE_POSITION: 0,0; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_CASTING; PREFAB: 47_stepPrefab; PIVOT:CENTER; AMOUNT:123;",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: PreproductionEditorView; TARGET: LOCATIONS_TYPE; MESSAGE_POSITION: 0,0; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_PRODUCERS; PREFAB: 48_stepPrefab; PIVOT:CENTER; AMOUNT:123;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,PreproductionEditorView,NOT_ENOUGH_TALENT; PARAMS: MODE_COMPLETE#ABOUT_PREPROD;"
+    },
+    {
+      "id": "ABOUT_LOCATIONS_TERM",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: PreproductionEditorView; TARGET: LOCATIONS_TYPE; MESSAGE_POSITION: 352.9,7.7; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_LOCATIONS_TERM; DELAY: 1; PREFAB: 27c_stepPrefab; PIVOT:CENTER; AMOUNT:123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,PreproductionEditorView,LOCATIONS_FILLED;"
+    },
+    {
+      "id": "ABOUT_PREPROD_STAMP",
+      "behaviour": "TUTORIAL, SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: PreproductionEditorView; TARGET: LOCATIONS_TYPE; MESSAGE_POSITION: 217.6,37.1; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_PREPROD_STAMP; DELAY: 1; PREFAB: 27d_stepPrefab; PIVOT:BOTTOM; AMOUNT:123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,PreproductionEditorView,PREPROD_READY"
+    },
+    {
+      "id": "ABOUT_PRODPROGRESS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: ProductionEditorView; OUTLINE: TRUE; MESSAGE_POSITION: 253.73,302.37; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_PRODPROGRESS; PREFAB: 29_stepPrefab; PIVOT:CENTER; AMOUNT:123; DELAY: 1.5;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: VIEW_SHOWN,ProductionEditorView;"
+    },
+    {
+      "id": "ABOUT_FRIENDS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "GWP",
+          "type": 26,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: 125.96,96.56; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_FRIENDS_GWP; PREFAB: 30_stepPrefab; PIVOT:BOTTOM; AMOUNT:123; DELAY: 4.5;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "SERVICES",
+          "type": 26,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -332.4,-114.1; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_FRIENDS_SERVICE; PREFAB: 31_stepPrefab; PIVOT:BOTTOM; AMOUNT:123;",
+          "functionality": {}
+        },
+        {
+          "id": "CONTRACTS",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -407.1,-52.79; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_FRIENDS_CONTRACTS; PREFAB: 32_stepPrefab; PIVOT:BOTTOM; AMOUNT:123;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_SHOWN,TitansView;"
+    },
+    {
+      "id": "ABOUT_BEAUTIFICATION",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "BEAUTIFICATION",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -623.4,439.685; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_IMPROVEMENT; PREFAB: 33_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 2;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,InfrastructureDomenionView,BEAUTIFICATION_SELECTION_OPENED"
+    },
+    {
+      "id": "SCRIPT_RESULT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO_SCRIPT; VIEW: StageResultsView; TARGET: SCORE_DIFF; OUTLINE: TRUE; MESSAGE_POSITION: 664.6,-273.17; MESSAGE_WIDTH: 440; TEXT: CUSTOM_SCRIPT; DELAY:1.2; PIVOT: BOTTOM; PREFAB: 39_stepPrefab; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 20,
+          "parameters": "ID: char_22_MALCOLM; DELAY_BY_DAYS: 10;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,StageResultsView,SCRIPT_IYF_SLIDE"
+    },
+    {
+      "id": "ABOUT_PRODEVENTS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "HIDE_BUILDINGS_VIEW",
+          "type": 7,
+          "parameters": "VIEW: AllButBackground",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_BUILDINGS_VIEW",
+          "type": 39,
+          "parameters": "PARAMS: TRUE",
+          "functionality": {}
+        },
+        {
+          "id": "PRODUCTION_EVENT",
+          "type": 20,
+          "parameters": "ID: 57_MISSING_CAT#F#114_NOISY_DOG#M; ADD_CONTEXT: Movie; PARAMS:STAGE#Production&PROGRESS#0.48; TYPE:Production",
+          "functionality": {}
+        },
+        {
+          "id": "OPEN_MOVIE",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: TutorialPopup; OUTLINE: TRUE; MESSAGE_POSITION: 281.49,4.13; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_FIRSTEVENT; PREFAB: 35_stepPrefab; PIVOT:CENTER; AMOUNT:123; DELAY: 1.5; START_ON: VIEW_SHOWN,All;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "WAIT_FOR_FRAMES",
+          "type": 5,
+          "parameters": "START_ON: SECONDS,2;",
+          "functionality": {}
+        },
+        {
+          "id": "HIDE_BUILDINGS_VIEW",
+          "type": 39,
+          "parameters": "PARAMS: FALSE",
+          "functionality": {
+            "UnfreezeQueue": true
+          }
+        },
+        {
+          "id": "ENABLE_EVENTS",
+          "type": 24,
+          "parameters": "TARGET: ProductionEvents;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MOVIE,Production,INPROGRESS,PROGRESS#0.48;"
+    },
+    {
+      "id": "CHARACTER_EVENT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "FIRST_CHARACTER_EVENT_EVENT",
+          "type": 20,
+          "parameters": "ID: char_10_STUBBORN_GABLER; CONTEXT: ADD_CONTEXT: CharacterDefinitions",
+          "functionality": {}
+        },
+        {
+          "id": "START_CHARACTER_EVENTS",
+          "type": 37,
+          "parameters": "",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,07-15-1929"
+    },
+    {
+      "id": "TAGS_AMOUNT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "TAGS_AMOUNT_MESSAGE",
+          "type": 48,
+          "parameters": "TYPE: INFO; TEXT: TUTORIAL_MARKS_MESSAGE; CHAR_WITH_PROFESSION: LieutScript, Captains, Lieutenants; BUTTON:CONTINUE;FOR_QUEST:TAGS_AMOUNT;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON:VIEW_CUSTOM_EVENT,MovieScriptEditorView,TAGS_AMOUNT;"
+    },
+    {
+      "id": "FRESHNESS_TYPES",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "FRESHNESS_TYPES_POPUP",
+          "type": 4,
+          "parameters": "TYPE: STATIC; VIEW: TutorialPopup; MESSAGE_POSITION: 281.49,4.13; MESSAGE_WIDTH: 391; PREFAB: 73_stepPrefab; PIVOT:CENTER; AMOUNT:123; DELAY: 1.5;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,MovieScriptEditorView,TAGS_TYPES;"
+    },
+    {
+      "id": "FRESHNESS_PANEL",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "FRESHNESS_PANEL_POPUP",
+          "type": 4,
+          "parameters": "TYPE: STATIC; VIEW: TutorialPopup; MESSAGE_POSITION: 281.49,4.13; MESSAGE_WIDTH: 391; PREFAB: 74_stepPrefab; PIVOT:CENTER; AMOUNT:123;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,MovieScriptEditorView,FRESHNESS_PANEL;"
+    },
+    {
+      "id": "FRESHNESS_PANEL_WIDE",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "FRESHNESS_PANEL_WIDE_POPUP",
+          "type": 4,
+          "parameters": "TYPE: STATIC; VIEW: TutorialPopup; MESSAGE_POSITION: 281.49,4.13; MESSAGE_WIDTH: 391; PREFAB: 75_stepPrefab; PIVOT:CENTER; AMOUNT:123;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,MovieScriptEditorView,FRESHNESS_PANEL_WIDE;"
+    },
+    {
+      "id": "FRESHNESS_STAGE_PANEL",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "FRESHNESS_STAGE_PANEL_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: TutorialPopup; OUTLINE: TRUE; MESSAGE_POSITION: 0,110; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_FRESHNESS_CAPTION; PREFAB: 76_stepPrefab; PIVOT:CENTER; AMOUNT:123; DELAY: 0.5;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,StageResultsView,FRESHNESS_STAGE_PANEL;"
+    },
+    {
+      "id": "MAYOR_DAUGHTER",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TITAN_QUEST_FIRST_REQUEST",
+          "type": 27,
+          "parameters": "ID: MAYOR_DAUGHTER;",
+          "functionality": {}
+        },
+        {
+          "id": "ELECTIONS_STARTED",
+          "type": 43,
+          "parameters": "START_CONDITION:TRUE;YEAR:1933;ELECTION:CANDIDATE#MAYOR_CARPENTER&OPPONENT#PROSECUTOR_STRIPES&RATING#40-20-40",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,10-13-1929"
+    },
+    {
+      "id": "MAYOR_TAXES",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: MAYOR_TAXES;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,12-15-1931"
+    },
+    {
+      "id": "MAYOR_ELECTION_DONATIONS",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: MAYOR_ELECTION_DONATIONS;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,05-09-1932"
+    },
+    {
+      "id": "POLICE_FILM",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TITAN_QUEST_FIRST_REQUEST",
+          "type": 27,
+          "parameters": "ID: POLICE_FILM;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,04-01-1930"
+    },
+    {
+      "id": "POLICE_TIME_WITH_ACTOR",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: POLICE_TIME_WITH_ACTOR;NEED_TO_CHECK:TRUE;START_CONDITION:TYPE#GetMovieForPolice&PROFESSION#Actor&ROLE#Protagonist&GENDER#Male&STATUS#Available;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,05-18-1932"
+    },
+    {
+      "id": "POLICE_COMPOSER",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: POLICE_COMPOSER;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,06-13-1933"
+    },
+    {
+      "id": "BOOTLEGGER_FILM",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TITAN_QUEST_FIRST_REQUEST",
+          "type": 27,
+          "parameters": "ID: BOOTLEGGER_FILM;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,11-27-1930"
+    },
+    {
+      "id": "BOOTLEGGER_STAR_PROMOTION",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: BOOTLEGGER_STAR_PROMOTION;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,12-02-1932"
+    },
+    {
+      "id": "BOOTLEGGER_NEPHEW",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: BOOTLEGGER_NEPHEW;NEED_TO_CHECK:TRUE;START_CONDITION:TYPE#GetProducerForDoyle;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,07-04-1934"
+    },
+    {
+      "id": "BOOTLEGGER_NEW_PROFESSION",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: BOOTLEGGER_NEW_PROFESSION;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,12-10-1933"
+    },
+    {
+      "id": "PROSECUTOR_FILM",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TITAN_QUEST_FIRST_REQUEST",
+          "type": 27,
+          "parameters": "ID: PROSECUTOR_FILM;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,02-10-1931"
+    },
+    {
+      "id": "REICH_FILM",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TITAN_QUEST_FIRST_REQUEST",
+          "type": 27,
+          "parameters": "ID: REICH_FILM;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,03-03-1934"
+    },
+    {
+      "id": "TITAN_SWITCH_REICH",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TITAN_SWITCH_REICH",
+          "type": 45,
+          "parameters": "ID: REICH_ZIBBELE; TARGET: REICH_STELM;",
+          "functionality": {}
+        },
+        {
+          "id": "REICH_COPIES",
+          "type": 27,
+          "parameters": "ID: REICH_COPIES;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,05-10-9999"
+    },
+    {
+      "id": "REICH_WITH_LOVE",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: REICH_WITH_LOVE;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,05-10-9999"
+    },
+    {
+      "id": "REICH_PROPAGANDA",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: REICH_PROPAGANDA;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,06-10-1936"
+    },
+    {
+      "id": "REICH_JEWS",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: REICH_JEWS;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,05-10-9999"
+    },
+    {
+      "id": "ITALIAN_BIOPIC",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TITAN_QUEST_FIRST_REQUEST",
+          "type": 27,
+          "parameters": "ID: ITALIAN_BIOPIC;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,12-07-1931"
+    },
+    {
+      "id": "TITAN_SWITCH_ITALIAN",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TITAN_SWITCH_ITALIAN",
+          "type": 45,
+          "parameters": "ID: ITALIAN_ALBERTO; TARGET: ITALIAN_ARMANDO;",
+          "functionality": {}
+        },
+        {
+          "id": "ITALIAN_YOUNG_DIRECTOR",
+          "type": 27,
+          "parameters": "ID: ITALIAN_YOUNG_DIRECTOR;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,11-12-1935"
+    },
+    {
+      "id": "ITALIAN_ESMERALDA",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: ITALIAN_ESMERALDA;NEED_TO_CHECK:TRUE;START_CONDITION:TYPE#GetActorForItalian;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,02-05-1938"
+    },
+    {
+      "id": "KKK_FILM",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TITAN_QUEST_FIRST_REQUEST",
+          "type": 27,
+          "parameters": "ID: KKK_FILM;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,11-27-1936"
+    },
+    {
+      "id": "KKK_FIRE_THEM",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: KKK_FIRE_THEM;NEED_TO_CHECK:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,01-25-1939"
+    },
+    {
+      "id": "KKK_PUNISHMENT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 27,
+          "parameters": "ID: KKK_PUNISHMENT;NEED_TO_CHECK:TRUE;START_CONDITION:TYPE#GetActorForKKK;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,07-05-1939"
+    },
+    {
+      "id": "ELECTIONS_ENDED",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ELECTIONS_ENDED",
+          "type": 43,
+          "parameters": "START_CONDITION:FALSE;YEAR:1933;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,09-08-1933"
+    },
+    {
+      "id": "TITAN_SWITCH_ELECTION",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TITAN_SWITCH_ELECTION",
+          "type": 45,
+          "parameters": "START_CONDITION:ELECTION_WINNER#PROSECUTOR_STRIPES; ID: PROSECUTOR_STRIPES; TARGET: MAYOR_STRIPES;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GLOBAL_EVENT,NEWS_ELECTIONS_007_STRIPES_WIN"
+    },
+    {
+      "id": "ELECTIONS_RESULT_1",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ELECTIONS_RESULT",
+          "type": 44,
+          "parameters": "ID: PROSECUTOR_STRIPES;TARGET: MAYOR_CARPENTER&OUT_OF_INFLUENCE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GLOBAL_EVENT,NEWS_ELECTIONS_007_STRIPES_WIN"
+    },
+    {
+      "id": "ELECTIONS_RESULT_2",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ELECTIONS_RESULT",
+          "type": 44,
+          "parameters": "ID: PROSECUTOR_STRIPES;TARGET: IRELAND_DOYLE&ARREST;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GLOBAL_EVENT,NEWS_ELECTIONS_010_STRIPES_FIRST_RAID"
+    },
+    {
+      "id": "ELECTIONS_RESULT_3",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ELECTIONS_RESULT",
+          "type": 44,
+          "parameters": "ID: MAYOR_CARPENTER; TARGET: PROSECUTOR_STRIPES&OUT_OF_INFLUENCE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GLOBAL_EVENT,NEWS_ELECTIONS_008_STRIPES_QUIT"
+    },
+    {
+      "id": "ELECTIONS_RESULT_4",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ELECTIONS_RESULT",
+          "type": 44,
+          "parameters": "ID: PROSECUTOR_STRIPES;TARGET: ITALIAN_ALBERTO&ARREST;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GLOBAL_EVENT,NEWS_ELECTIONS_011_STRIPES_ARRESTED_ITALIANS"
+    },
+    {
+      "id": "ELECTIONS_RESULT_5",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ELECTIONS_RESULT",
+          "type": 44,
+          "parameters": "ID: PROSECUTOR_STRIPES;TARGET: POLICE_WALLIS&ARREST;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GLOBAL_EVENT,NEWS_ELECTIONS_021_STRIPES_ARRESTED_LAMBERT_2"
+    },
+    {
+      "id": "TITAN_BLOCK_MAYOR_CARPENTER",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ELECTIONS_RESULT",
+          "type": 42,
+          "parameters": "ID: MAYOR_CARPENTER&OUT_OF_INFLUENCE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GLOBAL_EVENT,NEWS_ELECTIONS_017_LILLAND_CARPENTER"
+    },
+    {
+      "id": "TITAN_BLOCK_PROSECUTOR_STRIPES",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ELECTIONS_RESULT",
+          "type": 42,
+          "parameters": "ID: MAYOR_STRIPES&OUT_OF_INFLUENCE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GLOBAL_EVENT,NEWS_ELECTIONS_016_LILLAND_STRIPES"
+    },
+    {
+      "id": "THE_WAR",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 42,
+          "parameters": "ID: REICH_STELM&WAR;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GLOBAL_EVENT,news_015_WAR_BEGINNING"
+    },
+    {
+      "id": "REICH_DEBT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "REICH_DEBT_MESSAGE",
+          "type": 47,
+          "parameters": "START_CONDITION:TYPE#GetGermanMoney#REICH_DEBT; TYPE: TWOCHOICE; TEXT: REICH_DEBT_MESSAGE; ACCEPT_GOTO: REICH_DEBT_ACCEPT&DELAY#14; REJECT_GOTO: REICH_DEBT_REJECT; CHAR_WITH_PROFESSION: CptPR, CptLaw, Captains, Lieutenants; ON_NO_CHAR: RETRY_MODE,REICH_DEBT; SHOW_IN_QUEUE:TRUE; FOR_QUEST:REICH_DEBT;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,09-03-1939"
+    },
+    {
+      "id": "REICH_DEBT_ACCEPT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "REICH_DEBT_ACCEPT_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: TWOCHOICE; TEXT: REICH_DEBT_SECOND_MESSAGE; ACCEPT_GOTO: REICH_DEBT_SECOND_ACCEPT; REJECT_GOTO: REICH_DEBT_REJECT; CHAR_WITH_PROFESSION: CptPR, CptLaw, Captains, Lieutenants; SHOW_IN_QUEUE:TRUE; FOR_QUEST:REICH_DEBT;",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "REICH_DEBT_SECOND_ACCEPT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "REICH_DEBT_SUCCESS_PUBLICATION",
+          "type": 33,
+          "parameters": "ID: PUB_REICH_DEBT_CLOSED, PARAMS: DELAY#1",
+          "functionality": {}
+        },
+        {
+          "id": "REICH_DEBT_GERNSTEIN_PUBLICATION",
+          "type": 33,
+          "parameters": "ID: PUB_GERSTEIN_CHARITY_FOR_REICH, PARAMS: DELAY#3",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "REICH_DEBT_REJECT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "SECRET_REICH_DEBT",
+          "type": 57,
+          "parameters": "ID: SECRET_REICH_DEBT_NOT_CLOSED; LEVEL:MID",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "CHECK_FOR_SIN_TUTOR_1",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "CHECK_FOR_SIN_TUTOR_1",
+          "type": 30,
+          "parameters": "ID: CHECK_FOR_SIN_TUTOR",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,10-16-1930"
+    },
+    {
+      "id": "CHECK_FOR_SIN_TUTOR_2",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "CHECK_FOR_SIN_TUTOR_2",
+          "type": 30,
+          "parameters": "ID: CHECK_FOR_SIN_TUTOR",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,10-20-1929"
+    },
+    {
+      "id": "EVENT_TRUE_LOVE",
+      "behaviour": "SPECIAL_TUTORIAL",
+      "substeps": [
+        {
+          "id": "TRUE_LOVE_EVENT",
+          "type": 20,
+          "parameters": "ID: char_21_TRUE_LOVE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: BUILDING,PROGRESS,SCRIPT_DOMINION,0.4"
+    },
+    {
+      "id": "EVENT_SERHIO",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "SERHIO_EVENT",
+          "type": 20,
+          "parameters": "ID: 150_SERHIO; ADD_CONTEXT: Movie; PARAMS:ACTOR#ID#14",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MOVIE,Production,INPROGRESS,ACTOR#ID#14&DAYS_LEFT#10"
+    },
+    {
+      "id": "CUSTOM_EVENT_LYDIA",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "CUSTOM_EVENT_LYDIA",
+          "type": 30,
+          "parameters": "ID: LYDIA_REST; DELAY_BY_DAYS:7 ; PARAMS: 14,16;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MODE_MANAGER_EVENT,LYDIA_REST"
+    },
+    {
+      "id": "CUSTOM_EVENT_LYDIA_RIP",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "CUSTOM_EVENT_LYDIA_RIP",
+          "type": 30,
+          "parameters": "ID: LYDIA_RIP; DELAY_BY_DAYS:60; PARAMS: 16;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MODE_MANAGER_EVENT,LYDIA_RIP"
+    },
+    {
+      "id": "CUSTOM_EVENT_LYDIA_CHECK",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "CUSTOM_EVENT_LYDIA_CHECK",
+          "type": 30,
+          "parameters": "ID: LYDIA_CHECK; PARAMS: 16,0.5;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MODE_MANAGER_EVENT,LYDIA_CHECK"
+    },
+    {
+      "id": "CUSTOM_EVENT_LYDIA_RESTED",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "CUSTOM_EVENT_LYDIA_RESTED",
+          "type": 30,
+          "parameters": "ID: LYDIA_RESTED; PARAMS: 16;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MODE_MANAGER_EVENT,LYDIA_RESTED"
+    },
+    {
+      "id": "CUSTOM_EVENT_TREE_PROBLEM",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "CUSTOM_EVENT_TREE_PROBLEM",
+          "type": 30,
+          "parameters": "ID: TREE_PROBLEM; PARAMS: 75;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MODE_MANAGER_EVENT,TREE_PROBLEM"
+    },
+    {
+      "id": "CAPRICE_LUDOMANIAC",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "CAPRICE_LUDOMANIAC",
+          "type": 31,
+          "parameters": "ID: LUDOMANIAC; DURATION: 60; TEXT:CAPRICE_1",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: BUILDING,PROGRESS,PRODUCTION_DOMINION,0.5"
+    },
+    {
+      "id": "CAPRICE_JUNKIE",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "CAPRICE_JUNKIE",
+          "type": 31,
+          "parameters": "ID: JUNKIE; DURATION: 90; TEXT:CAPRICE_2",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,06-25-1930"
+    },
+    {
+      "id": "CUSTOM_EVENT_MALCOLM",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "CUSTOM_EVENT_MALCOLM",
+          "type": 30,
+          "parameters": "ID: MALCOLM; PARAMS: MALCOLM_SCRIPT,39,0.6,0,0,DRAMA#0.6#ROMANCE#0.3#THRILLER#0.1,MODERN_AMERICAN_CITY,PROTAGONIST_HOPELESS_ROMANTIC#F#SUPPORTINGCHARACTER_LOVE_INTEREST#M#SUPPORTINGCHARACTER_RIVAL#F,THEME_LOVE_TRIANGLE#FINALE_STARCROSSED_LOVERS",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MODE_MANAGER_EVENT,MALCOLM"
+    },
+    {
+      "id": "STAFF_RAISE",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "STAFF_RAISE",
+          "type": 32,
+          "parameters": "MULTIPLIER: 1.5; CHARACTER_IDS: 35, 36, 37;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,03-17-1930"
+    },
+    {
+      "id": "STAFF_RAISE_ULTIMATUM",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "STAFF_RAISE_ULTIMATUM",
+          "type": 32,
+          "parameters": "MULTIPLIER: 2; CHARACTER_IDS: 35, 36, 37; ULTIMATUM:TRUE",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_STAFF_RAISES",
+          "type": 24,
+          "parameters": "ID: MAYOR_CARPENTER; TARGET: PROSECUTOR_STRIPES&OutOfInfluence;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,09-27-1930"
+    },
+    {
+      "id": "STAFF_REQUESTS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ENABLE_STAFF_REQUESTS",
+          "type": 24,
+          "parameters": "TARGET: StaffRequests;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MODE,CAPRICE_JUNKIE,CAPRICE_LUDOMANIAC, CHOOSE_TAGS;"
+    },
+    {
+      "id": "START_SCANDALS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "START_SCANDALS",
+          "type": 24,
+          "parameters": "TARGET: Scandals;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,09-01-1929"
+    },
+    {
+      "id": "news_001_DETROIT_POISONING",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "news_001_DETROIT_POISONING",
+          "type": 38,
+          "parameters": "ID: 49; PARAMS: ACTION#UNLOCK,UPDATE_STATE#Dead",
+          "functionality": {}
+        },
+        {
+          "id": "news_001_DETROIT_POISONING",
+          "type": 38,
+          "parameters": "ID: 50; PARAMS: ACTION#UNLOCK",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,12-14-1929"
+    },
+    {
+      "id": "news_002_PROTEST",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "news_002_PROTEST",
+          "type": 38,
+          "parameters": "ID: 51; PARAMS: ACTION#UNLOCK",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,05-06-1930"
+    },
+    {
+      "id": "news_004_KILLER",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "news_004_KILLER",
+          "type": 38,
+          "parameters": "ID: 52; PARAMS: UPDATE_STATE#Imprisoned#36500",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,09-09-1930"
+    },
+    {
+      "id": "ASSOCIATION_FOUNDING",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ASSOCIATION_FOUNDING",
+          "type": 41,
+          "parameters": "ID: FOUNDING",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,03-17-1932"
+    },
+    {
+      "id": "ASSOCIATION_FOUNDED",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ASSOCIATION_FOUNDED",
+          "type": 41,
+          "parameters": "ID: FOUNDED",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,04-17-1932"
+    },
+    {
+      "id": "SKILL_LIMIT_REACHED",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "SKILL_LIMIT_REACHED_MESSAGE",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -216,-190; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_LEVEL_CAP; PREFAB: 49_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 2; PARAMS: LIMITED_SKILL;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: SKILL_LIMIT;"
+    },
+    {
+      "id": "NEGOTIATION_GIFT_LIMIT_REACHED",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "NEGOTIATION_GIFT_LIMIT_REACHED",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: 497, 131; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_PRESENTS_LIMIT; PREFAB: 50_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 2;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GIFT_LIMIT;"
+    },
+    {
+      "id": "POLITICS_UNLOCK",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "POLITICS_UNLOCK",
+          "type": 4,
+          "parameters": "TYPE: FORCE; VIEW: LogAndButtonsView; TARGET: POLICY_BUTTON; MESSAGE_POSITION: 519, 378; MESSAGE_WIDTH: 391; TEXT: POLITICS_UNLOCK_TUTORIAL; DESCRIPTION: POLITICS_UNLOCK_TUTORIAL_INST; PREFAB: 51_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 1;START_ON: VIEW_SHOWN_OR_REGISTERED_TO_SHOW,PolicyAllView",
+          "functionality": {}
+        },
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": true,
+            "TimeFlow": true
+          }
+        }
+      ],
+      "parameters": "START_ON: POLITICS_UNLOCK;"
+    },
+    {
+      "id": "MUTATOR_OPENED",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "MUTATOR_OPENED_1",
+          "type": 26,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -35, -152; MESSAGE_WIDTH: 391; TEXT: POLITICS_TRASH_MUTATION_TUTORIAL_1; PREFAB: 52_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 1;",
+          "functionality": {}
+        },
+        {
+          "id": "MUTATOR_OPENED_2",
+          "type": 26,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -262, 276; MESSAGE_WIDTH: 391; TEXT: POLITICS_TRASH_MUTATION_TUTORIAL_2; PREFAB: 53_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 0;",
+          "functionality": {}
+        },
+        {
+          "id": "MUTATOR_OPENED_3",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -266, -204; MESSAGE_WIDTH: 391; TEXT: POLITICS_TRASH_MUTATION_TUTORIAL_3; PREFAB: 54_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 0;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MUTATOR_OPENED;"
+    },
+    {
+      "id": "TECH_BUY",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "SHOW_PREPROD_DOMAIN",
+          "type": 6,
+          "parameters": "VIEW: PreproductionDomenionView; PARAMS: WITH_ANIMATION;",
+          "functionality": {}
+        },
+        {
+          "id": "TECH_BUY",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: 201, 58; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_TECH_STORE_BUTTON; PREFAB: 55_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 1;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: BUILDING,SUPPLY; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "TECH_FORMAT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "TECH_FORMAT",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -229, 305; MESSAGE_WIDTH: 391; TEXT: TUTORIAL_TECH_NEW_FORMAT; PREFAB: 56_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 1;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,NewTechnologyAvailablePopupView,NEW_FORMAT"
+    },
+    {
+      "id": "TAG_RESEARCH",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "TAG_RESEARCH_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: ScriptDomenionView; MESSAGE_POSITION: -3, -184; MESSAGE_WIDTH: 432; TEXT: TUTORIAL_TAG_RESEARCH; PREFAB: 57_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 1;TARGET: TAG_RESEARCH_BUTTON",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON:SPECIAL_WAIT_CONDITION, TAG_RESEARCH_CONDITION;"
+    },
+    {
+      "id": "ANTAGONIST_TAG_NEED",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ANTAGONIST_TAG_NEED_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: MovieScriptEditorView; MESSAGE_POSITION: -391, 190; MESSAGE_WIDTH: 432; TEXT: TUTORIAL_NEED_FOR_ANTAGONIST; PREFAB: 60_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 2;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON:VIEW_CUSTOM_EVENT,MovieScriptEditorView,ANTAGONIST_TAG_NEED;"
+    },
+    {
+      "id": "TALENT_DEFENSE",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "TALENT_DEFENSE_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; SAVED_TEXT: TALENT_DEFENSE_NEEDED_TEXT; CHAR_WITH_PROFESSION: LieutSecurity, LieutPrep, Captains, Lieutenants; ADD_CONTEXT:TALENT_DEFENSE_NEEDED_CONTEXT; BUTTON:AGREE;",
+          "functionality": {
+            "AttackByCompetitors": false
+          }
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,DistributionFinishedPopupView,TALENT_DEFENSE_NEEDED; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "TALENT_DEFENSE_ATTACK",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "TALENT_DEFENSE_ATTACK_BY_COMPETITOR",
+          "type": 51,
+          "parameters": "TYPE:BEATING; CULPRIT: GB; CHARACTER: FROM_CONTEXT | TALENT_DEFENSE_NEEDED_CONTEXT | TARGET;",
+          "functionality": {
+            "AttackByCompetitors": false
+          }
+        },
+        {
+          "id": "",
+          "type": 5,
+          "parameters": "START_ON: VIEW_ANIMATION_HIDDEN,CharacterStateChangePopupView, DONT_CHECK_IF_SHOWN;",
+          "functionality": {}
+        },
+        {
+          "id": "ENABLE_ATTACKS",
+          "type": 24,
+          "parameters": "TARGET: AttackByCompetitors;",
+          "functionality": {
+            "AttackByCompetitors": true
+          }
+        },
+        {
+          "id": "CLEAR_CONTEXT",
+          "type": 49,
+          "parameters": "ID: TALENT_DEFENSE_NEEDED_CONTEXT;",
+          "functionality": {}
+        },
+        {
+          "id": "CLEAR_TEXT",
+          "type": 50,
+          "parameters": "ID:TALENT_DEFENSE_NEEDED_TEXT;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: MODE,TALENT_DEFENSE; DELAY_BY_DAYS: 60"
+    },
+    {
+      "id": "REPUTATION_CHAIN",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "REPUTATION_CHAIN_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: TWOCHOICE; TEXT: REPUTATION_CHAIN_BEGINNINGS; ACCEPT_GOTO: REPUTATION_CHAIN_ACCEPT; REJECT_GOTO: REPUTATION_CHAIN_REJECT&DELAY#7; CHAR_WITH_PROFESSION: CptPR, CptLaw, Captains, Lieutenants; ON_NO_CHAR: RETRY_MODE,REPUTATION_CHAIN; SHOW_IN_QUEUE:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON:SPECIAL_DAYLY_CHECK,DAYS_LEFT_AFTER_RELEASE#0$40;"
+    },
+    {
+      "id": "REPUTATION_CHAIN_ACCEPT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "JOURNALIST_TOUR_DEAL",
+          "type": 10,
+          "parameters": "DESCRIPTION:BODY=ID#SYSTEM_JOURNALIST_TOUR_SIMPLE&TERM#7&TYPE#Choosing; SLOTS=PROFESSION#Actor&NEGOTIATIONSTYPE#BEFORE&PRICE#150&DEALSORTING#SKILL_DOWN&GENDER#Female&DEALFILTER#ATTITUDE$0.5&DEALFILTER#AGE$-30&DEALFILTER#ONLY_AVAILABLE$TRUE&LABELSLOTID#SELECT_FEMALE_ACTOR;",
+          "functionality": {}
+        },
+        {
+          "id": "JOURNALIST_TOUR",
+          "type": 11,
+          "parameters": "ID: SYSTEM_JOURNALIST_TOUR_SIMPLE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "JOURNALIST_TOUR_SUCCESS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "WAIT_FOR_SECONDS",
+          "type": 53,
+          "parameters": "ID: JOURNALIST_TOUR_SUCCESS_DELAYED; DELAY: 3;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: TASK_COMPLETE,SYSTEM_JOURNALIST_TOUR_SIMPLE,TRUE;"
+    },
+    {
+      "id": "JOURNALIST_TOUR_SUCCESS_DELAYED",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "JOURNALIST_TOUR_SUCCESS_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: JOURNALIST_TOUR_SUCCESS;CHAR_WITH_PROFESSION:CptPR,CptLaw,Captains,Lieutenants;FOR_QUEST:SYSTEM_JOURNALIST_TOUR;SHOW_IN_QUEUE:TRUE;",
+          "functionality": {}
+        },
+        {
+          "id": "JOURNALIST_TOUR_SUCCESS_PUBLICATION",
+          "type": 33,
+          "parameters": "ID: PUB_JOURNALIST_TOUR_SUCCESS, PARAMS: DELAY#2",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "JOURNALIST_TOUR_SUCCESS_RESULT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "CANCEL_FAIL_MODE",
+          "type": 55,
+          "parameters": "ID: JOURNALIST_TOUR_FAIL",
+          "functionality": {}
+        },
+        {
+          "id": "REPUTATION_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -229, 269; MESSAGE_WIDTH: 432; TEXT: TUTORIAL_REPUTATION; ICON:REPUTATION; PREFAB: 61_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 1; END_IF_WHITHOUT_LIMB:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,PublicationPopupView,PUB_JOURNALIST_TOUR_SUCCESS_CLOSED; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "JOURNALIST_TOUR_FAIL",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "WAIT_FOR_SECONDS",
+          "type": 53,
+          "parameters": "ID: JOURNALIST_TOUR_FAIL_DELAYED; DELAY: 3;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: TASK_COMPLETE,SYSTEM_JOURNALIST_TOUR_SIMPLE,FAIL;"
+    },
+    {
+      "id": "JOURNALIST_TOUR_FAIL_DELAYED",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "JOURNALIST_TOUR_FAIL_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO;TEXT: JOURNALIST_TOUR_FAIL;CHAR_WITH_PROFESSION:CptPR,CptLaw,Captains,Lieutenants;FOR_QUEST:SYSTEM_JOURNALIST_TOUR;BUTTON:AGREE;SHOW_IN_QUEUE:TRUE;",
+          "functionality": {}
+        },
+        {
+          "id": "JOURNALIST_TOUR_FAIL_PUBLICATION",
+          "type": 33,
+          "parameters": "ID: PUB_JOURNALIST_TOUR_FAIL, PARAMS: DELAY#2",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "JOURNALIST_TOUR_FAIL_RESULT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "CANCEL_SUCCESS_MODE",
+          "type": 55,
+          "parameters": "ID: JOURNALIST_TOUR_SUCCESS",
+          "functionality": {}
+        },
+        {
+          "id": "REPUTATION_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -229, 269; MESSAGE_WIDTH: 432; TEXT: TUTORIAL_REPUTATION; ICON:REPUTATION; PREFAB: 61_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 1; END_IF_WHITHOUT_LIMB:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,PublicationPopupView,PUB_JOURNALIST_TOUR_FAIL_CLOSED; PARAMS: ONLY_ON_MAP"
+    },
+    {
+      "id": "REPUTATION_CHAIN_REJECT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "JOURNALIST_TOUR_FAIL_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: JOURNALIST_TOUR_FAIL;CHAR_WITH_PROFESSION:CptPR,CptLaw,Captains,Lieutenants;BUTTON:AGREE;SHOW_IN_QUEUE:TRUE;",
+          "functionality": {}
+        },
+        {
+          "id": "CANCEL_SUCCESS_MODE",
+          "type": 55,
+          "parameters": "ID: JOURNALIST_TOUR_SUCCESS",
+          "functionality": {}
+        },
+        {
+          "id": "CANCEL_FAIL_MODE",
+          "type": 55,
+          "parameters": "ID: JOURNALIST_TOUR_FAIL",
+          "functionality": {}
+        },
+        {
+          "id": "JOURNALIST_TOUR_FAIL_PUBLICATION",
+          "type": 33,
+          "parameters": "ID: PUB_JOURNALIST_TOUR_REJECT, PARAMS: DELAY#2",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "JOURNALIST_TOUR_REJECT_RESULT",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "REPUTATION_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -229, 269; MESSAGE_WIDTH: 432; TEXT: TUTORIAL_REPUTATION; ICON:REPUTATION; PREFAB: 61_stepPrefab; PIVOT:TOP; AMOUNT:123; DELAY: 1; END_IF_WHITHOUT_LIMB:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,PublicationPopupView,PUB_JOURNALIST_TOUR_REJECT_CLOSED; PARAMS: ONLY_ON_MAP"
+    },
+    {
+      "id": "NEGATIVE_REPUTATION_TUTOR",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "REPUTATION_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -229, 269; MESSAGE_WIDTH: 432; TEXT: REP_NEG_TUTORIAL; ICON:REPUTATION; PREFAB: 62_stepPrefab; PIVOT:TOP; AMOUNT:123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "NEGATIVE_BUDGET_TUTOR",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "BUDGET_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: 155, 269; MESSAGE_WIDTH: 432; TEXT: REP_NEG_MONEY_TUTORIAL; ICON:BUDGET; PREFAB: 63_stepPrefab; PIVOT:TOP; AMOUNT:123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "MAX_IMPROVEMENT_TUTOR",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "MAX_IMPROVEMENT_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -426, 38; MESSAGE_WIDTH: 432; TEXT: REP_BONUS_LAND_TUTORIAL; PREFAB: 64_stepPrefab; PIVOT:TOP; AMOUNT:123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "LOW_AVERAGE_ATTITUDE_TUTOR",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "LOW_AVERAGE_ATTITUDE_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -426, 38; MESSAGE_WIDTH: 432; TEXT: REP_NEG_ATTITUDE_TUTORIAL; PREFAB: 65_stepPrefab; PIVOT:TOP; AMOUNT:123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "WAIT_FOR_PERK_CHARITY",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "SHOW_STUDIO",
+          "type": 0,
+          "parameters": "PARAMS: BUILDING,MAIN_BUILDING; ZOOM: 1; DURATION: MEDIUM; DELAY: 0.5; OFFSET: -0.1,0;",
+          "functionality": {}
+        },
+        {
+          "id": "SHOW_MAINBUILDING",
+          "type": 6,
+          "parameters": "VIEW: MainBuildingView; PARAMS: WITH_ANIMATION;",
+          "functionality": {}
+        },
+        {
+          "id": "SHOW_MAINBUILDING_TUTOR",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: 190,92; MESSAGE_WIDTH: 391; TEXT: PALACE_CHARITY_TUTORIAL; DELAY: 1; PIVOT: TOP; PREFAB: 66_stepPrefab; START_ON: VIEW_SHOWN,MainBuildingView; AMOUNT: 123;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: ON_PERK,CHARITY_TO_REP; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "RECENTS_AND_OVERALLS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "RECENTS_AND_OVERALLS_MESSAGE",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: -210,-190; MESSAGE_WIDTH: 391; TEXT: OVERALLS_TUTORIAL; PREFAB: 68_stepPrefab; PIVOT:TOP; AMOUNT:123; PARAMS: RECENTS_AND_OVERALLS; DELAY: 1;",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "INCOMPETENT_ACTOR_ADVICE",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "INCOMPETENT_ACTOR_ADVICE_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: TUTORIAL_INCOMPETENT_ACTOR_ADVICE_TEXT; CHAR_WITH_PROFESSION: LieutPrep, Captains, Lieutenants;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,PreproductionEditorView, INCOMPETENT_ACTOR;"
+    },
+    {
+      "id": "ACTOR_AGE_ADVICE",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ACTOR_AGE_ADVICE_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: TUTORIAL_ACTOR_AGE_ADVICE_TEXT; CHAR_WITH_PROFESSION: LieutPrep, Captains, Lieutenants;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,PreproductionEditorView, ACTOR_AGE;"
+    },
+    {
+      "id": "ADS_ADVICE_NO_ADS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ADS_ADVICE_NO_ADS_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: TUTORIAL_ADS_ADVICE_NO_ADS_TEXT; CHAR_WITH_PROFESSION: LieutRelease, Captains, Lieutenants;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,ReleaseEditorView, NO_ADS;"
+    },
+    {
+      "id": "ADS_ADVICE_4W_BEFORE_4W_DURATION",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ADS_ADVICE_4W_BEFORE_4W_DURATION_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: TUTORIAL_ADS_ADVICE_4W_BEFORE_4W_DURATION_TEXT; CHAR_WITH_PROFESSION: LieutRelease, Captains, Lieutenants;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,ReleaseEditorView, ADS_4W_BEFORE_4W_DURATION;"
+    },
+    {
+      "id": "ADS_ADVICE_1_3W_BEFORE_UNDER_6W_DURATION",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ADS_ADVICE_1_3W_BEFORE_UNDER_6W_DURATION_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: TUTORIAL_ADS_ADVICE_1_3W_BEFORE_UNDER_6W_DURATION_TEXT; CHAR_WITH_PROFESSION: LieutRelease, Captains, Lieutenants;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,ReleaseEditorView, ADS_1_3W_BEFORE_UNDER_6W_DURATION;"
+    },
+    {
+      "id": "ADS_ADVICE_1_3W_BEFORE_OVER_6W_DURATION",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ADS_ADVICE_1_3W_BEFORE_OVER_6W_DURATION_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: TUTORIAL_ADS_ADVICE_1_3W_BEFORE_OVER_6W_DURATION_TEXT; CHAR_WITH_PROFESSION: LieutRelease, Captains, Lieutenants;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,ReleaseEditorView, ADS_1_3W_BEFORE_OVER_6W_DURATION;"
+    },
+    {
+      "id": "ADS_ADVICE_AFTER_RELEASE",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ADS_ADVICE_AFTER_RELEASE_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: TUTORIAL_ADS_ADVICE_AFTER_RELEASE_TEXT; CHAR_WITH_PROFESSION: LieutRelease, Captains, Lieutenants;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,ReleaseEditorView, ADS_AFTER_RELEASE;"
+    },
+    {
+      "id": "FILM_ABOUT_SWW",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "FILM_ABOUT_SWW_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: TWOCHOICE; TEXT: FILM_ABOUT_SWW_MESSAGE; CHAR_WITH_PROFESSION: CptPR, CptLaw, Captains, Lieutenants; SHOW_IN_QUEUE:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,12-11-1945"
+    },
+    {
+      "id": "GERSTEIN_FIRST_MEET",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "GERSTEIN_FIRST_MEET_EVENT",
+          "type": 20,
+          "parameters": "ID: GERSTEIN_MEET;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,10-19-1929"
+    },
+    {
+      "id": "GERSTEIN_SECOND_MEET",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "GERSTEIN_SECOND_MEET_EVENT",
+          "type": 20,
+          "parameters": "ID: GERSTEIN_CONTINUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,11-04-1931"
+    },
+    {
+      "id": "TRY_OPEN_CODEX_1",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TRY_OPEN_CODEX_1",
+          "type": 30,
+          "parameters": "ID: TRY_OPEN_CODEX; TARGET: GB;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,06-02-1934"
+    },
+    {
+      "id": "TRY_OPEN_CODEX_2",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "TRY_OPEN_CODEX_2",
+          "type": 30,
+          "parameters": "ID: TRY_OPEN_CODEX; TARGET: GB;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,05-15-1936"
+    },
+    {
+      "id": "ABOUT_BIRD_VIEW",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "ENABLE_BIRD_VIEW",
+          "type": 24,
+          "parameters": "TARGET: BirdView",
+          "functionality": {}
+        },
+        {
+          "id": "BIRD_VIEW_MESSAGE",
+          "type": 4,
+          "parameters": "TYPE: FORCE; MESSAGE_WIDTH: 440; TEXT: TUTORIAL_BIRDVIEW; DESCRIPTION: TUTORIAL_BIRDVIEW_CAPTION; PREFAB: 69_stepPrefab; PIVOT:BOTTOM; AMOUNT:123; DELAY: 1; START_ON: INPUT_SCROLL_DOWN;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        },
+        {
+          "id": "SHOW_BIRD_VIEW",
+          "type": 56,
+          "parameters": "",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON:SPECIAL_DAYLY_CHECK,DAYS_LEFT_AFTER_RELEASE#-1$10;"
+    },
+    {
+      "id": "ABOUT_IMPORTANT_THINGS",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "EMPTY",
+          "type": 25,
+          "parameters": "",
+          "functionality": {
+            "UnblockUI": false
+          }
+        },
+        {
+          "id": "IMPORTANT_THINGS_MESSAGE",
+          "type": 4,
+          "parameters": "TYPE: INFO; MESSAGE_POSITION: 0, 175; MESSAGE_WIDTH: 555; TEXT: TUTORIAL_EMERGENCY_TASK; PREFAB: 70_stepPrefab; PIVOT:TOP; AMOUNT:123; PARAMS: RECENTS_AND_OVERALLS; DELAY: 1;",
+          "functionality": {
+            "UnblockUI": true
+          }
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,TasksView,IMPORTANT_THING_SHOWN"
+    },
+    {
+      "id": "GET_WW2_LOOSER",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "GET_WW2_LOOSER",
+          "type": 30,
+          "parameters": "ID: GET_WW2_LOOSER;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,12-06-1941"
+    },
+    {
+      "id": "BRNC_FREE_MOVIES",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "BRNC_FREE_MOVIES_EVENT",
+          "type": 20,
+          "parameters": "ID: 12_BRNC_FREE_MOVIES; START_CONDITION:TYPE#HasHiredPro#LieutRelease;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,01-10-1932; START_CONDITION:TYPE#HasHiredPro#LieutRelease;"
+    },
+    {
+      "id": "BRNC_RATE_INCREASE",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "BRNC_RATE_INCREASE_EVENT",
+          "type": 20,
+          "parameters": "ID: 09_BRNC_RATE_INCREASE; START_CONDITION:TYPE#HasHiredPro#CptFinancier;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,08-20-1935; START_CONDITION:TYPE#HasHiredPro#CptFinancier;"
+    },
+    {
+      "id": "JAPANESE_ACTOR",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "JAPANESE_ACTOR_EVENT",
+          "type": 20,
+          "parameters": "ID: 11_brnc_JAPANESE_ACTOR; START_CONDITION:TYPE#HasHiredPro#LieutPrep;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,01-06-1940; START_CONDITION:TYPE#HasHiredPro#LieutPrep;"
+    },
+    {
+      "id": "EVERGREEN_LITVIN_VISIT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "EVERGREEN_LITVIN_VISIT_EVENT",
+          "type": 20,
+          "parameters": "ID: EVERGREEN_LITVIN_VISIT;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,02-02-1932"
+    },
+    {
+      "id": "THEATERS_POGROM_PUBLICATION",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "THEATERS_POGROM_PUBLICATION_RESULT",
+          "type": 33,
+          "parameters": "ID: PUB_THEATERS_POGROM",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,03-10-1932"
+    },
+    {
+      "id": "ANTHONY_AND_DUSHANNA_PUBLICATION",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "ANTHONY_AND_DUSHANNA_PUBLICATION_RESULT",
+          "type": 33,
+          "parameters": "ID: PUB_ANTHONY_AND_DUSHANNA",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,01-30-1933"
+    },
+    {
+      "id": "BLOODY_SUNDAY_PUBLICATION",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "BLOODY_SUNDAY_PUBLICATION_RESULT",
+          "type": 33,
+          "parameters": "ID: PUB_BLOODY_SUNDAY",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,11-21-1933"
+    },
+    {
+      "id": "MARCUS_RIZLI_PUBLICATION",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "MARCUS_RIZLI_PUBLICATION_RESULT",
+          "type": 33,
+          "parameters": "ID: PUB_MARCUS_RIZLI",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,12-07-1933"
+    },
+    {
+      "id": "GREEN_FIRST_VISIT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "GREEN_FIRST_VISIT_EVENT",
+          "type": 20,
+          "parameters": "START_CONDITION:TYPE#PlayerInAssociation; ID: GREEN_FIRST_VISIT;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,12-25-1933"
+    },
+    {
+      "id": "THE_CODE_INTRO",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "THE_CODE_INTRO_PUBLICATION_RESULT",
+          "type": 33,
+          "parameters": "ID: PUB_THE_CODE_INTRO",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,02-10-1934"
+    },
+    {
+      "id": "GREEN_FIRST_ATTEMPT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "GREEN_FIRST_ATTEMPT_MESSAGE",
+          "type": 47,
+          "parameters": "START_CONDITION:TYPE#PlayerInAssociation; TYPE: INFO; TEXT: GREEN_FIRST_ATTEMPT_MESSAGE;CHAR_WITH_ID:61;BUTTON:CONTINUE;SHOW_IN_QUEUE:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,05-20-1934"
+    },
+    {
+      "id": "GREEN_SECOND_ATTEMPT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "GREEN_SECOND_ATTEMPT_MESSAGE",
+          "type": 47,
+          "parameters": "START_CONDITION:TYPE#WasFirstCodexVotingSuccess#false;TYPE: INFO; TEXT: GREEN_SECOND_ATTEMPT_MESSAGE;CHAR_WITH_ID:61;BUTTON:CONTINUE;SHOW_IN_QUEUE:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,06-05-1934"
+    },
+    {
+      "id": "GERSTEIN_THE_CODE",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "GERSTEIN_THE_CODE_MESSAGE",
+          "type": 47,
+          "parameters": "START_CONDITION:TYPE#WasFirstCodexVotingSuccess#false;TYPE: TWOCHOICE; TEXT: GERSTEIN_THE_CODE_MESSAGE;CHAR_WITH_ID:58;SHOW_IN_QUEUE:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,05-14-1936"
+    },
+    {
+      "id": "JAPANESE_PROBLEMS_AW",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PICK_CHAR_FOR_JAPANESE_PROBLEMS_AW",
+          "type": 34,
+          "parameters": "START_CONDITION:TYPE#HasHiredPro#CptHR#AnyHead&TYPE#AnyAsian&TYPE#HasHiredCharById#59;PARAMS:EVENT_ID#SYSTEM_11_brnc_JAPANESE_PROBLEMS_AW_SIMPLE&NO_REPEAT&NO_RANDOM&PROFESSION#CptHR|Captains|Lieutenants;",
+          "functionality": {}
+        },
+        {
+          "id": "JAPANESE_PROBLEMS_AW_EVENT",
+          "type": 20,
+          "parameters": "ID: 11_brnc_JAPANESE_PROBLEMS_AW;START_CONDITION:TYPE#HasHiredPro#CptHR#AnyHead&TYPE#AnyAsian&TYPE#HasHiredCharById#59;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,02-19-1942;"
+    },
+    {
+      "id": "JAPANESE_PROBLEMS_A",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PICK_CHAR_FOR_JAPANESE_PROBLEMS_A",
+          "type": 34,
+          "parameters": "START_CONDITION:TYPE#HasHiredPro#CptHR#AnyHead&TYPE#NoAsian&TYPE#HasHiredCharById#59;PARAMS:EVENT_ID#SYSTEM_11_brnc_JAPANESE_PROBLEMS_A_SIMPLE&NO_REPEAT&NO_RANDOM&PROFESSION#CptHR|Captains|Lieutenants;",
+          "functionality": {}
+        },
+        {
+          "id": "JAPANESE_PROBLEMS_A_EVENT",
+          "type": 20,
+          "parameters": "ID: 11_brnc_JAPANESE_PROBLEMS_A;START_CONDITION:TYPE#HasHiredPro#CptHR#AnyHead&TYPE#NoAsian&TYPE#HasHiredCharById#59;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,02-19-1942;"
+    },
+    {
+      "id": "JAPANESE_PROBLEMS_W",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PICK_CHAR_FOR_JAPANESE_PROBLEMS_W",
+          "type": 34,
+          "parameters": "START_CONDITION:TYPE#HasHiredPro#CptHR#AnyHead&TYPE#AnyAsian&TYPE#HasNotHiredCharById#59;PARAMS:EVENT_ID#SYSTEM_11_brnc_JAPANESE_PROBLEMS_W_SIMPLE&NO_REPEAT&NO_RANDOM&PROFESSION#CptHR|Captains|Lieutenants;",
+          "functionality": {}
+        },
+        {
+          "id": "JAPANESE_PROBLEMS_W_EVENT",
+          "type": 20,
+          "parameters": "ID: 11_brnc_JAPANESE_PROBLEMS_W;START_CONDITION:TYPE#HasHiredPro#CptHR#AnyHead&TYPE#AnyAsian&TYPE#HasNotHiredCharById#59;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,02-19-1942;"
+    },
+    {
+      "id": "SAME_TAGS",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "SAME_TAGS_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: SAME_TAGS_MESSAGE_36;CHAR_WITH_PROFESSION:LieutScript,CptPR,Captains, Lieutenants;TOP_TAGS_36:TRUE;BUTTON:CONTINUE;SHOW_IN_QUEUE:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: GLOBAL_EVENT,news_010_UNSATISFIED_AUDIENCE;START_CONDITION:TYPE#HasHiredPro#LieutScript#CptPR#AnyHead;"
+    },
+    {
+      "id": "ANTITRUST_START",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PUB_ANTITRUST_START",
+          "type": 33,
+          "parameters": "ID: PUB_ANTITRUST_START",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE, 01-11-1942;"
+    },
+    {
+      "id": "GERSTEIN_MONOPOLY_START",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PUB_GERSTEIN_MONOPOLY_START",
+          "type": 33,
+          "parameters": "ID: PUB_GERSTEIN_MONOPOLY_START",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE, 06-12-1942;"
+    },
+    {
+      "id": "JOE_GRIN_ANTITRUST",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "JOE_GRIN_ANTITRUST_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: JOE_GREEN_ANTITRUST;CHAR_WITH_ID:61;BUTTON:CONTINUE;SHOW_IN_QUEUE:TRUE;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE, 01-26-1943"
+    },
+    {
+      "id": "COURT_ANTITRAST",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PUB_COURT_ANTITRAST",
+          "type": 33,
+          "parameters": "ID: PUB_COURT_ANTITRAST",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE, 10-03-1945;"
+    },
+    {
+      "id": "news_019_MOODY_THEATER",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "news_019_MOODY_THEATER_EVENT",
+          "type": 20,
+          "parameters": "ID: news_019_MOODY_THEATER;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,02-10-1946;"
+    },
+    {
+      "id": "ADS_AUDIENCY_ANALYTICS_OPEN",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ADS_AUDIENCY_ANALYTICS_OPEN_MESSAGE",
+          "type": 47,
+          "parameters": "TYPE: INFO; TEXT: AUDIENCE_INFO_FIRST_MESSAGE; CHAR_WITH_PROFESSION: LieutRelease, Captains, Lieutenants;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_CUSTOM_EVENT,AdAgentSelectionView, AUDIENCE_ANALYTICS_OPEN;"
+    },
+    {
+      "id": "ADS_AGENTS_SELECTION_OPEN",
+      "behaviour": "TUTORIAL",
+      "substeps": [
+        {
+          "id": "ADS_AGENTS_SELECTION_OPEN_POPUP",
+          "type": 4,
+          "parameters": "TYPE: INFO; VIEW: AdAgentSelectionView; MESSAGE_POSITION: 644,240; MESSAGE_WIDTH: 440; TEXT: TUTORIAL_ADS_AGENTS_DESCRIPTION; DELAY: 1; PIVOT: BOTTOM; PREFAB: 72_stepPrefab; AMOUNT: 123;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: VIEW_SHOWN,AdAgentSelectionView"
+    },
+    {
+      "id": "WW2_RAISE_TAXES",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PUB_WW2_RAISE_TAXES",
+          "type": 33,
+          "parameters": "ID: PUB_WW2_RAISE_TAXES",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE, 03-14-1942;"
+    },
+    {
+      "id": "WW2_DROP_TAXES",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PUB_WW2_DROP_TAXES",
+          "type": 33,
+          "parameters": "ID: PUB_WW2_DROP_TAXES",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE, 10-05-1945;"
+    },
+    {
+      "id": "char_special_LITSECRETARY",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "char_special_LITSECRETARY",
+          "type": 20,
+          "parameters": "ID: char_special_LITSECRETARY",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,10-20-1932"
+    },
+    {
+      "id": "char_special_LITSECRETARY_RESULT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "WAIT_FOR_SECONDS",
+          "type": 53,
+          "parameters": "ID: char_special_LITSECRETARY_RESULT_DELAYED; DELAY: 2;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: TASK_COMPLETE,SYSTEM_GRAVES_FILM_SIMPLE,TRUE"
+    },
+    {
+      "id": "char_special_LITSECRETARY_RESULT_DELAYED",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "char_special_LITSECRETARY_RESULT_2",
+          "type": 20,
+          "parameters": "ID: char_special_LITSECRETARY_RESULT",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "special_MARGINESE_BANKRUPT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "special_MARGINESE_BANKRUPT",
+          "type": 20,
+          "parameters": "ID: special_MARGINESE_BANKRUPT",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: COMPETITOR_BANKRUPT,MA"
+    },
+    {
+      "id": "char_special_MARTIN_PRECHECK",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PICK_CHAR_FOR_char_special_MARTIN",
+          "type": 34,
+          "parameters": "PARAMS:EVENT_ID#SYSTEM_char_special_MARTIN_SIMPLE&NO_REPEAT&PROFESSION#LieutProducers|Captains|Lieutenants&TRY_START_NEXT#START_char_special_MARTIN;",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: SPECIAL_DAYLY_CHECK, BUILDING_BUILT#ESCORT_DOMINION|15; PARAMS: ONLY_ON_MAP;"
+    },
+    {
+      "id": "START_char_special_MARTIN",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "char_special_MARTIN",
+          "type": 20,
+          "parameters": "ID: char_special_MARTIN;",
+          "functionality": {}
+        }
+      ],
+      "parameters": ""
+    },
+    {
+      "id": "START_char_special_DUVALLS_MONUMENT",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "char_special_DUVALLS_MONUMENT",
+          "type": 20,
+          "parameters": "ID: char_special_DUVALLS_MONUMENT; ADD_CONTEXT: Movie, 0",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,07-15-1933"
+    },
+    {
+      "id": "DUVALLS_MONUMENT_PLACED",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "PUB_DUVAL_MONUMENT_FAILED",
+          "type": 33,
+          "parameters": "START_CONDITION: TYPE#SecretResult#SECRET_DEATH_ACTOR#LEAKED; ID:PUB_DUVAL_MONUMENT_FAILED, PARAMS: DELAY#7",
+          "functionality": {}
+        },
+        {
+          "id": "PUB_DUVAL_MONUMENT_SUCCESS",
+          "type": 33,
+          "parameters": "START_CONDITION: TYPE#SecretResult#SECRET_DEATH_ACTOR#SUPPRESSED; ID:PUB_DUVAL_MONUMENT_SUCCESS, PARAMS: DELAY#7",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: BUILDING_PLACED, DUVAL_MONUMENT"
+    },
+    {
+      "id": "START_char_special_char_special_shutyourmouth",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "char_special_shutyourmouth",
+          "type": 20,
+          "parameters": "ID: char_special_shutyourmouth",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,01-27-1932"
+    },
+    {
+      "id": "START_char_special_friendlyneighbor",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "char_special_friendlyneighbor",
+          "type": 20,
+          "parameters": "ID: char_special_friendlyneighbor",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,09-22-1935"
+    },
+    {
+      "id": "START_char_special_CHEESE",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "char_special_CHEESE",
+          "type": 20,
+          "parameters": "ID: char_special_CHEESE",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: DATE,09-22-1938"
+    },
+    {
+      "id": "START_char_special_EXMAYOR",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "char_special_EXMAYOR",
+          "type": 20,
+          "parameters": "ID: char_special_EXMAYOR",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: TASK_COMPLETE, PROSECUTOR_FILM_SIMPLE, TRUE; DELAY_BY_DAYS: 100"
+    },
+    {
+      "id": "START_char_special_EXMAYOR",
+      "behaviour": "",
+      "substeps": [
+        {
+          "id": "char_special_EXMAYOR",
+          "type": 20,
+          "parameters": "ID: char_special_EXMAYOR",
+          "functionality": {}
+        }
+      ],
+      "parameters": "START_ON: TASK_COMPLETE, PROSECUTOR_FILM_HARD, TRUE"
+    }
+  ]
+}

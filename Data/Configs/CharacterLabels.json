@@ -1,0 +1,1248 @@
+{
+  "HARDWORKING": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "HARDWORKING",
+    "Condition": "",
+    "Group": "WORK_ETHIC",
+    "Rarity": "0.030",
+    "IsHidden": false
+  },
+  "LAZY": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "LAZY",
+    "Condition": "",
+    "Group": "WORK_ETHIC",
+    "Rarity": "0.030",
+    "IsHidden": false
+  },
+  "DISCIPLINED": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "DISCIPLINED",
+    "Condition": "",
+    "Group": "DISCIPLINE",
+    "Rarity": "0.030",
+    "IsHidden": false
+  },
+  "UNDISCIPLINED": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "UNDISCIPLINED",
+    "Condition": "",
+    "Group": "DISCIPLINE",
+    "Rarity": "0.080",
+    "IsHidden": false
+  },
+  "PERFECTIONIST": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "PERFECTIONIST",
+    "Condition": "",
+    "Group": "WORK_QUALITY",
+    "Rarity": "0.080",
+    "IsHidden": false
+  },
+  "INDIFFERENT": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "INDIFFERENT",
+    "Condition": "",
+    "Group": "WORK_QUALITY",
+    "Rarity": "0.010",
+    "IsHidden": false
+  },
+  "HOTHEADED": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": [
+      {
+        "from": "1.000",
+        "to": "1.000"
+      },
+      {
+        "from": "1.000",
+        "to": "0.500"
+      },
+      {
+        "from": "1.000",
+        "to": "0.330"
+      },
+      {
+        "from": "1.000",
+        "to": "0.500"
+      },
+      {
+        "from": "1.000",
+        "to": "1.000"
+      }
+    ],
+    "birthrateModifier": [
+      "0.500",
+      "0.500",
+      "0.500",
+      "0.500",
+      "0.000"
+    ],
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "HOTHEADED",
+    "Condition": "",
+    "Group": "MOOD_1",
+    "Rarity": "0.070",
+    "IsHidden": false
+  },
+  "CALM": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "CALM",
+    "Condition": "",
+    "Group": "MOOD_1",
+    "Rarity": "0.010",
+    "IsHidden": false
+  },
+  "LEADER": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "LEADER",
+    "Condition": "",
+    "Group": "WORK_CHARGE",
+    "Rarity": "0.030",
+    "IsHidden": false
+  },
+  "TEAM_PLAYER": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "TEAM_PLAYER",
+    "Condition": "",
+    "Group": "WORK_CHARGE",
+    "Rarity": "0.010",
+    "IsHidden": false
+  },
+  "OPEN_MINDED": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "OPEN_MINDED",
+    "Condition": "",
+    "Group": "BIGOTRY",
+    "Rarity": "0.010",
+    "IsHidden": false
+  },
+  "RACIST": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "RACIST",
+    "Condition": "",
+    "Group": "BIGOTRY",
+    "Rarity": "0.030",
+    "IsHidden": false
+  },
+  "MISOGYNIST": {
+    "hasSpouseModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": [
+      {
+        "from": "1.000",
+        "to": "1.000"
+      },
+      {
+        "from": "1.000",
+        "to": "0.500"
+      },
+      {
+        "from": "1.000",
+        "to": "0.330"
+      },
+      {
+        "from": "1.000",
+        "to": "0.500"
+      },
+      {
+        "from": "1.000",
+        "to": "1.000"
+      }
+    ],
+    "birthrateModifier": [
+      "0.500",
+      "0.500",
+      "0.500",
+      "0.500",
+      "0.000"
+    ],
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "MISOGYNIST",
+    "Condition": "",
+    "Group": "BIGOTRY",
+    "Rarity": "0.030",
+    "IsHidden": false
+  },
+  "XENOPHOBE": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "XENOPHOBE",
+    "Condition": "",
+    "Group": "BIGOTRY",
+    "Rarity": "0.030",
+    "IsHidden": false
+  },
+  "DEMANDING": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "DEMANDING",
+    "Condition": "",
+    "Group": "MODESTY",
+    "Rarity": "0.080",
+    "IsHidden": false
+  },
+  "MODEST": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "MODEST",
+    "Condition": "",
+    "Group": "MODESTY",
+    "Rarity": "0.010",
+    "IsHidden": false
+  },
+  "ARROGANT": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "ARROGANT",
+    "Condition": "",
+    "Group": "CONCIET",
+    "Rarity": "0.080",
+    "IsHidden": false
+  },
+  "SIMPLE": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "SIMPLE",
+    "Condition": "",
+    "Group": "CONCIET",
+    "Rarity": "0.010",
+    "IsHidden": false
+  },
+  "HEARTBREAKER": {
+    "hasSpouseModifier": [
+      "1.750",
+      "1.330",
+      "1.290",
+      "1.125",
+      "1.055"
+    ],
+    "hasSpouseAndHadSpouseModifier": [
+      "30.000",
+      "11.430",
+      "10.000",
+      "8.000",
+      "6.660"
+    ],
+    "noSpouseAndHadSpouseModifier": [
+      "60.000",
+      "9.000",
+      "2.500",
+      "1.250",
+      "1.053"
+    ],
+    "pastMarriageAmountModifiers": [
+      [
+        "1.000",
+        "1.000",
+        "1.000",
+        "0.000",
+        "3.000",
+        "1.000",
+        "0.000",
+        "1.875",
+        "1.000",
+        "0.000",
+        "1.000",
+        "28.330",
+        "0.000",
+        "1.000",
+        "17.500",
+        "15.000"
+      ],
+      [
+        "1.000",
+        "1.000",
+        "1.000",
+        "0.000",
+        "3.000",
+        "1.000",
+        "0.000",
+        "1.875",
+        "1.000",
+        "0.000",
+        "1.000",
+        "28.330",
+        "0.000",
+        "1.000",
+        "17.500",
+        "15.000"
+      ],
+      [
+        "1.000",
+        "1.000",
+        "1.000",
+        "0.000",
+        "3.000",
+        "1.000",
+        "0.000",
+        "1.875",
+        "1.000",
+        "0.000",
+        "1.000",
+        "28.330",
+        "0.000",
+        "1.000",
+        "17.500",
+        "15.000"
+      ],
+      [
+        "1.000",
+        "1.000",
+        "1.000",
+        "0.000",
+        "3.000",
+        "1.000",
+        "0.000",
+        "1.875",
+        "1.000",
+        "0.000",
+        "1.000",
+        "28.330",
+        "0.000",
+        "1.000",
+        "17.500",
+        "15.000"
+      ],
+      [
+        "1.000",
+        "1.000",
+        "1.000",
+        "0.000",
+        "3.000",
+        "1.000",
+        "0.000",
+        "1.875",
+        "1.000",
+        "0.000",
+        "1.000",
+        "28.330",
+        "0.000",
+        "1.000",
+        "17.500",
+        "15.000"
+      ]
+    ],
+    "marriageModifier": [
+      "1.600",
+      "1.600",
+      "2.000",
+      "3.000",
+      "3.000"
+    ],
+    "divorceModifier": [
+      "2.000",
+      "2.000",
+      "2.000",
+      "3.200",
+      "32.000"
+    ],
+    "minorChildrenAmountModifier": [
+      {
+        "from": "1.000",
+        "to": "1.000"
+      },
+      {
+        "from": "1.000",
+        "to": "2.000"
+      },
+      {
+        "from": "3.000",
+        "to": "1.330"
+      },
+      {
+        "from": "2.000",
+        "to": "1.500"
+      },
+      {
+        "from": "1.000",
+        "to": "2.000"
+      }
+    ],
+    "birthrateModifier": [
+      "2.000",
+      "2.000",
+      "2.000",
+      "2.000",
+      "1.000"
+    ],
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "HEARTBREAKER",
+    "Condition": "",
+    "Group": "INNOCENCE",
+    "Rarity": "0.080",
+    "IsHidden": false
+  },
+  "CHASTE": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": [
+      {
+        "from": "1.000",
+        "to": "1.000"
+      },
+      {
+        "from": "1.000",
+        "to": "0.500"
+      },
+      {
+        "from": "1.000",
+        "to": "0.330"
+      },
+      {
+        "from": "1.000",
+        "to": "0.500"
+      },
+      {
+        "from": "1.000",
+        "to": "1.000"
+      }
+    ],
+    "birthrateModifier": [
+      "0.500",
+      "0.500",
+      "0.500",
+      "0.500",
+      "0.000"
+    ],
+    "sinProbability": "0.540",
+    "behaviour": 1,
+    "id": "CHASTE",
+    "Condition": "",
+    "Group": "INNOCENCE",
+    "Rarity": "0.070",
+    "IsHidden": false
+  },
+  "CHEERY": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "CHEERY",
+    "Condition": "",
+    "Group": "MOOD_2",
+    "Rarity": "0.010",
+    "IsHidden": false
+  },
+  "MELANCHOLIC": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "MELANCHOLIC",
+    "Condition": "",
+    "Group": "MOOD_2",
+    "Rarity": "0.010",
+    "IsHidden": false
+  },
+  "ALCOHOLIC": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "ALCOHOLIC",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.070",
+    "IsHidden": false
+  },
+  "LUDOMANIAC": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "LUDOMANIAC",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.030",
+    "IsHidden": false
+  },
+  "JUNKIE": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "JUNKIE",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.070",
+    "IsHidden": false
+  },
+  "UNWANTED_ACTOR": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 1,
+    "id": "UNWANTED_ACTOR",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.000",
+    "IsHidden": true
+  },
+  "UNTOUCHABLE": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "UNTOUCHABLE",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.000",
+    "IsHidden": true
+  },
+  "MAIN_CHARACTER": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 1,
+    "id": "MAIN_CHARACTER",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.000",
+    "IsHidden": true
+  },
+  "STERILE": {
+    "hasSpouseModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "hasSpouseAndHadSpouseModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "noSpouseAndHadSpouseModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "pastMarriageAmountModifiers": [
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ]
+    ],
+    "marriageModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "divorceModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "minorChildrenAmountModifier": [
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      }
+    ],
+    "birthrateModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "sinProbability": "0.540",
+    "behaviour": 3,
+    "id": "STERILE",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.000",
+    "IsHidden": true
+  },
+  "IMAGE_VIVID": {
+    "hasSpouseModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "hasSpouseAndHadSpouseModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "noSpouseAndHadSpouseModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "pastMarriageAmountModifiers": [
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ]
+    ],
+    "marriageModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "divorceModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "minorChildrenAmountModifier": [
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      }
+    ],
+    "birthrateModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "IMAGE_VIVID",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.000",
+    "IsHidden": true
+  },
+  "IMAGE_SOPHISTIC": {
+    "hasSpouseModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "hasSpouseAndHadSpouseModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "noSpouseAndHadSpouseModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "pastMarriageAmountModifiers": [
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ],
+      [
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+      ]
+    ],
+    "marriageModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "divorceModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "minorChildrenAmountModifier": [
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      },
+      {
+        "from": "0.000",
+        "to": "0.000"
+      }
+    ],
+    "birthrateModifier": [
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000",
+      "0.000"
+    ],
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "IMAGE_SOPHISTIC",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.000",
+    "IsHidden": true
+  },
+  "IMMORTAL": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "IMMORTAL",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.000",
+    "IsHidden": true
+  },
+  "SUPER_IMMORTAL": {
+    "hasSpouseModifier": null,
+    "hasSpouseAndHadSpouseModifier": null,
+    "noSpouseAndHadSpouseModifier": null,
+    "pastMarriageAmountModifiers": null,
+    "marriageModifier": null,
+    "divorceModifier": null,
+    "minorChildrenAmountModifier": null,
+    "birthrateModifier": null,
+    "sinProbability": "0.540",
+    "behaviour": 0,
+    "id": "SUPER_IMMORTAL",
+    "Condition": "",
+    "Group": "",
+    "Rarity": "0.000",
+    "IsHidden": true
+  }
+}

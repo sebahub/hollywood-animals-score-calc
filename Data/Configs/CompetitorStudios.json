@@ -1,0 +1,832 @@
+{
+  "GB": {
+    "targetReleasesPerYear": {
+      "from": 8,
+      "to": 11
+    },
+    "baseRange": {
+      "from": "0.650",
+      "to": "0.870"
+    },
+    "artRange": {
+      "from": "-0.100",
+      "to": "0.100"
+    },
+    "comRange": {
+      "from": "-0.100",
+      "to": "0.100"
+    },
+    "movieBudgetRange": {
+      "from": 400000,
+      "to": 900000
+    },
+    "votingRange": {
+      "from": 700,
+      "to": 1000
+    },
+    "audienceTargetWeights": {
+      "TM": "12.000",
+      "TF": "9.000",
+      "YM": "14.000",
+      "YF": "11.500",
+      "AM": "17.000",
+      "AF": "14.000"
+    },
+    "ads": {
+      "TMB2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TMB2"
+      },
+      "TFB2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TFB2"
+      },
+      "YMB2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMB2"
+      },
+      "YFB2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YFB2"
+      },
+      "AMB2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AMB2"
+      },
+      "AFB2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AFB2"
+      },
+      "TMA1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TMA1"
+      },
+      "TFA1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TFA1"
+      },
+      "YMA1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMA1"
+      },
+      "YFA1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YFA1"
+      },
+      "AMA1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AMA1"
+      },
+      "AFA1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AFA1"
+      },
+      "TMC2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TMC2"
+      },
+      "TFC2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TFC2"
+      },
+      "YMC2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMC2"
+      },
+      "YFC2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YFC2"
+      },
+      "AMC2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AMC2"
+      },
+      "AFC2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AFC2"
+      }
+    },
+    "artStatusRequirement": 1,
+    "comStatusRequirement": 1,
+    "initialBudget": 29000000,
+    "initialIP": 2000,
+    "initialAvgAttitude": "0.800",
+    "initialGenSpending": 100000,
+    "initialCinemas": 100,
+    "defensePowerBase": "-0.230",
+    "passiveIPIncome": 100,
+    "budgeting": {
+      "GENERAL": "0.100",
+      "CINEMAS": "0.010",
+      "ATTACK": "0.050",
+      "DEFENSE": "0.050",
+      "FILM_PRODUCTION": "0.500",
+      "PAYMENTS": "0.050",
+      "HIRING": "0.240"
+    },
+    "staffStarterAmount": {
+      "Scriptwriter": 5,
+      "Producer": 7,
+      "Director": 4,
+      "Actor": 12,
+      "Cinematographer": 3,
+      "FilmEditor": 2,
+      "Composer": 2
+    },
+    "staffAverageSkill": {
+      "Scriptwriter": "0.600",
+      "Producer": "0.700",
+      "Director": "0.650",
+      "Actor": "0.700",
+      "Cinematographer": "0.550",
+      "FilmEditor": "0.650",
+      "Composer": "0.650"
+    },
+    "staffNewPerMonth": {
+      "Scriptwriter": "0.167",
+      "Producer": "0.208",
+      "Director": "0.125",
+      "Actor": "0.375",
+      "Cinematographer": "0.125",
+      "FilmEditor": "0.083",
+      "Composer": "0.083"
+    },
+    "id": "GB"
+  },
+  "EM": {
+    "targetReleasesPerYear": {
+      "from": 8,
+      "to": 17
+    },
+    "baseRange": {
+      "from": "0.400",
+      "to": "0.650"
+    },
+    "artRange": {
+      "from": "-0.280",
+      "to": "0.130"
+    },
+    "comRange": {
+      "from": "-0.200",
+      "to": "0.250"
+    },
+    "movieBudgetRange": {
+      "from": 100000,
+      "to": 400000
+    },
+    "votingRange": {
+      "from": 400,
+      "to": 600
+    },
+    "audienceTargetWeights": {
+      "TM": "11.000",
+      "TF": "9.500",
+      "YM": "12.500",
+      "YF": "11.000",
+      "AM": "12.000",
+      "AF": "12.000"
+    },
+    "ads": {
+      "TMB1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TMB1"
+      },
+      "TFB1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TFB1"
+      },
+      "YMB2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMB2"
+      },
+      "YFB1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YFB1"
+      },
+      "AMB2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AMB2"
+      },
+      "AFB2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AFB2"
+      },
+      "TMC1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TMC1"
+      },
+      "TFC0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TFC0"
+      },
+      "YMC2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMC2"
+      },
+      "YFC1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YFC1"
+      },
+      "AMC2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AMC2"
+      },
+      "AFC1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AFC1"
+      },
+      "TMA0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TMA0"
+      },
+      "YMA0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMA0"
+      },
+      "AMA1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AMA1"
+      },
+      "AFA0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AFA0"
+      }
+    },
+    "artStatusRequirement": 0,
+    "comStatusRequirement": 0,
+    "initialBudget": 6000000,
+    "initialIP": 1000,
+    "initialAvgAttitude": "0.700",
+    "initialGenSpending": 70000,
+    "initialCinemas": 70,
+    "defensePowerBase": "-0.170",
+    "passiveIPIncome": 70,
+    "budgeting": {
+      "GENERAL": "0.100",
+      "CINEMAS": "0.010",
+      "ATTACK": "0.050",
+      "DEFENSE": "0.050",
+      "FILM_PRODUCTION": "0.500",
+      "PAYMENTS": "0.050",
+      "HIRING": "0.240"
+    },
+    "staffStarterAmount": {
+      "Scriptwriter": 4,
+      "Producer": 5,
+      "Director": 3,
+      "Actor": 10,
+      "Cinematographer": 2,
+      "FilmEditor": 2,
+      "Composer": 2
+    },
+    "staffAverageSkill": {
+      "Scriptwriter": "0.550",
+      "Producer": "0.500",
+      "Director": "0.600",
+      "Actor": "0.600",
+      "Cinematographer": "0.500",
+      "FilmEditor": "0.550",
+      "Composer": "0.550"
+    },
+    "staffNewPerMonth": {
+      "Scriptwriter": "0.125",
+      "Producer": "0.167",
+      "Director": "0.083",
+      "Actor": "0.292",
+      "Cinematographer": "0.083",
+      "FilmEditor": "0.042",
+      "Composer": "0.042"
+    },
+    "id": "EM"
+  },
+  "SU": {
+    "targetReleasesPerYear": {
+      "from": 4,
+      "to": 5
+    },
+    "baseRange": {
+      "from": "0.430",
+      "to": "0.730"
+    },
+    "artRange": {
+      "from": "0.000",
+      "to": "0.250"
+    },
+    "comRange": {
+      "from": "-0.300",
+      "to": "0.140"
+    },
+    "movieBudgetRange": {
+      "from": 95000,
+      "to": 350000
+    },
+    "votingRange": {
+      "from": 400,
+      "to": 600
+    },
+    "audienceTargetWeights": {
+      "TM": "8.500",
+      "TF": "7.000",
+      "YM": "12.000",
+      "YF": "10.000",
+      "AM": "14.000",
+      "AF": "12.000"
+    },
+    "ads": {
+      "TMB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TMB0"
+      },
+      "TFB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TFB0"
+      },
+      "YMB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMB0"
+      },
+      "YFB1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YFB1"
+      },
+      "AMB2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AMB2"
+      },
+      "AFB1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AFB1"
+      },
+      "TMA0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TMA0"
+      },
+      "TFA0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TFA0"
+      },
+      "YMA1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMA1"
+      },
+      "YFA1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YFA1"
+      },
+      "AMA2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AMA2"
+      },
+      "AFA2": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AFA2"
+      }
+    },
+    "artStatusRequirement": 1,
+    "comStatusRequirement": 0,
+    "initialBudget": 6000000,
+    "initialIP": 1200,
+    "initialAvgAttitude": "0.800",
+    "initialGenSpending": 30000,
+    "initialCinemas": 30,
+    "defensePowerBase": "-0.230",
+    "passiveIPIncome": 70,
+    "budgeting": {
+      "GENERAL": "0.050",
+      "CINEMAS": "0.010",
+      "ATTACK": "0.050",
+      "DEFENSE": "0.100",
+      "FILM_PRODUCTION": "0.500",
+      "PAYMENTS": "0.050",
+      "HIRING": "0.240"
+    },
+    "staffStarterAmount": {
+      "Scriptwriter": 2,
+      "Producer": 2,
+      "Director": 1,
+      "Actor": 5,
+      "Cinematographer": 1,
+      "FilmEditor": 1,
+      "Composer": 1
+    },
+    "staffAverageSkill": {
+      "Scriptwriter": "0.575",
+      "Producer": "0.525",
+      "Director": "0.625",
+      "Actor": "0.575",
+      "Cinematographer": "0.550",
+      "FilmEditor": "0.600",
+      "Composer": "0.575"
+    },
+    "staffNewPerMonth": {
+      "Scriptwriter": "0.083",
+      "Producer": "0.083",
+      "Director": "0.042",
+      "Actor": "0.167",
+      "Cinematographer": "0.042",
+      "FilmEditor": "0.042",
+      "Composer": "0.042"
+    },
+    "id": "SU"
+  },
+  "HE": {
+    "targetReleasesPerYear": {
+      "from": 2,
+      "to": 3
+    },
+    "baseRange": {
+      "from": "0.280",
+      "to": "0.500"
+    },
+    "artRange": {
+      "from": "-0.200",
+      "to": "0.200"
+    },
+    "comRange": {
+      "from": "-0.200",
+      "to": "0.150"
+    },
+    "movieBudgetRange": {
+      "from": 30000,
+      "to": 85000
+    },
+    "votingRange": {
+      "from": 300,
+      "to": 500
+    },
+    "audienceTargetWeights": {
+      "TM": "8.000",
+      "TF": "7.000",
+      "YM": "7.000",
+      "YF": "6.000",
+      "AM": "5.000",
+      "AF": "4.000"
+    },
+    "ads": {
+      "TMB1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TMB1"
+      },
+      "TFB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TFB0"
+      },
+      "YMB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMB0"
+      },
+      "YFB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YFB0"
+      },
+      "AMB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AMB0"
+      },
+      "AFB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AFB0"
+      }
+    },
+    "artStatusRequirement": 0,
+    "comStatusRequirement": 0,
+    "initialBudget": 4000000,
+    "initialIP": 300,
+    "initialAvgAttitude": "0.400",
+    "initialGenSpending": 15000,
+    "initialCinemas": 15,
+    "defensePowerBase": "-0.150",
+    "passiveIPIncome": 50,
+    "budgeting": {
+      "GENERAL": "0.050",
+      "CINEMAS": "0.100",
+      "ATTACK": "0.070",
+      "DEFENSE": "0.070",
+      "FILM_PRODUCTION": "0.300",
+      "PAYMENTS": "0.180",
+      "HIRING": "0.230"
+    },
+    "staffStarterAmount": {
+      "Scriptwriter": 2,
+      "Producer": 2,
+      "Director": 1,
+      "Actor": 5,
+      "Cinematographer": 1,
+      "FilmEditor": 1,
+      "Composer": 1
+    },
+    "staffAverageSkill": {
+      "Scriptwriter": "0.250",
+      "Producer": "0.225",
+      "Director": "0.275",
+      "Actor": "0.250",
+      "Cinematographer": "0.275",
+      "FilmEditor": "0.225",
+      "Composer": "0.250"
+    },
+    "staffNewPerMonth": {
+      "Scriptwriter": "0.083",
+      "Producer": "0.083",
+      "Director": "0.042",
+      "Actor": "0.167",
+      "Cinematographer": "0.042",
+      "FilmEditor": "0.042",
+      "Composer": "0.042"
+    },
+    "id": "HE"
+  },
+  "MA": {
+    "targetReleasesPerYear": {
+      "from": 2,
+      "to": 3
+    },
+    "baseRange": {
+      "from": "0.250",
+      "to": "0.440"
+    },
+    "artRange": {
+      "from": "-0.200",
+      "to": "0.200"
+    },
+    "comRange": {
+      "from": "-0.200",
+      "to": "0.150"
+    },
+    "movieBudgetRange": {
+      "from": 25000,
+      "to": 75000
+    },
+    "votingRange": {
+      "from": 300,
+      "to": 500
+    },
+    "audienceTargetWeights": {
+      "TM": "7.000",
+      "TF": "6.000",
+      "YM": "8.000",
+      "YF": "6.000",
+      "AM": "5.000",
+      "AF": "4.000"
+    },
+    "ads": {
+      "TMB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TMB0"
+      },
+      "TFB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "TFB0"
+      },
+      "YMB1": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMB1"
+      },
+      "YFB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YFB0"
+      },
+      "AMB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AMB0"
+      },
+      "AFB0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "AFB0"
+      },
+      "YMC0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YMC0"
+      },
+      "YFC0": {
+        "scoreType": 0,
+        "weeksSpent": -8,
+        "duration": 10,
+        "start": "01-01-0001",
+        "id": "YFC0"
+      }
+    },
+    "artStatusRequirement": 0,
+    "comStatusRequirement": 0,
+    "initialBudget": 200000,
+    "initialIP": 200,
+    "initialAvgAttitude": "0.300",
+    "initialGenSpending": 10000,
+    "initialCinemas": 10,
+    "defensePowerBase": "-0.120",
+    "passiveIPIncome": 40,
+    "budgeting": {
+      "GENERAL": "0.050",
+      "CINEMAS": "0.100",
+      "ATTACK": "0.080",
+      "DEFENSE": "0.070",
+      "FILM_PRODUCTION": "0.300",
+      "PAYMENTS": "0.180",
+      "HIRING": "0.220"
+    },
+    "staffStarterAmount": {
+      "Scriptwriter": 2,
+      "Producer": 2,
+      "Director": 1,
+      "Actor": 5,
+      "Cinematographer": 1,
+      "FilmEditor": 1,
+      "Composer": 1
+    },
+    "staffAverageSkill": {
+      "Scriptwriter": "0.250",
+      "Producer": "0.200",
+      "Director": "0.300",
+      "Actor": "0.275",
+      "Cinematographer": "0.275",
+      "FilmEditor": "0.200",
+      "Composer": "0.250"
+    },
+    "staffNewPerMonth": {
+      "Scriptwriter": "0.083",
+      "Producer": "0.083",
+      "Director": "0.042",
+      "Actor": "0.167",
+      "Cinematographer": "0.042",
+      "FilmEditor": "0.042",
+      "Composer": "0.042"
+    },
+    "id": "MA"
+  }
+}

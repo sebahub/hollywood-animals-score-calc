@@ -1,0 +1,1094 @@
+{
+  "WM_HOSPICE_01": {
+    "trickId": "WM_HOSPICE",
+    "result": 1,
+    "isFemale": false,
+    "id": "WM_HOSPICE_01"
+  },
+  "WM_HOSPICE_02": {
+    "trickId": "WM_HOSPICE",
+    "result": 1,
+    "isFemale": true,
+    "id": "WM_HOSPICE_02"
+  },
+  "WM_HOSPICE_03": {
+    "trickId": "WM_HOSPICE",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_HOSPICE_03"
+  },
+  "WM_HOSPICE_04": {
+    "trickId": "WM_HOSPICE",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_HOSPICE_04"
+  },
+  "WM_HOSPICE_05": {
+    "trickId": "WM_HOSPICE",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_HOSPICE_05"
+  },
+  "WM_HOSPICE_06": {
+    "trickId": "WM_HOSPICE",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_HOSPICE_06"
+  },
+  "WM_HOSPICE_07": {
+    "trickId": "WM_HOSPICE",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_HOSPICE_07"
+  },
+  "WM_HOSPICE_08": {
+    "trickId": "WM_HOSPICE",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_HOSPICE_08"
+  },
+  "WM_HOSPICE_09": {
+    "trickId": "WM_HOSPICE",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_HOSPICE_09"
+  },
+  "WM_HOSPICE_10": {
+    "trickId": "WM_HOSPICE",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_HOSPICE_10"
+  },
+  "WM_HOSPICE_11": {
+    "trickId": "WM_HOSPICE",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_HOSPICE_11"
+  },
+  "WM_HOSPICE_12": {
+    "trickId": "WM_HOSPICE",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_HOSPICE_12"
+  },
+  "WM_ORPHANAGE_01": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 1,
+    "isFemale": false,
+    "id": "WM_ORPHANAGE_01"
+  },
+  "WM_ORPHANAGE_02": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 1,
+    "isFemale": true,
+    "id": "WM_ORPHANAGE_02"
+  },
+  "WM_ORPHANAGE_03": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_ORPHANAGE_03"
+  },
+  "WM_ORPHANAGE_04": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_ORPHANAGE_04"
+  },
+  "WM_ORPHANAGE_05": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_ORPHANAGE_05"
+  },
+  "WM_ORPHANAGE_06": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_ORPHANAGE_06"
+  },
+  "WM_ORPHANAGE_07": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_ORPHANAGE_07"
+  },
+  "WM_ORPHANAGE_08": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_ORPHANAGE_08"
+  },
+  "WM_ORPHANAGE_09": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_ORPHANAGE_09"
+  },
+  "WM_ORPHANAGE_10": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_ORPHANAGE_10"
+  },
+  "WM_ORPHANAGE_11": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_ORPHANAGE_11"
+  },
+  "WM_ORPHANAGE_12": {
+    "trickId": "WM_ORPHANAGE",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_ORPHANAGE_12"
+  },
+  "WM_WEDDING_01": {
+    "trickId": "WM_WEDDING",
+    "result": 1,
+    "isFemale": false,
+    "id": "WM_WEDDING_01"
+  },
+  "WM_WEDDING_02": {
+    "trickId": "WM_WEDDING",
+    "result": 1,
+    "isFemale": true,
+    "id": "WM_WEDDING_02"
+  },
+  "WM_WEDDING_03": {
+    "trickId": "WM_WEDDING",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_WEDDING_03"
+  },
+  "WM_WEDDING_04": {
+    "trickId": "WM_WEDDING",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_WEDDING_04"
+  },
+  "WM_WEDDING_05": {
+    "trickId": "WM_WEDDING",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_WEDDING_05"
+  },
+  "WM_WEDDING_06": {
+    "trickId": "WM_WEDDING",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_WEDDING_06"
+  },
+  "WM_WEDDING_07": {
+    "trickId": "WM_WEDDING",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_WEDDING_07"
+  },
+  "WM_WEDDING_08": {
+    "trickId": "WM_WEDDING",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_WEDDING_08"
+  },
+  "WM_WEDDING_09": {
+    "trickId": "WM_WEDDING",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_WEDDING_09"
+  },
+  "WM_WEDDING_10": {
+    "trickId": "WM_WEDDING",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_WEDDING_10"
+  },
+  "WM_WEDDING_11": {
+    "trickId": "WM_WEDDING",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_WEDDING_11"
+  },
+  "WM_WEDDING_12": {
+    "trickId": "WM_WEDDING",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_WEDDING_12"
+  },
+  "WM_HOMELESS_01": {
+    "trickId": "WM_HOMELESS",
+    "result": 1,
+    "isFemale": false,
+    "id": "WM_HOMELESS_01"
+  },
+  "WM_HOMELESS_02": {
+    "trickId": "WM_HOMELESS",
+    "result": 1,
+    "isFemale": true,
+    "id": "WM_HOMELESS_02"
+  },
+  "WM_HOMELESS_03": {
+    "trickId": "WM_HOMELESS",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_HOMELESS_03"
+  },
+  "WM_HOMELESS_04": {
+    "trickId": "WM_HOMELESS",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_HOMELESS_04"
+  },
+  "WM_HOMELESS_05": {
+    "trickId": "WM_HOMELESS",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_HOMELESS_05"
+  },
+  "WM_HOMELESS_06": {
+    "trickId": "WM_HOMELESS",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_HOMELESS_06"
+  },
+  "WM_HOMELESS_07": {
+    "trickId": "WM_HOMELESS",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_HOMELESS_07"
+  },
+  "WM_HOMELESS_08": {
+    "trickId": "WM_HOMELESS",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_HOMELESS_08"
+  },
+  "WM_HOMELESS_09": {
+    "trickId": "WM_HOMELESS",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_HOMELESS_09"
+  },
+  "WM_HOMELESS_10": {
+    "trickId": "WM_HOMELESS",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_HOMELESS_10"
+  },
+  "WM_HOMELESS_11": {
+    "trickId": "WM_HOMELESS",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_HOMELESS_11"
+  },
+  "WM_HOMELESS_12": {
+    "trickId": "WM_HOMELESS",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_HOMELESS_12"
+  },
+  "WM_DEBT_01": {
+    "trickId": "WM_DEBT",
+    "result": 1,
+    "isFemale": false,
+    "id": "WM_DEBT_01"
+  },
+  "WM_DEBT_02": {
+    "trickId": "WM_DEBT",
+    "result": 1,
+    "isFemale": true,
+    "id": "WM_DEBT_02"
+  },
+  "WM_DEBT_03": {
+    "trickId": "WM_DEBT",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_DEBT_03"
+  },
+  "WM_DEBT_04": {
+    "trickId": "WM_DEBT",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_DEBT_04"
+  },
+  "WM_DEBT_05": {
+    "trickId": "WM_DEBT",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_DEBT_05"
+  },
+  "WM_DEBT_06": {
+    "trickId": "WM_DEBT",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_DEBT_06"
+  },
+  "WM_DEBT_07": {
+    "trickId": "WM_DEBT",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_DEBT_07"
+  },
+  "WM_DEBT_08": {
+    "trickId": "WM_DEBT",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_DEBT_08"
+  },
+  "WM_DEBT_09": {
+    "trickId": "WM_DEBT",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_DEBT_09"
+  },
+  "WM_DEBT_10": {
+    "trickId": "WM_DEBT",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_DEBT_10"
+  },
+  "WM_DEBT_11": {
+    "trickId": "WM_DEBT",
+    "result": 3,
+    "isFemale": false,
+    "id": "WM_DEBT_11"
+  },
+  "WM_DEBT_12": {
+    "trickId": "WM_DEBT",
+    "result": 3,
+    "isFemale": true,
+    "id": "WM_DEBT_12"
+  },
+  "BM_DROWNING_01": {
+    "trickId": "BM_DROWNING",
+    "result": 1,
+    "isFemale": false,
+    "id": "BM_DROWNING_01"
+  },
+  "BM_DROWNING_02": {
+    "trickId": "BM_DROWNING",
+    "result": 1,
+    "isFemale": true,
+    "id": "BM_DROWNING_02"
+  },
+  "BM_DROWNING_03": {
+    "trickId": "BM_DROWNING",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_DROWNING_03"
+  },
+  "BM_DROWNING_04": {
+    "trickId": "BM_DROWNING",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_DROWNING_04"
+  },
+  "BM_DROWNING_05": {
+    "trickId": "BM_DROWNING",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_DROWNING_05"
+  },
+  "BM_DROWNING_06": {
+    "trickId": "BM_DROWNING",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_DROWNING_06"
+  },
+  "BM_DROWNING_07": {
+    "trickId": "BM_DROWNING",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_DROWNING_07"
+  },
+  "BM_DROWNING_08": {
+    "trickId": "BM_DROWNING",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_DROWNING_08"
+  },
+  "BM_DROWNING_09": {
+    "trickId": "BM_DROWNING",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_DROWNING_09"
+  },
+  "BM_DROWNING_10": {
+    "trickId": "BM_DROWNING",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_DROWNING_10"
+  },
+  "BM_DROWNING_11": {
+    "trickId": "BM_DROWNING",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_DROWNING_11"
+  },
+  "BM_DROWNING_12": {
+    "trickId": "BM_DROWNING",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_DROWNING_12"
+  },
+  "BM_DROWNING_13": {
+    "trickId": "BM_DROWNING",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_DROWNING_13"
+  },
+  "BM_DROWNING_14": {
+    "trickId": "BM_DROWNING",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_DROWNING_14"
+  },
+  "BM_DROWNING_15": {
+    "trickId": "BM_DROWNING",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_DROWNING_15"
+  },
+  "BM_DROWNING_16": {
+    "trickId": "BM_DROWNING",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_DROWNING_16"
+  },
+  "BM_DROWNING_17": {
+    "trickId": "BM_DROWNING",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_DROWNING_17"
+  },
+  "BM_DROWNING_18": {
+    "trickId": "BM_DROWNING",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_DROWNING_18"
+  },
+  "BM_DROWNING_19": {
+    "trickId": "BM_DROWNING",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_DROWNING_19"
+  },
+  "BM_DROWNING_20": {
+    "trickId": "BM_DROWNING",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_DROWNING_20"
+  },
+  "BM_DROWNING_21": {
+    "trickId": "BM_DROWNING",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_DROWNING_21"
+  },
+  "BM_DROWNING_22": {
+    "trickId": "BM_DROWNING",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_DROWNING_22"
+  },
+  "BM_DRUNKARD_01": {
+    "trickId": "BM_DRUNKARD",
+    "result": 1,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_01"
+  },
+  "BM_DRUNKARD_02": {
+    "trickId": "BM_DRUNKARD",
+    "result": 1,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_02"
+  },
+  "BM_DRUNKARD_03": {
+    "trickId": "BM_DRUNKARD",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_03"
+  },
+  "BM_DRUNKARD_04": {
+    "trickId": "BM_DRUNKARD",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_04"
+  },
+  "BM_DRUNKARD_05": {
+    "trickId": "BM_DRUNKARD",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_05"
+  },
+  "BM_DRUNKARD_06": {
+    "trickId": "BM_DRUNKARD",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_06"
+  },
+  "BM_DRUNKARD_07": {
+    "trickId": "BM_DRUNKARD",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_07"
+  },
+  "BM_DRUNKARD_08": {
+    "trickId": "BM_DRUNKARD",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_08"
+  },
+  "BM_DRUNKARD_09": {
+    "trickId": "BM_DRUNKARD",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_09"
+  },
+  "BM_DRUNKARD_10": {
+    "trickId": "BM_DRUNKARD",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_10"
+  },
+  "BM_DRUNKARD_11": {
+    "trickId": "BM_DRUNKARD",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_11"
+  },
+  "BM_DRUNKARD_12": {
+    "trickId": "BM_DRUNKARD",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_12"
+  },
+  "BM_DRUNKARD_13": {
+    "trickId": "BM_DRUNKARD",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_13"
+  },
+  "BM_DRUNKARD_14": {
+    "trickId": "BM_DRUNKARD",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_14"
+  },
+  "BM_DRUNKARD_15": {
+    "trickId": "BM_DRUNKARD",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_15"
+  },
+  "BM_DRUNKARD_16": {
+    "trickId": "BM_DRUNKARD",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_16"
+  },
+  "BM_DRUNKARD_17": {
+    "trickId": "BM_DRUNKARD",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_17"
+  },
+  "BM_DRUNKARD_18": {
+    "trickId": "BM_DRUNKARD",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_18"
+  },
+  "BM_DRUNKARD_19": {
+    "trickId": "BM_DRUNKARD",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_19"
+  },
+  "BM_DRUNKARD_20": {
+    "trickId": "BM_DRUNKARD",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_20"
+  },
+  "BM_DRUNKARD_21": {
+    "trickId": "BM_DRUNKARD",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_DRUNKARD_21"
+  },
+  "BM_DRUNKARD_22": {
+    "trickId": "BM_DRUNKARD",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_DRUNKARD_22"
+  },
+  "BM_FIGHT_01": {
+    "trickId": "BM_FIGHT",
+    "result": 1,
+    "isFemale": false,
+    "id": "BM_FIGHT_01"
+  },
+  "BM_FIGHT_02": {
+    "trickId": "BM_FIGHT",
+    "result": 1,
+    "isFemale": true,
+    "id": "BM_FIGHT_02"
+  },
+  "BM_FIGHT_03": {
+    "trickId": "BM_FIGHT",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_FIGHT_03"
+  },
+  "BM_FIGHT_04": {
+    "trickId": "BM_FIGHT",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_FIGHT_04"
+  },
+  "BM_FIGHT_05": {
+    "trickId": "BM_FIGHT",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_FIGHT_05"
+  },
+  "BM_FIGHT_06": {
+    "trickId": "BM_FIGHT",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_FIGHT_06"
+  },
+  "BM_FIGHT_07": {
+    "trickId": "BM_FIGHT",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_FIGHT_07"
+  },
+  "BM_FIGHT_08": {
+    "trickId": "BM_FIGHT",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_FIGHT_08"
+  },
+  "BM_FIGHT_09": {
+    "trickId": "BM_FIGHT",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_FIGHT_09"
+  },
+  "BM_FIGHT_10": {
+    "trickId": "BM_FIGHT",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_FIGHT_10"
+  },
+  "BM_FIGHT_11": {
+    "trickId": "BM_FIGHT",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_FIGHT_11"
+  },
+  "BM_FIGHT_12": {
+    "trickId": "BM_FIGHT",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_FIGHT_12"
+  },
+  "BM_FIGHT_13": {
+    "trickId": "BM_FIGHT",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_FIGHT_13"
+  },
+  "BM_FIGHT_14": {
+    "trickId": "BM_FIGHT",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_FIGHT_14"
+  },
+  "BM_FIGHT_15": {
+    "trickId": "BM_FIGHT",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_FIGHT_15"
+  },
+  "BM_FIGHT_16": {
+    "trickId": "BM_FIGHT",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_FIGHT_16"
+  },
+  "BM_FIGHT_17": {
+    "trickId": "BM_FIGHT",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_FIGHT_17"
+  },
+  "BM_FIGHT_18": {
+    "trickId": "BM_FIGHT",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_FIGHT_18"
+  },
+  "BM_FIGHT_19": {
+    "trickId": "BM_FIGHT",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_FIGHT_19"
+  },
+  "BM_FIGHT_20": {
+    "trickId": "BM_FIGHT",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_FIGHT_20"
+  },
+  "BM_FIGHT_21": {
+    "trickId": "BM_FIGHT",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_FIGHT_21"
+  },
+  "BM_FIGHT_22": {
+    "trickId": "BM_FIGHT",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_FIGHT_22"
+  },
+  "BM_CRIMINAL_01": {
+    "trickId": "BM_CRIMINAL",
+    "result": 1,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_01"
+  },
+  "BM_CRIMINAL_02": {
+    "trickId": "BM_CRIMINAL",
+    "result": 1,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_02"
+  },
+  "BM_CRIMINAL_03": {
+    "trickId": "BM_CRIMINAL",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_03"
+  },
+  "BM_CRIMINAL_04": {
+    "trickId": "BM_CRIMINAL",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_04"
+  },
+  "BM_CRIMINAL_05": {
+    "trickId": "BM_CRIMINAL",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_05"
+  },
+  "BM_CRIMINAL_06": {
+    "trickId": "BM_CRIMINAL",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_06"
+  },
+  "BM_CRIMINAL_07": {
+    "trickId": "BM_CRIMINAL",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_07"
+  },
+  "BM_CRIMINAL_08": {
+    "trickId": "BM_CRIMINAL",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_08"
+  },
+  "BM_CRIMINAL_09": {
+    "trickId": "BM_CRIMINAL",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_09"
+  },
+  "BM_CRIMINAL_10": {
+    "trickId": "BM_CRIMINAL",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_10"
+  },
+  "BM_CRIMINAL_11": {
+    "trickId": "BM_CRIMINAL",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_11"
+  },
+  "BM_CRIMINAL_12": {
+    "trickId": "BM_CRIMINAL",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_12"
+  },
+  "BM_CRIMINAL_13": {
+    "trickId": "BM_CRIMINAL",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_13"
+  },
+  "BM_CRIMINAL_14": {
+    "trickId": "BM_CRIMINAL",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_14"
+  },
+  "BM_CRIMINAL_15": {
+    "trickId": "BM_CRIMINAL",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_15"
+  },
+  "BM_CRIMINAL_16": {
+    "trickId": "BM_CRIMINAL",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_16"
+  },
+  "BM_CRIMINAL_17": {
+    "trickId": "BM_CRIMINAL",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_17"
+  },
+  "BM_CRIMINAL_18": {
+    "trickId": "BM_CRIMINAL",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_18"
+  },
+  "BM_CRIMINAL_19": {
+    "trickId": "BM_CRIMINAL",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_19"
+  },
+  "BM_CRIMINAL_20": {
+    "trickId": "BM_CRIMINAL",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_20"
+  },
+  "BM_CRIMINAL_21": {
+    "trickId": "BM_CRIMINAL",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_CRIMINAL_21"
+  },
+  "BM_CRIMINAL_22": {
+    "trickId": "BM_CRIMINAL",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_CRIMINAL_22"
+  },
+  "BM_HOUSE_BURN_01": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 1,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_01"
+  },
+  "BM_HOUSE_BURN_02": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 1,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_02"
+  },
+  "BM_HOUSE_BURN_03": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_03"
+  },
+  "BM_HOUSE_BURN_04": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_04"
+  },
+  "BM_HOUSE_BURN_05": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_05"
+  },
+  "BM_HOUSE_BURN_06": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_06"
+  },
+  "BM_HOUSE_BURN_07": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_07"
+  },
+  "BM_HOUSE_BURN_08": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_08"
+  },
+  "BM_HOUSE_BURN_09": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_09"
+  },
+  "BM_HOUSE_BURN_10": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_10"
+  },
+  "BM_HOUSE_BURN_11": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 3,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_11"
+  },
+  "BM_HOUSE_BURN_12": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 3,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_12"
+  },
+  "BM_HOUSE_BURN_13": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_13"
+  },
+  "BM_HOUSE_BURN_14": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_14"
+  },
+  "BM_HOUSE_BURN_15": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_15"
+  },
+  "BM_HOUSE_BURN_16": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_16"
+  },
+  "BM_HOUSE_BURN_17": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_17"
+  },
+  "BM_HOUSE_BURN_18": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_18"
+  },
+  "BM_HOUSE_BURN_19": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_19"
+  },
+  "BM_HOUSE_BURN_20": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_20"
+  },
+  "BM_HOUSE_BURN_21": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 2,
+    "isFemale": false,
+    "id": "BM_HOUSE_BURN_21"
+  },
+  "BM_HOUSE_BURN_22": {
+    "trickId": "BM_HOUSE_BURN",
+    "result": 2,
+    "isFemale": true,
+    "id": "BM_HOUSE_BURN_22"
+  },
+  "CANCELED_BECAUSE_NOT_HIRED": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": false,
+    "id": "CANCELED_BECAUSE_NOT_HIRED"
+  },
+  "CANCELED_BECAUSE_NOT_HIRED_FEMALE": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": true,
+    "id": "CANCELED_BECAUSE_NOT_HIRED_FEMALE"
+  },
+  "CANCELED_BECAUSE_DEAD": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": false,
+    "id": "CANCELED_BECAUSE_DEAD"
+  },
+  "CANCELED_BECAUSE_DEAD_FEMALE": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": true,
+    "id": "CANCELED_BECAUSE_DEAD_FEMALE"
+  },
+  "CANCELED_BECAUSE_IN_HOSPITAL": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": false,
+    "id": "CANCELED_BECAUSE_IN_HOSPITAL"
+  },
+  "CANCELED_BECAUSE_IN_HOSPITAL_FEMALE": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": true,
+    "id": "CANCELED_BECAUSE_IN_HOSPITAL_FEMALE"
+  },
+  "CANCELED_BECAUSE_IN_PRISON": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": false,
+    "id": "CANCELED_BECAUSE_IN_PRISON"
+  },
+  "CANCELED_BECAUSE_IN_PRISON_FEMALE": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": true,
+    "id": "CANCELED_BECAUSE_IN_PRISON_FEMALE"
+  },
+  "CANCELED_BECAUSE_KIDNAPPED": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": false,
+    "id": "CANCELED_BECAUSE_KIDNAPPED"
+  },
+  "CANCELED_BECAUSE_KIDNAPPED_FEMALE": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": true,
+    "id": "CANCELED_BECAUSE_KIDNAPPED_FEMALE"
+  },
+  "CANCELED_BECAUSE_ON_VACATION": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": false,
+    "id": "CANCELED_BECAUSE_ON_VACATION"
+  },
+  "CANCELED_BECAUSE_ON_VACATION_FEMALE": {
+    "trickId": "COMMON",
+    "result": 4,
+    "isFemale": true,
+    "id": "CANCELED_BECAUSE_ON_VACATION_FEMALE"
+  }
+}

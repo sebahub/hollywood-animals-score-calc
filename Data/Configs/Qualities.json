@@ -1,0 +1,494 @@
+{
+  "MONTAGE": {
+    "NOVAK": {
+      "rank": 0,
+      "quality": "2.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "0.6428",
+        "DurationFactor": "1.3"
+      },
+      "type": 0,
+      "id": "NOVAK"
+    },
+    "IRVINE": {
+      "rank": 0,
+      "quality": "0.000",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0.6",
+        "DurationFactor": "1.7"
+      },
+      "type": 0,
+      "id": "IRVINE"
+    },
+    "WEBB": {
+      "rank": 1,
+      "quality": "4.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "1.0714",
+        "DurationFactor": "1"
+      },
+      "type": 0,
+      "id": "WEBB"
+    },
+    "HESPRO": {
+      "rank": 3,
+      "quality": "9.000",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "1.3",
+        "DurationFactor": "1.4"
+      },
+      "type": 0,
+      "id": "HESPRO"
+    },
+    "STUDIO": {
+      "rank": 1,
+      "quality": "5.000",
+      "isOutsource": false,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0",
+        "DurationFactor": "2"
+      },
+      "type": 0,
+      "id": "STUDIO"
+    },
+    "STUDIO_IMPROVED": {
+      "rank": 2,
+      "quality": "7.000",
+      "isOutsource": false,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0",
+        "DurationFactor": "2"
+      },
+      "type": 0,
+      "id": "STUDIO_IMPROVED"
+    },
+    "TRASH_MONTAGE": {
+      "rank": 1,
+      "quality": "1.000",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0.3",
+        "DurationFactor": "0.5"
+      },
+      "type": 0,
+      "id": "TRASH_MONTAGE"
+    }
+  },
+  "MUSIC": {
+    "C_B": {
+      "rank": 0,
+      "quality": "2.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "2.041",
+        "DurationFactor": "0.78"
+      },
+      "type": 1,
+      "id": "C_B"
+    },
+    "HCH": {
+      "rank": 1,
+      "quality": "4.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "4.286",
+        "DurationFactor": "1.3"
+      },
+      "type": 1,
+      "id": "HCH"
+    },
+    "AUDITORIUM": {
+      "rank": 3,
+      "quality": "9.000",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "5.8",
+        "DurationFactor": "1.6"
+      },
+      "type": 1,
+      "id": "AUDITORIUM"
+    },
+    "STUDIO": {
+      "rank": 1,
+      "quality": "5.000",
+      "isOutsource": false,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0",
+        "DurationFactor": "1.8"
+      },
+      "type": 1,
+      "id": "STUDIO"
+    },
+    "STUDIO_IMPROVED": {
+      "rank": 2,
+      "quality": "7.000",
+      "isOutsource": false,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0",
+        "DurationFactor": "1.8"
+      },
+      "type": 1,
+      "id": "STUDIO_IMPROVED"
+    },
+    "TRASH_MUSIC": {
+      "rank": 1,
+      "quality": "1.000",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "1",
+        "DurationFactor": "0.4"
+      },
+      "type": 1,
+      "id": "TRASH_MUSIC"
+    }
+  },
+  "OTHER_SOUND": {
+    "VENUS": {
+      "rank": 0,
+      "quality": "2.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "1.43",
+        "DurationFactor": "0.69"
+      },
+      "type": 2,
+      "id": "VENUS"
+    },
+    "MAGICIANS": {
+      "rank": 1,
+      "quality": "4.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "3.214",
+        "DurationFactor": "1.05"
+      },
+      "type": 2,
+      "id": "MAGICIANS"
+    },
+    "PANORAMA": {
+      "rank": 3,
+      "quality": "9.000",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "4.4",
+        "DurationFactor": "1.5"
+      },
+      "type": 2,
+      "id": "PANORAMA"
+    },
+    "STUDIO": {
+      "rank": 1,
+      "quality": "5.000",
+      "isOutsource": false,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0",
+        "DurationFactor": "1.6"
+      },
+      "type": 2,
+      "id": "STUDIO"
+    },
+    "STUDIO_IMPROVED": {
+      "rank": 2,
+      "quality": "7.000",
+      "isOutsource": false,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0",
+        "DurationFactor": "1.6"
+      },
+      "type": 2,
+      "id": "STUDIO_IMPROVED"
+    },
+    "TRASH_OTHER_SOUND": {
+      "rank": 1,
+      "quality": "1.000",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0.7",
+        "DurationFactor": "0.3"
+      },
+      "type": 2,
+      "id": "TRASH_OTHER_SOUND"
+    }
+  },
+  "FOCUS_GROUP": {
+    "A_OUT": {
+      "rank": 2,
+      "quality": "6.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "3.5",
+        "DurationFactor": "3.5"
+      },
+      "type": 3,
+      "id": "A_OUT"
+    },
+    "B_OUT": {
+      "rank": 1,
+      "quality": "3.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "2.5",
+        "DurationFactor": "2.5"
+      },
+      "type": 3,
+      "id": "B_OUT"
+    },
+    "C_OUT": {
+      "rank": 0,
+      "quality": "0.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "1.5",
+        "DurationFactor": "1.5"
+      },
+      "type": 3,
+      "id": "C_OUT"
+    },
+    "A_IN": {
+      "rank": 2,
+      "quality": "6.000",
+      "isOutsource": false,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "2.5",
+        "DurationFactor": "2.5"
+      },
+      "type": 3,
+      "id": "A_IN"
+    },
+    "B_IN": {
+      "rank": 1,
+      "quality": "3.000",
+      "isOutsource": false,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "1.75",
+        "DurationFactor": "1.75"
+      },
+      "type": 3,
+      "id": "B_IN"
+    },
+    "C_IN": {
+      "rank": 0,
+      "quality": "0.000",
+      "isOutsource": false,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "1",
+        "DurationFactor": "1"
+      },
+      "type": 3,
+      "id": "C_IN"
+    }
+  },
+  "FILM_COPIES": {
+    "HESPRO": {
+      "rank": 2,
+      "quality": "2.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "4",
+        "DurationFactor": "0.9",
+        "ExpressBudgetFactor": "6",
+        "ExpressDurationFactor": "0.45"
+      },
+      "type": 5,
+      "id": "HESPRO"
+    },
+    "IRVINE": {
+      "rank": 0,
+      "quality": "1.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "1",
+        "DurationFactor": "2",
+        "ExpressBudgetFactor": "3.2",
+        "ExpressDurationFactor": "1.5"
+      },
+      "type": 5,
+      "id": "IRVINE"
+    },
+    "IMPROVED_OUT": {
+      "rank": 1,
+      "quality": "1.000",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "1",
+        "DurationFactor": "1.2",
+        "ExpressBudgetFactor": "3.6",
+        "ExpressDurationFactor": "0.8"
+      },
+      "type": 5,
+      "id": "IMPROVED_OUT"
+    },
+    "STANDARD_IN": {
+      "rank": 2,
+      "quality": "1.000",
+      "isOutsource": false,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0",
+        "DurationFactor": "1.8",
+        "ExpressBudgetFactor": "2",
+        "ExpressDurationFactor": "0.9"
+      },
+      "type": 5,
+      "id": "STANDARD_IN"
+    },
+    "IMPROVED_IN": {
+      "rank": 1,
+      "quality": "2.000",
+      "isOutsource": false,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0",
+        "DurationFactor": "1.2",
+        "ExpressBudgetFactor": "4",
+        "ExpressDurationFactor": "0.6"
+      },
+      "type": 5,
+      "id": "IMPROVED_IN"
+    },
+    "SUPER_IN": {
+      "rank": 0,
+      "quality": "3.000",
+      "isOutsource": false,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0",
+        "DurationFactor": "0.7",
+        "ExpressBudgetFactor": "6",
+        "ExpressDurationFactor": "0.35"
+      },
+      "type": 5,
+      "id": "SUPER_IN"
+    }
+  },
+  "BUILDINGS": {
+    "MACBRYAN_AND_SONS": {
+      "rank": 3,
+      "quality": "1.000",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "1",
+        "DurationFactor": "0.8"
+      },
+      "type": 4,
+      "id": "MACBRYAN_AND_SONS"
+    },
+    "WILLIAMS_BUILDINGS": {
+      "rank": 1,
+      "quality": "0.900",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0.9",
+        "DurationFactor": "0.9"
+      },
+      "type": 4,
+      "id": "WILLIAMS_BUILDINGS"
+    },
+    "WOODRIVER_CAPITAL_PARTNERS": {
+      "rank": 3,
+      "quality": "0.800",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0.8",
+        "DurationFactor": "0.8"
+      },
+      "type": 4,
+      "id": "WOODRIVER_CAPITAL_PARTNERS"
+    },
+    "WILLIS_BROTHERS": {
+      "rank": 1,
+      "quality": "0.750",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "0.65",
+        "DurationFactor": "0.7"
+      },
+      "type": 4,
+      "id": "WILLIS_BROTHERS"
+    },
+    "CHENDORN_DEVELOPMENT": {
+      "rank": 1,
+      "quality": "0.600",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0.6",
+        "DurationFactor": "0.6"
+      },
+      "type": 4,
+      "id": "CHENDORN_DEVELOPMENT"
+    },
+    "BESTEST_BRICKS": {
+      "rank": 0,
+      "quality": "0.300",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0.9",
+        "DurationFactor": "0.9"
+      },
+      "type": 4,
+      "id": "BESTEST_BRICKS"
+    },
+    "CUTTERSTONE_COMPANY": {
+      "rank": 0,
+      "quality": "0.300",
+      "isOutsource": true,
+      "availableOnStart": false,
+      "parameters": {
+        "BudgetFactor": "0.9",
+        "DurationFactor": "0.9"
+      },
+      "type": 4,
+      "id": "CUTTERSTONE_COMPANY"
+    },
+    "LUXTA_CONSTRUCTIONS": {
+      "rank": 1,
+      "quality": "0.500",
+      "isOutsource": true,
+      "availableOnStart": true,
+      "parameters": {
+        "BudgetFactor": "0.3",
+        "DurationFactor": "0.5"
+      },
+      "type": 4,
+      "id": "LUXTA_CONSTRUCTIONS"
+    }
+  }
+}
