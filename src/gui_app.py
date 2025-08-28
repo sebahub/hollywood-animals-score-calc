@@ -364,9 +364,22 @@ class CompatibilityBrowser(QMainWindow):
             self._manual_unlocked.remove(tag)
         # Persist changes
         self._save_manual_unlocked(self._project_root, self._manual_unlocked)
+        # Reload from disk to reflect any external edits and ensure consistency
+        try:
+            self._manual_unlocked = self._load_manual_unlocked(self._project_root)
+        except Exception:
+            # keep in-memory set if reload fails
+            pass
         # If only-unlocked filter is on, refresh visible tag list
         if self.only_unlocked_cb.isChecked():
             self._refresh_tag_list()
+        # Also refresh Film Builder lists so newly unlocked tags appear immediately
+        try:
+            if hasattr(self, "fb_only_unlocked_cb") and self.fb_only_unlocked_cb.isChecked():
+                self._fb_recompute_recommendation()
+                self._refresh_fb_all_tags()
+        except Exception:
+            pass
 
     def _effective_unlocked(self) -> set[str]:
         """Union of start-unlocked and manually unlocked tags."""
