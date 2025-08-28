@@ -159,6 +159,13 @@ class CompatibilityBrowser(QMainWindow):
         f.setBold(True)
         self.fb_score_label.setFont(f)
         fb_right_layout.addWidget(self.fb_score_label)
+        # Show separate art/commercial contributions (from TagData.json)
+        self.fb_art_label = QLabel("Kunst: –")
+        self.fb_art_label.setToolTip("Summe der artValue der ausgewählten Tags (TagData.json)")
+        self.fb_com_label = QLabel("Kommerziell: –")
+        self.fb_com_label.setToolTip("Summe der commercialValue der ausgewählten Tags (TagData.json)")
+        fb_right_layout.addWidget(self.fb_art_label)
+        fb_right_layout.addWidget(self.fb_com_label)
         fb_right_layout.addWidget(QLabel("Zielgruppe"))
         # Audience breakdown table
         self.fb_audience_table = QTableWidget(0, 2)
@@ -535,6 +542,24 @@ class CompatibilityBrowser(QMainWindow):
         except Exception as e:
             self.fb_score_label.setText("Score: –")
             self._fb_current_score = None
+        # Update art/commercial aggregates
+        try:
+            art_total = 0.0
+            com_total = 0.0
+            for t in self._fb_selected:
+                a, c = self._tag_meta.get(t, (0.0, 0.0))
+                art_total += a
+                com_total += c
+            # Display with sign and one decimal place
+            if hasattr(self, "fb_art_label"):
+                self.fb_art_label.setText(f"Kunst: {art_total:+.2f}")
+            if hasattr(self, "fb_com_label"):
+                self.fb_com_label.setText(f"Kommerziell: {com_total:+.2f}")
+        except Exception:
+            if hasattr(self, "fb_art_label"):
+                self.fb_art_label.setText("Kunst: –")
+            if hasattr(self, "fb_com_label"):
+                self.fb_com_label.setText("Kommerziell: –")
         # Update audience after score computation
         self._fb_update_audience()
 

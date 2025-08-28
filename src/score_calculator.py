@@ -58,7 +58,6 @@ def _load_compat_map(project_root: Path) -> Dict[str, Dict[str, float]]:
         raw = json.loads(comp_path.read_text(encoding="utf-8"))
     except Exception:
         return data
-
     for a, mapping in raw.items():
         if not isinstance(mapping, dict):
             continue
@@ -69,6 +68,66 @@ def _load_compat_map(project_root: Path) -> Dict[str, Dict[str, float]]:
             except Exception:
                 continue
         data[str(a)] = bucket
+    return data
+
+
+def _load_genre_pairs(project_root: Path) -> Dict[str, Dict[str, float]]:
+    """Load GenrePairs.json and return a->b -> avg(Item1, Item2) mapping as float.
+
+    The file structure uses string numbers. We coerce and average Item1/Item2.
+    """
+    path = project_root / "Data" / "Configs" / "GenrePairs.json"
+    out: Dict[str, Dict[str, float]] = {}
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return out
+    if not isinstance(raw, dict):
+        return out
+    for ga, mapping in raw.items():
+        if not isinstance(mapping, dict):
+            continue
+        bucket: Dict[str, float] = {}
+        for gb, pair in mapping.items():
+            if not isinstance(pair, dict):
+                continue
+            try:
+                i1 = float(pair.get("Item1", 0) or 0)
+            except Exception:
+                i1 = 0.0
+            try:
+                i2 = float(pair.get("Item2", 0) or 0)
+            except Exception:
+                i2 = 0.0
+            bucket[str(gb)] = (i1 + i2) / 2.0
+        out[str(ga)] = bucket
+    return out
+
+
+GENRE_TAGS = {
+    "DRAMA",
+    "COMEDY",
+    "ACTION",
+    "ROMANCE",
+    "DETECTIVE",
+    "ADVENTURE",
+    "THRILLER",
+    "HISTORICAL",
+    "HORROR",
+    "SCIENCE_FICTION",
+    "SLAPSTICK_COMEDY",
+}
+
+
+def _lookup_pair(mapping: Dict[str, Dict[str, float]], a: str, b: str) -> float | None:
+    """Undirected lookup a->b or b->a in a nested mapping."""
+    amap = mapping.get(a, {})
+    if b in amap:
+        return amap[b]
+    bmap = mapping.get(b, {})
+    if a in bmap:
+        return bmap[a]
+    return None
     return data
 
 
@@ -92,6 +151,7 @@ def compute_agnostic_score(selected_tags: Iterable[str], project_root: Path | st
 
     max_score, score_precision, (rng_lo, rng_hi) = _load_game_variables(root)
     comp = _load_compat_map(root)
+    genre_pairs = _load_genre_pairs(root)
 
     # Collect available pair scores (undirected lookup: a->b or b->a)
     values: list[float] = []
@@ -101,6 +161,7 @@ def compute_agnostic_score(selected_tags: Iterable[str], project_root: Path | st
         amap = comp.get(a, {})
         for j in range(i + 1, n):
             b = tags[j]
+            # TagCompatibilityData value (undirected)
             v = None
             if b in amap:
                 v = amap[b]
@@ -108,8 +169,17 @@ def compute_agnostic_score(selected_tags: Iterable[str], project_root: Path | st
                 bmap = comp.get(b, {})
                 if a in bmap:
                     v = bmap[a]
-            if v is not None:
-                values.append(v)
+
+            # Optional GenrePairs contribution if both are genre tags
+            gp = None
+            if (a in GENRE_TAGS) and (b in GENRE_TAGS):
+                gp = _lookup_pair(genre_pairs, a, b)
+
+            # Combine sources: average those available, append as one value
+            avail = [x for x in (v, gp) if x is not None]
+            if avail:
+                pair_score = sum(avail) / len(avail)
+                values.append(pair_score)
 
     if not values:
         return round(0.0, ndigits=score_precision)
