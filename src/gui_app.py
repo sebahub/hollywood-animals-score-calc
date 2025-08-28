@@ -119,6 +119,10 @@ class CompatibilityBrowser(QMainWindow):
         self.fb_only_unlocked_cb = _QCB("Nur freigeschaltete Tags")
         self.fb_only_unlocked_cb.setChecked(True)
         fb_left_layout.addWidget(self.fb_only_unlocked_cb)
+        # Toggle: Delta vs Score
+        self.fb_show_delta_cb = _QCB("Delta statt Score anzeigen")
+        self.fb_show_delta_cb.setChecked(True)
+        fb_left_layout.addWidget(self.fb_show_delta_cb)
         self.fb_all_tags_list = QListWidget()
         self.fb_all_tags_list.setSelectionMode(QListWidget.ExtendedSelection)
         fb_left_layout.addWidget(self.fb_all_tags_list)
@@ -131,6 +135,9 @@ class CompatibilityBrowser(QMainWindow):
         fb_mid_layout.addWidget(self.fb_add_btn)
         fb_mid_layout.addWidget(self.fb_remove_btn)
         fb_mid_layout.addStretch(2)
+        # We switch to checkbox-based selection, hide buttons
+        self.fb_add_btn.hide()
+        self.fb_remove_btn.hide()
         # Right: selected tags and score
         fb_right = QWidget()
         fb_right_layout = QVBoxLayout(fb_right)
@@ -174,6 +181,10 @@ class CompatibilityBrowser(QMainWindow):
         self._fb_selected: list[str] = []
         self._fb_current_score: float | None = None
         self._fb_recommended_tag: str | None = None
+        self._fb_candidate_scores: dict[str, float] = {}
+        self._fb_candidate_deltas: dict[str, float] = {}
+        self._fb_pos_max_delta: float = 0.0
+        self._fb_neg_min_delta: float = 0.0
 
         # Populate categories
         for cat in self._all_tags_by_category.keys():
@@ -197,6 +208,8 @@ class CompatibilityBrowser(QMainWindow):
         self.fb_all_tags_list.itemDoubleClicked.connect(self._on_fb_add_item)
         self.fb_selected_list.itemDoubleClicked.connect(self._on_fb_remove_item)
         self.fb_only_unlocked_cb.toggled.connect(self._on_fb_filter_changed)
+        self.fb_show_delta_cb.toggled.connect(self._on_fb_filter_changed)
+        self.fb_all_tags_list.itemChanged.connect(self._on_fb_left_item_changed)
 
         # Select first category by default
         if self.category_list.count() > 0:
@@ -329,6 +342,7 @@ class CompatibilityBrowser(QMainWindow):
             "Antagonist",
             "SupportingCharacter",
             "Theme",
+            "Events",
             "Finale",
         ]
         # Compose ordered list: first desired ones that exist, then any remaining
@@ -360,10 +374,27 @@ class CompatibilityBrowser(QMainWindow):
             self.fb_all_tags_list.addItem(header)
             # items
             for t in filtered:
-                it = QListWidgetItem(f"  {t}")
+                # Text with expected score or delta
+                next_score = self._fb_candidate_scores.get(t)
+                delta = self._fb_candidate_deltas.get(t)
+                show_delta = getattr(self, "fb_show_delta_cb", None)
+                if show_delta and show_delta.isChecked() and isinstance(delta, (int, float)):
+                    suffix = f"  ({delta:+.2f})"
+                else:
+                    suffix = f"  ({next_score:.2f})" if isinstance(next_score, (int, float)) else ""
+                it = QListWidgetItem(f"  {t}{suffix}")
                 it.setData(Qt.UserRole, t)
+                # Make item checkable and reflect current selection
+                it.setFlags(it.flags() | Qt.ItemIsUserCheckable | Qt.ItemIsSelectable | Qt.ItemIsEnabled)
+                it.setCheckState(Qt.Checked if t in self._fb_selected else Qt.Unchecked)
+                # Color by delta quality
+                if isinstance(delta, (int, float)):
+                    color = self._fb_color_for_delta(delta)
+                    if color is not None:
+                        it.setForeground(color)
+                # Ensure the very best stays at least light green
                 if self._fb_recommended_tag and t == self._fb_recommended_tag:
-                    it.setForeground(QColor("green"))
+                    it.setForeground(QColor("#34c759"))  # recommendation = light green (very good)
                 self.fb_all_tags_list.addItem(it)
         self.fb_all_tags_list.blockSignals(False)
 
@@ -397,6 +428,17 @@ class CompatibilityBrowser(QMainWindow):
 
     def _on_fb_remove_item(self, item: QListWidgetItem) -> None:
         self._fb_remove_items([item.text()])
+
+    def _on_fb_left_item_changed(self, item: QListWidgetItem) -> None:
+        # Ignore headers (no user role payload)
+        t = item.data(Qt.UserRole)
+        if not t:
+            return
+        checked = item.checkState() == Qt.Checked
+        if checked and t not in self._fb_selected:
+            self._fb_add_items([t])
+        elif (not checked) and t in self._fb_selected:
+            self._fb_remove_items([t])
 
     def _fb_add_items(self, tags: list[str]) -> None:
         changed = False
@@ -459,6 +501,12 @@ class CompatibilityBrowser(QMainWindow):
             current_score = compute_agnostic_score(self._fb_selected, self._project_root)
         except Exception:
             current_score = 0.0
+        self._fb_current_score = current_score
+        # compute candidate next scores and deltas
+        cand_scores: dict[str, float] = {}
+        cand_deltas: dict[str, float] = {}
+        pos_max = 0.0
+        neg_min = 0.0
         for t in candidates:
             if t in current_set:
                 continue
@@ -466,10 +514,33 @@ class CompatibilityBrowser(QMainWindow):
                 s = compute_agnostic_score(self._fb_selected + [t], self._project_root)
             except Exception:
                 continue
+            delta = s - current_score
+            cand_scores[t] = s
+            cand_deltas[t] = delta
+            if delta > pos_max:
+                pos_max = delta
+            if delta < neg_min:
+                neg_min = delta
             if (best_score is None) or (s > best_score):
                 best_score = s
                 best_tag = t
         self._fb_recommended_tag = best_tag
+        self._fb_candidate_scores = cand_scores
+        self._fb_candidate_deltas = cand_deltas
+        self._fb_pos_max_delta = pos_max
+        self._fb_neg_min_delta = neg_min
+
+    def _fb_color_for_delta(self, delta: float):
+        # Positive improvements: green shades (adaptive)
+        pos_max = self._fb_pos_max_delta
+        if delta > 0:
+            if pos_max > 0 and delta >= 0.66 * pos_max:
+                return QColor("#34c759")  # light green (very good)
+            return QColor("#147d3f")  # dark green (good)
+        # Negative or neutral: treat down to -0.9 as yellow
+        if delta >= -0.9:
+            return QColor("#f5c518")  # yellow
+        return QColor("#d0021b")  # red
 
     # --- Persistence of manual unlocked ---
     @staticmethod

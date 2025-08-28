@@ -148,7 +148,7 @@ def build_index(project_root: Path | str = ".") -> TagCompatibilityIndex:
                 "ANTAGONIST": "Antagonist",
                 "SUPPORTINGCHARACTER": "SupportingCharacter",
                 "THEME": "Theme",
-                "EVENTS": "Theme",  # events are effectively themes in data
+                "EVENTS": "Events",
                 "FINALE": "Finale",
             }.get(prefix)
             if norm:
