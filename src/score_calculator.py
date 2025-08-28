@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 from typing import Dict, Iterable, Tuple
+from functools import lru_cache
 import json
 
 
@@ -128,33 +129,23 @@ def _lookup_pair(mapping: Dict[str, Dict[str, float]], a: str, b: str) -> float 
     if a in bmap:
         return bmap[a]
     return None
-    return data
+    
 
+@lru_cache(maxsize=10000)
+def _compute_score_cached(root_key: str, tags_key: tuple[str, ...]) -> float:
+    """Core scoring that uses cached configs and is cached by tag set.
 
-def compute_agnostic_score(selected_tags: Iterable[str], project_root: Path | str) -> float:
-    """Compute an agnostic Film Builder score (0..max_score) based purely on
-    pairwise tag compatibilities (range defined by GameVariables).
-
-    Args:
-        selected_tags: collection of tag ids (e.g. ["PROTAGONIST_COWBOY", "ACTION", ...])
-        project_root: path to repo root containing Data/Configs
-
-    Returns:
-        float score rounded to score_precision (from GameVariables)
+    root_key: canonical string path to project root
+    tags_key: sorted tuple of tag ids
     """
-    root = Path(project_root)
-    tags = [str(t) for t in selected_tags]
-    if len(tags) < 2:
-        # Not enough for pair evaluation
-        max_score, score_precision, _rng = _load_game_variables(root)
-        return round(0.0, ndigits=score_precision)
-
-    max_score, score_precision, (rng_lo, rng_hi) = _load_game_variables(root)
-    comp = _load_compat_map(root)
-    genre_pairs = _load_genre_pairs(root)
+    root = Path(root_key)
+    max_score, score_precision, (rng_lo, rng_hi) = _get_game_variables(root_key)
+    comp = _get_compat_map(root_key)
+    genre_pairs = _get_genre_pairs(root_key)
 
     # Collect available pair scores (undirected lookup: a->b or b->a)
     values: list[float] = []
+    tags = list(tags_key)
     n = len(tags)
     for i in range(n):
         a = tags[i]
@@ -185,7 +176,6 @@ def compute_agnostic_score(selected_tags: Iterable[str], project_root: Path | st
         return round(0.0, ndigits=score_precision)
 
     avg = sum(values) / len(values)
-
     # Normalize from [rng_lo, rng_hi] to [0, 1]
     span = (rng_hi - rng_lo) if (rng_hi > rng_lo) else 4.0
     norm = (avg - rng_lo) / span
@@ -193,9 +183,49 @@ def compute_agnostic_score(selected_tags: Iterable[str], project_root: Path | st
         norm = 0.0
     elif norm > 1.0:
         norm = 1.0
-
     score = norm * max_score
     return round(score, ndigits=score_precision)
+
+
+def compute_agnostic_score(selected_tags: Iterable[str], project_root: Path | str) -> float:
+    """Compute an agnostic Film Builder score (0..max_score) based purely on
+    pairwise tag compatibilities (range defined by GameVariables).
+
+    Args:
+        selected_tags: collection of tag ids (e.g. ["PROTAGONIST_COWBOY", "ACTION", ...])
+        project_root: path to repo root containing Data/Configs
+
+    Returns:
+        float score rounded to score_precision (from GameVariables)
+    """
+    root = Path(project_root)
+    tags = [str(t) for t in selected_tags]
+    if len(tags) < 2:
+        # Not enough for pair evaluation
+        max_score, score_precision, _rng = _load_game_variables(root)
+        return round(0.0, ndigits=score_precision)
+
+    # Use cached scorer keyed by project root and tag set
+    root_key = str(root.resolve())
+    tags_key = tuple(sorted(tags))
+    return _compute_score_cached(root_key, tags_key)
+
+
+# --- Cached accessors to avoid disk IO on every scoring call ---
+
+@lru_cache(maxsize=8)
+def _get_game_variables(root_key: str) -> Tuple[float, int, Tuple[float, float]]:
+    return _load_game_variables(Path(root_key))
+
+
+@lru_cache(maxsize=8)
+def _get_compat_map(root_key: str) -> Dict[str, Dict[str, float]]:
+    return _load_compat_map(Path(root_key))
+
+
+@lru_cache(maxsize=8)
+def _get_genre_pairs(root_key: str) -> Dict[str, Dict[str, float]]:
+    return _load_genre_pairs(Path(root_key))
 
 
 if __name__ == "__main__":  # simple manual test
