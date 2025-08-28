@@ -117,7 +117,7 @@ class CompatibilityBrowser(QMainWindow):
         for cat in sorted(self._index.categories):
             self._all_tags_by_category[cat] = sorted(self._index.items(cat))
         self._unlocked: set[str] = self._load_unlocked_tags(self._project_root)
-        self._manual_unlocked: set[str] = set()
+        self._manual_unlocked: set[str] = self._load_manual_unlocked(self._project_root)
         # Precompute full tag list for settings
         self._all_tags: list[str] = sorted({t for lst in self._all_tags_by_category.values() for t in lst})
 
@@ -237,6 +237,8 @@ class CompatibilityBrowser(QMainWindow):
             self._manual_unlocked.add(tag)
         elif item.checkState() == Qt.Unchecked and tag in self._manual_unlocked:
             self._manual_unlocked.remove(tag)
+        # Persist changes
+        self._save_manual_unlocked(self._project_root, self._manual_unlocked)
         # If only-unlocked filter is on, refresh visible tag list
         if self.only_unlocked_cb.isChecked():
             self._refresh_tag_list()
@@ -244,6 +246,48 @@ class CompatibilityBrowser(QMainWindow):
     def _effective_unlocked(self) -> set[str]:
         """Union of start-unlocked and manually unlocked tags."""
         return set(self._unlocked) | set(self._manual_unlocked)
+
+    # --- Persistence of manual unlocked ---
+    @staticmethod
+    def _manual_unlocked_path(project_root: Path) -> Path:
+        # Store alongside the project, not inside game data
+        return project_root / "ManualUnlocked.json"
+
+    @classmethod
+    def _load_manual_unlocked(cls, project_root: Path) -> set[str]:
+        path = cls._manual_unlocked_path(project_root)
+        try:
+            raw = path.read_text(encoding="utf-8")
+        except FileNotFoundError:
+            return set()
+        except Exception:
+            return set()
+        try:
+            import json as _json
+            data = _json.loads(raw)
+            if isinstance(data, list):
+                return {str(x) for x in data}
+            return set()
+        except Exception:
+            return set()
+
+    @classmethod
+    def _save_manual_unlocked(cls, project_root: Path, items: set[str]) -> None:
+        path = cls._manual_unlocked_path(project_root)
+        try:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            import json as _json
+            path.write_text(_json.dumps(sorted(items), ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            # Non-fatal
+            pass
+
+    # Ensure we persist on close as well
+    def closeEvent(self, event) -> None:  # type: ignore[override]
+        try:
+            self._save_manual_unlocked(self._project_root, self._manual_unlocked)
+        finally:
+            return super().closeEvent(event)
 
     @staticmethod
     def _load_unlocked_tags(project_root: Path) -> set[str]:
