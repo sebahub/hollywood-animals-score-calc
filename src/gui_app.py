@@ -30,8 +30,10 @@ except Exception as e:  # pragma: no cover
 try:
     # When run as a module: python -m src.gui_app
     from .compatibility_loader import build_index  # type: ignore
+    from .score_calculator import compute_agnostic_score  # type: ignore
 except Exception:  # When run as a script: python src/gui_app.py
     from compatibility_loader import build_index  # type: ignore
+    from score_calculator import compute_agnostic_score  # type: ignore
 
 
 class CompatibilityBrowser(QMainWindow):
@@ -102,12 +104,59 @@ class CompatibilityBrowser(QMainWindow):
         hint.setStyleSheet("color: gray;")
         settings_layout.addWidget(hint)
 
+        # Film Builder tab (agnostic score)
+        fb_panel = QWidget()
+        fb_layout = QHBoxLayout(fb_panel)
+        # Left: all tags with search
+        fb_left = QWidget()
+        fb_left_layout = QVBoxLayout(fb_left)
+        fb_left_layout.addWidget(QLabel("Alle Tags"))
+        self.fb_search = QLineEdit()
+        self.fb_search.setPlaceholderText("Tags filtern...")
+        fb_left_layout.addWidget(self.fb_search)
+        from PySide6.QtWidgets import QCheckBox as _QCB  # local alias to avoid top import shuffle
+        self.fb_only_unlocked_cb = _QCB("Nur freigeschaltete Tags")
+        self.fb_only_unlocked_cb.setChecked(True)
+        fb_left_layout.addWidget(self.fb_only_unlocked_cb)
+        self.fb_all_tags_list = QListWidget()
+        self.fb_all_tags_list.setSelectionMode(QListWidget.ExtendedSelection)
+        fb_left_layout.addWidget(self.fb_all_tags_list)
+        # Middle: add/remove buttons
+        fb_mid = QWidget()
+        fb_mid_layout = QVBoxLayout(fb_mid)
+        fb_mid_layout.addStretch(1)
+        self.fb_add_btn = QPushButton("→ Hinzufügen")
+        self.fb_remove_btn = QPushButton("← Entfernen")
+        fb_mid_layout.addWidget(self.fb_add_btn)
+        fb_mid_layout.addWidget(self.fb_remove_btn)
+        fb_mid_layout.addStretch(2)
+        # Right: selected tags and score
+        fb_right = QWidget()
+        fb_right_layout = QVBoxLayout(fb_right)
+        fb_right_layout.addWidget(QLabel("Ausgewählte Tags"))
+        self.fb_selected_list = QListWidget()
+        self.fb_selected_list.setSelectionMode(QListWidget.ExtendedSelection)
+        fb_right_layout.addWidget(self.fb_selected_list)
+        self.fb_score_label = QLabel("Score: –")
+        f = self.fb_score_label.font()
+        f.setPointSize(f.pointSize() + 2)
+        f.setBold(True)
+        self.fb_score_label.setFont(f)
+        fb_right_layout.addWidget(self.fb_score_label)
+        self.fb_clear_btn = QPushButton("Auswahl leeren")
+        fb_right_layout.addWidget(self.fb_clear_btn)
+        # Assemble
+        fb_layout.addWidget(fb_left)
+        fb_layout.addWidget(fb_mid)
+        fb_layout.addWidget(fb_right)
+
         # Tabs setup
         browse_tab = QWidget()
         browse_layout = QHBoxLayout(browse_tab)
         browse_layout.addWidget(splitter_main)
         self.tabs.addTab(browse_tab, "Browser")
         self.tabs.addTab(settings_panel, "Settings")
+        self.tabs.addTab(fb_panel, "Film Builder")
 
         # Central widget is the tab widget
         self.setCentralWidget(self.tabs)
@@ -120,6 +169,8 @@ class CompatibilityBrowser(QMainWindow):
         self._manual_unlocked: set[str] = self._load_manual_unlocked(self._project_root)
         # Precompute full tag list for settings
         self._all_tags: list[str] = sorted({t for lst in self._all_tags_by_category.values() for t in lst})
+        # Film Builder state
+        self._fb_selected: list[str] = []
 
         # Populate categories
         for cat in self._all_tags_by_category.keys():
@@ -135,10 +186,22 @@ class CompatibilityBrowser(QMainWindow):
         self.only_unlocked_cb.toggled.connect(self._on_filter_changed)
         self.settings_search.textChanged.connect(self._on_settings_filter_changed)
         self.settings_list.itemChanged.connect(self._on_settings_item_changed)
+        # Film Builder signals
+        self.fb_search.textChanged.connect(self._on_fb_filter_changed)
+        self.fb_add_btn.clicked.connect(self._on_fb_add_clicked)
+        self.fb_remove_btn.clicked.connect(self._on_fb_remove_clicked)
+        self.fb_clear_btn.clicked.connect(self._on_fb_clear_clicked)
+        self.fb_all_tags_list.itemDoubleClicked.connect(self._on_fb_add_item)
+        self.fb_selected_list.itemDoubleClicked.connect(self._on_fb_remove_item)
+        self.fb_only_unlocked_cb.toggled.connect(self._on_fb_filter_changed)
 
         # Select first category by default
         if self.category_list.count() > 0:
             self.category_list.setCurrentRow(0)
+
+        # Populate Film Builder lists
+        self._refresh_fb_all_tags()
+        self._refresh_fb_selected()
 
         self.statusBar().showMessage(
             f"Loaded: {sum(len(v) for v in self._all_tags_by_category.values())} tags across {len(self._all_tags_by_category)} categories"
@@ -246,6 +309,116 @@ class CompatibilityBrowser(QMainWindow):
     def _effective_unlocked(self) -> set[str]:
         """Union of start-unlocked and manually unlocked tags."""
         return set(self._unlocked) | set(self._manual_unlocked)
+
+    # --- Film Builder helpers ---
+    def _refresh_fb_all_tags(self) -> None:
+        q = self.fb_search.text().strip().lower() if hasattr(self, "fb_search") else ""
+        only_unlocked = getattr(self, "fb_only_unlocked_cb", None)
+        unlocked = self._effective_unlocked() if (only_unlocked and only_unlocked.isChecked()) else None
+        self.fb_all_tags_list.blockSignals(True)
+        self.fb_all_tags_list.clear()
+        # Group by category with headers in custom order
+        desired_order = [
+            "Genre",
+            "Setting",
+            "Protagonist",
+            "Antagonist",
+            "SupportingCharacter",
+            "Theme",
+            "Finale",
+        ]
+        # Compose ordered list: first desired ones that exist, then any remaining
+        cats_all = list(self._all_tags_by_category.keys())
+        seen = set()
+        ordered_cats = []
+        for c in desired_order:
+            if c in self._all_tags_by_category and c not in seen:
+                ordered_cats.append(c)
+                seen.add(c)
+        for c in sorted(cats_all):
+            if c not in seen:
+                ordered_cats.append(c)
+                seen.add(c)
+
+        for cat in ordered_cats:
+            tags = self._all_tags_by_category[cat]
+            # filter by search and unlocked
+            filtered = [t for t in tags if ((not q or (q in t.lower())) and (unlocked is None or t in unlocked))]
+            if not filtered:
+                continue
+            # header
+            pretty = "Supporting Character" if cat == "SupportingCharacter" else cat
+            header = QListWidgetItem(pretty)
+            hf = header.font()
+            hf.setBold(True)
+            header.setFont(hf)
+            header.setFlags(Qt.ItemIsEnabled)  # non-selectable header
+            self.fb_all_tags_list.addItem(header)
+            # items
+            for t in filtered:
+                it = QListWidgetItem(f"  {t}")
+                it.setData(Qt.UserRole, t)
+                self.fb_all_tags_list.addItem(it)
+        self.fb_all_tags_list.blockSignals(False)
+
+    def _refresh_fb_selected(self) -> None:
+        self.fb_selected_list.blockSignals(True)
+        self.fb_selected_list.clear()
+        for t in self._fb_selected:
+            self.fb_selected_list.addItem(QListWidgetItem(t))
+        self.fb_selected_list.blockSignals(False)
+        self._fb_update_score()
+
+    def _on_fb_filter_changed(self, text: str) -> None:
+        self._refresh_fb_all_tags()
+
+    def _on_fb_add_clicked(self) -> None:
+        tags: list[str] = []
+        for it in self.fb_all_tags_list.selectedItems():
+            t = it.data(Qt.UserRole)
+            if t:
+                tags.append(t)
+        self._fb_add_items(tags)
+
+    def _on_fb_remove_clicked(self) -> None:
+        self._fb_remove_items([it.text() for it in self.fb_selected_list.selectedItems()])
+
+    def _on_fb_add_item(self, item: QListWidgetItem) -> None:
+        t = item.data(Qt.UserRole)
+        if t:
+            self._fb_add_items([t])
+
+    def _on_fb_remove_item(self, item: QListWidgetItem) -> None:
+        self._fb_remove_items([item.text()])
+
+    def _fb_add_items(self, tags: list[str]) -> None:
+        changed = False
+        for t in tags:
+            if t not in self._fb_selected:
+                self._fb_selected.append(t)
+                changed = True
+        if changed:
+            self._refresh_fb_selected()
+
+    def _fb_remove_items(self, tags: list[str]) -> None:
+        if not tags:
+            return
+        before = set(self._fb_selected)
+        self._fb_selected = [t for t in self._fb_selected if t not in tags]
+        if set(self._fb_selected) != before:
+            self._refresh_fb_selected()
+
+    def _on_fb_clear_clicked(self) -> None:
+        if self._fb_selected:
+            self._fb_selected.clear()
+            self._refresh_fb_selected()
+
+    def _fb_update_score(self) -> None:
+        try:
+            score = compute_agnostic_score(self._fb_selected, self._project_root)
+            self.fb_score_label.setText(f"Score: {score}")
+        except Exception as e:
+            self.fb_score_label.setText("Score: –")
 
     # --- Persistence of manual unlocked ---
     @staticmethod
