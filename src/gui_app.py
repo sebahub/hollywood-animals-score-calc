@@ -5,6 +5,7 @@ from pathlib import Path
 
 try:
     from PySide6.QtCore import Qt
+    from PySide6.QtGui import QColor
     from PySide6.QtWidgets import (
         QApplication,
         QMainWindow,
@@ -171,6 +172,8 @@ class CompatibilityBrowser(QMainWindow):
         self._all_tags: list[str] = sorted({t for lst in self._all_tags_by_category.values() for t in lst})
         # Film Builder state
         self._fb_selected: list[str] = []
+        self._fb_current_score: float | None = None
+        self._fb_recommended_tag: str | None = None
 
         # Populate categories
         for cat in self._all_tags_by_category.keys():
@@ -200,6 +203,7 @@ class CompatibilityBrowser(QMainWindow):
             self.category_list.setCurrentRow(0)
 
         # Populate Film Builder lists
+        self._fb_recompute_recommendation()
         self._refresh_fb_all_tags()
         self._refresh_fb_selected()
 
@@ -358,6 +362,8 @@ class CompatibilityBrowser(QMainWindow):
             for t in filtered:
                 it = QListWidgetItem(f"  {t}")
                 it.setData(Qt.UserRole, t)
+                if self._fb_recommended_tag and t == self._fb_recommended_tag:
+                    it.setForeground(QColor("green"))
                 self.fb_all_tags_list.addItem(it)
         self.fb_all_tags_list.blockSignals(False)
 
@@ -370,6 +376,7 @@ class CompatibilityBrowser(QMainWindow):
         self._fb_update_score()
 
     def _on_fb_filter_changed(self, text: str) -> None:
+        self._fb_recompute_recommendation()
         self._refresh_fb_all_tags()
 
     def _on_fb_add_clicked(self) -> None:
@@ -398,7 +405,9 @@ class CompatibilityBrowser(QMainWindow):
                 self._fb_selected.append(t)
                 changed = True
         if changed:
+            self._fb_recompute_recommendation()
             self._refresh_fb_selected()
+            self._refresh_fb_all_tags()
 
     def _fb_remove_items(self, tags: list[str]) -> None:
         if not tags:
@@ -406,19 +415,61 @@ class CompatibilityBrowser(QMainWindow):
         before = set(self._fb_selected)
         self._fb_selected = [t for t in self._fb_selected if t not in tags]
         if set(self._fb_selected) != before:
+            self._fb_recompute_recommendation()
             self._refresh_fb_selected()
+            self._refresh_fb_all_tags()
 
     def _on_fb_clear_clicked(self) -> None:
         if self._fb_selected:
             self._fb_selected.clear()
+            self._fb_recompute_recommendation()
             self._refresh_fb_selected()
+            self._refresh_fb_all_tags()
 
     def _fb_update_score(self) -> None:
         try:
             score = compute_agnostic_score(self._fb_selected, self._project_root)
+            self._fb_current_score = score
             self.fb_score_label.setText(f"Score: {score}")
         except Exception as e:
             self.fb_score_label.setText("Score: –")
+            self._fb_current_score = None
+
+    def _fb_visible_candidates(self) -> list[str]:
+        q = self.fb_search.text().strip().lower()
+        only_unlocked = self.fb_only_unlocked_cb.isChecked()
+        unlocked = self._effective_unlocked() if only_unlocked else None
+        candidates: list[str] = []
+        for cat in self._all_tags_by_category.keys():
+            for t in self._all_tags_by_category[cat]:
+                if q and (q not in t.lower()):
+                    continue
+                if unlocked is not None and t not in unlocked:
+                    continue
+                candidates.append(t)
+        return candidates
+
+    def _fb_recompute_recommendation(self) -> None:
+        candidates = self._fb_visible_candidates()
+        current_set = set(self._fb_selected)
+        best_tag: str | None = None
+        best_score: float | None = None
+        # Ensure current score is computed
+        try:
+            current_score = compute_agnostic_score(self._fb_selected, self._project_root)
+        except Exception:
+            current_score = 0.0
+        for t in candidates:
+            if t in current_set:
+                continue
+            try:
+                s = compute_agnostic_score(self._fb_selected + [t], self._project_root)
+            except Exception:
+                continue
+            if (best_score is None) or (s > best_score):
+                best_score = s
+                best_tag = t
+        self._fb_recommended_tag = best_tag
 
     # --- Persistence of manual unlocked ---
     @staticmethod
