@@ -123,9 +123,16 @@ class CompatibilityBrowser(QMainWindow):
         self.fb_show_delta_cb = _QCB("Delta statt Score anzeigen")
         self.fb_show_delta_cb.setChecked(True)
         fb_left_layout.addWidget(self.fb_show_delta_cb)
-        self.fb_all_tags_list = QListWidget()
-        self.fb_all_tags_list.setSelectionMode(QListWidget.ExtendedSelection)
-        fb_left_layout.addWidget(self.fb_all_tags_list)
+        # Two side-by-side lists for categories to reduce vertical space
+        fb_lists_row = QWidget()
+        fb_lists_row_layout = QHBoxLayout(fb_lists_row)
+        self.fb_all_tags_list_left = QListWidget()
+        self.fb_all_tags_list_left.setSelectionMode(QListWidget.ExtendedSelection)
+        self.fb_all_tags_list_right = QListWidget()
+        self.fb_all_tags_list_right.setSelectionMode(QListWidget.ExtendedSelection)
+        fb_lists_row_layout.addWidget(self.fb_all_tags_list_left)
+        fb_lists_row_layout.addWidget(self.fb_all_tags_list_right)
+        fb_left_layout.addWidget(fb_lists_row)
         # Middle: add/remove buttons
         fb_mid = QWidget()
         fb_mid_layout = QVBoxLayout(fb_mid)
@@ -141,7 +148,8 @@ class CompatibilityBrowser(QMainWindow):
         # Right: selected tags and score
         fb_right = QWidget()
         fb_right_layout = QVBoxLayout(fb_right)
-        fb_right_layout.addWidget(QLabel("Ausgewählte Tags"))
+        self.fb_selected_label = QLabel("Ausgewählte Tags (0)")
+        fb_right_layout.addWidget(self.fb_selected_label)
         self.fb_selected_list = QListWidget()
         self.fb_selected_list.setSelectionMode(QListWidget.ExtendedSelection)
         fb_right_layout.addWidget(self.fb_selected_list)
@@ -151,20 +159,41 @@ class CompatibilityBrowser(QMainWindow):
         f.setBold(True)
         self.fb_score_label.setFont(f)
         fb_right_layout.addWidget(self.fb_score_label)
+        fb_right_layout.addWidget(QLabel("Zielgruppe"))
+        # Audience breakdown table
+        self.fb_audience_table = QTableWidget(0, 2)
+        self.fb_audience_table.setHorizontalHeaderLabels(["Audience", "%"])
+        self.fb_audience_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.Stretch)
+        self.fb_audience_table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeToContents)
+        self.fb_audience_table.setAlternatingRowColors(True)
+        fb_right_layout.addWidget(self.fb_audience_table)
         self.fb_clear_btn = QPushButton("Auswahl leeren")
         fb_right_layout.addWidget(self.fb_clear_btn)
+        # Make the right panel much narrower
+        try:
+            fb_right.setMaximumWidth(360)
+        except Exception:
+            pass
         # Assemble
         fb_layout.addWidget(fb_left)
         fb_layout.addWidget(fb_mid)
         fb_layout.addWidget(fb_right)
+        # Favor the left area; keep right compact
+        try:
+            fb_layout.setStretch(0, 1)
+            fb_layout.setStretch(1, 0)
+            fb_layout.setStretch(2, 0)
+        except Exception:
+            pass
 
         # Tabs setup
         browse_tab = QWidget()
         browse_layout = QHBoxLayout(browse_tab)
         browse_layout.addWidget(splitter_main)
+        # Order: Film Builder first
+        self.tabs.addTab(fb_panel, "Film Builder")
         self.tabs.addTab(browse_tab, "Browser")
         self.tabs.addTab(settings_panel, "Settings")
-        self.tabs.addTab(fb_panel, "Film Builder")
 
         # Central widget is the tab widget
         self.setCentralWidget(self.tabs)
@@ -177,6 +206,10 @@ class CompatibilityBrowser(QMainWindow):
         self._manual_unlocked: set[str] = self._load_manual_unlocked(self._project_root)
         # Precompute full tag list for settings
         self._all_tags: list[str] = sorted({t for lst in self._all_tags_by_category.values() for t in lst})
+        # Tag meta: art/commercial per tag (from TagData.json)
+        self._tag_meta: dict[str, tuple[float, float]] = self._load_tag_meta(self._project_root)
+        # Audience groups config
+        self._audience_groups: dict[str, dict[str, float]] = self._load_audience_groups(self._project_root)
         # Film Builder state
         self._fb_selected: list[str] = []
         self._fb_current_score: float | None = None
@@ -205,11 +238,13 @@ class CompatibilityBrowser(QMainWindow):
         self.fb_add_btn.clicked.connect(self._on_fb_add_clicked)
         self.fb_remove_btn.clicked.connect(self._on_fb_remove_clicked)
         self.fb_clear_btn.clicked.connect(self._on_fb_clear_clicked)
-        self.fb_all_tags_list.itemDoubleClicked.connect(self._on_fb_add_item)
+        self.fb_all_tags_list_left.itemDoubleClicked.connect(self._on_fb_add_item)
+        self.fb_all_tags_list_right.itemDoubleClicked.connect(self._on_fb_add_item)
         self.fb_selected_list.itemDoubleClicked.connect(self._on_fb_remove_item)
         self.fb_only_unlocked_cb.toggled.connect(self._on_fb_filter_changed)
         self.fb_show_delta_cb.toggled.connect(self._on_fb_filter_changed)
-        self.fb_all_tags_list.itemChanged.connect(self._on_fb_left_item_changed)
+        self.fb_all_tags_list_left.itemChanged.connect(self._on_fb_left_item_changed)
+        self.fb_all_tags_list_right.itemChanged.connect(self._on_fb_left_item_changed)
 
         # Select first category by default
         if self.category_list.count() > 0:
@@ -236,18 +271,18 @@ class CompatibilityBrowser(QMainWindow):
         if not current:
             self.related_table.setRowCount(0)
             return
-        full_tag = current.text()
+        full_tag = current.data(Qt.UserRole) or current.text()
         related = self._index.related(full_tag)
         # Sort by score descending, then by key
         rows = sorted(related.items(), key=lambda kv: (-kv[1], kv[0]))
         self.related_table.setRowCount(len(rows))
         for r, (tag, score) in enumerate(rows):
-            self.related_table.setItem(r, 0, QTableWidgetItem(tag))
+            self.related_table.setItem(r, 0, QTableWidgetItem(self._pretty_tag_name(tag)))
             score_item = QTableWidgetItem(f"{score:.3f}")
             score_item.setTextAlignment(Qt.AlignRight | Qt.AlignVCenter)
             self.related_table.setItem(r, 1, score_item)
         self.related_table.resizeRowsToContents()
-        self.statusBar().showMessage(f"{full_tag}: {len(rows)} related tags")
+        self.statusBar().showMessage(f"{self._pretty_tag_name(full_tag)}: {len(rows)} related tags")
 
     # --- Helpers ---
     def _current_category(self) -> str | None:
@@ -269,7 +304,10 @@ class CompatibilityBrowser(QMainWindow):
             effective_unlocked = self._effective_unlocked()
             items = [t for t in items if t in effective_unlocked]
         for t in items:
-            self.tag_list.addItem(QListWidgetItem(t))
+            pretty = self._pretty_tag_name(t)
+            it = QListWidgetItem(pretty)
+            it.setData(Qt.UserRole, t)
+            self.tag_list.addItem(it)
         if self.tag_list.count() > 0:
             self.tag_list.setCurrentRow(0)
 
@@ -332,8 +370,11 @@ class CompatibilityBrowser(QMainWindow):
         q = self.fb_search.text().strip().lower() if hasattr(self, "fb_search") else ""
         only_unlocked = getattr(self, "fb_only_unlocked_cb", None)
         unlocked = self._effective_unlocked() if (only_unlocked and only_unlocked.isChecked()) else None
-        self.fb_all_tags_list.blockSignals(True)
-        self.fb_all_tags_list.clear()
+        # Prepare both lists
+        self.fb_all_tags_list_left.blockSignals(True)
+        self.fb_all_tags_list_right.blockSignals(True)
+        self.fb_all_tags_list_left.clear()
+        self.fb_all_tags_list_right.clear()
         # Group by category with headers in custom order
         desired_order = [
             "Genre",
@@ -358,52 +399,65 @@ class CompatibilityBrowser(QMainWindow):
                 ordered_cats.append(c)
                 seen.add(c)
 
+        # Build (cat, filtered_tags) for non-empty categories
+        non_empty: list[tuple[str, list[str]]] = []
         for cat in ordered_cats:
             tags = self._all_tags_by_category[cat]
             # filter by search and unlocked
             filtered = [t for t in tags if ((not q or (q in t.lower())) and (unlocked is None or t in unlocked))]
             if not filtered:
                 continue
-            # header
-            pretty = "Supporting Character" if cat == "SupportingCharacter" else cat
-            header = QListWidgetItem(pretty)
-            hf = header.font()
-            hf.setBold(True)
-            header.setFont(hf)
-            header.setFlags(Qt.ItemIsEnabled)  # non-selectable header
-            self.fb_all_tags_list.addItem(header)
-            # items
-            for t in filtered:
-                # Text with expected score or delta
-                next_score = self._fb_candidate_scores.get(t)
-                delta = self._fb_candidate_deltas.get(t)
-                show_delta = getattr(self, "fb_show_delta_cb", None)
-                if show_delta and show_delta.isChecked() and isinstance(delta, (int, float)):
-                    suffix = f"  ({delta:+.2f})"
-                else:
-                    suffix = f"  ({next_score:.2f})" if isinstance(next_score, (int, float)) else ""
-                it = QListWidgetItem(f"  {t}{suffix}")
-                it.setData(Qt.UserRole, t)
-                # Make item checkable and reflect current selection
-                it.setFlags(it.flags() | Qt.ItemIsUserCheckable | Qt.ItemIsSelectable | Qt.ItemIsEnabled)
-                it.setCheckState(Qt.Checked if t in self._fb_selected else Qt.Unchecked)
-                # Color by delta quality
-                if isinstance(delta, (int, float)):
-                    color = self._fb_color_for_delta(delta)
-                    if color is not None:
-                        it.setForeground(color)
-                # Ensure the very best stays at least light green
-                if self._fb_recommended_tag and t == self._fb_recommended_tag:
-                    it.setForeground(QColor("#34c759"))  # recommendation = light green (very good)
-                self.fb_all_tags_list.addItem(it)
-        self.fb_all_tags_list.blockSignals(False)
+            non_empty.append((cat, filtered))
+
+        # Split non-empty categories across two columns
+        half = (len(non_empty) + 1) // 2
+        cols = [non_empty[:half], non_empty[half:]]
+        targets = [self.fb_all_tags_list_left, self.fb_all_tags_list_right]
+        for target, groups in zip(targets, cols):
+            for cat, filtered in groups:
+                # header
+                pretty = "Supporting Character" if cat == "SupportingCharacter" else cat
+                header = QListWidgetItem(pretty)
+                hf = header.font()
+                hf.setBold(True)
+                header.setFont(hf)
+                header.setFlags(Qt.ItemIsEnabled)  # non-selectable header
+                target.addItem(header)
+                # items
+                for t in filtered:
+                    next_score = self._fb_candidate_scores.get(t)
+                    delta = self._fb_candidate_deltas.get(t)
+                    show_delta = getattr(self, "fb_show_delta_cb", None)
+                    if show_delta and show_delta.isChecked() and isinstance(delta, (int, float)):
+                        suffix = f"  ({delta:+.2f})"
+                    else:
+                        suffix = f"  ({next_score:.2f})" if isinstance(next_score, (int, float)) else ""
+                    pretty = self._pretty_tag_name(t)
+                    it = QListWidgetItem(f"  {pretty}{suffix}")
+                    it.setData(Qt.UserRole, t)
+                    it.setFlags(it.flags() | Qt.ItemIsUserCheckable | Qt.ItemIsSelectable | Qt.ItemIsEnabled)
+                    it.setCheckState(Qt.Checked if t in self._fb_selected else Qt.Unchecked)
+                    if isinstance(delta, (int, float)):
+                        color = self._fb_color_for_delta(delta)
+                        if color is not None:
+                            it.setForeground(color)
+                    if self._fb_recommended_tag and t == self._fb_recommended_tag:
+                        it.setForeground(QColor("#34c759"))
+                    target.addItem(it)
+        self.fb_all_tags_list_left.blockSignals(False)
+        self.fb_all_tags_list_right.blockSignals(False)
 
     def _refresh_fb_selected(self) -> None:
         self.fb_selected_list.blockSignals(True)
         self.fb_selected_list.clear()
         for t in self._fb_selected:
-            self.fb_selected_list.addItem(QListWidgetItem(t))
+            it = QListWidgetItem(self._pretty_tag_name(t))
+            it.setData(Qt.UserRole, t)
+            self.fb_selected_list.addItem(it)
         self.fb_selected_list.blockSignals(False)
+        # Update count label
+        if hasattr(self, "fb_selected_label"):
+            self.fb_selected_label.setText(f"Ausgewählte Tags ({len(self._fb_selected)})")
         self._fb_update_score()
 
     def _on_fb_filter_changed(self, text: str) -> None:
@@ -412,14 +466,18 @@ class CompatibilityBrowser(QMainWindow):
 
     def _on_fb_add_clicked(self) -> None:
         tags: list[str] = []
-        for it in self.fb_all_tags_list.selectedItems():
+        for it in list(self.fb_all_tags_list_left.selectedItems()) + list(self.fb_all_tags_list_right.selectedItems()):
             t = it.data(Qt.UserRole)
             if t:
                 tags.append(t)
         self._fb_add_items(tags)
 
     def _on_fb_remove_clicked(self) -> None:
-        self._fb_remove_items([it.text() for it in self.fb_selected_list.selectedItems()])
+        tags: list[str] = []
+        for it in self.fb_selected_list.selectedItems():
+            t = it.data(Qt.UserRole) or it.text()
+            tags.append(t)
+        self._fb_remove_items(tags)
 
     def _on_fb_add_item(self, item: QListWidgetItem) -> None:
         t = item.data(Qt.UserRole)
@@ -427,7 +485,8 @@ class CompatibilityBrowser(QMainWindow):
             self._fb_add_items([t])
 
     def _on_fb_remove_item(self, item: QListWidgetItem) -> None:
-        self._fb_remove_items([item.text()])
+        t = item.data(Qt.UserRole) or item.text()
+        self._fb_remove_items([t])
 
     def _on_fb_left_item_changed(self, item: QListWidgetItem) -> None:
         # Ignore headers (no user role payload)
@@ -476,6 +535,8 @@ class CompatibilityBrowser(QMainWindow):
         except Exception as e:
             self.fb_score_label.setText("Score: –")
             self._fb_current_score = None
+        # Update audience after score computation
+        self._fb_update_audience()
 
     def _fb_visible_candidates(self) -> list[str]:
         q = self.fb_search.text().strip().lower()
@@ -543,6 +604,143 @@ class CompatibilityBrowser(QMainWindow):
         return QColor("#d0021b")  # red
 
     # --- Persistence of manual unlocked ---
+    @staticmethod
+    def _load_tag_meta(project_root: Path) -> dict[str, tuple[float, float]]:
+        """Return mapping tag_id -> (artValue, commercialValue). Missing values default to 0.0"""
+        path = project_root / "Data" / "Configs" / "TagData.json"
+        try:
+            raw = path.read_text(encoding="utf-8")
+            import json as _json
+            data = _json.loads(raw)
+        except Exception:
+            return {}
+        out: dict[str, tuple[float, float]] = {}
+        if isinstance(data, dict):
+            for tag_id, meta in data.items():
+                if not isinstance(meta, dict):
+                    continue
+                try:
+                    a = float(meta.get("artValue", 0) or 0)
+                except Exception:
+                    a = 0.0
+                try:
+                    c = float(meta.get("commercialValue", 0) or 0)
+                except Exception:
+                    c = 0.0
+                out[str(tag_id)] = (a, c)
+        return out
+
+    @staticmethod
+    def _load_audience_groups(project_root: Path) -> dict[str, dict[str, float]]:
+        """Load audience weights from AudienceGroups.json. Returns mapping id -> weights dict."""
+        path = project_root / "Data" / "Configs" / "AudienceGroups.json"
+        try:
+            raw = path.read_text(encoding="utf-8")
+            import json as _json
+            data = _json.loads(raw)
+        except Exception:
+            return {}
+        out: dict[str, dict[str, float]] = {}
+        if isinstance(data, dict):
+            for gid, meta in data.items():
+                if not isinstance(meta, dict):
+                    continue
+                def _f(k: str) -> float:
+                    try:
+                        return float(meta.get(k, 0) or 0)
+                    except Exception:
+                        return 0.0
+                out[str(gid)] = {
+                    "baseWeight": _f("baseWeight"),
+                    "artWeight": _f("artWeight"),
+                    "commercialWeight": _f("commercialWeight"),
+                    "baseDefaultAudience": _f("baseDefaultAudience"),
+                    "artDefaultAudience": _f("artDefaultAudience"),
+                    "comDefaultAudience": _f("comDefaultAudience"),
+                }
+        return out
+
+    def _fb_compute_audience(self) -> list[tuple[str, float]]:
+        """Compute normalized audience distribution based on selected tags.
+
+        Heuristic: Sum art/commercial over selected tags, clamp negatives to 0 for appeal,
+        then for each audience group compute:
+            raw = baseWeight + artWeight*art_pos + commercialWeight*com_pos
+            + baseDefaultAudience + artDefaultAudience*art_pos + comDefaultAudience*com_pos
+        Normalize raw to percentages.
+        """
+        if not self._audience_groups:
+            return []
+        art_total = 0.0
+        com_total = 0.0
+        for t in self._fb_selected:
+            a, c = self._tag_meta.get(t, (0.0, 0.0))
+            art_total += a
+            com_total += c
+        art_pos = max(0.0, art_total)
+        com_pos = max(0.0, com_total)
+        raws: dict[str, float] = {}
+        for gid, w in self._audience_groups.items():
+            raw = (
+                w.get("baseWeight", 0.0)
+                + w.get("artWeight", 0.0) * art_pos
+                + w.get("commercialWeight", 0.0) * com_pos
+                + w.get("baseDefaultAudience", 0.0)
+                + w.get("artDefaultAudience", 0.0) * art_pos
+                + w.get("comDefaultAudience", 0.0) * com_pos
+            )
+            raws[gid] = max(0.0, raw)
+        s = sum(raws.values())
+        if s <= 0:
+            return [(gid, 0.0) for gid in sorted(raws.keys())]
+        return [(gid, 100.0 * v / s) for gid, v in sorted(raws.items())]
+
+    def _fb_update_audience(self) -> None:
+        dist = self._fb_compute_audience()
+        # Map codes to friendly labels and enforce order
+        label_map = {
+            "AF": "Adult Female",
+            "AM": "Adult Male",
+            "TF": "Teen Female",
+            "TM": "Teen Male",
+            "YF": "Young Female",
+            "YM": "Young Male",
+        }
+        order = ["AF", "AM", "TF", "TM", "YF", "YM"]
+        dist_dict = {k: v for k, v in dist}
+        rows = [(gid, dist_dict.get(gid, 0.0)) for gid in order if gid in dist_dict] + [
+            (gid, pct) for gid, pct in dist if gid not in order
+        ]
+        self.fb_audience_table.setRowCount(len(rows))
+        for r, (gid, pct) in enumerate(rows):
+            name = label_map.get(gid, gid)
+            self.fb_audience_table.setItem(r, 0, QTableWidgetItem(name))
+            it = QTableWidgetItem(f"{pct:.1f}")
+            it.setTextAlignment(Qt.AlignRight | Qt.AlignVCenter)
+            self.fb_audience_table.setItem(r, 1, it)
+        self.fb_audience_table.resizeRowsToContents()
+
+    # --- Presentation helpers ---
+    @staticmethod
+    def _pretty_tag_name(tag_id: str) -> str:
+        """Return a display-friendly tag name: strip known category prefixes and underscores.
+
+        Keeps the raw ID semantics elsewhere via Qt.UserRole.
+        """
+        prefixes = [
+            "PROTAGONIST_",
+            "ANTAGONIST_",
+            "SUPPORTINGCHARACTER_",
+            "THEME_",
+            "EVENTS_",
+            "FINALE_",
+        ]
+        s = tag_id
+        for p in prefixes:
+            if s.startswith(p):
+                s = s[len(p):]
+                break
+        return s.replace("_", " ")
     @staticmethod
     def _manual_unlocked_path(project_root: Path) -> Path:
         # Store alongside the project, not inside game data
